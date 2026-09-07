@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.annotation.SuppressLint;
 import android.content.ClipData;
@@ -13,8 +13,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.MainActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.MainActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

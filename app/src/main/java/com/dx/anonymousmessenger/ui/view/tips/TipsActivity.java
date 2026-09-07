@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.tips;
+package com.dx.ghostmessenger.ui.view.tips;
 
 import android.os.Bundle;
 import android.view.WindowManager;
@@ -6,8 +6,8 @@ import android.view.WindowManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
 
 public class TipsActivity extends DxActivity {
 

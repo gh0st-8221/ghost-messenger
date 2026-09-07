@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.app;
+package com.dx.ghostmessenger.ui.view.app;
 
 import android.content.Intent;
 import android.content.res.ColorStateList;
@@ -17,9 +17,9 @@ import android.widget.ProgressBar;
 
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.account.DxAccount;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.account.DxAccount;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -120,11 +120,11 @@ public class PasswordEntryFragment extends Fragment {
         //todo warn user against using a non free keyboard with internet access.
 //        InputMethodManager im = (InputMethodManager)app.getSystemService(Context.INPUT_METHOD_SERVICE);
 //        String list = im.getEnabledInputMethodList().toString();
-//        Log.d("ANONYMOUSMESSENGER","!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-//        Log.d("ANONYMOUSMESSENGER",list);
+//        Log.d("GHOSTMESSENGER","!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+//        Log.d("GHOSTMESSENGER",list);
 
 //        for (int i=0;i<list.length();i++){
-//            Log.d("ANONYMOUSMESSENGER",list[i]);
+//            Log.d("GHOSTMESSENGER",list[i]);
 //        }
 
         return rootView;

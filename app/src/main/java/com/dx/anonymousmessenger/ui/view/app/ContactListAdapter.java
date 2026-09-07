@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.app;
+package com.dx.ghostmessenger.ui.view.app;
 
 import static androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
@@ -27,13 +27,13 @@ import androidx.appcompat.widget.PopupMenu;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.alexvasilkov.gestures.commons.circle.CircleImageView;
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.ui.view.message_list.MessageListActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.ContactProfileActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.ui.view.message_list.MessageListActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.ContactProfileActivity;
+import com.dx.ghostmessenger.util.Utils;
 
 import java.util.List;
 

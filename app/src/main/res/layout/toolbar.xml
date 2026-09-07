@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:navigationIcon="@drawable/ic_stat_name"
-        app:title="@string/anonymous_messenger" />
+        app:title="@string/ghost_messenger" />
 
 </com.google.android.material.appbar.AppBarLayout>
 
@@ -67,7 +67,7 @@
 <!--            android:layout_weight="1"-->
 <!--            android:fontFamily="monospace"-->
 <!--            android:gravity="start|center_horizontal|top"-->
-<!--            android:text="@string/anonymous_messenger"-->
+<!--            android:text="@string/ghost_messenger"-->
 <!--            android:textColor="@color/dx_white"-->
 <!--            android:textSize="22sp"-->
 <!--            android:textStyle="normal|bold" />-->

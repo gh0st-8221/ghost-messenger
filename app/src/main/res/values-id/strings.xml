@@ -60,7 +60,7 @@
     <string name="delete_contact">Hapus Kontak</string>
     <string name="no_contacts">Kontak Tidak Ditemukan!</string>
     <string name="tor_output">Keluar Tor</string>
-    <string name="anonymous_messenger">Messenger Anonim</string>
+    <string name="ghost_messenger">Messenger Anonim</string>
     <string name="by_drxtreme">oleh DrXtreme</string>
     <string name="welcome_to">selamat datang di</string>
     <string name="recording">Merekam</string>
@@ -130,7 +130,7 @@
     <string name="new_nickname">Nama panggilan baru</string>
     <string name="confirm">Konfirmasi</string>
     <string name="action_license">Lisensi</string>
-    <string name="license">Anonymous Messenger, solusi komunikasi privat lengkap yang berjalan melalui Tor.\n
+    <string name="license">Ghost Messenger, solusi komunikasi privat lengkap yang berjalan melalui Tor.\n
     Copyright © 2021  Sofian M. Benissa\n\n
     Program ini adalah perangkat lunak bebas: Anda dapat mengulangnya dan/atau mengubahnya
     sesuai dengan kondisi GNU General Public License yang diterbitkan oleh
@@ -145,7 +145,7 @@
     <string name="empty_nickname_help">Tidak bisa memiliki nama panggilan kosong</string>
     <string name="theiraddress">Alamat Mereka</string>
     <string name="turn_off_battery">Matikan optimisasi baterai?</string>
-    <string name="allow_in_background">izinkan Anonymous Messenger tetap bekerja di latar belakang?</string>
+    <string name="allow_in_background">izinkan Ghost Messenger tetap bekerja di latar belakang?</string>
     <string name="shut_app">Matikan aplikasi?</string>
     <string name="shut_app_explain">Anda tidak bisa menerima pesan sampai Anda mendekripsi ulang dengan kata sandi Anda lagi</string>
     <string name="restart_tor">Restart Tor?</string>
@@ -230,7 +230,7 @@
         repository f-droid</string>
     <string name="security_tips03">Cobalah tidak sengaja menempelkan alamat teman Anda di
         browser Anda karena itu dapat membahayakan Anda/keanonimannya</string>
-    <string name="security_tips04">Uninstall Anonymous Messenger untuk menghapus akun Anda dan menghapus
+    <string name="security_tips04">Uninstall Ghost Messenger untuk menghapus akun Anda dan menghapus
         semua hal.</string>
     <string name="security_tips05">Mengunduh dari layanan onion kami lebih aman daripada server clear net kami.</string>
     <string name="security_tips06">Penyimpanan data Anda hanya aman seperti
@@ -240,9 +240,9 @@
     <string name="security_tips09">Enkripsi penyimpanan telepon jika memungkinkan.</string>
     <string name="security_tips10">Ketika Anda ingin menggunakan VPN pastikan klien yang Anda gunakan adalah open
         sumber perangkat lunak gratis seperti OpenVPN.</string>
-    <string name="security_tips11">Keluar dari Anonymous Messenger menjaga data Anda dienkripsi di
+    <string name="security_tips11">Keluar dari Ghost Messenger menjaga data Anda dienkripsi di
         telefon Anda.</string>
-    <string name="security_tips12">Bangun Anonymous Messenger dari sumber jika memungkinkan.</string>
+    <string name="security_tips12">Bangun Ghost Messenger dari sumber jika memungkinkan.</string>
     <string name="security_tips13">Verifikasi identitas.</string>
     <string name="security_tips14">Pastikan Anda tidak menggunakan aplikasi proprietar apa pun di
         telefon Anda dan bahwa Anda menggunakan program open source gratis untuk mengakses situs media sosial Anda, layanan keuangan,
@@ -290,7 +290,7 @@
     <string name="slide_to_cancel">Geser untuk membatalkan</string>
     <string name="sending_file">Mengirim file</string>
     <string name="sending_part_one">Mengirim bagian 1</string>
-    <string name="screen_filter_body">Aplikasi lain menggambar di atas AnonymousMessenger,
+    <string name="screen_filter_body">Aplikasi lain menggambar di atas GhostMessenger,
         layar diblokir untuk melindungi privasi Anda</string>
     <string name="screen_filter_title">Deteksi overlay layar</string>
     <string name="try_now">Coba sekarang</string>
@@ -330,7 +330,7 @@
     <string name="free_memory">memori bebas</string>
     <string name="ok">OK</string>
     <string name="with">dengan</string>
-    <string name="welcome_to_anonymous_messenger">Ini adalah messengermu selanjutnya yang aman</string>
+    <string name="welcome_to_ghost_messenger">Ini adalah messengermu selanjutnya yang aman</string>
     <string name="change_profile_image">Ubah gambar</string>
     <string name="remove_profile_image">Hapus gambar</string>
     <string name="remove_profile_image_details">Apakah Anda yakin ingin menghapus gambar profil Anda?</string>
@@ -394,12 +394,12 @@
     <string name="get_help_with_passwords">Dapatkan bantuan</string>
     <string name="tap_for_password_tips">Klik untuk mendapatkan bantuan</string>
     <string name="private_messaging_reimagined">Bicara Bebas, Tetap Anonim</string>
-    <string name="private_secure_anonymous"> Privasi • Enkripsi • Anonimitas</string>
+    <string name="private_secure_ghost"> Privasi • Enkripsi • Anonimitas</string>
     <string name="start_private_messaging">GABUNG SEKARANG</string>
     <string name="already_have_account">GUNAKAN BACKUP</string>
     <string name="tor_network">⚡ Jaringan Tor</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Anonim</string>
+    <string name="ghost">🕵️ Anonim</string>
     <string name="encrypted">🔒 Dienkripsi</string>
     <string name="welcome_back">Selamat Datang Kembali</string>
     <string name="enter_your_password_to_continue">Masukkan kata sandi Anda untuk melanjutkan</string>

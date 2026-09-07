@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
 import org.json.JSONException;
 import org.json.JSONObject;

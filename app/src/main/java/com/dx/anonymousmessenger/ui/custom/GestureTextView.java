@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.custom;
+package com.dx.ghostmessenger.ui.custom;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

@@ -60,7 +60,7 @@
     <string name="delete_contact">Futa Mteja</string>
     <string name="no_contacts">Hakuna Mteja Wapatao!</string>
     <string name="tor_output">Tor Output</string>
-    <string name="anonymous_messenger">Jumbe Isiyojulikana</string>
+    <string name="ghost_messenger">Jumbe Isiyojulikana</string>
     <string name="by_drxtreme">na DrXtreme</string>
     <string name="welcome_to">karibu kwenye</string>
     <string name="recording">Inarekodi</string>
@@ -317,7 +317,7 @@
     <string name="free_memory">memory huru</string>
     <string name="ok">Sawa</string>
     <string name="with">na</string>
-    <string name="welcome_to_anonymous_messenger">Hii ni app yako ya ujumbe salama</string>
+    <string name="welcome_to_ghost_messenger">Hii ni app yako ya ujumbe salama</string>
     <string name="change_profile_image">Badilisha picha</string>
     <string name="remove_profile_image">Ondoa picha</string>
     <string name="remove_profile_image_details">Je, unahakika unataka kuondoa picha ya profaili?</string>
@@ -381,12 +381,12 @@
     <string name="get_help_with_passwords">Pata msaada</string>
     <string name="tap_for_password_tips">Bonyeza kwa ajili ya msaada</string>
     <string name="private_messaging_reimagined">Semaa Huru, Endelea Isiyojulikana</string>
-    <string name="private_secure_anonymous"> Faragha • Enkripseni • Uziyojulikana</string>
+    <string name="private_secure_ghost"> Faragha • Enkripseni • Uziyojulikana</string>
     <string name="start_private_messaging">JIANGIA SASA</string>
     <string name="already_have_account">Tumia BACKUP</string>
     <string name="tor_network">⚡ Mtandao wa Tor</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Isiyojulikana</string>
+    <string name="ghost">🕵️ Isiyojulikana</string>
     <string name="encrypted">🔒 Imejengwa</string>
     <string name="welcome_back">Karibu Tenani</string>
     <string name="enter_your_password_to_continue">Ingiza nenosiri lako ili kuendelea</string>

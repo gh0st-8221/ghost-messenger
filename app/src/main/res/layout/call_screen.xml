@@ -50,7 +50,7 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="@color/dx_white"
                 android:textSize="40sp"
-                tools:text="Anonymous" />
+                tools:text="Ghost" />
 
             <!-- Label (like "Mobile" or "Work", if present) and phone number, side by side -->
             <LinearLayout

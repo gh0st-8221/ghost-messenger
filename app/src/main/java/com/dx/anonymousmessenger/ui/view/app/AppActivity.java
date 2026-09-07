@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.app;
+package com.dx.ghostmessenger.ui.view.app;
 
 import android.content.ComponentCallbacks2;
 import android.content.Intent;
@@ -10,11 +10,11 @@ import android.view.WindowManager;
 
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.ui.view.setup.SetupInProcess;
-import com.dx.anonymousmessenger.ui.view.setup.SetupSettingsFragment;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.ui.view.setup.SetupInProcess;
+import com.dx.ghostmessenger.ui.view.setup.SetupSettingsFragment;
 
 public class AppActivity extends DxActivity implements ComponentCallbacks2 {
 
@@ -28,8 +28,8 @@ public class AppActivity extends DxActivity implements ComponentCallbacks2 {
         setContentView(R.layout.activity_app);
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
-        if(alias!=null && alias.equals("com.dx.anonymousmessenger.ui.view.MainActivity")){
+        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
+        if(alias!=null && alias.equals("com.dx.ghostmessenger.ui.view.MainActivity")){
             setTitle(getString(R.string.app_name));
         }else if(alias!=null){
             setTitle(

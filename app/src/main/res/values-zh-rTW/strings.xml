@@ -60,7 +60,7 @@
     <string name="delete_contact">刪除聯絡人</string>
     <string name="no_contacts">未找到聯絡人！</string>
     <string name="tor_output">Tor輸出</string>
-    <string name="anonymous_messenger">匿名信使</string>
+    <string name="ghost_messenger">匿名信使</string>
     <string name="by_drxtreme">由DrXtreme製作</string>
     <string name="welcome_to">歡迎來到</string>
     <string name="recording">錄音中</string>
@@ -314,7 +314,7 @@
     <string name="free_memory">可用記憶體</string>
     <string name="ok">確定</string>
     <string name="with">與</string>
-    <string name="welcome_to_anonymous_messenger">這是你的下一個安全信使</string>
+    <string name="welcome_to_ghost_messenger">這是你的下一個安全信使</string>
     <string name="change_profile_image">更改照片</string>
     <string name="remove_profile_image">移除照片</string>
     <string name="remove_profile_image_details">確定要移除你的個人資料照片？</string>
@@ -372,12 +372,12 @@
     <string name="get_help_with_passwords">獲取幫助</string>
     <string name="tap_for_password_tips">點擊獲取幫助</string>
     <string name="private_messaging_reimagined">自由說話，保持匿名</string>
-    <string name="private_secure_anonymous"> 隱私 • 加密 • 匿名</string>
+    <string name="private_secure_ghost"> 隱私 • 加密 • 匿名</string>
     <string name="start_private_messaging">現在加入</string>
     <string name="already_have_account">使用備份</string>
     <string name="tor_network">⚡ Tor網絡</string>
     <string name="peer_2_peer">🌐 點對點</string>
-    <string name="anonymous">🕵️ 匿名</string>
+    <string name="ghost">🕵️ 匿名</string>
     <string name="encrypted">🔒 加密</string>
     <string name="welcome_back">歡迎回來</string>
     <string name="enter_your_password_to_continue">輸入密碼以繼續</string>

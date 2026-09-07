@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.crypto;
+package com.dx.ghostmessenger.crypto;
 
 import org.whispersystems.libsignal.SessionCipher;
 import org.whispersystems.libsignal.SignalProtocolAddress;

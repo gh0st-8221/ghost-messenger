@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import static android.content.ClipDescription.MIMETYPE_TEXT_PLAIN;
 
@@ -31,13 +31,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.messages.MessageSender;
-import com.dx.anonymousmessenger.tor.TorClient;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.messages.MessageSender;
+import com.dx.ghostmessenger.tor.TorClient;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.zxing.BarcodeFormat;
@@ -207,20 +207,20 @@ public class AddContactActivity extends DxActivity {
             s = str;
         }
         if(s.equals(((DxApplication)getApplication()).getHostname())){
-            Log.d("ANONYMOUSMESSENGER","same as hostname");
+            Log.d("GHOSTMESSENGER","same as hostname");
             return;
         }
         if(s.equals(((DxApplication)getApplication()).getMyAddressOffline())){
-            Log.d("ANONYMOUSMESSENGER","same as hostname");
+            Log.d("GHOSTMESSENGER","same as hostname");
             return;
         }
         if(s.trim().length()!=62 || !s.trim().endsWith(".onion")){
-            Log.d("ANONYMOUSMESSENGER","not valid");
+            Log.d("GHOSTMESSENGER","not valid");
             return;
         }
         try{
             if(DbHelper.contactExists(s,(DxApplication)getApplication())){
-                Log.d("ANONYMOUSMESSENGER","exists");
+                Log.d("GHOSTMESSENGER","exists");
                 return;
             }
 

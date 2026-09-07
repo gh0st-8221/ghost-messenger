@@ -1,12 +1,12 @@
-package com.dx.anonymousmessenger.file;
+package com.dx.ghostmessenger.file;
 
 import android.database.Cursor;
 import android.util.Log;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.account.DxAccount;
-import com.dx.anonymousmessenger.util.Hex;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.account.DxAccount;
+import com.dx.ghostmessenger.util.Hex;
+import com.dx.ghostmessenger.util.Utils;
 
 import net.sqlcipher.database.SQLiteDatabase;
 
@@ -116,7 +116,7 @@ public class BackupHelper {
 
             String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).format(new Date());
             tempZipFile = new File(app.getCacheDir(), "backup_temp_" + timestamp + ".zip");
-            encryptedBackupFile = new File(outputDir, "AnonymousMessenger_Backup_" + timestamp + ".abk");
+            encryptedBackupFile = new File(outputDir, "GhostMessenger_Backup_" + timestamp + ".abk");
 
             // STEP 0: Copy and rekey database to new password (if provided)
             if (rawPassword != null) {
@@ -467,7 +467,7 @@ public class BackupHelper {
     public static File[] listBackups(File backupDir) {
         if (!backupDir.exists() || !backupDir.isDirectory()) return new File[0];
         return backupDir.listFiles((dir, name) ->
-                name.startsWith("AnonymousMessenger_Backup_") && name.endsWith(".abk"));
+                name.startsWith("GhostMessenger_Backup_") && name.endsWith(".abk"));
     }
 
     /**
@@ -493,7 +493,7 @@ public class BackupHelper {
 
         try {
             String tsStr = f.getName()
-                    .replace("AnonymousMessenger_Backup_", "")
+                    .replace("GhostMessenger_Backup_", "")
                     .replace(".abk", "");
             info.timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss", Locale.US).parse(tsStr);
         } catch (Exception e) {

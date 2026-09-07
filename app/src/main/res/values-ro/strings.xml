@@ -60,7 +60,7 @@
     <string name="delete_contact">Șterge contactul</string>
     <string name="no_contacts">Niciun contact!</string>
     <string name="tor_output">Oprire Tor</string>
-    <string name="anonymous_messenger">Mesager Anonim</string>
+    <string name="ghost_messenger">Mesager Anonim</string>
     <string name="by_drxtreme">de DrXtreme</string>
     <string name="welcome_to">bun venit în</string>
     <string name="recording">Înregistrare</string>
@@ -329,7 +329,7 @@ mesagerie anonimă pentru toată lumea, luați în considerare posibilitatea de 
     <string name="free_memory">memorie liberă</string>
     <string name="ok">Aprobă</string>
     <string name="with">cu</string>
-    <string name="welcome_to_anonymous_messenger">Acesta este următorul tău mesager sigur</string>
+    <string name="welcome_to_ghost_messenger">Acesta este următorul tău mesager sigur</string>
     <string name="change_profile_image">Schimbă poza</string>
     <string name="remove_profile_image">Elimină poza</string>
     <string name="remove_profile_image_details">Sigur vrei să elimini poza ta de profil?</string>
@@ -384,12 +384,12 @@ mesagerie anonimă pentru toată lumea, luați în considerare posibilitatea de 
    <string name="get_help_with_passwords">Obține ajutor</string>
    <string name="tap_for_password_tips">Apasă pentru ajutor</string>
    <string name="private_messaging_reimagined">Vorbește liber, rămâi anonim</string>
-   <string name="private_secure_anonymous"> Confidențialitate • Criptare • Anonimat</string>
+   <string name="private_secure_ghost"> Confidențialitate • Criptare • Anonimat</string>
    <string name="start_private_messaging">ALĂTURĂ-ȚI ACUM</string>
    <string name="already_have_account">FOLLOSETE BACKUP</string>
    <string name="tor_network">⚡ Rețea Tor</string>
    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-   <string name="anonymous">🕵️ Anonim</string>
+   <string name="ghost">🕵️ Anonim</string>
    <string name="encrypted">🔒 Criptat</string>
    <string name="welcome_back">Bine ai revenit</string>
    <string name="enter_your_password_to_continue">Scrie parola ta pentru a continua</string>

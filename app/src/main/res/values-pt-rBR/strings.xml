@@ -60,7 +60,7 @@
     <string name="delete_contact">Excluir Contato</string>
     <string name="no_contacts">Nenhum Contato Encontrado!</string>
     <string name="tor_output">Saída do Tor</string>
-    <string name="anonymous_messenger">Mensageiro Anônimo</string>
+    <string name="ghost_messenger">Mensageiro Anônimo</string>
     <string name="by_drxtreme">por DrXtreme</string>
     <string name="welcome_to">bem vindo ao</string>
     <string name="recording">Gravando</string>
@@ -295,7 +295,7 @@
     <string name="slide_to_cancel">Deslize para cancelar</string>
     <string name="sending_file">Enviando arquivo</string>
     <string name="sending_part_one">Enviando parte 1</string>
-    <string name="screen_filter_body">Outro app está desenhando em cima do AnonymousMessenger,         a tela está bloqueada para proteger sua privacidade</string>
+    <string name="screen_filter_body">Outro app está desenhando em cima do GhostMessenger,         a tela está bloqueada para proteger sua privacidade</string>
     <string name="screen_filter_title">Overlay de tela detectado</string>
     <string name="try_now">Tentar agora</string>
     <string name="mic_in_use">Mic pode estar em uso por outro app</string>
@@ -334,7 +334,7 @@
     <string name="free_memory">memória livre</string>
     <string name="ok">OK</string>
     <string name="with">com</string>
-    <string name="welcome_to_anonymous_messenger">Este é seu próximo mensageiro seguro</string>
+    <string name="welcome_to_ghost_messenger">Este é seu próximo mensageiro seguro</string>
     <string name="change_profile_image">Alterar imagem</string>
     <string name="remove_profile_image">Remover imagem</string>
     <string name="remove_profile_image_details">Tem certeza que deseja remover sua foto de perfil?</string>
@@ -398,12 +398,12 @@
     <string name="get_help_with_passwords">Obter ajuda</string>
     <string name="tap_for_password_tips">Toque para ajuda</string>
     <string name="private_messaging_reimagined">Fale Livre, Fique Anônimo</string>
-    <string name="private_secure_anonymous"> Privacidade • Criptografia • Anonimato</string>
+    <string name="private_secure_ghost"> Privacidade • Criptografia • Anonimato</string>
     <string name="start_private_messaging">JUNTE-SE AGORA</string>
     <string name="already_have_account">USE BACKUP</string>
     <string name="tor_network">⚡ Rede Tor</string>
     <string name="peer_2_peer">🌐 Par 2 Par</string>
-    <string name="anonymous">🕵️ Anônimo</string>
+    <string name="ghost">🕵️ Anônimo</string>
     <string name="encrypted">🔒 Criptografado</string>
     <string name="welcome_back">Bem Vindo</string>
     <string name="enter_your_password_to_continue">Digite sua senha para continuar</string>

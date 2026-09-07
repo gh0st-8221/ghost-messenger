@@ -60,7 +60,7 @@
     <string name="delete_contact">İletişeni Sil</string>
     <string name="no_contacts">İletişen Bulunamadı!</string>
     <string name="tor_output">Tor Çıktısı</string>
-    <string name="anonymous_messenger">Gizli Mesajlaşma</string>
+    <string name="ghost_messenger">Gizli Mesajlaşma</string>
     <string name="by_drxtreme">DrXtreme tarafından</string>
     <string name="welcome_to">hoş geldiniz</string>
     <string name="recording">Kaydediliyor</string>
@@ -93,7 +93,7 @@
     <string name="did_you_forget_your_password">Şifreni unuttun mu?</string>
     <string name="hello_hello" translatable="false">merhaba, merhaba!</string>
     <string name="_11_40" translatable="false">11:40</string>
-    <string name="crash_message">Anonymous Messenger: RAM\'den çıkmışsın!</string>
+    <string name="crash_message">Ghost Messenger: RAM\'den çıkmışsın!</string>
     <string name="no_encryption_yet">Şifreleme için hazır değil</string>
     <string name="no_session">Oturum mevcut değil, oturum şimdi başlatılıyor</string>
     <string name="audio_message">sesli mesaj</string>
@@ -130,7 +130,7 @@
     <string name="confirm">Onayla</string>
     <string name="action_license">Lisans</string>
     <string name="license">
-        Anonymous Messenger, Tor üzerinden çalışan tam özel iletişim çözümü.\n
+        Ghost Messenger, Tor üzerinden çalışan tam özel iletişim çözümü.\n
     Telif Hakkı © 2021  Sofian M. Benissa\n\n
 
     Bu ücretsiz bir yazılımdır: Free Software Foundation
@@ -149,7 +149,7 @@
     <string name="empty_nickname_help">Boş kullanıcı adı olamaz</string>
     <string name="theiraddress">Onların Adresi</string>
     <string name="turn_off_battery">Pil optimizasyonu kapatılsın mı?</string>
-    <string name="allow_in_background">Anonymous Messenger\'ın arka planda çalışmasına izin verilsin mi?</string>
+    <string name="allow_in_background">Ghost Messenger\'ın arka planda çalışmasına izin verilsin mi?</string>
     <string name="shut_app">Uygulamayı kapat?</string>
     <string name="shut_app_explain">Şifreni tekrar girinceye kadar mesaj almada çalışamazsın</string>
     <string name="restart_tor">Tor\'u yeniden başlat?</string>
@@ -229,7 +229,7 @@
     <string name="security_tips02">Güvenliğiniz, cihazda yüklü uygulamalardan büyük ölçüde bağımlıdır, varsayılan uygulamaları
         f-droid deposundaki uygulamalara değiştirmenizi öneririz</string>
     <string name="security_tips03">Arkadaşının adresini tarayıcınıza yanlışlıkla yapıştırmamaya çalışın, bu onun/anonimliğinizi tehlikeye atabilir</string>
-    <string name="security_tips04">Hesabınızı silmek ve her şeyi silmek için Anonymous Messenger\'ı kaldırın.</string>
+    <string name="security_tips04">Hesabınızı silmek ve her şeyi silmek için Ghost Messenger\'ı kaldırın.</string>
     <string name="security_tips05">Onion hizmetimizden indirmek, açık net sunucularımızdan daha güvenlidir.</string>
     <string name="security_tips06">Veri depolama şifrelemeniz şifreniz kadar güvenlidir, uzun ve size bir anlam ifade etmeyen kelimelerden oluşan bir şifreyi öneririz.</string>
     <string name="security_tips07">Metin, diğerlerinden daha güvenli ve anonimidir.</string>
@@ -237,8 +237,8 @@
     <string name="security_tips09">Mümkünse telefon depolamasını şifreleyin.</string>
     <string name="security_tips10">VPN kullanmak istediğinde kullanacağın istemcinin açık
         kaynaklı ücretsiz yazılım olmasına emin ol, örneğin OpenVPN.</string>
-    <string name="security_tips11">Anonymous Messenger\'dan çıkmak, verilerini telefonunda şifreli tutar.</string>
-    <string name="security_tips12">Mümkünse Anonymous Messenger\'ı kaynaktan oluştur.</string>
+    <string name="security_tips11">Ghost Messenger\'dan çıkmak, verilerini telefonunda şifreli tutar.</string>
+    <string name="security_tips12">Mümkünse Ghost Messenger\'ı kaynaktan oluştur.</string>
     <string name="security_tips13">Kimlikleri doğrula.</string>
     <string name="security_tips14">Telefonunda herhangi kapalı kaynak uygulamalar kullanmadığından emin ol ve
         sosyal medya sitelerine, finansal
@@ -283,7 +283,7 @@
     <string name="slide_to_cancel">Sürükle ve iptal et</string>
     <string name="sending_file">Dosya gönderiliyor</string>
     <string name="sending_part_one">1. parça gönderiliyor</string>
-    <string name="screen_filter_body">Başka bir uygulama AnonymousMessenger\'ın üzerinde çiziyor,        gizliliğini korumak için ekran engellendi</string>
+    <string name="screen_filter_body">Başka bir uygulama GhostMessenger\'ın üzerinde çiziyor,        gizliliğini korumak için ekran engellendi</string>
     <string name="screen_filter_title">Ekran örtüsü algılandı</string>
     <string name="try_now">Şimdi dene</string>
     <string name="mic_in_use">Mikrofon başka bir uygulama tarafından kullanılıyor olabilir</string>
@@ -322,7 +322,7 @@
     <string name="free_memory">boş bellek</string>
     <string name="ok">Tamam</string>
     <string name="with">ile</string>
-    <string name="welcome_to_anonymous_messenger">Bu bir sonraki güvenli mesajlaşma uygulaman</string>
+    <string name="welcome_to_ghost_messenger">Bu bir sonraki güvenli mesajlaşma uygulaman</string>
     <string name="change_profile_image">Görseli değiştir</string>
     <string name="remove_profile_image">Görseli kaldır</string>
     <string name="remove_profile_image_details">Profil görselini kaldırmak istediğinden emin misin?</string>
@@ -386,12 +386,12 @@
     <string name="get_help_with_passwords">Yardım al</string>
     <string name="tap_for_password_tips">Yardıma tıkla</string>
     <string name="private_messaging_reimagined">Serbest Konuş, Anonim Kal</string>
-    <string name="private_secure_anonymous"> Gizlilik • Şifreleme • Anonimlik</string>
+    <string name="private_secure_ghost"> Gizlilik • Şifreleme • Anonimlik</string>
     <string name="start_private_messaging">HEMEN KATIL</string>
     <string name="already_have_account">YEDEK KULLAN</string>
     <string name="tor_network">⚡ Tor Ağı</string>
     <string name="peer_2_peer">🌐 Eşler Arası</string>
-    <string name="anonymous">🕵️ Anonim</string>
+    <string name="ghost">🕵️ Anonim</string>
     <string name="encrypted">🔒 Şifreli</string>
     <string name="welcome_back">Tekrar Hoş geldin</string>
     <string name="enter_your_password_to_continue">Devam etmek için şifreni gir</string>

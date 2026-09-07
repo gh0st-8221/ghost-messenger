@@ -1,9 +1,9 @@
-package com.dx.anonymousmessenger.crypto;
+package com.dx.ghostmessenger.crypto;
 
 import android.util.Log;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.util.Base64;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.util.Base64;
 
 import net.sqlcipher.database.SQLiteDatabase;
 

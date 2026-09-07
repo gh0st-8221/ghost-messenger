@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.crypto;
+package com.dx.ghostmessenger.crypto;
 
 public interface PasswordStrengthEstimator {
     float NONE = 0;

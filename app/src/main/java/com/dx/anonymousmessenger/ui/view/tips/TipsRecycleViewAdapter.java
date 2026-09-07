@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.tips;
+package com.dx.ghostmessenger.ui.view.tips;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.R;
+import com.dx.ghostmessenger.R;
 
 public class TipsRecycleViewAdapter extends RecyclerView.Adapter<TipsRecycleViewAdapter.ViewHolder>{
     final Context context;

@@ -60,7 +60,7 @@
     <string name="delete_contact">Elimina contatto</string>
     <string name="no_contacts">Nessun contatto trovato!</string>
     <string name="tor_output">Uscita Tor</string>
-    <string name="anonymous_messenger">Messenger anonimo</string>
+    <string name="ghost_messenger">Messenger anonimo</string>
     <string name="by_drxtreme">di DrXtreme</string>
     <string name="welcome_to">benvenuto a</string>
     <string name="recording">Registrazione</string>
@@ -291,7 +291,7 @@
     <string name="free_memory">memoria libera</string>
     <string name="ok">OK</string>
     <string name="with">insieme a</string>
-    <string name="welcome_to_anonymous_messenger">Questo è il tuo prossimo messenger sicuro</string>
+    <string name="welcome_to_ghost_messenger">Questo è il tuo prossimo messenger sicuro</string>
     <string name="change_profile_image">Cambia immagine</string>
     <string name="remove_profile_image">Rimuovi immagine</string>
     <string name="remove_profile_image_details">Sei sicuro di voler rimuovere la tua immagine del profilo?</string>
@@ -346,12 +346,12 @@
    <string name="get_help_with_passwords">Ottieni aiuto</string>
    <string name="tap_for_password_tips">Tocca per aiuto</string>
    <string name="private_messaging_reimagined">Parla liberamente, resta anonimo</string>
-   <string name="private_secure_anonymous"> Privacy • Crittografia • Anonimato</string>
+   <string name="private_secure_ghost"> Privacy • Crittografia • Anonimato</string>
    <string name="start_private_messaging">UNISCITI ORA</string>
    <string name="already_have_account">USA BACKUP</string>
    <string name="tor_network">⚡ Rete Tor</string>
    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-   <string name="anonymous">🕵️ Anonimo</string>
+   <string name="ghost">🕵️ Anonimo</string>
    <string name="encrypted">🔒 Crittografato</string>
    <string name="welcome_back">Ben tornato</string>
    <string name="enter_your_password_to_continue">Digita la tua password per continuare</string>

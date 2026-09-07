@@ -60,7 +60,7 @@
     <string name="delete_contact">Usuń kontakt</string>
     <string name="no_contacts">Nie znaleziono kontaktów!</string>
     <string name="tor_output">Wyjście Tor</string>
-    <string name="anonymous_messenger">Anonimowy Messenger</string>
+    <string name="ghost_messenger">Anonimowy Messenger</string>
     <string name="by_drxtreme">przez DrXtreme</string>
     <string name="welcome_to">witaj do</string>
     <string name="recording">Nagrywanie</string>
@@ -331,7 +331,7 @@
     <string name="free_memory">wolna pamięć</string>
     <string name="ok">OK</string>
     <string name="with">z</string>
-    <string name="welcome_to_anonymous_messenger">To jest Twój następny bezpieczny messengera</string>
+    <string name="welcome_to_ghost_messenger">To jest Twój następny bezpieczny messengera</string>
     <string name="change_profile_image">Zmień obrazek</string>
     <string name="remove_profile_image">Usunąć obrazek</string>
     <string name="remove_profile_image_details">Jesteś pewien że chcesz usunąć swój obrazek profilowy?</string>
@@ -395,12 +395,12 @@
     <string name="get_help_with_passwords">Uzyskaj pomoc</string>
     <string name="tap_for_password_tips">Kliknij aby uzyskać pomoc</string>
     <string name="private_messaging_reimagined">Mów Swobodnie, Bądź Anonimowy</string>
-    <string name="private_secure_anonymous"> Prywatność • Szyfrowanie • Anonimowość</string>
+    <string name="private_secure_ghost"> Prywatność • Szyfrowanie • Anonimowość</string>
     <string name="start_private_messaging">DOŁĄCZ SIĘ TERAZ</string>
     <string name="already_have_account">UŻYJ BACKUP</string>
     <string name="tor_network">⚡ Sieć Tor</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Anonimowy</string>
+    <string name="ghost">🕵️ Anonimowy</string>
     <string name="encrypted">🔒 Zaszyfrowany</string>
     <string name="welcome_back">Witaj z powrotem</string>
     <string name="enter_your_password_to_continue">Wpisz swoje hasło aby kontynuować</string>

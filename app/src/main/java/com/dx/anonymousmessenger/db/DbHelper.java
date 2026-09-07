@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.db;
+package com.dx.ghostmessenger.db;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -7,13 +7,13 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.account.DxAccount;
-import com.dx.anonymousmessenger.crypto.DxSignalKeyStore;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.messages.MessageSender;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.account.DxAccount;
+import com.dx.ghostmessenger.crypto.DxSignalKeyStore;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.messages.MessageSender;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
 
 import net.sqlcipher.Cursor;
 import net.sqlcipher.database.SQLiteDatabase;

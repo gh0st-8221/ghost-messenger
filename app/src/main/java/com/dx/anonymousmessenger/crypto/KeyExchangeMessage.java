@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.crypto;
+package com.dx.ghostmessenger.crypto;
 
 import static org.whispersystems.libsignal.protocol.SignalProtos.KeyExchangeMessage.Builder;
 

@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.call;
+package com.dx.ghostmessenger.call;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -21,12 +21,12 @@ import android.util.Log;
 import androidx.core.app.ActivityCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.messages.MessageEncryptor;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
-import com.dx.anonymousmessenger.tor.TorClient;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.messages.MessageEncryptor;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.tor.TorClient;
 
 import org.whispersystems.libsignal.SignalProtocolAddress;
 
@@ -327,7 +327,7 @@ public class CallController {
                         //send signal
                         codec2.codec2_encode(bits,buf);
                         outgoing.getOutputStream().write(bits);
-                        Log.d("ANONYMOUSMESSENGER","sent size: " + bits.length);
+                        Log.d("GHOSTMESSENGER","sent size: " + bits.length);
                         //send length to ui
                         totalUpload+=bits.length;
                         Intent gcm_rec = new Intent("call_action");
@@ -340,7 +340,7 @@ public class CallController {
                         //send signal
                         codec2.codec2_encode(bits,buf);
                         outgoing.getOutputStream().write(bits);
-                        Log.d("ANONYMOUSMESSENGER","sent size: " + bits.length);
+                        Log.d("GHOSTMESSENGER","sent size: " + bits.length);
                         //send length to ui
                         totalUpload+=bits.length;
                         Intent gcm_rec = new Intent("call_action");
@@ -392,7 +392,7 @@ public class CallController {
         codec2.codec2_decode( buf, bits );
         toSpeaker(buf);
 //        toSpeaker(buf);
-        Log.d("ANONYMOUSMESSENGER","received size: " +bits.length);
+        Log.d("GHOSTMESSENGER","received size: " +bits.length);
 //        //send length to ui
 //        Intent gcm_rec = new Intent("call_action");
 //        gcm_rec.putExtra("action","download");
@@ -424,7 +424,7 @@ public class CallController {
             at.flush();
             at.play();
         } catch (Exception ignored) {
-            Log.d("ANONYMOUSMESSENGER","Not working in speakers...");
+            Log.d("GHOSTMESSENGER","Not working in speakers...");
             //e.printStackTrace();
         }
     }

@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.call;
+package com.dx.ghostmessenger.call;
 
 import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_PHONE_CALL;
 
@@ -11,8 +11,8 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.db.DbHelper;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.db.DbHelper;
 
 import java.util.Objects;
 
@@ -118,12 +118,12 @@ public class DxCallService extends Service {
                         if (((DxApplication) getApplication()).isInCall()) {
                             try {
                                 ((DxApplication) getApplication()).getCc().answerCall(false);
-                                Log.d("ANONYMOUSMESSENGER","call answered");
+                                Log.d("GHOSTMESSENGER","call answered");
                                 Intent gcm_rec = new Intent("call_action");
                                 gcm_rec.putExtra("action","answer");
                                 LocalBroadcastManager.getInstance(this).sendBroadcast(gcm_rec);
                             } catch (Exception e) {
-                                Log.d("ANONYMOUSMESSENGER","call not answered");
+                                Log.d("GHOSTMESSENGER","call not answered");
                                 e.printStackTrace();
                                 Intent gcm_rec = new Intent("call_action");
                                 gcm_rec.putExtra("action","hangup");

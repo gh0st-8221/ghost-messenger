@@ -21,6 +21,6 @@ Un messenger P2P, privado, anónimo y seguro que funciona a través de Tor. Tamb
     *Más funciones próximamente
 
 Cómo usar: 
-https://anonymousmessenger.ly/how-to-use.html
+https://ghostmessenger.ly/how-to-use.html
 
 A diciembre de 2020, sigue siendo un esfuerzo continuo y, aunque es completamente funcional, solo está disponible para Android hasta ahora.

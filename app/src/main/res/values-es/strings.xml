@@ -120,7 +120,7 @@
       
   <string name="tor_output">Salida Tor</string>
       
-  <string name="anonymous_messenger">Messenger anónimo</string>
+  <string name="ghost_messenger">Messenger anónimo</string>
       
   <string name="by_drxtreme">de DrXtreme</string>
       
@@ -590,7 +590,7 @@
       
   <string name="with">con</string>
       
-  <string name="welcome_to_anonymous_messenger">Este es tu próximo Messenger seguro</string>
+  <string name="welcome_to_ghost_messenger">Este es tu próximo Messenger seguro</string>
       
   <string name="change_profile_image">Cambiar imagen</string>
       
@@ -643,12 +643,12 @@
    <string name="get_help_with_passwords">Obtener ayuda</string>
    <string name="tap_for_password_tips">Toca para ayuda</string>
    <string name="private_messaging_reimagined">Habla libremente, permanece anónimo</string>
-   <string name="private_secure_anonymous"> Privacidad • Cifrado • Anonimato</string>
+   <string name="private_secure_ghost"> Privacidad • Cifrado • Anonimato</string>
    <string name="start_private_messaging">ÚNETE AHORA</string>
    <string name="already_have_account">USAR BACKUP</string>
    <string name="tor_network">⚡ Red Tor</string>
    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-   <string name="anonymous">🕵️ Anónimo</string>
+   <string name="ghost">🕵️ Anónimo</string>
    <string name="encrypted">🔒 Cifrado</string>
    <string name="welcome_back">Bienvenido de nuevo</string>
    <string name="enter_your_password_to_continue">Escribe tu contraseña para continuar</string>

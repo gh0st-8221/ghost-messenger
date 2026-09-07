@@ -60,7 +60,7 @@
     <string name="delete_contact">Ta bort kontakt</string>
     <string name="no_contacts">Hittade inga kontakter!</string>
     <string name="tor_output">Tor utgång</string>
-    <string name="anonymous_messenger">Anonym Messenger</string>
+    <string name="ghost_messenger">Anonym Messenger</string>
     <string name="by_drxtreme">av DrXtreme</string>
     <string name="welcome_to">välkommen till</string>
     <string name="recording">Inspelning</string>
@@ -324,7 +324,7 @@
     <string name="free_memory">ledigt minne</string>
     <string name="ok">OK</string>
     <string name="with">med </string>
-    <string name="welcome_to_anonymous_messenger">Det är din nästa säkerare meddelare</string>
+    <string name="welcome_to_ghost_messenger">Det är din nästa säkerare meddelare</string>
     <string name="change_profile_image">Ändra bild</string>
     <string name="remove_profile_image">Ta bort bild</string>
     <string name="remove_profile_image_details">Är du säker att du vill ta bort din profilbild?</string>
@@ -388,12 +388,12 @@
     <string name="get_help_with_passwords">Få hjälp</string>
     <string name="tap_for_password_tips">Klicka för hjälp</string>
     <string name="private_messaging_reimagined">Prata Fritt, Håll Dig Anonym</string>
-    <string name="private_secure_anonymous">  Integritet • Kryptering • Anonymitet</string>
+    <string name="private_secure_ghost">  Integritet • Kryptering • Anonymitet</string>
     <string name="start_private_messaging">Gå med NU</string>
     <string name="already_have_account">ANVÄND BACKUP</string>
     <string name="tor_network">⚡ Tor Nätverk</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Anonym</string>
+    <string name="ghost">🕵️ Anonym</string>
     <string name="encrypted">🔒 Krypterad</string>
     <string name="welcome_back">Välkommen tillbaka</string>
     <string name="enter_your_password_to_continue">Ange ditt lösenord för att fortsätta</string>

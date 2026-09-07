@@ -1,6 +1,6 @@
-package com.dx.anonymousmessenger.tor;
+package com.dx.ghostmessenger.tor;
 
-import static com.dx.anonymousmessenger.file.FileHelper.IV_LENGTH;
+import static com.dx.ghostmessenger.file.FileHelper.IV_LENGTH;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,17 +9,17 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.call.CallController;
-import com.dx.anonymousmessenger.crypto.Entity;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.messages.MessageEncryptor;
-import com.dx.anonymousmessenger.messages.MessageReceiver;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
-import com.dx.anonymousmessenger.util.Hex;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.call.CallController;
+import com.dx.ghostmessenger.crypto.Entity;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.messages.MessageEncryptor;
+import com.dx.ghostmessenger.messages.MessageReceiver;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.util.Hex;
+import com.dx.ghostmessenger.util.Utils;
 
 import net.sf.controller.network.ServiceDescriptor;
 import net.sf.msopentech.thali.java.toronionproxy.FileUtilities;
@@ -108,13 +108,13 @@ public class ServerSocketViaTor {
             }
 
             if (!node.startWithoutRepeat(hiddenservicedirport, localport, TOTAL_SEC_PER_STARTUP, DbHelper.getBridgeList(app), app.isBridgesEnabled(), app.isEnableSocks5Proxy(), app.getSocks5AddressAndPort(), app.getSocks5Username(), app.getSocks5Password(), app.getExcludeText(), app.isExcludeUnknown(), app.isStrictExclude())) {
-                Log.d("ANONYMOUSMESSENGER","Could not Start Tor.");
+                Log.d("GHOSTMESSENGER","Could not Start Tor.");
                 tryKill();
                 throw new IOException("Could not Start Tor.");
             } else {
                 Runtime.getRuntime().addShutdownHook(new Thread() {
                     public void run() {
-                    Log.d("ANONYMOUSMESSENGER","shutdown hook");
+                    Log.d("GHOSTMESSENGER","shutdown hook");
                     app.resetTorStartTime();
                     tryKill();
                     }
@@ -122,7 +122,7 @@ public class ServerSocketViaTor {
             }
         }catch (Exception e){
             e.printStackTrace();
-            Log.d("ANONYMOUSMESSENGER","exception with tor start");
+            Log.d("GHOSTMESSENGER","exception with tor start");
             tryKill();
             // tell user about the error
             Intent gcm_rec = new Intent("tor_status");
@@ -135,7 +135,7 @@ public class ServerSocketViaTor {
 
         try{
             if(node == null){
-                Log.d("ANONYMOUSMESSENGER","error after tor start");
+                Log.d("GHOSTMESSENGER","error after tor start");
                 tryKill();
                 // tell user about the error
                 Intent gcm_rec = new Intent("tor_status");
@@ -146,7 +146,7 @@ public class ServerSocketViaTor {
             app.setHostname(new String(FileUtilities.read(node.getOnionProxyContext().getHostNameFile()), StandardCharsets.UTF_8).trim());
         }catch (Exception e){
             e.printStackTrace();
-            Log.d("ANONYMOUSMESSENGER","cannot start a hiddenservice");
+            Log.d("GHOSTMESSENGER","cannot start a hiddenservice");
             tryKill();
             // tell user about the error
             Intent gcm_rec = new Intent("tor_status");
@@ -192,12 +192,12 @@ public class ServerSocketViaTor {
         }
         if(node!=null){
             try {
-                Log.d("ANONYMOUSMESSENGER","starting node stop");
+                Log.d("GHOSTMESSENGER","starting node stop");
                 node.stop();
-                Log.d("ANONYMOUSMESSENGER","done with node stop");
+                Log.d("GHOSTMESSENGER","done with node stop");
             }catch (Exception e){
                 e.printStackTrace();
-                Log.d("ANONYMOUSMESSENGER","exception with node stop");
+                Log.d("GHOSTMESSENGER","exception with node stop");
             }
             node = null;
         }
@@ -428,7 +428,7 @@ public class ServerSocketViaTor {
                     in.read(buffer,0,buffer.length);
                     int chunkLength = ByteBuffer.wrap(buffer).order(ByteOrder.LITTLE_ENDIAN).getInt();
 
-//                    Log.d("ANONYMOUSMESSENGER","CHUNK LENGTH:::: "+chunkLength);
+//                    Log.d("GHOSTMESSENGER","CHUNK LENGTH:::: "+chunkLength);
                     if(chunkLength==0){
                         break;
                     }

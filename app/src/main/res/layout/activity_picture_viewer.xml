@@ -5,7 +5,7 @@
 <!--    android:id="@+id/cl"-->
 <!--    android:layout_width="match_parent"-->
 <!--    android:layout_height="wrap_content"-->
-<!--    tools:context="com.dx.anonymousmessenger.ui.view.single_activity.PictureViewerActivity">-->
+<!--    tools:context="com.dx.ghostmessenger.ui.view.single_activity.PictureViewerActivity">-->
 
     <!--    <include-->
     <!--        android:id="@+id/top_bar"-->
@@ -23,7 +23,7 @@
     android:background="@color/black_opacity_75"
     android:orientation="vertical">
 
-    <com.dx.anonymousmessenger.ui.custom.FlickDismissLayout
+    <com.dx.ghostmessenger.ui.custom.FlickDismissLayout
         android:id="@+id/flick"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -39,7 +39,7 @@
             android:indeterminateTint="#673AB7"
             android:progressTint="#673AB7" />
 
-        <com.dx.anonymousmessenger.ui.custom.GestureTextView
+        <com.dx.ghostmessenger.ui.custom.GestureTextView
             android:id="@+id/txt_caption_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -174,7 +174,7 @@
             </LinearLayout>
 
         </com.google.android.material.textfield.TextInputLayout>
-    </com.dx.anonymousmessenger.ui.custom.FlickDismissLayout>
+    </com.dx.ghostmessenger.ui.custom.FlickDismissLayout>
 
 </FrameLayout>
 

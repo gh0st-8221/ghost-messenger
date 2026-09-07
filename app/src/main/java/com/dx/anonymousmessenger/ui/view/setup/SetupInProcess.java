@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.setup;
+package com.dx.ghostmessenger.ui.view.setup;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -14,12 +14,12 @@ import android.widget.TextView;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.crypto.Entity;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.ui.view.app.AppActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.SettingsActivity;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.crypto.Entity;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.ui.view.app.AppActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.SettingsActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.Date;

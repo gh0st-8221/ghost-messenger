@@ -1,14 +1,14 @@
-package com.dx.anonymousmessenger.ui.custom;
+package com.dx.ghostmessenger.ui.custom;
 
 import static android.graphics.Color.BLACK;
 import static android.graphics.Paint.Style.FILL;
 import static android.graphics.Paint.Style.STROKE;
 import static android.graphics.drawable.ClipDrawable.HORIZONTAL;
 import static android.view.Gravity.START;
-import static com.dx.anonymousmessenger.crypto.PasswordStrengthEstimator.QUITE_STRONG;
-import static com.dx.anonymousmessenger.crypto.PasswordStrengthEstimator.QUITE_WEAK;
-import static com.dx.anonymousmessenger.crypto.PasswordStrengthEstimator.STRONG;
-import static com.dx.anonymousmessenger.crypto.PasswordStrengthEstimator.WEAK;
+import static com.dx.ghostmessenger.crypto.PasswordStrengthEstimator.QUITE_STRONG;
+import static com.dx.ghostmessenger.crypto.PasswordStrengthEstimator.QUITE_WEAK;
+import static com.dx.ghostmessenger.crypto.PasswordStrengthEstimator.STRONG;
+import static com.dx.ghostmessenger.crypto.PasswordStrengthEstimator.WEAK;
 
 import android.content.Context;
 import android.graphics.Color;

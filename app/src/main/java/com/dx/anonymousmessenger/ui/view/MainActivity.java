@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view;
+package com.dx.ghostmessenger.ui.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,12 +7,12 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.service.DxService;
-import com.dx.anonymousmessenger.ui.view.app.AppActivity;
-import com.dx.anonymousmessenger.ui.view.setup.CreateUserActivity;
-import com.dx.anonymousmessenger.ui.view.setup.SetupInProcess;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.service.DxService;
+import com.dx.ghostmessenger.ui.view.app.AppActivity;
+import com.dx.ghostmessenger.ui.view.setup.CreateUserActivity;
+import com.dx.ghostmessenger.ui.view.setup.SetupInProcess;
 
 import java.io.File;
 
@@ -75,7 +75,7 @@ public class MainActivity extends DxActivity {
                             TextView haveAcc = findViewById(R.id.txt_use_backup);
                             haveAcc.setVisibility(View.VISIBLE);
                             haveAcc.setOnClickListener(v -> {
-                                Intent intent = new Intent(MainActivity.this, com.dx.anonymousmessenger.ui.view.single_activity.SettingsActivity.class);
+                                Intent intent = new Intent(MainActivity.this, com.dx.ghostmessenger.ui.view.single_activity.SettingsActivity.class);
                                 intent.putExtra("SHOW_BACKUP_RESTORE", true);
                                 startActivity(intent);
                                 finish();

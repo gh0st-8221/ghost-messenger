@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.app;
+package com.dx.ghostmessenger.ui.view.app;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -32,21 +32,21 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.account.DxAccount;
-import com.dx.anonymousmessenger.call.DxCallService;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.tor.TorClient;
-import com.dx.anonymousmessenger.ui.view.call.CallActivity;
-import com.dx.anonymousmessenger.ui.view.log.LogActivity;
-import com.dx.anonymousmessenger.ui.view.notepad.NotepadActivity;
-import com.dx.anonymousmessenger.ui.view.setup.SetupInProcess;
-import com.dx.anonymousmessenger.ui.view.single_activity.AddContactActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.MyIdentityActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.MyProfileActivity;
-import com.dx.anonymousmessenger.ui.view.tips.TipsActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.account.DxAccount;
+import com.dx.ghostmessenger.call.DxCallService;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.tor.TorClient;
+import com.dx.ghostmessenger.ui.view.call.CallActivity;
+import com.dx.ghostmessenger.ui.view.log.LogActivity;
+import com.dx.ghostmessenger.ui.view.notepad.NotepadActivity;
+import com.dx.ghostmessenger.ui.view.setup.SetupInProcess;
+import com.dx.ghostmessenger.ui.view.single_activity.AddContactActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.MyIdentityActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.MyProfileActivity;
+import com.dx.ghostmessenger.ui.view.tips.TipsActivity;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout;
@@ -134,8 +134,8 @@ public class AppFragment extends Fragment {
             }
         };
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(requireContext());
-        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
-        if(alias!=null && alias.equals("com.dx.anonymousmessenger.ui.view.MainActivity")){
+        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
+        if(alias!=null && alias.equals("com.dx.ghostmessenger.ui.view.MainActivity")){
             requireActivity().setTitle(getString(R.string.app_name));
         }else if(alias!=null){
             requireActivity().setTitle(

@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
 public class Message {
     private String message;

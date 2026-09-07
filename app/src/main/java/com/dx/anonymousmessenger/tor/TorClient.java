@@ -1,10 +1,10 @@
-package com.dx.anonymousmessenger.tor;
+package com.dx.ghostmessenger.tor;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.messages.MessageEncryptor;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.messages.MessageEncryptor;
+import com.dx.ghostmessenger.util.Utils;
 
 import net.sf.runjva.sourceforge.jsocks.protocol.Socks5Message;
 
@@ -126,7 +126,7 @@ public class TorClient {
             ByteArrayInputStream bais = new ByteArrayInputStream(media);
             byte[] buffer;
             while(true){
-                Log.d("ANONYMOUSMESSENGER", "sending part");
+                Log.d("GHOSTMESSENGER", "sending part");
                 if(bais.available()<1024){
                     buffer = new byte[bais.available()];
                 }else{
@@ -361,7 +361,7 @@ public class TorClient {
         inputStream.readFully(header, 0, 4);
 
         if (header[1] != (byte) 0x00) {
-            Log.d("ANONYMOUSMESSENGER","ERROR REQUEST NOT OK: "+header[1]);
+            Log.d("GHOSTMESSENGER","ERROR REQUEST NOT OK: "+header[1]);
             throw new IOException("SOCKS5 connect failed");
         }
 
@@ -373,7 +373,7 @@ public class TorClient {
             inputStream.readFully(header, 0, 2);
             return socket;
         }else if(header[3] == (byte) 0x03){
-            Log.d("ANONYMOUSMESSENGER","GOT ADDRESS BACK");
+            Log.d("GHOSTMESSENGER","GOT ADDRESS BACK");
             int len = header[1];
             byte[] host = new byte[len];
             inputStream.readFully(host, 0, len);

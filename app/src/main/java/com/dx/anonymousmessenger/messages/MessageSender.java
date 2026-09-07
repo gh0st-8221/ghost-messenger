@@ -1,18 +1,18 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
 import android.content.Intent;
 import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.crypto.AddressedEncryptedMessage;
-import com.dx.anonymousmessenger.crypto.AddressedKeyExchangeMessage;
-import com.dx.anonymousmessenger.crypto.KeyExchangeMessage;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.tor.TorClient;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.crypto.AddressedEncryptedMessage;
+import com.dx.ghostmessenger.crypto.AddressedKeyExchangeMessage;
+import com.dx.ghostmessenger.crypto.KeyExchangeMessage;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.tor.TorClient;
 
 import org.whispersystems.libsignal.SignalProtocolAddress;
 import org.whispersystems.libsignal.StaleKeyExchangeException;

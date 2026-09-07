@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.content.pm.PackageInfo;
 import android.os.Bundle;
@@ -7,9 +7,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.util.Utils;
 
 import java.text.MessageFormat;
 

@@ -60,7 +60,7 @@
     <string name="delete_contact">連絡先を削除</string>
     <string name="no_contacts">連絡先が見つかりません！</string>
     <string name="tor_output">Tor出力</string>
-    <string name="anonymous_messenger">匿名メッセージャー</string>
+    <string name="ghost_messenger">匿名メッセージャー</string>
     <string name="by_drxtreme">DrXtreme制作</string>
     <string name="welcome_to">へようこそ</string>
     <string name="recording">録音中</string>
@@ -312,7 +312,7 @@
     <string name="free_memory">利用可能メモリ</string>
     <string name="ok">OK</string>
     <string name="with">と </string>
-    <string name="welcome_to_anonymous_messenger">これはあなたの次のセキュアメッセージャーです</string>
+    <string name="welcome_to_ghost_messenger">これはあなたの次のセキュアメッセージャーです</string>
     <string name="change_profile_image">画像を変更</string>
     <string name="remove_profile_image">画像を削除</string>
     <string name="remove_profile_image_details">プロフィール画像を削除しますか？</string>
@@ -376,12 +376,12 @@
     <string name="get_help_with_passwords">ヘルプ</string>
     <string name="tap_for_password_tips">ヘルプをクリック</string>
     <string name="private_messaging_reimagined">自由に話し、匿名を維持</string>
-    <string name="private_secure_anonymous"> プライバシー • 暗号化 • 匿名</string>
+    <string name="private_secure_ghost"> プライバシー • 暗号化 • 匿名</string>
     <string name="start_private_messaging">今すぐ参加</string>
     <string name="already_have_account">バックアップを使用</string>
     <string name="tor_network">⚡ Torネットワーク</string>
     <string name="peer_2_peer">🌐 ピア 2 ピア</string>
-    <string name="anonymous">🕵️ 匿名</string>
+    <string name="ghost">🕵️ 匿名</string>
     <string name="encrypted">🔒 暗号化</string>
     <string name="welcome_back">ようこそ戻りました</string>
     <string name="enter_your_password_to_continue">続行するにはパスワードを入力</string>

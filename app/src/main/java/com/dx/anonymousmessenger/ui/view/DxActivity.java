@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view;
+package com.dx.ghostmessenger.ui.view;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 import static java.util.Objects.requireNonNull;
@@ -27,12 +27,12 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.custom.ScreenFilterDialogFragment;
-import com.dx.anonymousmessenger.ui.custom.TapSafeFrameLayout;
-import com.dx.anonymousmessenger.ui.custom.TapSafeToolbar;
-import com.dx.anonymousmessenger.ui.view.single_activity.CrashActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.PictureViewerActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.custom.ScreenFilterDialogFragment;
+import com.dx.ghostmessenger.ui.custom.TapSafeFrameLayout;
+import com.dx.ghostmessenger.ui.custom.TapSafeToolbar;
+import com.dx.ghostmessenger.ui.view.single_activity.CrashActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.PictureViewerActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 
 public class DxActivity extends AppCompatActivity implements TapSafeFrameLayout.OnTapFilteredListener{
@@ -172,8 +172,8 @@ public class DxActivity extends AppCompatActivity implements TapSafeFrameLayout.
 //        v.getGlobalVisibleRect(visibleRect);
 //        boolean b = visibleRect.height() == v.getHeight() && visibleRect.width() == v.getWidth();
 //        if(b){
-//            Log.d("ANONYMOUSMESSENGER","!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-//            Log.d("ANONYMOUSMESSENGER","SCREEEEEEEEEEEEEN OBSTRUCTEDDDDDDDD");
+//            Log.d("GHOSTMESSENGER","!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+//            Log.d("GHOSTMESSENGER","SCREEEEEEEEEEEEEN OBSTRUCTEDDDDDDDD");
 //        }
     }
 

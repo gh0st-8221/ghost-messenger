@@ -1,9 +1,9 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
-import com.dx.anonymousmessenger.crypto.AddressedEncryptedMessage;
-import com.dx.anonymousmessenger.crypto.AddressedKeyExchangeMessage;
-import com.dx.anonymousmessenger.crypto.KeyExchangeMessage;
-import com.dx.anonymousmessenger.crypto.SessionBuilder;
+import com.dx.ghostmessenger.crypto.AddressedEncryptedMessage;
+import com.dx.ghostmessenger.crypto.AddressedKeyExchangeMessage;
+import com.dx.ghostmessenger.crypto.KeyExchangeMessage;
+import com.dx.ghostmessenger.crypto.SessionBuilder;
 
 import org.whispersystems.libsignal.DuplicateMessageException;
 import org.whispersystems.libsignal.InvalidKeyException;

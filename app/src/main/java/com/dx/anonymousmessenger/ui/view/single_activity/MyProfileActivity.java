@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import static java.util.Objects.requireNonNull;
 
@@ -29,10 +29,10 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.ui.view.DxActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -47,11 +47,11 @@ public class MyProfileActivity extends DxActivity {
             new ActivityResultContracts.GetContent(),
             uri -> {
                 if (uri == null) {
-                    Log.d("ANONYMOUSMESSENGER", "No image selected");
+                    Log.d("GHOSTMESSENGER", "No image selected");
                     return;
                 }
 
-                Log.d("ANONYMOUSMESSENGER", "Selected image URI: " + uri.toString());
+                Log.d("GHOSTMESSENGER", "Selected image URI: " + uri.toString());
 
                 try {
                     // Create intent for PictureViewerActivity
@@ -76,7 +76,7 @@ public class MyProfileActivity extends DxActivity {
                     startActivity(intent);
 
                 } catch (Exception e) {
-                    Log.e("ANONYMOUSMESSENGER", "Error starting PictureViewerActivity: " + e.getMessage(), e);
+                    Log.e("GHOSTMESSENGER", "Error starting PictureViewerActivity: " + e.getMessage(), e);
                     Snackbar.make(findViewById(android.R.id.content),
                             R.string.error_opening_image, Snackbar.LENGTH_SHORT).show();
                 }
@@ -218,25 +218,25 @@ public class MyProfileActivity extends DxActivity {
                     try {
                         // For API 33+ (Android 13+) - Use READ_MEDIA_IMAGES
                         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-                            Log.d("ANONYMOUSMESSENGER", "API 33+ detected, using READ_MEDIA_IMAGES");
+                            Log.d("GHOSTMESSENGER", "API 33+ detected, using READ_MEDIA_IMAGES");
                             if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_MEDIA_IMAGES) != PackageManager.PERMISSION_GRANTED) {
-                                Log.d("ANONYMOUSMESSENGER", "Requesting READ_MEDIA_IMAGES permission");
+                                Log.d("GHOSTMESSENGER", "Requesting READ_MEDIA_IMAGES permission");
                                 requestPermissions(new String[]{Manifest.permission.READ_MEDIA_IMAGES}, STORAGE_CODE);
 //                                return true;
                             }
                         }
                         // For API 23-32 (Android 6.0-12) - Use READ_EXTERNAL_STORAGE
                         else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                            Log.d("ANONYMOUSMESSENGER", "API 23-32 detected, using READ_EXTERNAL_STORAGE");
+                            Log.d("GHOSTMESSENGER", "API 23-32 detected, using READ_EXTERNAL_STORAGE");
                             if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                                Log.d("ANONYMOUSMESSENGER", "Requesting READ_EXTERNAL_STORAGE permission");
+                                Log.d("GHOSTMESSENGER", "Requesting READ_EXTERNAL_STORAGE permission");
                                 requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_CODE);
 //                                return true;
                             }
                         }
                         // For API 21-22 (Android 5.0-5.1) - No runtime permissions needed
                         else {
-                            Log.d("ANONYMOUSMESSENGER", "API 21-22 detected, no runtime permission needed");
+                            Log.d("GHOSTMESSENGER", "API 21-22 detected, no runtime permission needed");
                             // Permission is granted at install time for these APIs
                         }
 
@@ -244,7 +244,7 @@ public class MyProfileActivity extends DxActivity {
                         mGetContent.launch("image/*");
                         return true;
                     } catch (Exception e) {
-                        Log.e("ANONYMOUSMESSENGER", "Storage request error: " + e.getMessage(), e);
+                        Log.e("GHOSTMESSENGER", "Storage request error: " + e.getMessage(), e);
                         Snackbar.make(v, R.string.error_accessing_storage, Snackbar.LENGTH_SHORT).show();
                     }
                 }

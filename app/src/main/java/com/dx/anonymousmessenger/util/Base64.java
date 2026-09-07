@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.util;
+package com.dx.ghostmessenger.util;
 
 import java.nio.charset.StandardCharsets;
 

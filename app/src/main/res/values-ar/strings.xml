@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Anonymous Messenger</string>
+    <string name="app_name">Ghost Messenger</string>
     <string name="create_account_button">بدء</string>
     <string name="nickname">إسم مستعار</string>
     <string name="nickname_error">إسم مستعار خاطيء</string>
@@ -59,7 +59,7 @@
     <string name="delete_contact">إزالة جهة الإتصال</string>
     <string name="no_contacts">ﻻ توجد جهات اتصال!</string>
     <string name="tor_output">معلومات تور</string>
-    <string name="anonymous_messenger">المسنجر المجهول</string>
+    <string name="ghost_messenger">المسنجر المجهول</string>
     <string name="by_drxtreme">من قبل سفيان بن عيسى</string>
     <string name="welcome_to">مرحبا بك في</string>
     <string name="recording">تسجيل</string>
@@ -295,7 +295,7 @@
     <string name="free_memory">ذاكرة متاحة</string>
     <string name="ok">حسناً</string>
     <string name="with">مع</string>
-    <string name="welcome_to_anonymous_messenger">هذا هو برنامجك التالي للمراسلة الآمنة</string>
+    <string name="welcome_to_ghost_messenger">هذا هو برنامجك التالي للمراسلة الآمنة</string>
     <string name="change_profile_image">غيِر الصورة</string>
     <string name="remove_profile_image">إزالة الصورة</string>
     <string name="remove_profile_image_details">متأكد أنك تريد إزالة هذه الصورة؟</string>
@@ -354,12 +354,12 @@
     <string name="get_help_with_passwords">إحصل على مساعدة</string>
     <string name="tap_for_password_tips">إضغط للإستفسار</string>
     <string name="private_messaging_reimagined">تحدث بحرية, ظل مجهول</string>
-    <string name="private_secure_anonymous"> خصوصية • تشفير • مجهولية</string>
+    <string name="private_secure_ghost"> خصوصية • تشفير • مجهولية</string>
     <string name="start_private_messaging">إنضم الآن</string>
     <string name="already_have_account">إستخدم النسخة الإحتياطية</string>
     <string name="tor_network">⚡ شبكة تور</string>
     <string name="peer_2_peer">🌐 نظير إلى نظير</string>
-    <string name="anonymous">🕵️ مجهول</string>
+    <string name="ghost">🕵️ مجهول</string>
     <string name="encrypted">🔒 مشفر</string>
     <string name="welcome_back">مرحباً بعودتك</string>
     <string name="enter_your_password_to_continue">أدخل كلمة المرور للإستمرار</string>

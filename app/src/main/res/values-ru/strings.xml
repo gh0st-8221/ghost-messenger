@@ -59,7 +59,7 @@
     <string name="delete_contact">Удалить контакт</string>
     <string name="no_contacts">Контакты не найдены!</string>
     <string name="tor_output">Выходные данные Tor</string>
-    <string name="anonymous_messenger">Анонимный мессенджер</string>
+    <string name="ghost_messenger">Анонимный мессенджер</string>
     <string name="by_drxtreme">автор: DrXtreme</string>
     <string name="welcome_to">Добро пожаловать в</string>
     <string name="recording">Запись</string>
@@ -290,7 +290,7 @@
     <string name="free_memory">свободная память</string>
     <string name="ok">ОК</string>
     <string name="with">с участием</string>
-    <string name="welcome_to_anonymous_messenger">Это ваш новый безопасный мессенджер</string>
+    <string name="welcome_to_ghost_messenger">Это ваш новый безопасный мессенджер</string>
     <string name="change_profile_image">Сменить изображение</string>
     <string name="remove_profile_image">Удалить изображение</string>
     <string name="remove_profile_image_details">Вы уверены, что хотите удалить свою аватарку?</string>
@@ -341,12 +341,12 @@
    <string name="get_help_with_passwords">Получить помощь</string>
    <string name="tap_for_password_tips">Нажмите для помощи</string>
    <string name="private_messaging_reimagined">Говорите свободно, оставайтесь анонимными</string>
-   <string name="private_secure_anonymous"> Приватность • Шифрование • Анонимность</string>
+   <string name="private_secure_ghost"> Приватность • Шифрование • Анонимность</string>
    <string name="start_private_messaging">ПРИСОЕДИНЯЙТЕСЬ СЕЙЧАС</string>
    <string name="already_have_account">ИСПОЛЬЗОВАТЬ BACKUP</string>
    <string name="tor_network">⚡ Сеть Tor</string>
    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-   <string name="anonymous">🕵️ Аноним</string>
+   <string name="ghost">🕵️ Аноним</string>
    <string name="encrypted">🔒 Зашифровано</string>
    <string name="welcome_back">С возвращением</string>
    <string name="enter_your_password_to_continue">Введите ваш пароль для продолжения</string>

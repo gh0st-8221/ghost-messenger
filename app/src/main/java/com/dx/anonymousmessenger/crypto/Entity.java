@@ -1,6 +1,6 @@
-package com.dx.anonymousmessenger.crypto;
+package com.dx.ghostmessenger.crypto;
 
-import com.dx.anonymousmessenger.DxApplication;
+import com.dx.ghostmessenger.DxApplication;
 
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.IdentityKeyPair;

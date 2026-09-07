@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.file;
+package com.dx.ghostmessenger.file;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
 
@@ -15,9 +15,9 @@ import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import android.webkit.MimeTypeMap;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.util.Hex;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.util.Hex;
+import com.dx.ghostmessenger.util.Utils;
 
 import net.sf.msopentech.thali.java.toronionproxy.FileUtilities;
 
@@ -318,38 +318,38 @@ public class FileHelper {
                 while (true) {
                     byte[] iv = new byte[IV_LENGTH];
                     fis.read(iv, 0, IV_LENGTH);
-//                    Log.d("ANONYMOUSMESSENGER","IV: "+ Arrays.toString(iv));
+//                    Log.d("GHOSTMESSENGER","IV: "+ Arrays.toString(iv));
                     cipher.init(Cipher.DECRYPT_MODE, new SecretKeySpec(sha1b, "AES"), new GCMParameterSpec(128, iv));
                     byte[] chunkSize = new byte[4];
                     fis.read(chunkSize, 0, chunkSize.length);
                     int casted = ByteBuffer.wrap(chunkSize).order(ByteOrder.LITTLE_ENDIAN).getInt();
-//                    Log.d("ANONYMOUSMESSENGER","length of next chapter: "+casted);
+//                    Log.d("GHOSTMESSENGER","length of next chapter: "+casted);
                     if (casted == 0) {
                         break;
                     }
                     byte[] buf = new byte[casted];
                     int read;
-//                    Log.d("ANONYMOUSMESSENGER","avail: "+fis.available());
+//                    Log.d("GHOSTMESSENGER","avail: "+fis.available());
                     if (f.length() - done >= buf.length) {
-//                        Log.d("ANONYMOUSMESSENGER","a lot more is left");
+//                        Log.d("GHOSTMESSENGER","a lot more is left");
 //                        while(fis.available()<buf.length){
-//                            Log.d("ANONYMOUSMESSENGER","waiting for availability");
+//                            Log.d("GHOSTMESSENGER","waiting for availability");
 //                        }
                         read = fis.read(buf, 0, buf.length);
                     } else {
-//                        Log.d("ANONYMOUSMESSENGER","not much is left");
+//                        Log.d("GHOSTMESSENGER","not much is left");
                         read = fis.read(buf);
                     }
                     if (read == -1) {
-//                        Log.d("ANONYMOUSMESSENGER","nothing is left");
+//                        Log.d("GHOSTMESSENGER","nothing is left");
                         break;
                     }
-//                    Log.d("ANONYMOUSMESSENGER","read: "+read);
+//                    Log.d("GHOSTMESSENGER","read: "+read);
                     out.write(cipher.doFinal(buf, 0, read));
                     out.flush();
                     done = done + read;
-//                    Log.d("ANONYMOUSMESSENGER","done: "+done);
-//                    Log.d("ANONYMOUSMESSENGER","left: "+(f.length()-done));
+//                    Log.d("GHOSTMESSENGER","done: "+done);
+//                    Log.d("GHOSTMESSENGER","left: "+(f.length()-done));
                     progressListener.onProgress(((int) (((double) done / (double) f.length()) * 100.0)));
                 }
                 progressListener.onProgress(100);
@@ -377,28 +377,28 @@ public class FileHelper {
             while(true){
                 Runtime.getRuntime().gc();
                 byte[] iv = Utils.getSecretBytes(IV_LENGTH);
-//                Log.d("ANONYMOUSMESSENGER","iv:" + Arrays.toString(iv));
+//                Log.d("GHOSTMESSENGER","iv:" + Arrays.toString(iv));
                 cipher.init(Cipher.ENCRYPT_MODE, new SecretKeySpec(sha1b, "AES"), new GCMParameterSpec(128, iv));
                 byte[] buf = new byte[1024*1024*5];
                 int read;
-//                Log.d("ANONYMOUSMESSENGER","done: "+done);
-//                Log.d("ANONYMOUSMESSENGER","length: "+length);
-//                Log.d("ANONYMOUSMESSENGER","avail: "+in.available());
+//                Log.d("GHOSTMESSENGER","done: "+done);
+//                Log.d("GHOSTMESSENGER","length: "+length);
+//                Log.d("GHOSTMESSENGER","avail: "+in.available());
                 if(length-done >= buf.length){
-//                    Log.d("ANONYMOUSMESSENGER","a lot is left");
+//                    Log.d("GHOSTMESSENGER","a lot is left");
                     if(in.available()>=buf.length){
-//                        Log.d("ANONYMOUSMESSENGER","its more than enough");
+//                        Log.d("GHOSTMESSENGER","its more than enough");
                         read = in.read(buf,0,buf.length);
                     }else{
-//                        Log.d("ANONYMOUSMESSENGER","its not enough");
+//                        Log.d("GHOSTMESSENGER","its not enough");
                         continue;
                     }
                 }else{
-//                    Log.d("ANONYMOUSMESSENGER","not much is left");
+//                    Log.d("GHOSTMESSENGER","not much is left");
                     read = in.read(buf);
                 }
                 if(read==-1){
-//                    Log.d("ANONYMOUSMESSENGER","nothing is left");
+//                    Log.d("GHOSTMESSENGER","nothing is left");
                     break;
                 }
                 fos.write(iv);
@@ -408,12 +408,12 @@ public class FileHelper {
                 fos.write(enc);
                 fos.flush();
                 done += read;
-//                Log.d("ANONYMOUSMESSENGER","encrypted chunk size: "+enc.length);
-//                Log.d("ANONYMOUSMESSENGER","done: "+done);
-//                Log.d("ANONYMOUSMESSENGER","------- STARTING ALL OVER AGAIN ------");
+//                Log.d("GHOSTMESSENGER","encrypted chunk size: "+enc.length);
+//                Log.d("GHOSTMESSENGER","done: "+done);
+//                Log.d("GHOSTMESSENGER","------- STARTING ALL OVER AGAIN ------");
             }
 
-//            Log.d("ANONYMOUSMESSENGER",eFilename);
+//            Log.d("GHOSTMESSENGER",eFilename);
             fos.close();
             //return its "path"
             return eFilename;

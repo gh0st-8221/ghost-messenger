@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dx.anonymousmessenger.ui.view.app.AppActivity" >
+    tools:context="com.dx.ghostmessenger.ui.view.app.AppActivity" >
 
     <include
         android:id="@+id/top_bar"

@@ -1,20 +1,20 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
-import static com.dx.anonymousmessenger.messages.MessageSender.sendKeyExchangeMessage;
+import static com.dx.ghostmessenger.messages.MessageSender.sendKeyExchangeMessage;
 
 import android.content.Intent;
 import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.crypto.AddressedEncryptedMessage;
-import com.dx.anonymousmessenger.crypto.AddressedKeyExchangeMessage;
-import com.dx.anonymousmessenger.crypto.SessionBuilder;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.crypto.AddressedEncryptedMessage;
+import com.dx.ghostmessenger.crypto.AddressedKeyExchangeMessage;
+import com.dx.ghostmessenger.crypto.SessionBuilder;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.util.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -68,7 +68,7 @@ public class MessageReceiver {
                     return;
                 }
 
-                Log.d("ANONYMOUSMESSENGER", String.valueOf(akem.isResponse()));
+                Log.d("GHOSTMESSENGER", String.valueOf(akem.isResponse()));
                 if(akem.isResponse()){
                     try {
                         SessionBuilder sb = new SessionBuilder(app.getEntity().getStore(), new SignalProtocolAddress(akem.getAddress(),1));

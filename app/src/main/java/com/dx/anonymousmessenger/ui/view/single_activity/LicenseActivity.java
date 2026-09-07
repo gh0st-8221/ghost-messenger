@@ -1,12 +1,12 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.os.Bundle;
 import android.transition.Explode;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
 
 public class LicenseActivity extends DxActivity {
 

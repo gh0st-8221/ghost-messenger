@@ -1,1 +1,1 @@
-A peer to peer private anonymous and secure messenger that works over Tor.
+A peer to peer private ghost and secure messenger that works over Tor.

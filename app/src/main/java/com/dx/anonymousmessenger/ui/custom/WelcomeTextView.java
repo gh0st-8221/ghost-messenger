@@ -1,11 +1,11 @@
-package com.dx.anonymousmessenger.ui.custom;
+package com.dx.ghostmessenger.ui.custom;
 
 import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Handler;
 import android.util.AttributeSet;
 
-import com.dx.anonymousmessenger.R;
+import com.dx.ghostmessenger.R;
 
 
 public class WelcomeTextView extends androidx.appcompat.widget.AppCompatTextView {
@@ -28,7 +28,7 @@ public class WelcomeTextView extends androidx.appcompat.widget.AppCompatTextView
 //    }
 
     public void animateText() {
-        String text = getResources().getString(R.string.welcome_to_anonymous_messenger);
+        String text = getResources().getString(R.string.welcome_to_ghost_messenger);
         animationLoop(0, text);
     }
 

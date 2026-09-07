@@ -60,7 +60,7 @@
     <string name="delete_contact">연락처 삭제</string>
     <string name="no_contacts">연락처를 찾을 수 없습니다!</string>
     <string name="tor_output">Tor 출력</string>
-    <string name="anonymous_messenger">익명 메신저</string>
+    <string name="ghost_messenger">익명 메신저</string>
     <string name="by_drxtreme">DrXtreme 제작</string>
     <string name="welcome_to">에 오신 것을 환영합니다</string>
     <string name="recording">녹음 중</string>
@@ -314,7 +314,7 @@
     <string name="free_memory">사용 가능한 메모리</string>
     <string name="ok">확인</string>
     <string name="with">및 </string>
-    <string name="welcome_to_anonymous_messenger">다음 보안 메신저입니다</string>
+    <string name="welcome_to_ghost_messenger">다음 보안 메신저입니다</string>
     <string name="change_profile_image">이미지 변경</string>
     <string name="remove_profile_image">이미지 제거</string>
     <string name="remove_profile_image_details">프로필 사진을 삭제하시겠습니까?</string>
@@ -378,12 +378,12 @@
     <string name="get_help_with_passwords">도움이 필요합니다</string>
     <string name="tap_for_password_tips">도움이 필요하면 탭</string>
     <string name="private_messaging_reimagined">자유롭게 말하세요. 익명을 유지하세요</string>
-    <string name="private_secure_anonymous"> 개인정보 • 암호화 • 익명</string>
+    <string name="private_secure_ghost"> 개인정보 • 암호화 • 익명</string>
     <string name="start_private_messaging">지금 참여</string>
     <string name="already_have_account">백업 사용</string>
     <string name="tor_network">⚡ Tor 네트워크</string>
     <string name="peer_2_peer">🌐 피어 2 피어</string>
-    <string name="anonymous">🕵️ 익명</string>
+    <string name="ghost">🕵️ 익명</string>
     <string name="encrypted">🔒 암호화됨</string>
     <string name="welcome_back">환영합니다</string>
     <string name="enter_your_password_to_continue">계속하려면 비밀번호를 입력하세요</string>

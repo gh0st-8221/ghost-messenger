@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.receiver;
+package com.dx.ghostmessenger.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.service.DxService;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.service.DxService;
 
 public class NotificationHiderReceiver extends BroadcastReceiver {
     @RequiresApi(api = Build.VERSION_CODES.O)

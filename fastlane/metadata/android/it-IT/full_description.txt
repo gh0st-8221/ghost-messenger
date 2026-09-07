@@ -22,6 +22,6 @@ Un messenger "peer to peer", privato, anonimo e sicuro funzionante su tor. È an
     *Blocco note crittografato
     *Altre caratteristiche in arrivo
 
-Come si usa: https://anonymousmessenger.ly/how-to-use.html
+Come si usa: https://ghostmessenger.ly/how-to-use.html
 
 A partire da dicembre 2020 è tuttora un lavoro in corso e, sebbene sia pienamente funzionale, per ora è disponibile solo per Android.

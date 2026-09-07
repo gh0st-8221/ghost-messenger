@@ -1,9 +1,9 @@
-package com.dx.anonymousmessenger.ui.view.setup;
+package com.dx.ghostmessenger.ui.view.setup;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
 import static android.view.View.INVISIBLE;
 import static android.view.View.VISIBLE;
-import static com.dx.anonymousmessenger.crypto.PasswordStrengthEstimator.QUITE_WEAK;
+import static com.dx.ghostmessenger.crypto.PasswordStrengthEstimator.QUITE_WEAK;
 
 import android.content.res.ColorStateList;
 import android.os.Bundle;
@@ -20,9 +20,9 @@ import android.widget.ProgressBar;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.custom.StrengthMeter;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.custom.StrengthMeter;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;

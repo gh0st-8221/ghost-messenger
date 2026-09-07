@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.Manifest;
 import android.animation.ObjectAnimator;
@@ -42,17 +42,17 @@ import androidx.transition.TransitionManager;
 import com.alexvasilkov.gestures.Settings;
 import com.alexvasilkov.gestures.commons.CropAreaView;
 import com.alexvasilkov.gestures.views.GestureImageView;
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.messages.MessageSender;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
-import com.dx.anonymousmessenger.ui.custom.FlickDismissLayout;
-import com.dx.anonymousmessenger.ui.custom.FlickGestureListener;
-import com.dx.anonymousmessenger.ui.custom.GestureTextView;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.messages.MessageSender;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.ui.custom.FlickDismissLayout;
+import com.dx.ghostmessenger.ui.custom.FlickGestureListener;
+import com.dx.ghostmessenger.ui.custom.GestureTextView;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
@@ -440,11 +440,11 @@ public class PictureViewerActivity extends DxActivity implements FlickGestureLis
 
     private void saveImageScopedStorage(Bitmap image){
         try{
-            String displayName = getString(R.string.anonymous_messenger) + "_" + new Date().getTime() + ".jpg";
+            String displayName = getString(R.string.ghost_messenger) + "_" + new Date().getTime() + ".jpg";
             ContentValues values = new ContentValues();
             values.put(MediaStore.Images.Media.DISPLAY_NAME, displayName);
             values.put(MediaStore.Images.Media.MIME_TYPE, "image/jpeg");
-            values.put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/AnonymousMessenger");
+            values.put(MediaStore.Images.Media.RELATIVE_PATH, "Pictures/GhostMessenger");
 
             Uri uri = getContentResolver().insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values);
             if (uri == null) {
@@ -481,7 +481,7 @@ public class PictureViewerActivity extends DxActivity implements FlickGestureLis
             return;
         }
 
-        String photoUriStr = MediaStore.Images.Media.insertImage(getContentResolver(), image, getString(R.string.anonymous_messenger)+Utils.formatDateTime(getIntent().getLongExtra("time",new Date().getTime())) , "");
+        String photoUriStr = MediaStore.Images.Media.insertImage(getContentResolver(), image, getString(R.string.ghost_messenger)+Utils.formatDateTime(getIntent().getLongExtra("time",new Date().getTime())) , "");
         Uri photoUri = Uri.parse(photoUriStr);
 
         long now = System.currentTimeMillis() / 1000;

@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.util;
+package com.dx.ghostmessenger.util;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

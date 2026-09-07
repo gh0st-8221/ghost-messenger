@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.setup;
+package com.dx.ghostmessenger.ui.view.setup;
 
 import static android.view.inputmethod.EditorInfo.IME_FLAG_NO_PERSONALIZED_LEARNING;
 
@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
 

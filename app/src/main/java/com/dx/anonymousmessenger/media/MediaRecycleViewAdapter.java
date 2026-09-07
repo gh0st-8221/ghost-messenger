@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.media;
+package com.dx.ghostmessenger.media;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,9 +16,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.message_list.MessageListActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.message_list.MessageListActivity;
+import com.dx.ghostmessenger.util.Utils;
 
 import java.util.List;
 

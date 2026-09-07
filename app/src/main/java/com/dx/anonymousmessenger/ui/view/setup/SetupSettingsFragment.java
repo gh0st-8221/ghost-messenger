@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.setup;
+package com.dx.ghostmessenger.ui.view.setup;
 
 import android.Manifest;
 import android.app.Activity;
@@ -33,17 +33,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.service.DxService;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.ui.view.MainActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.AboutActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.DonateActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.LicenseActivity;
-import com.dx.anonymousmessenger.ui.view.single_activity.SimpleScannerActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.service.DxService;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.ui.view.MainActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.AboutActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.DonateActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.LicenseActivity;
+import com.dx.ghostmessenger.ui.view.single_activity.SimpleScannerActivity;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.android.material.textfield.TextInputEditText;
@@ -62,9 +62,9 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.text.InputType;
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.file.BackupHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.file.BackupHelper;
+import com.dx.ghostmessenger.file.FileHelper;
 
 
 /**
@@ -269,7 +269,7 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
                         ? DbHelper.getSettingsList(appDb, true)
                         : appDb.DEFAULT_SETTINGS;
                 if (settings == null || settings.length <= 5) {
-                    Log.d("ANONYMOUSMESSENGER","not right");
+                    Log.d("GHOSTMESSENGER","not right");
                     settings = ((DxApplication) requireActivity().getApplication()).DEFAULT_SETTINGS;
                 }
                 bridgesSwitch.setChecked(((int)settings[0]>0));
@@ -304,7 +304,7 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
         TextView changeAppName = rootView.findViewById(R.id.btn_change_app_name);
 //        changeAppName.setVisibility(View.VISIBLE);
 //        changeAppName.setOnClickListener(v -> {
-//            CharSequence[] names = new CharSequence[]{"Anonymous Messenger", "Securoo", "AM"};
+//            CharSequence[] names = new CharSequence[]{"Ghost Messenger", "Securoo", "AM"};
 //
 //            android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(requireContext(),R.style.AppAlertDialog);
 //            builder.setTitle(R.string.select_app_name);
@@ -312,19 +312,19 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
 //                switch (which) {
 //                    case 0:
 //                        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(requireContext());
-//                        prefs.edit().putString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity").apply();
+//                        prefs.edit().putString("app-name","com.dx.ghostmessenger.ui.view.MainActivity").apply();
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
 //                                new ComponentName(requireActivity(), MainActivity.class),
 //                                PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(), "com.dx.anonymousmessenger.ui.view.AM"),
+//                                new ComponentName(requireActivity(), "com.dx.ghostmessenger.ui.view.AM"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(),  "com.dx.anonymousmessenger.ui.view.Securoo"),
+//                                new ComponentName(requireActivity(),  "com.dx.ghostmessenger.ui.view.Securoo"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        Intent intent = new Intent();
 //                        String packageName = requireContext().getPackageName();
-//                        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+//                        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
 //                        ComponentName componentName = new ComponentName(packageName,
 //                                Objects.requireNonNull(alias));
 //                        intent.setComponent(componentName);
@@ -339,19 +339,19 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
 //                        break;
 //                    case 1:
 //                        SharedPreferences prefs2 = PreferenceManager.getDefaultSharedPreferences(requireContext());
-//                        prefs2.edit().putString("app-name","com.dx.anonymousmessenger.ui.view.Securoo").apply();
+//                        prefs2.edit().putString("app-name","com.dx.ghostmessenger.ui.view.Securoo").apply();
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(), "com.dx.anonymousmessenger.ui.view.Securoo"),
+//                                new ComponentName(requireActivity(), "com.dx.ghostmessenger.ui.view.Securoo"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
 //                                new ComponentName(requireActivity(), MainActivity.class),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(),  "com.dx.anonymousmessenger.ui.view.AM"),
+//                                new ComponentName(requireActivity(),  "com.dx.ghostmessenger.ui.view.AM"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        intent = new Intent();
 //                        packageName = requireContext().getPackageName();
-//                        alias = prefs2.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+//                        alias = prefs2.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
 //                        componentName = new ComponentName(packageName,
 //                                Objects.requireNonNull(alias));
 //                        intent.setComponent(componentName);
@@ -366,19 +366,19 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
 //                        break;
 //                    case 2:
 //                        SharedPreferences prefs3 = PreferenceManager.getDefaultSharedPreferences(requireContext());
-//                        prefs3.edit().putString("app-name","com.dx.anonymousmessenger.ui.view.AM").apply();
+//                        prefs3.edit().putString("app-name","com.dx.ghostmessenger.ui.view.AM").apply();
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(), "com.dx.anonymousmessenger.ui.view.AM"),
+//                                new ComponentName(requireActivity(), "com.dx.ghostmessenger.ui.view.AM"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
 //                                new ComponentName(requireActivity(), MainActivity.class),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        requireActivity().getPackageManager().setComponentEnabledSetting(
-//                                new ComponentName(requireActivity(), "com.dx.anonymousmessenger.ui.view.Securoo"),
+//                                new ComponentName(requireActivity(), "com.dx.ghostmessenger.ui.view.Securoo"),
 //                                PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
 //                        intent = new Intent();
 //                        packageName = requireContext().getPackageName();
-//                        alias = prefs3.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+//                        alias = prefs3.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
 //                        componentName = new ComponentName(packageName,
 //                                Objects.requireNonNull(alias));
 //                        intent.setComponent(componentName);
@@ -409,7 +409,7 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
                 SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(requireContext());
                 Intent intent = new Intent();
                 String packageName = requireContext().getPackageName();
-                String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+                String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
                 ComponentName componentName = new ComponentName(packageName,
                         Objects.requireNonNull(alias));
                 intent.setComponent(componentName);
@@ -1135,7 +1135,7 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
         intent.setType("application/octet-stream");
 
         String timestamp = new java.text.SimpleDateFormat("yyyyMMdd_HHmmss", java.util.Locale.US).format(new java.util.Date());
-        intent.putExtra(Intent.EXTRA_TITLE, "AnonymousMessenger_Backup_" + timestamp + ".abk");
+        intent.putExtra(Intent.EXTRA_TITLE, "GhostMessenger_Backup_" + timestamp + ".abk");
 
         mSaveBackup.launch(intent);
     }

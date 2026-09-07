@@ -60,7 +60,7 @@
     <string name="delete_contact">Contact verwijderen</string>
     <string name="no_contacts">Geen contacten gevonden!</string>
     <string name="tor_output">Tor uitvoer</string>
-    <string name="anonymous_messenger">Anonieme Messenger</string>
+    <string name="ghost_messenger">Anonieme Messenger</string>
     <string name="by_drxtreme">door DrXtreme</string>
     <string name="welcome_to">welkom tot</string>
     <string name="recording">Opnemen</string>
@@ -328,7 +328,7 @@
     <string name="free_memory">vrije geheugen</string>
     <string name="ok">OK</string>
     <string name="with">met</string>
-    <string name="welcome_to_anonymous_messenger">Dit is je volgende veilige messenger</string>
+    <string name="welcome_to_ghost_messenger">Dit is je volgende veilige messenger</string>
     <string name="change_profile_image">Afbeelding veranderen</string>
     <string name="remove_profile_image">Afbeelding verwijderen</string>
     <string name="remove_profile_image_details">Weet je zeker dat je je profielafbeelding wilt verwijderen?</string>
@@ -392,12 +392,12 @@
     <string name="get_help_with_passwords">Hulp krijgen</string>
     <string name="tap_for_password_tips">Klik voor hulp</string>
     <string name="private_messaging_reimagined">Zeg Vrij, Blijf Anoniem</string>
-    <string name="private_secure_anonymous"> Privacy • Versleuteling • Anonimiteit</string>
+    <string name="private_secure_ghost"> Privacy • Versleuteling • Anonimiteit</string>
     <string name="start_private_messaging">VOEG JE NU TOE</string>
     <string name="already_have_account">BACKUP GEBRUIKEN</string>
     <string name="tor_network">⚡ Tor Netwerk</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Anoniem</string>
+    <string name="ghost">🕵️ Anoniem</string>
     <string name="encrypted">🔒 Versleuteld</string>
     <string name="welcome_back">Welkom terug</string>
     <string name="enter_your_password_to_continue">Voer uw wachtwoord in om door te gaan</string>

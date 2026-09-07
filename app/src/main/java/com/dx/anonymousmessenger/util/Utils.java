@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.util;
+package com.dx.ghostmessenger.util;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import androidx.exifinterface.media.ExifInterface;
 
-import com.dx.anonymousmessenger.R;
+import com.dx.ghostmessenger.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -186,7 +186,7 @@ public class Utils {
         }else if(fileSize.endsWith("kb") || fileSize.endsWith("KB")){
             n = n * 1024;
         }
-//        Log.d("ANONYMOUSMESSENGER","file size in bytes is : " + n);
+//        Log.d("GHOSTMESSENGER","file size in bytes is : " + n);
         return n;
     }
 

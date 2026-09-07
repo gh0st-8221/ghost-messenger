@@ -60,7 +60,7 @@
     <string name="delete_contact">Xóa liên hệ</string>
     <string name="no_contacts">Không tìm thấy liên hệ!</string>
     <string name="tor_output">Đầu ra Tor</string>
-    <string name="anonymous_messenger">Messenger Ẩn danh</string>
+    <string name="ghost_messenger">Messenger Ẩn danh</string>
     <string name="by_drxtreme">bởi DrXtreme</string>
     <string name="welcome_to">chào mừng đến</string>
     <string name="recording">Đang ghi âm</string>
@@ -130,7 +130,7 @@
     <string name="new_nickname">Biệt danh mới</string>
     <string name="confirm">Xác nhận</string>
     <string name="action_license">Giấy phép</string>
-    <string name="license">Anonymous Messenger, một giải pháp truyền thông riêng tư hoàn chỉnh hoạt động trên Tor.\n
+    <string name="license">Ghost Messenger, một giải pháp truyền thông riêng tư hoàn chỉnh hoạt động trên Tor.\n
     Copyright © 2021  Sofian M. Benissa\n\n
     Đây là phần mềm tự do: bạn có thể tái phân phối và/hoặc sửa đổi
     theo các điều khoản của Giấy phép Công cộng GNU được công bố bởi
@@ -145,7 +145,7 @@
     <string name="empty_nickname_help">Không thể có biệt danh trống</string>
     <string name="theiraddress">Địa chỉ của họ</string>
     <string name="turn_off_battery">Tắt tối ưu hóa pin?</string>
-    <string name="allow_in_background">cho phép Anonymous Messenger tiếp tục hoạt động ở chế độ nền?</string>
+    <string name="allow_in_background">cho phép Ghost Messenger tiếp tục hoạt động ở chế độ nền?</string>
     <string name="shut_app">Tắt ứng dụng?</string>
     <string name="shut_app_explain">Bạn sẽ không thể nhận tin nhắn cho đến khi bạn giải mã lại với mật khẩu của mình</string>
     <string name="restart_tor">Khởi động lại Tor?</string>
@@ -229,7 +229,7 @@
         được cài đặt trên thiết bị, chúng tôi khuyến nghị thay đổi ứng dụng mặc định của bạn thành các ứng dụng từ
         kho f-droid</string>
     <string name="security_tips03">Cố gắng không vô tình dán địa chỉ bạn bè của bạn vào trình duyệt của bạn vì điều đó có thể gây nguy hiểm cho bạn/đến sự ẩn danh của họ</string>
-    <string name="security_tips04">Gỡ bỏ Anonymous Messenger để xóa tài khoản và xóa
+    <string name="security_tips04">Gỡ bỏ Ghost Messenger để xóa tài khoản và xóa
         mọi thứ.</string>
     <string name="security_tips05">Tải xuống từ dịch vụ onion của chúng tôi an toàn hơn các
         máy chủ clear net của chúng tôi.</string>
@@ -239,9 +239,9 @@
     <string name="security_tips08">Chia sẻ địa chỉ của bạn theo cách an toàn nhất có thể.</string>
     <string name="security_tips09">Nếu có thể, hãy mã hóa bộ nhớ điện thoại.</string>
     <string name="security_tips10">Khi bạn muốn sử dụng VPN hãy đảm bảo rằng khách hàng bạn sử dụng là mã nguồn mở phần mềm tự do như OpenVPN.</string>
-    <string name="security_tips11">Thoát khỏi Anonymous Messenger giữ dữ liệu của bạn được mã hóa trên
+    <string name="security_tips11">Thoát khỏi Ghost Messenger giữ dữ liệu của bạn được mã hóa trên
         thiết bị của bạn.</string>
-    <string name="security_tips12">Nếu có thể hãy xây dựng Anonymous Messenger từ nguồn.</string>
+    <string name="security_tips12">Nếu có thể hãy xây dựng Ghost Messenger từ nguồn.</string>
     <string name="security_tips13">Xác minh danh tính.</string>
     <string name="security_tips14">Đảm bảo rằng bạn không sử dụng bất kỳ ứng dụng sở hữu nào trên điện thoại của bạn và
         rằng bạn sử dụng một chương trình tự do mã nguồn mở để truy cập các trang web mạng xã hội của bạn, dịch vụ tài chính,
@@ -288,7 +288,7 @@
     <string name="slide_to_cancel">Kéo để hủy bỏ</string>
     <string name="sending_file">Đang gửi tệp</string>
     <string name="sending_part_one">Gửi phần 1</string>
-    <string name="screen_filter_body">Một ứng dụng khác đang vẽ lên AnonymousMessenger,
+    <string name="screen_filter_body">Một ứng dụng khác đang vẽ lên GhostMessenger,
         màn hình bị chặn để bảo vệ quyền riêng tư của bạn</string>
     <string name="screen_filter_title">Phát hiện lớp phủ màn hình</string>
     <string name="try_now">Thử ngay</string>
@@ -328,7 +328,7 @@
     <string name="free_memory">bộ nhớ trống</string>
     <string name="ok">OK</string>
     <string name="with">với</string>
-    <string name="welcome_to_anonymous_messenger">Đây là ứng dụng tin nhắn bảo mật tiếp theo của bạn</string>
+    <string name="welcome_to_ghost_messenger">Đây là ứng dụng tin nhắn bảo mật tiếp theo của bạn</string>
     <string name="change_profile_image">Đổi ảnh</string>
     <string name="remove_profile_image">Xóa ảnh</string>
     <string name="remove_profile_image_details">Bạn có chắc chắn bạn muốn xóa ảnh hồ sơ của mình?</string>
@@ -392,12 +392,12 @@
     <string name="get_help_with_passwords">Nhận trợ giúp</string>
     <string name="tap_for_password_tips">Nhấp để nhận trợ giúp</string>
     <string name="private_messaging_reimagined">Nói tự do, Giữ Ẩn danh</string>
-    <string name="private_secure_anonymous"> Riêng tư • Mã hóa • Ẩn danh</string>
+    <string name="private_secure_ghost"> Riêng tư • Mã hóa • Ẩn danh</string>
     <string name="start_private_messaging">THAM GIA NGAY</string>
     <string name="already_have_account">SỬ DỤNG BACKUP</string>
     <string name="tor_network">⚡ Mạng Tor</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Ẩn danh</string>
+    <string name="ghost">🕵️ Ẩn danh</string>
     <string name="encrypted">🔒 Mã hóa</string>
     <string name="welcome_back">Chào mừng trở lại</string>
     <string name="enter_your_password_to_continue">Nhập mật khẩu của bạn để tiếp tục</string>

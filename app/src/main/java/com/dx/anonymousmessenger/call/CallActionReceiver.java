@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.call;
+package com.dx.ghostmessenger.call;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

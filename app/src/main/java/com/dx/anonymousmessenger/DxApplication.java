@@ -1,7 +1,7 @@
-package com.dx.anonymousmessenger;
+package com.dx.ghostmessenger;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
-import static com.dx.anonymousmessenger.messages.MessageSender.sendMediaMessageWithoutSaving;
+import static com.dx.ghostmessenger.messages.MessageSender.sendMediaMessageWithoutSaving;
 
 import android.annotation.SuppressLint;
 import android.app.ActivityManager;
@@ -26,20 +26,20 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.TaskStackBuilder;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.account.DxAccount;
-import com.dx.anonymousmessenger.call.CallController;
-import com.dx.anonymousmessenger.call.DxCallService;
-import com.dx.anonymousmessenger.crypto.Entity;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.messages.MessageSender;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
-import com.dx.anonymousmessenger.receiver.NotificationHiderReceiver;
-import com.dx.anonymousmessenger.service.DxService;
-import com.dx.anonymousmessenger.tor.ServerSocketViaTor;
-import com.dx.anonymousmessenger.tor.TorClient;
-import com.dx.anonymousmessenger.ui.view.MainActivity;
-import com.dx.anonymousmessenger.ui.view.call.CallActivity;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.account.DxAccount;
+import com.dx.ghostmessenger.call.CallController;
+import com.dx.ghostmessenger.call.DxCallService;
+import com.dx.ghostmessenger.crypto.Entity;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.messages.MessageSender;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.receiver.NotificationHiderReceiver;
+import com.dx.ghostmessenger.service.DxService;
+import com.dx.ghostmessenger.tor.ServerSocketViaTor;
+import com.dx.ghostmessenger.tor.TorClient;
+import com.dx.ghostmessenger.ui.view.MainActivity;
+import com.dx.ghostmessenger.ui.view.call.CallActivity;
+import com.dx.ghostmessenger.util.Utils;
 
 import net.sf.msopentech.thali.java.toronionproxy.FileUtilities;
 import net.sf.msopentech.thali.java.toronionproxy.OnionProxyManager;
@@ -204,7 +204,7 @@ public class DxApplication extends Application {
 
     public synchronized void sendQueuedMessages(){
         for (QuotedUserMessage msg:messageQueue){
-//            Log.d("ANONYMOUSMESSENGER","sending a message");
+//            Log.d("GHOSTMESSENGER","sending a message");
             if(msg.getPath()!=null && !msg.getPath().equals("")){
                 if(msg.getType().equals("file")){
                     MessageSender.sendQueuedFile(msg,this,msg.getTo());
@@ -220,7 +220,7 @@ public class DxApplication extends Application {
 
     public synchronized void sendQueuedMessages(List<QuotedUserMessage> messages){
         for (QuotedUserMessage msg:messages){
-//            Log.d("ANONYMOUSMESSENGER","sending a message");
+//            Log.d("GHOSTMESSENGER","sending a message");
             if(msg.getPath()!=null && !msg.getPath().equals("")){
                 if(msg.getType().equals("file")){
                     MessageSender.sendQueuedFile(msg,this,msg.getTo());
@@ -236,7 +236,7 @@ public class DxApplication extends Application {
     public void queueAllUnsentMessages(){
         synchronized (mainQueueLock) {
 //        if(pinging /*|| syncing*/){
-//            Log.d("ANONYMOUSMESSENGER","still pinging or syncing!");
+//            Log.d("GHOSTMESSENGER","still pinging or syncing!");
 //            return;
 //        }
             try {
@@ -527,11 +527,11 @@ public class DxApplication extends Application {
     }
 
     public void reloadSettings(){
-        Log.d("ANONYMOUSMESSENGER", String.valueOf(isAcceptingCallsAllowed));
+        Log.d("GHOSTMESSENGER", String.valueOf(isAcceptingCallsAllowed));
         try{
             Object[] settings = DbHelper.getSettingsList(this);
             if(settings == null){
-                Log.d("ANONYMOUSMESSENGER","settings were null when got from the db");
+                Log.d("GHOSTMESSENGER","settings were null when got from the db");
                 settings = DEFAULT_SETTINGS;
                 DbHelper.saveSettings((int)settings[0]>0,(int)settings[1]>0,(int)settings[2]>0,(int)settings[3]>0,(String)settings[4],(String)settings[5],(int)settings[6]>0, (String) settings[7], (String) settings[8], (String) settings[9], (String) settings[10], (int)settings[11]>0, (int)settings[12]>0,this);
             }
@@ -652,7 +652,7 @@ public class DxApplication extends Application {
         Intent resultIntent = new Intent(this, MainActivity.class);
         String packageName = getPackageName();
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
         ComponentName componentName = new ComponentName(packageName,
                 Objects.requireNonNull(alias));
         resultIntent.setComponent(componentName);
@@ -709,7 +709,7 @@ public class DxApplication extends Application {
         Intent resultIntent = new Intent(this, MainActivity.class);
         String packageName = getPackageName();
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
         ComponentName componentName = new ComponentName(packageName,
                 Objects.requireNonNull(alias));
         resultIntent.setComponent(componentName);
@@ -793,7 +793,7 @@ public class DxApplication extends Application {
         Intent resultIntent = new Intent(this, MainActivity.class);
         String packageName = getPackageName();
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String alias = prefs.getString("app-name","com.dx.anonymousmessenger.ui.view.MainActivity");
+        String alias = prefs.getString("app-name","com.dx.ghostmessenger.ui.view.MainActivity");
         ComponentName componentName = new ComponentName(packageName,
                 Objects.requireNonNull(alias));
         resultIntent.setComponent(componentName);
@@ -951,7 +951,7 @@ public class DxApplication extends Application {
     }
 
     public boolean isServerReady() {
-        Log.d("ANONYMOUSMESSENGER","isServerReady: "+serverReady);
+        Log.d("GHOSTMESSENGER","isServerReady: "+serverReady);
         return serverReady;
     }
 
@@ -966,11 +966,11 @@ public class DxApplication extends Application {
     }
 
     public void startTor(){
-        Log.d("ANONYMOUSMESSENGER","start tor requested");
+        Log.d("GHOSTMESSENGER","start tor requested");
         torStartTime = new Date().getTime();
         reloadSettings();
         if(isServiceRunningInForeground(this, DxService.class)){
-            Log.d("ANONYMOUSMESSENGER","Service already running, not starting tor");
+            Log.d("GHOSTMESSENGER","Service already running, not starting tor");
             return;
         }
         Intent serviceIntent = new Intent(this, DxService.class);
@@ -984,18 +984,18 @@ public class DxApplication extends Application {
 
     public void restartTor(){
         if(restartingTor){
-            Log.d("ANONYMOUSMESSENGER","still restarting, abort");
+            Log.d("GHOSTMESSENGER","still restarting, abort");
             return;
         }
-        Log.d("ANONYMOUSMESSENGER","starting restart now");
+        Log.d("GHOSTMESSENGER","starting restart now");
         restartingTor = true;
         torStartTime = 0;
         new Thread(()->{
         if(torSocket!=null){
             try {
-                Log.d("ANONYMOUSMESSENGER","starting trykill");
+                Log.d("GHOSTMESSENGER","starting trykill");
                 torSocket.tryKill();
-                Log.d("ANONYMOUSMESSENGER","trykill ok");
+                Log.d("GHOSTMESSENGER","trykill ok");
                 Thread.sleep(1500);
             } catch (Exception ignored) {}
             if(serverReady){
@@ -1004,10 +1004,10 @@ public class DxApplication extends Application {
         }
 
         try{
-            Log.d("ANONYMOUSMESSENGER","stopping service");
+            Log.d("GHOSTMESSENGER","stopping service");
             Intent serviceIntent = new Intent(this, DxService.class);
             stopService(serviceIntent);
-            Log.d("ANONYMOUSMESSENGER","service stopped");
+            Log.d("GHOSTMESSENGER","service stopped");
 
             try {
                 Thread.sleep(3500);
@@ -1015,7 +1015,7 @@ public class DxApplication extends Application {
                 e.printStackTrace();
             }
 
-            Log.d("ANONYMOUSMESSENGER","restarting service");
+            Log.d("GHOSTMESSENGER","restarting service");
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 startForegroundService(serviceIntent);
             }else{

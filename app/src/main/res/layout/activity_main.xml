@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/private_secure_anonymous"
+            android:text="@string/private_secure_ghost"
             android:textColor="@color/dx_white"
             android:textSize="16sp"
             android:alpha="0.9"
@@ -80,7 +80,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/anonymous"
+                android:text="@string/ghost"
                 android:textColor="@color/dx_white"
                 android:textSize="12sp"
                 android:paddingHorizontal="12dp"

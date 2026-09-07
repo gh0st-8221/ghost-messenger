@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.Objects;

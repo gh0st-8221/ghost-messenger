@@ -1,11 +1,11 @@
-package com.dx.anonymousmessenger.ui.view.message_list;
+package com.dx.ghostmessenger.ui.view.message_list;
 
 import static androidx.core.content.ContextCompat.getColor;
 import static androidx.core.content.ContextCompat.getDrawable;
 import static androidx.core.content.ContextCompat.getMainExecutor;
 import static androidx.core.content.ContextCompat.getSystemService;
 import static androidx.core.content.ContextCompat.startActivity;
-import static com.dx.anonymousmessenger.file.FileHelper.getAudioFileLengthInSeconds;
+import static com.dx.ghostmessenger.file.FileHelper.getAudioFileLengthInSeconds;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -54,17 +54,17 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.BuildConfig;
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.file.FileHelper;
-import com.dx.anonymousmessenger.media.AudioPlayer;
-import com.dx.anonymousmessenger.messages.QuotedUserMessage;
-import com.dx.anonymousmessenger.ui.custom.InternalLinkMovementMethod;
-import com.dx.anonymousmessenger.ui.view.single_activity.PictureViewerActivity;
-import com.dx.anonymousmessenger.util.CallBack;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.BuildConfig;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.file.FileHelper;
+import com.dx.ghostmessenger.media.AudioPlayer;
+import com.dx.ghostmessenger.messages.QuotedUserMessage;
+import com.dx.ghostmessenger.ui.custom.InternalLinkMovementMethod;
+import com.dx.ghostmessenger.ui.view.single_activity.PictureViewerActivity;
+import com.dx.ghostmessenger.util.CallBack;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -760,7 +760,7 @@ public class MessageListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 //                try{
 //                    final byte[] img_bin = FileHelper.getFile(message.getPath(), app);
 //                    if(img_bin == null){
-//                        Log.d("ANONYMOUSMESSENGER","no img_bin!!!");
+//                        Log.d("GHOSTMESSENGER","no img_bin!!!");
 //                        return;
 //                    }
 //                    MediaMetadataRetriever mmr = new MediaMetadataRetriever();
@@ -785,7 +785,7 @@ public class MessageListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 //                    byte[] thumb = mmr.getEmbeddedPicture();
 //                    Bitmap bitmap = BitmapFactory.decodeByteArray(thumb,0,thumb.length);
 //                    if(bitmap==null){
-//                        Log.d("ANONYMOUSMESSENGER","no bitmap!!!");
+//                        Log.d("GHOSTMESSENGER","no bitmap!!!");
 //                        return;
 //                    }
 //                    new Handler(Looper.getMainLooper()).post(()->{

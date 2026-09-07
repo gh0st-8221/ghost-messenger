@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.receiver;
+package com.dx.ghostmessenger.receiver;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -11,8 +11,8 @@ import android.os.Build;
 
 import androidx.core.app.TaskStackBuilder;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.MainActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.MainActivity;
 
 public class StartMyServiceAtBootReceiver extends BroadcastReceiver {
 

@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace("com.dx.anonymousmessenger")
+        namespace("com.dx.ghostmessenger")
     }
     buildFeatures {
         buildConfig = true
@@ -13,7 +13,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     defaultConfig {
-        applicationId "com.dx.anonymousmessenger"
+        applicationId "com.dx.ghostmessenger"
         minSdkVersion 21
         targetSdkVersion 36
         versionCode 64

@@ -1,10 +1,10 @@
-package com.dx.anonymousmessenger.ui.view.call;
+package com.dx.ghostmessenger.ui.view.call;
 
 import android.os.Bundle;
 import android.view.WindowManager;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
 
 import java.util.Objects;
 

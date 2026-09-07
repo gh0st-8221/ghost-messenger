@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.notepad;
+package com.dx.ghostmessenger.ui.view.notepad;
 
 import static androidx.core.content.ContextCompat.getSystemService;
 
@@ -18,10 +18,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.util.Utils;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;

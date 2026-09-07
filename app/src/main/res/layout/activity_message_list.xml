@@ -22,7 +22,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dx.anonymousmessenger.ui.view.message_list.MessageListActivity">
+    tools:context="com.dx.ghostmessenger.ui.view.message_list.MessageListActivity">
 
     <include
         android:id="@+id/top_bar"
@@ -460,7 +460,7 @@
 <!--                android:layout_width="wrap_content"-->
 <!--                android:layout_height="wrap_content"-->
 <!--                android:layout_gravity="end"-->
-<!--                android:contentDescription="@string/anonymous_messenger"-->
+<!--                android:contentDescription="@string/ghost_messenger"-->
 <!--                app:srcCompat="@drawable/ic_baseline_attach_file_24" />-->
 
 <!--        </LinearLayout>-->

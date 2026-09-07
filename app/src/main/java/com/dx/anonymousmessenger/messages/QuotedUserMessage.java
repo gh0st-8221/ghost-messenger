@@ -1,11 +1,11 @@
-package com.dx.anonymousmessenger.messages;
+package com.dx.ghostmessenger.messages;
 
 import android.util.Log;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.crypto.AddressedEncryptedMessage;
-import com.dx.anonymousmessenger.db.DbHelper;
-import com.dx.anonymousmessenger.util.Utils;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.crypto.AddressedEncryptedMessage;
+import com.dx.ghostmessenger.db.DbHelper;
+import com.dx.ghostmessenger.util.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.service;
+package com.dx.ghostmessenger.service;
 
 import static android.content.pm.ServiceInfo.FOREGROUND_SERVICE_TYPE_REMOTE_MESSAGING;
 
@@ -14,9 +14,9 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.tor.ServerSocketViaTor;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.tor.ServerSocketViaTor;
 
 public class DxService extends Service {
     public final static String SERVICE_NOTIFICATION_CHANNEL = "service_running";

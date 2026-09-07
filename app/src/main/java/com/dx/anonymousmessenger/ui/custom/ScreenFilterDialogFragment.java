@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.custom;
+package com.dx.ghostmessenger.ui.custom;
 
 import static android.os.Build.VERSION.SDK_INT;
 
@@ -16,7 +16,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
 
-import com.dx.anonymousmessenger.R;
+import com.dx.ghostmessenger.R;
 
 public class ScreenFilterDialogFragment extends DialogFragment {
 

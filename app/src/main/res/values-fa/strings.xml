@@ -60,7 +60,7 @@
     <string name="delete_contact">حذف تماس</string>
     <string name="no_contacts">هیچ مخاطبی یافت نشد!</string>
     <string name="tor_output">خروجی تور</string>
-    <string name="anonymous_messenger">پیام‌رسان ناشناس</string>
+    <string name="ghost_messenger">پیام‌رسان ناشناس</string>
     <string name="by_drxtreme">توسط درکس‌تریم</string>
     <string name="welcome_to">خوش آمدید به</string>
     <string name="recording">ضبط</string>
@@ -289,7 +289,7 @@
     <string name="slide_to_cancel">برای لغو به عقب بکشید</string>
     <string name="sending_file">در حال ارسال فایل</string>
     <string name="sending_part_one">ارسال بخش ۱</string>
-    <string name="screen_filter_body">برنامه دیگری در حال ترسیم روی AnonymousMessenger است،
+    <string name="screen_filter_body">برنامه دیگری در حال ترسیم روی GhostMessenger است،
         صفحه مسدود شده برای حفظ حریم خصوصی شما</string>
     <string name="screen_filter_title">لایه صفحه شناسایی شد</string>
     <string name="try_now">حالا امتحان کنید</string>
@@ -329,7 +329,7 @@
     <string name="free_memory">حافظه آزاد</string>
     <string name="ok">تأیید</string>
     <string name="with">با</string>
-    <string name="welcome_to_anonymous_messenger">این پیام‌رسان امن بعدی شماست</string>
+    <string name="welcome_to_ghost_messenger">این پیام‌رسان امن بعدی شماست</string>
     <string name="change_profile_image">تغییر تصویر</string>
     <string name="remove_profile_image">حذف تصویر</string>
     <string name="remove_profile_image_details">آیا مطمئن هستید که می‌خواهید تصویر پروفایل خود را حذف کنید؟</string>
@@ -393,12 +393,12 @@
     <string name="get_help_with_passwords">کمک</string>
     <string name="tap_for_password_tips">برای کمک ضربه بزنید</string>
     <string name="private_messaging_reimagined">از آزادی صحبت کنید، ناشناس بمانید</string>
-    <string name="private_secure_anonymous"> خصوصی • رمزنگاری • ناشناسی</string>
+    <string name="private_secure_ghost"> خصوصی • رمزنگاری • ناشناسی</string>
     <string name="start_private_messaging">ثبت نام کنید</string>
     <string name="already_have_account">استفاده از بکاپ</string>
     <string name="tor_network">⚡ شبکه تور</string>
     <string name="peer_2_peer">🌐 دو به دو</string>
-    <string name="anonymous">🕵️ ناشناس</string>
+    <string name="ghost">🕵️ ناشناس</string>
     <string name="encrypted">🔒 رمزگذاری شده</string>
     <string name="welcome_back">خوش آمدید</string>
     <string name="enter_your_password_to_continue">رمز عبور خود را برای ادامه وارد کنید</string>

@@ -1,4 +1,4 @@
-    package com.dx.anonymousmessenger.ui.view.call;
+    package com.dx.ghostmessenger.ui.view.call;
 
     import android.Manifest;
     import android.annotation.SuppressLint;
@@ -18,12 +18,12 @@
     import androidx.core.content.ContextCompat;
     import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-    import com.dx.anonymousmessenger.DxApplication;
-    import com.dx.anonymousmessenger.R;
-    import com.dx.anonymousmessenger.call.DxCallService;
-    import com.dx.anonymousmessenger.db.DbHelper;
-    import com.dx.anonymousmessenger.ui.view.DxActivity;
-    import com.dx.anonymousmessenger.util.Utils;
+    import com.dx.ghostmessenger.DxApplication;
+    import com.dx.ghostmessenger.R;
+    import com.dx.ghostmessenger.call.DxCallService;
+    import com.dx.ghostmessenger.db.DbHelper;
+    import com.dx.ghostmessenger.ui.view.DxActivity;
+    import com.dx.ghostmessenger.util.Utils;
     import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
     import java.util.Objects;

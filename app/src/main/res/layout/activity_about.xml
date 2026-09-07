@@ -59,7 +59,7 @@
                 android:layout_margin="8dp"
                 android:fontFamily="monospace"
                 android:padding="8dp"
-                android:text="@string/anonymous_messenger"
+                android:text="@string/ghost_messenger"
                 android:textSize="30sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

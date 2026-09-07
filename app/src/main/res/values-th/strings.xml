@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Anonymous Messenger</string>
+    <string name="app_name">Ghost Messenger</string>
     <string name="create_account_button">Start</string>
     <string name="nickname">Nickname</string>
     <string name="nickname_error">Invalid Nickname</string>
@@ -60,7 +60,7 @@
     <string name="delete_contact">Delete Contact</string>
     <string name="no_contacts">No Contacts Found!</string>
     <string name="tor_output">Tor Output</string>
-    <string name="anonymous_messenger">Anonymous Messenger</string>
+    <string name="ghost_messenger">Ghost Messenger</string>
     <string name="by_drxtreme">by DrXtreme</string>
     <string name="welcome_to">welcome to</string>
     <string name="recording">Recording</string>
@@ -82,7 +82,7 @@
     <string name="picture_of_contact">picture of contact</string>
     <string name="hold_on">Hold on!</string>
     <string name="starting_up_tor">Starting Tor</string>
-    <string name="doing_stuff">making you anonymous…</string>
+    <string name="doing_stuff">making you ghost…</string>
     <string name="go_to_contacts">Skip</string>
     <string name="checking">Checking</string>
     <string name="online">online</string>
@@ -93,7 +93,7 @@
     <string name="did_you_forget_your_password">Did you forget your password?</string>
     <string name="hello_hello" translatable="false">hello, hello!</string>
     <string name="_11_40" translatable="false">11:40</string>
-    <string name="crash_message">Anonymous Messenger: you are out of RAM !</string>
+    <string name="crash_message">Ghost Messenger: you are out of RAM !</string>
     <string name="no_encryption_yet">Not ready for encryption yet</string>
     <string name="no_session">Session doesn\'t exist, starting session now</string>
     <string name="audio_message">audio message</string>
@@ -131,7 +131,7 @@
     <string name="confirm">Confirm</string>
     <string name="action_license">License</string>
     <string name="license">
-        Anonymous Messenger, a full private communications solution that works over Tor.\n
+        Ghost Messenger, a full private communications solution that works over Tor.\n
     Copyright © 2021  Sofian M. Benissa\n\n
 
     This program is free software: you can redistribute it and/or modify
@@ -150,7 +150,7 @@
     <string name="empty_nickname_help">Can\'t have an empty nickname</string>
     <string name="theiraddress">Their Address</string>
     <string name="turn_off_battery">Turn off battery optimization?</string>
-    <string name="allow_in_background">allow Anonymous Messenger to keep working in the background?</string>
+    <string name="allow_in_background">allow Ghost Messenger to keep working in the background?</string>
     <string name="shut_app">Shutdown app?</string>
     <string name="shut_app_explain">You won\'t be able to receive messages until you decrypt with your password again</string>
     <string name="restart_tor">Restart Tor?</string>
@@ -194,7 +194,7 @@
     <string name="saved_to_storage">Saved to storage</string>
     <string name="about">A project funded by Alton James Steele and developed by Sofian Mahmoud
         Benissa
-        to bring anonymous secure and convenient
+        to bring ghost secure and convenient
         messaging to you, as we were not satisfied by what was available we decided to
         create our own idea of a messaging application and share it with the world, source code
         is available and the project is licensed under the GNU General Public License so you can
@@ -235,20 +235,20 @@
         f-droid repository</string>
     <string name="security_tips03">Try not to accidentally paste your friend\'s address in your
         browser as that might jeopardize your/their anonymity</string>
-    <string name="security_tips04">Uninstall Anonymous Messenger to delete your account and wipe
+    <string name="security_tips04">Uninstall Ghost Messenger to delete your account and wipe
         everything.</string>
     <string name="security_tips05">Downloading from our onion service is more secure than our
         clear net servers.</string>
     <string name="security_tips06">Your data storage encryption is only as secure as your
         password, we recommend a long password made up of words that mean nothing to you.</string>
-    <string name="security_tips07">Text is more secure and anonymous than anything else.</string>
+    <string name="security_tips07">Text is more secure and ghost than anything else.</string>
     <string name="security_tips08">Share your address in the most secure way possible.</string>
     <string name="security_tips09">Encrypt phone storage if possible.</string>
     <string name="security_tips10">When you want to use a VPN make sure the client you use is open
         source free software such as OpenVPN.</string>
-    <string name="security_tips11">Exiting Anonymous Messenger keeps your data encrypted on your
+    <string name="security_tips11">Exiting Ghost Messenger keeps your data encrypted on your
         phone.</string>
-    <string name="security_tips12">Build Anonymous Messenger from source if possible.</string>
+    <string name="security_tips12">Build Ghost Messenger from source if possible.</string>
     <string name="security_tips13">Verify identities.</string>
     <string name="security_tips14">Make sure you don\'t use any proprietary apps on your phone and
         that you use a free open source program to access your social media sites, financial
@@ -256,7 +256,7 @@
         more permissions than it needs to have, or has any third party advertisements presented by
         the app itself.</string>
     <string name="security_tips15">Consider making a donation to help make this project even
-        better and help us deliver the best solution for anonymous messaging to everyone.</string>
+        better and help us deliver the best solution for ghost messaging to everyone.</string>
     <string name="opening_socks_listener">Opening Socks Listener</string>
     <string name="socks_listener_listening">Socks listener Listening</string>
     <string name="opened_socks_listener">Opened Socks Listener</string>
@@ -295,7 +295,7 @@
     <string name="slide_to_cancel">Slide to cancel</string>
     <string name="sending_file">Sending file</string>
     <string name="sending_part_one">Sending part 1</string>
-    <string name="screen_filter_body">Another app is drawing on top of AnonymousMessenger,         the screen is blocked to protect your privacy</string>
+    <string name="screen_filter_body">Another app is drawing on top of GhostMessenger,         the screen is blocked to protect your privacy</string>
     <string name="screen_filter_title">Screen overlay detected</string>
     <string name="try_now">Try now</string>
     <string name="mic_in_use">Mic may be in use by another app</string>
@@ -334,7 +334,7 @@
     <string name="free_memory">free memory</string>
     <string name="ok">OK</string>
     <string name="with">with</string>
-    <string name="welcome_to_anonymous_messenger">This is your next secure messenger</string>
+    <string name="welcome_to_ghost_messenger">This is your next secure messenger</string>
     <string name="change_profile_image">Change picture</string>
     <string name="remove_profile_image">Remove picture</string>
     <string name="remove_profile_image_details">Are you sure you want to remove your profile picture?</string>
@@ -397,13 +397,13 @@
     <string name="create_your_password">Create your password</string>
     <string name="get_help_with_passwords">Get help</string>
     <string name="tap_for_password_tips">Tap for help</string>
-    <string name="private_messaging_reimagined">Speak Freely, Stay Anonymous</string>
-    <string name="private_secure_anonymous"> Privacy • Encryption • Anonymity</string>
+    <string name="private_messaging_reimagined">Speak Freely, Stay Ghost</string>
+    <string name="private_secure_ghost"> Privacy • Encryption • Anonymity</string>
     <string name="start_private_messaging">JOIN NOW</string>
     <string name="already_have_account">Use BACKUP</string>
     <string name="tor_network">⚡ Tor Network</string>
     <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-    <string name="anonymous">🕵️ Anonymous</string>
+    <string name="ghost">🕵️ Ghost</string>
     <string name="encrypted">🔒 Encrypted</string>
     <string name="welcome_back">Welcome Back</string>
     <string name="enter_your_password_to_continue">Enter your password to continue</string>

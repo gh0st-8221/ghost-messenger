@@ -1,13 +1,13 @@
-package com.dx.anonymousmessenger.ui.view.single_activity;
+package com.dx.ghostmessenger.ui.view.single_activity;
 
 import android.os.Bundle;
 import android.view.WindowManager;
 
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.ui.view.setup.SetupSettingsFragment;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.ui.view.setup.SetupSettingsFragment;
 
 public class SettingsActivity extends DxActivity {
 

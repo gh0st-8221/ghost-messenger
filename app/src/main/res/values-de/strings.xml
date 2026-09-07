@@ -120,7 +120,7 @@
       
   <string name="tor_output">Tor-Ausgabe</string>
       
-  <string name="anonymous_messenger">Anonymer Messenger</string>
+  <string name="ghost_messenger">Anonymer Messenger</string>
       
   <string name="by_drxtreme">von DrXtreme</string>
       
@@ -258,7 +258,7 @@
       
   <string name="action_license">Lizenz</string>
       
-  <string name="license">Anonymous Messenger, eine vollständig private Kommunikationslösung, die über Tor funktioniert.\n Copyright © 2021  Sofian M. Benissa&#13;\n&#13;\nDieses Programm ist freie Software: Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, entweder Version 3 der Lizenz oder (nach Ihrer Wahl) jeder späteren Version weitergeben und/oder modifizieren.\n Dieses Programm wird in der Hoffnung verteilt, dass es nützlich ist, jedoch OHNE JEGLICHE GEWÄHRLEISTUNG; auch ohne die stillschweigende Garantie der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.  Weitere Informationen finden Sie in der GNU General Public License.\n Zusammen mit diesem Programm sollten Sie eine Kopie der GNU General Public License erhalten haben.  Wenn nicht, siehe https://www.gnu.org/licenses .</string>
+  <string name="license">Ghost Messenger, eine vollständig private Kommunikationslösung, die über Tor funktioniert.\n Copyright © 2021  Sofian M. Benissa&#13;\n&#13;\nDieses Programm ist freie Software: Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, entweder Version 3 der Lizenz oder (nach Ihrer Wahl) jeder späteren Version weitergeben und/oder modifizieren.\n Dieses Programm wird in der Hoffnung verteilt, dass es nützlich ist, jedoch OHNE JEGLICHE GEWÄHRLEISTUNG; auch ohne die stillschweigende Garantie der MARKTFÄHIGKEIT oder EIGNUNG FÜR EINEN BESTIMMTEN ZWECK.  Weitere Informationen finden Sie in der GNU General Public License.\n Zusammen mit diesem Programm sollten Sie eine Kopie der GNU General Public License erhalten haben.  Wenn nicht, siehe https://www.gnu.org/licenses .</string>
       
   <string name="copied_address">Kopierte Adresse</string>
       
@@ -268,7 +268,7 @@
       
   <string name="turn_off_battery">Akkuoptimierung deaktivieren?</string>
       
-  <string name="allow_in_background">erlauben, dass der Anonymous Messenger im Hintergrund weiterarbeitet?</string>
+  <string name="allow_in_background">erlauben, dass der Ghost Messenger im Hintergrund weiterarbeitet?</string>
       
   <string name="shut_app">App herunterfahren?</string>
       
@@ -414,7 +414,7 @@
       
   <string name="security_tips03">Versuchen Sie nicht aus Versehen die Adresse eines Freundes oder einer Freundin in Ihren Browser einzufügen, da dies die Anonymität von Ihnen beiden gefährden könnte</string>
       
-  <string name="security_tips04">Deinstallieren Sie den Anonymous Messenger, um Ihr Konto zu löschen und alles zu löschen.</string>
+  <string name="security_tips04">Deinstallieren Sie den Ghost Messenger, um Ihr Konto zu löschen und alles zu löschen.</string>
       
   <string name="security_tips05">Das Herunterladen von unserem Onion Service ist sicherer als von unseren Clear-Net-Servern.</string>
       
@@ -428,9 +428,9 @@
       
   <string name="security_tips10">Wenn Sie ein VPN verwenden möchten, stellen Sie sicher, dass es sich bei dem von Ihnen verwendeten Client um freie Open-Source-Software wie OpenVPN handelt.</string>
       
-  <string name="security_tips11">Beim Beenden des Anonymous Messengers bleiben Ihre Daten auf Ihrem Telefon verschlüsselt.</string>
+  <string name="security_tips11">Beim Beenden des Ghost Messengers bleiben Ihre Daten auf Ihrem Telefon verschlüsselt.</string>
       
-  <string name="security_tips12">Kompilieren Sie den Anonymous Messenger nach Möglichkeit vom Quellcode.</string>
+  <string name="security_tips12">Kompilieren Sie den Ghost Messenger nach Möglichkeit vom Quellcode.</string>
       
   <string name="security_tips13">Überprüfen Sie Identitäten.</string>
       
@@ -512,7 +512,7 @@
       
   <string name="sending_part_one">Senden von Teil 1</string>
       
-  <string name="screen_filter_body">Eine andere App zeichnet über den AnonymousMessenger auf, der Bildschirm ist gesperrt, um Ihre Privatsphäre zu schützen</string>
+  <string name="screen_filter_body">Eine andere App zeichnet über den GhostMessenger auf, der Bildschirm ist gesperrt, um Ihre Privatsphäre zu schützen</string>
       
   <string name="screen_filter_title">Bildschirmüberlagerung erkannt</string>
       
@@ -590,7 +590,7 @@
       
   <string name="with">mit</string>
       
-  <string name="welcome_to_anonymous_messenger">Dies ist Ihr nächster sicherer Messenger</string>
+  <string name="welcome_to_ghost_messenger">Dies ist Ihr nächster sicherer Messenger</string>
       
   <string name="change_profile_image">Bild ändern</string>
       
@@ -666,12 +666,12 @@
    <string name="get_help_with_passwords">Hilfe erhalten</string>
    <string name="tap_for_password_tips">Tippen für Hilfe</string>
    <string name="private_messaging_reimagined">Sprechen Sie frei, bleiben Sie anonym</string>
-   <string name="private_secure_anonymous">Privatsphäre • Verschlüsselung • Anonymität</string>
+   <string name="private_secure_ghost">Privatsphäre • Verschlüsselung • Anonymität</string>
    <string name="start_private_messaging">JETZT BEITRETEN</string>
    <string name="already_have_account">BACKUP VERWENDEN</string>
    <string name="tor_network">⚡ Tor-Netzwerk</string>
    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
-   <string name="anonymous">🕵️ Anonym</string>
+   <string name="ghost">🕵️ Anonym</string>
    <string name="encrypted">🔒 Verschlüsselt</string>
    <string name="welcome_back">Willkommen zurück</string>
    <string name="enter_your_password_to_continue">Geben Sie Ihr Passwort zum Fortfahren ein</string>

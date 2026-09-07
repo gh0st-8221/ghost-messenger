@@ -1,14 +1,14 @@
-package com.dx.anonymousmessenger.media;
+package com.dx.ghostmessenger.media;
 
-import static com.dx.anonymousmessenger.file.FileHelper.getFile;
+import static com.dx.ghostmessenger.file.FileHelper.getFile;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.AudioTrack;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.util.CallBack;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.util.CallBack;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -44,7 +44,7 @@ public class AudioPlayer {
             try {
                 int read = is.read(receiveData, 0, receiveData.length);
                 if(read<1){
-                    //Log.d("ANONYMOUSMESSENGER","done playing");
+                    //Log.d("GHOSTMESSENGER","done playing");
                     stop(1);
                     break;
                 }
@@ -59,9 +59,9 @@ public class AudioPlayer {
         play = false;
         path = null;
         try{
-            //Log.d("ANONYMOUSMESSENGER","checking for callback");
+            //Log.d("GHOSTMESSENGER","checking for callback");
             if(callBack!=null){
-                //Log.d("ANONYMOUSMESSENGER","found callback");
+                //Log.d("GHOSTMESSENGER","found callback");
                 callBack.doStuff();
             }
         }catch (Exception e) {
@@ -87,7 +87,7 @@ public class AudioPlayer {
             at.write(soundBytes, 0, soundBytes.length);
             at.play();
         } catch (Exception ignored) {
-            //Log.d("ANONYMOUSMESSENGER","Not working in speakers...");
+            //Log.d("GHOSTMESSENGER","Not working in speakers...");
             //e.printStackTrace();
         }
     }

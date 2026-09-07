@@ -60,7 +60,7 @@
     <string name="delete_contact">ⴰⵙⴽⵔ ⵜⴰⵎⵓⵔⵉⵜ</string>
     <string name="no_contacts">ⵓⵔⵉ ⵜⵉⵎⵓⵔⵉⵜⵉⵏ</string>
     <string name="tor_output">ⴰⵢⴷⵓ ⵏ ⵜⵓⵕⵔ</string>
-    <string name="anonymous_messenger">ⵓⵙⵙⴰⵏ ⵏ ⵜⵓⵕⵔⵉⵜ</string>
+    <string name="ghost_messenger">ⵓⵙⵙⴰⵏ ⵏ ⵜⵓⵕⵔⵉⵜ</string>
     <string name="by_drxtreme">ⴷⵔⵏⵉ ⵏ ⵜⵓⵕⵔⵉⵜ</string>
     <string name="welcome_to">ⴰⴳⵓⵔ ⵙⴳ</string>
     <string name="recording">ⴰⵙⵎⵓⵏⵖ</string>
@@ -301,7 +301,7 @@
     <string name="free_memory">ⵜⴰⵎⵓⵔⵜ ⵜⵡⴰⵙⵏ</string>
     <string name="ok">ⵓⵔⵉ</string>
     <string name="with">ⵙ</string>
-    <string name="welcome_to_anonymous_messenger">ⴰⴳⵓⵔ ⵏⵏⵓⵏ ⵜⵉⵢⵢⵓⵔⵜ ⵜⴰⵔⴰⵣⵜ</string>
+    <string name="welcome_to_ghost_messenger">ⴰⴳⵓⵔ ⵏⵏⵓⵏ ⵜⵉⵢⵢⵓⵔⵜ ⵜⴰⵔⴰⵣⵜ</string>
     <string name="change_profile_image">ⴰⵙⴱⵔⴰⵔ ⵜⵉⵎⵎⵓⵔⵜ</string>
     <string name="remove_profile_image">ⴰⵙⴽⵕⵎ ⵜⵉⵎⵎⵓⵔⵜ</string>
     <string name="remove_profile_image_details">ⴰⴷ ⵜⵡⴰⵙⵎ ⵜⵉⵎⵎⵓⵔⵜ ⵏ ⵜⵉⵖⵣⵢⵜ?</string>
@@ -365,12 +365,12 @@
     <string name="get_help_with_passwords">ⴰⵎⵓⵔⵉ</string>
     <string name="tap_for_password_tips">ⵚⵡⴰⵒ ⴰⴷ ⵜⵡⴰⵙⵎ</string>
     <string name="private_messaging_reimagined">ⵜⵢⵢⵓⵔⵜ ⵜⴰⵙⵙⵏⵜ ⵜⵉⵖⵣⵢⵜ</string>
-    <string name="private_secure_anonymous">ⵜⵉⵖⵣⵢⵜ • ⵜⵉⵖⴰⵕⵜ • ⵜⵉⵖⵣⵢⵜ ⵏⵖ</string>
+    <string name="private_secure_ghost">ⵜⵉⵖⵣⵢⵜ • ⵜⵉⵖⴰⵕⵜ • ⵜⵉⵖⵣⵢⵜ ⵏⵖ</string>
     <string name="start_private_messaging">ⵙⵔⵎ ⴰⴷ ⴰⵎⵙⵙⵓⵜ</string>
     <string name="already_have_account">ⵙⵔⵎ ⵜⵉⵖⵣⵢⵜ</string>
     <string name="tor_network">⚡ ⵜⵓⵕⵔ</string>
     <string name="peer_2_peer">🌐 ⵜⴰⵎⵓⵔⵜ ⵜⴰⵎⵓⵔⵜ</string>
-    <string name="anonymous">🕵️ ⵜⵉⵖⵣⵢⵜ ⵏⵖ</string>
+    <string name="ghost">🕵️ ⵜⵉⵖⵣⵢⵜ ⵏⵖ</string>
     <string name="encrypted">🔒 ⵜⵉⵖⴰⵕⵜ</string>
     <string name="welcome_back">ⴰⴳⵓⵔ ⴰⵎⵙⵙⵓⵜ</string>
     <string name="enter_your_password_to_continue">ⵙⵙⵓⵖⵍⵏ ⴰⴷⴷⵓⵖ ⴰⴷ ⵜⵡⴰⵙⵎ</string>

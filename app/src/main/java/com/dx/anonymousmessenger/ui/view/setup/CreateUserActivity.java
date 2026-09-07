@@ -1,4 +1,4 @@
-package com.dx.anonymousmessenger.ui.view.setup;
+package com.dx.ghostmessenger.ui.view.setup;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,11 +6,11 @@ import android.view.WindowManager;
 
 import androidx.fragment.app.Fragment;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
-import com.dx.anonymousmessenger.ui.view.DxActivity;
-import com.dx.anonymousmessenger.ui.view.MainActivity;
-import com.dx.anonymousmessenger.ui.view.app.AppActivity;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.ui.view.DxActivity;
+import com.dx.ghostmessenger.ui.view.MainActivity;
+import com.dx.ghostmessenger.ui.view.app.AppActivity;
 import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.ArrayList;

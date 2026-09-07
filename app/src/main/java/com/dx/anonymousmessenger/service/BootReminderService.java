@@ -1,11 +1,11 @@
-package com.dx.anonymousmessenger.service;
+package com.dx.ghostmessenger.service;
 
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
 
-import com.dx.anonymousmessenger.DxApplication;
-import com.dx.anonymousmessenger.R;
+import com.dx.ghostmessenger.DxApplication;
+import com.dx.ghostmessenger.R;
 
 import java.io.File;
 
