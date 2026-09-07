@@ -1,0 +1,438 @@
+<resources>
+    <string name="app_name">Anonym Messenger</string>
+    <string name="create_account_button">Starta</string>
+    <string name="nickname">Smeknamn</string>
+    <string name="nickname_error">Ogiltigt smeknamn</string>
+    <string name="nickname_help">Ange smeknamn för att fortsätta</string>
+    <string name="nickname_okay">Bra smeknamn!</string>
+    <string name="next_button">Nästa</string>
+    <string name="choose_password">Välj lösenord</string>
+    <string name="confirm_password">Bekräfta lösenord</string>
+    <string name="setup_password_explanation">Lösenordet du anger kommer att användas för att kryptera data på din enhet, detta är inte ett inloggning lösenord och kan inte användas för återställning, du måste ange ditt lösenord senare när du öppnar appen efter att ha lämnat den, denna app kopplar sig aldrig till några servrar.</string>
+    <string name="password_too_weak">Ditt lösenord är för svagt, vi kan inte låta dig göra detta eftersom vi bryr om din säkerhet</string>
+    <string name="passwords_do_not_match">Lösenorden matchar inte</string>
+    <string name="channel4">kanal4</string>
+    <string name="channel_description">detta och det</string>
+    <string name="hello_blank_fragment">Hej tomt fragment</string>
+    <string name="enter_password">Ange lösenord</string>
+    <string name="decrypt_button">Avkryptera</string>
+    <string name="myaddress">Min adress</string>
+    <string name="hint_contact_address">Ange kontaktadress (.onion)</string>
+    <string name="lbl_contact_address">Ange kontaktadress</string>
+    <string name="enter_message">Säker meddelande…</string>
+    <string name="send_button">SKICKA</string>
+    <string name="reply">Svara</string>
+    <string name="pin">Fäst</string>
+    <string name="copy">Kopiera</string>
+    <string name="you">du</string>
+    <string name="action_reset_session">Återställ session</string>
+    <string name="action_verify_identity">Verifiera identitet</string>
+    <string name="action_clear_conversation">Rensa konversation</string>
+    <string name="action_search">Sök</string>
+    <string name="action_shutdown">Stäng av</string>
+    <string name="action_my_identity">Min identitet</string>
+    <string name="action_restart_tor">Starta om Tor</string>
+    <string name="my_identity_explanation">Offentlig nyckel används för att verifiera identitet</string>
+    <string name="verify_identity_explanation">Båda offentliga nycklarna tillsammans för att verifiera båda identiteter</string>
+    <string name="verify_identity_how_to">Jämför dessa nummer på båda enheterna, om de är lika fungerar E2E-kryptering korrekt…</string>
+    <string name="action_call">Uppringa</string>
+    <string name="ask_me_again">Fråga igen</string>
+    <string name="no_thanks">Nej tack</string>
+    <string name="why_need_mic">appen kräver detta för att ringa eller ta emot samtal</string>
+    <string name="mic_perm_ask_title">Mikrofon behörighet</string>
+    <string name="ask_for_mic_btn">OK</string>
+    <string name="accept_call">Acceptera</string>
+    <string name="dx_call">TOR SAMTAL</string>
+    <string name="call_picture_description">uppringningsskärm bild</string>
+    <string name="end_call">Lägg på</string>
+    <string name="connecting">Ansluter…</string>
+    <string name="CallNotificationBuilder_connecting">Ansluter</string>
+    <string name="NotificationBarManager__incoming_call">Inkommande samtal</string>
+    <string name="NotificationBarManager_call_in_progress">Samtal pågående</string>
+    <string name="NotificationBarManager__establishing_call">Upprätta samtal</string>
+    <string name="trying">försöker</string>
+    <string name="ringing">Ringning</string>
+    <string name="connected">Ansluten</string>
+    <string name="answer">svara</string>
+    <string name="incoming_call">Inkommande samtal</string>
+    <string name="identity_verification_fail">Kunde inte hämta identitetsnycklar</string>
+    <string name="identity_key_fail">Kan inte hitta din identitetsnyckel</string>
+    <string name="delete_contact">Ta bort kontakt</string>
+    <string name="no_contacts">Hittade inga kontakter!</string>
+    <string name="tor_output">Tor utgång</string>
+    <string name="anonymous_messenger">Anonym Messenger</string>
+    <string name="by_drxtreme">av DrXtreme</string>
+    <string name="welcome_to">välkommen till</string>
+    <string name="recording">Inspelning</string>
+    <string name="send">SKICKA</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">visa när det inte är läst</string>
+    <string name="text_msg_placeholder">kompis glömde att påminna dig om den där saken</string>
+    <string name="profile_image">profilbild</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31min</string>
+    <string name="seen_image">sett bild</string>
+    <string name="msg_place_holder">hej kompis, hur är det?</string>
+    <string name="indicates_secure_messaging">visar säkert meddelande</string>
+    <string name="textview">Textvy</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">hej kompis, hur är det?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">offline</string>
+    <string name="picture_of_contact">kontaktbild</string>
+    <string name="hold_on">Vänta!</string>
+    <string name="starting_up_tor">startar Tor</string>
+    <string name="doing_stuff">gör dig anonym…</string>
+    <string name="go_to_contacts">Hoppa över</string>
+    <string name="checking">Kontrollerar</string>
+    <string name="online">online</string>
+    <string name="synced">synkroniserad</string>
+    <string name="add_contact">Lägg till kontakt</string>
+    <string name="waiting_for_tor">vänder på Tor</string>
+    <string name="oh_no">Åh nej!</string>
+    <string name="did_you_forget_your_password">Glömde ditt lösenord?</string>
+    <string name="hello_hello" translatable="false">hej, hej!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Anonym Messenger: du har slut på RAM!</string>
+    <string name="no_encryption_yet">Inte redo för kryptering än</string>
+    <string name="no_session">Session finns inte, startar session nu</string>
+    <string name="audio_message">ljudmeddelande</string>
+    <string name="user_is_online">Användare är online</string>
+    <string name="user_is_offline">Användare är offline</string>
+    <string name="cant_encrypt_message">Kunde inte kryptera meddelande, måste du vänta på nyckelutbyte</string>
+    <string name="resp_key_exchange">Svarsnyckelutbytesmeddelande</string>
+    <string name="key_exchange_message">Nyckelutbytesmeddelande</string>
+    <string name="image_to_send">bild att skicka</string>
+    <string name="read_storage_perm_ask_title">Läs lagringsbehörighet</string>
+    <string name="why_need_read_storage">appen kräver detta för att kunna skicka
+        bilder lagrade på din telefon</string>
+    <string name="icon_for_image_to_send">ikon för bild att skicka</string>
+    <string name="image">bild</string>
+    <string name="pic_help">Stäng</string>
+    <string name="send_media_to">"Skicka media till "</string>
+    <string name="picure_view">Bildvy</string>
+    <string name="media_message">mediemeddelande</string>
+    <string name="caption">Lägg till rubrik</string>
+    <string name="still_background">Körs i bakgrunden</string>
+    <string name="click_to_hide">Dölj avisering</string>
+    <string name="unpin">Ta bort fäst</string>
+    <string name="profile_contact">Visa profil</string>
+    <string name="save_picture">Spara bild</string>
+    <string name="confirm_add_contact">"Vill du verkligen lägga till "</string>
+    <string name="contact_exists">Kontakt finns redan!</string>
+    <string name="cant_add_contact">kan inte lägga till kontakt!</string>
+    <string name="save_to_storage">Spara till delad lagring?</string>
+    <string name="save_to_storage_explain">Andra appar kommer att få åtkomst till denna bild om den sparas i delad lagring.</string>
+    <string name="action_my_profile">Min profil</string>
+    <string name="action_help">Hjälp</string>
+    <string name="action_about">Om</string>
+    <string name="change_nickname">Ändra smeknamn</string>
+    <string name="new_nickname">Nytt smeknamn</string>
+    <string name="confirm">Bekräfta</string>
+    <string name="action_license">Licens</string>
+    <string name="license">Anonym Messenger, en komplett privat kommunikationslösning som fungerar över Tor.\n
+    Copyright © 2021  Sofian M. Benissa\n\n
+    Detta program är fri programvara: du kan återföra det och/eller ändra det
+    under villkoren för GNU General Public License publicerad av
+    Free Software Foundation, antingen licensversion 3, eller
+    (på ditt val) någon senare version.\n
+    Detta program distribueras i hopp om att det ska vara användbart,\n
+    men UTAN NÅGON GARANTI; utan ens om garanterat försäljning eller lämplighet för
+    EN SPECIFIC TILLÄMPNING. Se GNU General Public License för mer detaljer.\n
+    Du bör ha mottagit en kopia av GNU General Public License
+        tillsammans med detta program. Om inte, se https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Kopierad adress</string>
+    <string name="empty_nickname_help">Kan inte ha ett tomt smeknamn</string>
+    <string name="theiraddress">Deras adress</string>
+    <string name="turn_off_battery">Stäng batterioptimering?</string>
+    <string name="allow_in_background">tillåt Anonym Messenger att fortsätta arbeta i bakgrunden?</string>
+    <string name="shut_app">Stänga appen?</string>
+    <string name="shut_app_explain">Du kommer inte att kunna ta emot meddelanden tills du krypterar om med ditt lösenord igen</string>
+    <string name="restart_tor">Starta om Tor?</string>
+    <string name="restart_tor_explain">Detta bör inte behövas i normal drift om du inte tror att Tor inte fungerar bra just nu</string>
+    <string name="restarting_service">Startar om tjänst</string>
+    <string name="connection_restored">Anslutning återställd</string>
+    <string name="lost_connection">Förlorad anslutning</string>
+    <string name="connection_is_coming">anslutning borde komma tillbaka snart</string>
+    <string name="will_receive_messages_soon">borde kunna ta emot meddelanden inom 2 minuter</string>
+    <string name="waiting_for_connectivity">väntar på anslutning</string>
+    <string name="almost_ready">Snart redo!</string>
+    <string name="starting_tor_first_time">Startar Tor och värmer upp för att få allt vi behöver koppla till!</string>
+    <string name="ready_to_chat">Redo för säkert chatt!</string>
+    <string name="you_got_all_you_need">Du har fått allt du behöver för att chatta säkert med dina vänner!</string>
+    <string name="new_message">Nytt meddelande!</string>
+    <string name="you_have_message">du har ett nytt hemligt meddelande</string>
+    <string name="wrong_password">Fel lösenord</string>
+    <string name="no_key">krypteringsnyckel inte hittad</string>
+    <string name="error">fel</string>
+   <string name="failed_to_decrypt">AVKRYPTERING AV MEDDELANDE MISSLYCKAT</string>
+    <string name="failed_to_read_after_decrypt">LÄSNING AV AVKRYPTERAT MEDDELANDE MISSLYCKAT</string>
+    <string name="failed_to_get_AEM">AVKRYPTERING AV AddressedEncryptedMessage MISSLYCKAT</string>
+    <string name="cant_add_self">Du kan inte lägga till dig själv!</string>
+    <string name="waiting_for_response">Skickade nyckel, väntar på svar</string>
+    <string name="decrypting">Avkryptering…</string>
+    <string name="stale_key">Mottog utgången nyckel (ignorera)</string>
+    <string name="invalid_key">Mottog ogiltig nyckel</string>
+    <string name="untrusted_identity">Mottog nyckel från en Opålitig Identitet</string>
+    <string name="bad_message">Korrupt meddelande</string>
+    <string name="decrypt_reminder_title">Avkryptera för att ta emot meddelanden</string>
+    <string name="decrypt_reminder_message">du måste ange ditt lösenord för att köra i
+        bakgrunden</string>
+    <string name="denied_microphone">Mikrofon behörighet nekade</string>
+    <string name="denied_microphone_help">så på det sätt kan du inte ringa eller ta emot samtal</string>
+    <string name="delete_messages">Radera alla meddelanden?</string>
+    <string name="delete_messages_help"> detta kommer också att radera fästa meddelanden!</string>
+    <string name="yes">Ja</string>
+    <string name="pinned_message">Meddelande fäst</string>
+    <string name="unpinned_message">Meddelande fäst bort</string>
+    <string name="copied">Kopierad</string>
+    <string name="saved_to_storage">Sparad till lagring</string>
+    <string name="about">Ett projekt finanserad av Alton James Steele och utvecklad av Sofian Mahmoud
+        Benissa
+        för att bringa anonymt säkert och bekväm
+        kommunikation till dig, eftersom vi inte var tillfreds med vad som var tillgängligt vi beslutade att
+        skapa vårt eget koncept för en meddelandeapp och dela det med världen, källkoden är tillgänglig och projektet är licensierat under GNU General Public License så du kan
+        ta fullt utnyttja det och ha friheten att ändra det med andra
+        friheter</string>
+    <string name="copyright">Copyright © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Säkerhetstips</string>
+    <string name="hide_notification">stäng service_running avisering</string>
+    <string name="record_audio">spela in ljud</string>
+    <string name="send_file">skicka fil</string>
+    <string name="scroll_down">scrolla ner</string>
+    <string name="file">Fil</string>
+    <string name="unknown_file_name">Okänd filnamn</string>
+    <string name="unknown_file_size">Okänd filstorlek</string>
+    <string name="recording_failed">Kan inte spela in nu, kanske det pågår ett samtal?</string>
+    <string name="feature_unready">denna funktion kommer att vara redo i nästa uppdatering</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Använd en tangentbord som respekterar din frihet och inte
+        ansluter till internet, vi rekommenderar OpenBoard</string>
+    <string name="security_tips02">Din säkerhet beror i stor utsträckning på applikationer
+        installerade på enheten, vi rekommenderar att ändra dina standardappar till appar från f-droid repo</string>
+    <string name="security_tips03">Försök inte misslyckas att klistra in din väns adress i din webbläsare, eftersom detta kan vara farligt för dig/deras anonymitet</string>
+    <string name="security_tips04">Avinstallera Anonym Messenger för att radera ditt konto och radera allt.</string>
+    <string name="security_tips05">Hämta från vår onion-tjänst är säkrare än våra clear net servrar.</string>
+    <string name="security_tips06">Din datalagring kryptering är bara lika säker som ditt
+        lösenord, vi rekommenderar ett långt lösenord bestående av ord som betyder ingenting för dig.</string>
+    <string name="security_tips07">Text är säkrare och anonymare än något annat.</string>
+    <string name="security_tips08">Dela din adress på det säkraste sättet möjligt.</string>
+    <string name="security_tips09">Kryptera telefonlagring om möjligt.</string>
+    <string name="security_tips10">När du vill använda VPN, se till att din klient du använder är öppen
+        källfrig programvara som OpenVPN.</string>
+    <string name="security_tips11">När du lämnar Anonym Messenger håller dina data krypterad på din
+        telefon.</string>
+    <string name="security_tips12">Bygg Anonym Messenger från källkoden om möjligt.</string>
+    <string name="security_tips13">Verifiera identiteter.</string>
+    <string name="security_tips14">Se till att du inte använder några proprietära appar på din telefon och att du använder ett gratis öppen källprogram att komma åt dina sociala medier webbplatser, finans tjänster och, generellt, inte ha något
+        app som du inte kan lita på eller en som kräver mer
+        behörighet än vad det behöver, eller som har någon tredje part reklam presenterade av
+        appen själv.</string>
+    <string name="security_tips15">Överväg att donera för att hjälpa göra detta projekt ännu bättre och hjälpa oss leverera den bästa lösningen för anonymt meddelande till alla.</string>
+    <string name="opening_socks_listener">Öppna Socks Lyssnare</string>
+    <string name="socks_listener_listening">Socks Lyssnare Lyssnar</string>
+    <string name="opened_socks_listener">Öppna Socks Lyssnare</string>
+    <string name="opening_control_listener">Öppna Control Lyssnare</string>
+    <string name="control_listener_listening">Control Lyssnare Lyssnar</string>
+    <string name="opened_control_listener">Öppna Control Lyssnare</string>
+    <string name="action_notepad">Anteckningsbok</string>
+    <string name="save">Spara</string>
+    <string name="enter_note">Spara krypterad anteckning</string>
+    <string name="delete_contact_question">Ta bort denna kontakt?</string>
+    <string name="delete_contact_details">detta kan inte ångras och kommer också att radera denna kontakts session och konversation</string>
+    <string name="delete_note_question">Ta bort denna anteckning?</string>
+    <string name="delete_note_details">detta kan inte ångras</string>
+    <string name="delete_note">Radera</string>
+    <string name="open_link_question">Öppna denna länk?</string>
+    <string name="open_link_describe">Öppna länkar utanför privata appar kan göra dig anonym,
+        gör bara detta om du litar på länken eller använd Tor webbläsare om möjligt</string>
+    <string name="scan">Skanna QR-kod</string>
+    <string name="contact_added">Kontakt tillagd</string>
+    <string name="cam_perm_ask_title">Kamera behörighet</string>
+    <string name="why_need_cam">QR-scanning kommer inte att fungera utan kamerabehörighet</string>
+    <string name="ask_for_cam_btn">OK</string>
+    <string name="invalid_address">Ogiltig adress</string>
+    <string name="action_log">Säkerhetslogg</string>
+    <string name="delete_log_question">Radera?</string>
+    <string name="delete_log_details">Detta kan inte ångras</string>
+    <string name="action_log_notice">Inkludera underrättelse</string>
+    <string name="action_clear_log">Rensa logg</string>
+    <string name="include_notice_logs">Inkludera underrättelse loggar</string>
+    <string name="decrypting2">Avkryptering</string>
+    <string name="open_file_question">Öppna fil i ett annat program?</string>
+    <string name="open_file_describe">Detta kommer att avkryptera filen och ge åtkomst till en tredje
+        app som kan kompromittera filen</string>
+    <string name="deleted_logs">Loggen har rensats</string>
+    <string name="saving">"Spara "</string>
+    <string name="cancel">Avbryt</string>
+    <string name="slide_to_cancel">Sridra för att avbryta</string>
+    <string name="sending_file">Skicka fil</string>
+    <string name="sending_part_one">Skicka del 1</string>
+    <string name="screen_filter_body">Ett annat program ritar över Anonym Messenger,
+        skärmen är låst för att skydda din integritet</string>
+    <string name="screen_filter_title">Upptäckt skärmyta</string>
+    <string name="try_now">Prova nu</string>
+    <string name="mic_in_use">Mikrofon kan användas av ett annat program</string>
+    <string name="back_image">återgå</string>
+    <string name="subtitle">Undertitel</string>
+    <string name="qr_code_image">Bild innehållande QR-kod</string>
+    <string name="go_to_app">Öppna appen</string>
+    <string name="use_bridges">Använd Broar</string>
+    <string name="request_bridge">Be om bro</string>
+    <string name="done_button">Färdig</string>
+    <string name="allow_unknown">Acceptera Okända Kontakter</string>
+    <string name="allow_files">Tillåt att ta emot filer</string>
+    <string name="file_limit">Filstorleksgräns</string>
+    <string name="allow_calls">Tillåt samtal</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="delete_bridge_question">Ta bort denna bro?</string>
+    <string name="delete_bridge_details">detta kan inte ångras</string>
+    <string name="online_check_address">Online Kontrollera Adress</string>
+    <string name="reset_settings">Återställ inställningar</string>
+    <string name="bridges">Broar (starta om Tor för att vara verksamma)</string>
+    <string name="other">Övrigt</string>
+    <string name="reset">Återställ</string>
+    <string name="security">Säkerhet</string>
+    <string name="connectivity">Anslutbarhet</string>
+    <string name="add_bridge">Lägg till bro</string>
+    <string name="request_bridge_help">Du kan be om en bro från Tor-projektet genom att följa denna länk: https://bridges.torproject.org/bridges?transport=obfs4  eller du kan skriva en e-post till bridges@torproject.org eller köra din egen bro och använda det.</string>
+    <string name="button_undo">Ångra</string>
+    <string name="insert_bridge_line">Infoga brulinje</string>
+    <string name="nickname_explain_title">Smeknamn användning</string>
+    <string name="nickname_explain">Ditt smeknamn lagras på din enhet och skickas bara krypterat med ditt meddelande direkt till din kontakt, du kopplar dig aldrig till en server när du använder denna app.</string>
+    <string name="password_explain_title">Lösenordsanvändning</string>
+    <string name="online_check_address_explain">Denna adress används för att säkerställa att du är online och allt är korrekt inställt, detta kan vara vilken webbserveradress som helst, eftersom vi bara kontrollerar nåbarhet, kan också vara en doldtjänst eller vanlig adress.</string>
+    <string name="running_on">Kör på: </string>
+    <string name="processors">processorer</string>
+    <string name="and">och </string>
+    <string name="free_memory">ledigt minne</string>
+    <string name="ok">OK</string>
+    <string name="with">med </string>
+    <string name="welcome_to_anonymous_messenger">Det är din nästa säkerare meddelare</string>
+    <string name="change_profile_image">Ändra bild</string>
+    <string name="remove_profile_image">Ta bort bild</string>
+    <string name="remove_profile_image_details">Är du säker att du vill ta bort din profilbild?</string>
+    <string name="profile_image_changed">Profilbild ändrad</string>
+    <string name="profile_image_removed">Profilbild borttagen</string>
+    <string name="restart_app">Återställ App</string>
+    <string name="unknown_exception">Okänt fel</string>
+    <string name="error_occurred">Något har gått fel</string>
+    <string name="error_details">Fel detaljer</string>
+    <string name="retry">Försök igen</string>
+    <string name="use_proxy">Använd en Socks5 Proxy</string>
+    <string name="proxy_address">Socks5 proxy adress</string>
+    <string name="proxy_username">Användarnamn</string>
+    <string name="proxy_password">Lösenord</string>
+    <string name="tor_error">Tor kunde inte ansluta inom 300s, du kan försöka använda broar eller ansluta genom vilken socks5 proxy i inställningarna</string>
+    <string name="tor_error_title">Fel vid start av Tor</string>
+    <string name="stay_offline">Bli offline</string>
+    <string name="proxy">Socks5 proxy (starta om Tor för att vara verksamma)</string>
+    <string name="exclude_tor_nodes">Exkludera Tor noder (starta om Tor för att vara verksamma)</string>
+    <string name="exclude_unknown">Exkludera Okända Noder</string>
+    <string name="strict_exclude">Strikt exkludera</string>
+    <string name="action_scroll_up">Scrolla upp</string>
+    <string name="action_scroll_down">Scrolla ner</string>
+    <string name="action_clear_tor_cache">Rensa Tor cache</string>
+    <string name="clear_tor_cache_explain">Detta kan vara användbart om cachade beskrivare är föråldrade, men rekommenderas inte att göra detta ofta eftersom prestanda och anonimitet överväganden.</string>
+    <string name="disappearing_messages_default">Rensa Ej Fastänkta Meddelanden Efter 24hr</string>
+    <string name="tor_exited">Tor lämnade</string>
+    <string name="action_change_app_name">Ändra App Namn</string>
+    <string name="select_app_name">Välj App Namn</string>
+    <string name="action_change_theme">Ändra Tema</string>
+    <string name="dark_theme">Mörkt tema</string>
+    <string name="light_theme">Ljust tema</string>
+    <string name="invalid_bridge">Ogiltig Bro</string>
+    <string name="bridge_added">Bro Tillagd</string>
+    <string name="nickname_help_explain">Klicka för information om smeknamn användning</string>
+    <string name="no_recent_messages">Inga Nya Meddelanden!</string>
+    <string name="unpinned_messages_get_deleted">Visste du att ej fastänkta meddelanden varje 24 timmar raderas?</string>
+    <string name="continue_without_password">Använd inte ett lösenord</string>
+    <string name="hangup">Lägg på</string>
+    <string name="outgoing_call">Utgående samtal</string>
+    <string name="return_to_call">Återgå till samtal</string>
+    <string name="action_donate">Donera</string>
+    <string name="donate_text">Du kan donera för att hjälpa projektet</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Skicka Bild</string>
+    <string name="error_accessing_storage">Fel vid åtkomst till extern lagring</string>
+    <string name="error_opening_image">Fel vid öppnande av bild från extern lagring</string>
+    <string name="step_1_choose_your_nickname">STEG 1: VÄLJ DITT SMEKNAMN</string>
+    <string name="what_should_people_call_you">Hur ska folk kalla dig?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Detta namn kommer att vara synligt för andra användare. Du kan ändra det senare.</string>
+    <string name="type_your_nickname_here">SKRIV DITT SMEKNAMN HÄR: 👇</string>
+    <string name="enter_nickname">Ange smeknamn</string>
+    <string name="get_help_with_choosing_a_nickname">Få hjälp med att välja ett smeknamn</string>
+    <string name="tap_for_help">💡Klicka för hjälp</string>
+    <string name="continue_txt">FORTSÄTTA →</string>
+    <string name="step_2_secure_your_account">STEG 2: SÄKRA DITT KONTO</string>
+    <string name="choose_a_strong_password">Välj en stark lösenord</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Ett lösenord skyddar dina data med kryptering</string>
+    <string name="create_your_password">Skapa ditt lösenord</string>
+    <string name="get_help_with_passwords">Få hjälp</string>
+    <string name="tap_for_password_tips">Klicka för hjälp</string>
+    <string name="private_messaging_reimagined">Prata Fritt, Håll Dig Anonym</string>
+    <string name="private_secure_anonymous">  Integritet • Kryptering • Anonymitet</string>
+    <string name="start_private_messaging">Gå med NU</string>
+    <string name="already_have_account">ANVÄND BACKUP</string>
+    <string name="tor_network">⚡ Tor Nätverk</string>
+    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
+    <string name="anonymous">🕵️ Anonym</string>
+    <string name="encrypted">🔒 Krypterad</string>
+    <string name="welcome_back">Välkommen tillbaka</string>
+    <string name="enter_your_password_to_continue">Ange ditt lösenord för att fortsätta</string>
+    <string name="your_data_is_encrypted_and_secure">Dina data är krypterade och säkra</string>
+    <string name="enter_encryption_password">Ange krypteringslösenord</string>
+    <string name="enter_your_password">Ange ditt lösenord</string>
+    <string name="incorrect_password_try_again">Fel lösenord, försök igen.</string>
+    <string name="get_help_with_password">Få hjälp</string>
+    <string name="tap_for_password_recovery_options">Klicka för hjälp</string>
+    <string name="forgot_your_password">Om du glömde lösenordet, inget sätt att återställa ditt konto (utan backup)</string>
+    <string name="this_may_take_a_few_moments">Detta kan ta några ögonblick</string>
+    <string name="initializing_tor_network">Initiera Tor Nätverk</string>
+    <string name="securing_connection">Anonymisera din anslutning</string>
+    <string name="connecting_world">🌐 Anslutna</string>
+    <string name="secure">✅ Säker</string>
+    <string name="bootstrapping">🔒 Startar</string>
+    <string name="appearance_other">UTSEENDE OCH ANNAT</string>
+    <string name="get_help">Få hjälp</string>
+    <string name="reset_to_default">Återställ till standard</string>
+    <!-- Security Section -->
+    <string name="high_security">HÖG SÄKERHET</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">BRO INSTÄLLNINGAR</string>
+    <string name="bridge_help">Få hjälp för brokonfiguration</string>
+    <string name="bridge_description">Använd broar för att korsa censur när Tor är blockerat i ditt nätverk</string>
+    <string name="enable_tor_bridges">Aktivera Tor Broar</string>
+    <string name="bridges_active">Broar är aktiva och konfigurerade</string>
+    <string name="configured_bridges">Konfigurerade Broar</string>
+    <string name="add_new_bridge">Lägg till Ny Bro</string>
+    <string name="add_manually">Lägg till Broar</string>
+    <string name="request_automatically">Be om nya Broar</string>
+    <string name="scan_qr_code">Skanna QR Kod</string>
+    <string name="paste_bridge_lines_here">Här klistra brolinjer…</string>
+    <string name="bridge_input_help">Du kan klistra flera brolinjer. Varje rad bör vara i formatet:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nBehöver inte ordet "bridge" i början.</string>
+    <string name="action_backup">Säkerhetskopia</string>
+    <string name="back_up_alert_message">Är du säker att du vill säkerhetskopiera dina data? detta kommer att säkerhetskopiera din onion service konto, dina krypteringsnycklar och alla dina meddelanden</string>
+    <string name="backup_progress_title">Skapar säkerhetskopia</string>
+    <string name="backup_progress_message">Vänta…</string>
+    <string name="restore_progress_title">Återställer säkerhetskopia</string>
+    <string name="restore_progress_message">Vänta…</string>
+</resources>

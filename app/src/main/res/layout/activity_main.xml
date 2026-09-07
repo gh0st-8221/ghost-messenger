@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:id="@+id/main_banner"
+    android:gravity="center">
+
+    <!-- COMPACT HERO SECTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:paddingTop="40dp">
+
+        <!-- App Icon -->
+<!--        <ImageView-->
+<!--            android:layout_width="80dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:src="@drawable/ic_action_name"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:elevation="8dp"/>-->
+
+        <!-- Main Tagline - More Compact -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/private_messaging_reimagined"
+            android:textColor="@color/dx_white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:maxLines="2"/>
+
+        <!-- Sub Tagline - Shorter -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/private_secure_anonymous"
+            android:textColor="@color/dx_white"
+            android:textSize="16sp"
+            android:alpha="0.9"
+            android:gravity="center"
+            android:maxLines="2"/>
+    </LinearLayout>
+
+    <!-- COMPACT FEATURE PILLS (instead of cards) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypted"
+                android:textColor="@color/dx_white"
+                android:textSize="12sp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:background="@drawable/item_background"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anonymous"
+                android:textColor="@color/dx_white"
+                android:textSize="12sp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:background="@drawable/item_background"
+                android:layout_marginEnd="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/peer_2_peer"
+                android:textColor="@color/dx_white"
+                android:textSize="12sp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:background="@drawable/item_background"
+                android:layout_marginEnd="4dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tor_network"
+                android:textColor="@color/dx_white"
+                android:textSize="12sp"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:background="@drawable/item_background"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- CTA BUTTON SECTION -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16px">
+
+        <!-- Main CTA Button -->
+        <Button
+            android:id="@+id/next"
+            style="@style/DXButtonGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_private_messaging"
+            app:backgroundTint="@color/green_tor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="onNextClick"
+            android:visibility="gone"
+            android:elevation="8dp"
+            android:layout_marginBottom="12dp"/>
+
+        <!-- Secondary Option -->
+        <TextView
+            android:id="@+id/txt_use_backup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_account"
+            android:textColor="@color/dx_white"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:paddingVertical="12dp"
+            android:alpha="0.7"
+            android:clickable="true"
+            android:visibility="gone"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <!-- COMPACT BRAND ATTRIBUTION -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/by_drxtreme"
+        android:textColor="@color/dx_white"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:alpha="0.5"/>
+</LinearLayout>

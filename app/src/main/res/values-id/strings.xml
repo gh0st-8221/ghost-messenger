@@ -1,0 +1,444 @@
+<resources>
+    <string name="app_name">Messenger Anonim</string>
+    <string name="create_account_button">Mulai</string>
+    <string name="nickname">Nama Panggilan</string>
+    <string name="nickname_error">Nama panggilan tidak valid</string>
+    <string name="nickname_help">Masukkan nama panggilan untuk melanjutkan</string>
+    <string name="nickname_okay">Nama panggilan bagus!</string>
+    <string name="next_button">Selanjutnya</string>
+    <string name="choose_password">Pilih kata sandi</string>
+    <string name="confirm_password">Konfirmasi kata sandi</string>
+    <string name="setup_password_explanation">Kata sandi yang Anda masukkan akan digunakan untuk mengenkripsi data di perangkat Anda, ini bukan kata sandi masuk dan tidak dapat digunakan untuk pemulihan, Anda harus memasukkan kata sandi Anda nanti saat membuka aplikasi setelah keluar, aplikasi ini tidak pernah terhubung ke server apa pun.</string>
+    <string name="password_too_weak">Kata sandi Anda terlalu lemah, kami tidak dapat memungkinkan Anda melakukan ini karena kami peduli keamanan Anda</string>
+    <string name="passwords_do_not_match">Kata sandi tidak cocok</string>
+    <string name="channel4">saluran4</string>
+    <string name="channel_description">ini dan itu</string>
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+    <string name="enter_password">Masukkan kata sandi</string>
+    <string name="decrypt_button">Dekripsi</string>
+    <string name="myaddress">Alamat Saya</string>
+    <string name="hint_contact_address">Masukkan Alamat Kontak (.onion)</string>
+    <string name="lbl_contact_address">Masukkan Alamat Kontak</string>
+    <string name="enter_message">Pesan aman…</string>
+    <string name="send_button">KIRIM</string>
+    <string name="reply">Balas</string>
+    <string name="pin">Pin</string>
+    <string name="copy">Salin</string>
+    <string name="you">Anda</string>
+    <string name="action_reset_session">Reset Sesi</string>
+    <string name="action_verify_identity">Verifikasi Identitas</string>
+    <string name="action_clear_conversation">Hapus Percakapan</string>
+    <string name="action_search">Cari</string>
+    <string name="action_shutdown">Matikan</string>
+    <string name="action_my_identity">Identitas Saya</string>
+    <string name="action_restart_tor">Restart Tor</string>
+    <string name="my_identity_explanation">Kunci publik digunakan untuk memverifikasi identitas</string>
+    <string name="verify_identity_explanation">Keduanya kunci publik bersama-sama untuk memverifikasi kedua identitas</string>
+    <string name="verify_identity_how_to">Bandingkan angka-angka ini di kedua perangkat, jika mereka sama maka enkripsi E2E berfungsi dengan benar…</string>
+    <string name="action_call">Telepon</string>
+    <string name="ask_me_again">Tanyakan lagi</string>
+    <string name="no_thanks">Tidak, terima kasih</string>
+    <string name="why_need_mic">aplikasi membutuhkan ini untuk melakukan atau menerima panggilan</string>
+    <string name="mic_perm_ask_title">Izin Mikrofon</string>
+    <string name="ask_for_mic_btn">OK</string>
+    <string name="accept_call">Terima</string>
+    <string name="dx_call">PANGGILAN TOR</string>
+    <string name="call_picture_description">gambar layar panggilan</string>
+    <string name="end_call">Putuskan</string>
+    <string name="connecting">Menghubungkan…</string>
+    <string name="CallNotificationBuilder_connecting">Menghubungkan</string>
+    <string name="NotificationBarManager__incoming_call">Panggilan Masuk</string>
+    <string name="NotificationBarManager_call_in_progress">Panggilan sedang berlangsung</string>
+    <string name="NotificationBarManager__establishing_call">Mengatur Panggilan</string>
+    <string name="trying">mencoba</string>
+    <string name="ringing">Berbunyi</string>
+    <string name="connected">Terkoneksi</string>
+    <string name="answer">balas</string>
+    <string name="incoming_call">Panggilan Masuk</string>
+    <string name="identity_verification_fail">Tidak bisa mengambil kunci identitas</string>
+    <string name="identity_key_fail">Tidak bisa menemukan kunci identitas Anda</string>
+    <string name="delete_contact">Hapus Kontak</string>
+    <string name="no_contacts">Kontak Tidak Ditemukan!</string>
+    <string name="tor_output">Keluar Tor</string>
+    <string name="anonymous_messenger">Messenger Anonim</string>
+    <string name="by_drxtreme">oleh DrXtreme</string>
+    <string name="welcome_to">selamat datang di</string>
+    <string name="recording">Merekam</string>
+    <string name="send">KIRIM</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">untuk ditampilkan saat belum dibaca</string>
+    <string name="text_msg_placeholder">teman lupa mengingatkan Anda tentang hal itu</string>
+    <string name="profile_image">gambar profil</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31m</string>
+    <string name="seen_image">melihat gambar</string>
+    <string name="msg_place_holder">halo teman, apa kabar?</string>
+    <string name="indicates_secure_messaging">indikasi pesan aman</string>
+    <string name="textview">Tampilan Teks</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">halo teman, apa kabar?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">offline</string>
+    <string name="picture_of_contact">gambar kontak</string>
+    <string name="hold_on">Tunggu!</string>
+    <string name="starting_up_tor">memulai Tor</string>
+    <string name="doing_stuff">menjadikan Anda anonim…</string>
+    <string name="go_to_contacts">Lewati</string>
+    <string name="checking">Memeriksa</string>
+    <string name="online">online</string>
+    <string name="synced">disinkronkan</string>
+    <string name="add_contact">Tambah Kontak</string>
+    <string name="waiting_for_tor">menunggu Tor</string>
+    <string name="oh_no">Oh Tidak!</string>
+    <string name="did_you_forget_your_password">Apakah Anda lupa kata sandi Anda?</string>
+    <string name="hello_hello" translatable="false">halo, halo!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Messenger Anonim: Anda kehabisan RAM!</string>
+    <string name="no_encryption_yet">Belum siap untuk enkripsi</string>
+    <string name="no_session">Sesi tidak ada, memulai sesi sekarang</string>
+    <string name="audio_message">pesan audio</string>
+    <string name="user_is_online">Pengguna sedang online</string>
+    <string name="user_is_offline">Pengguna sedang offline</string>
+    <string name="cant_encrypt_message">Tidak bisa mengenkripsi pesan, Anda harus menunggu pertukaran kunci</string>
+    <string name="resp_key_exchange">Pesan Balasan Pertukaran Kunci</string>
+    <string name="key_exchange_message">Pesan Pertukaran Kunci</string>
+    <string name="image_to_send">gambar untuk dikirim</string>
+    <string name="read_storage_perm_ask_title">Izin Baca Penyimpanan</string>
+    <string name="why_need_read_storage">aplikasi membutuhkan ini untuk bisa mengirim
+        gambar yang disimpan di telefon Anda</string>
+    <string name="icon_for_image_to_send">ikon untuk gambar untuk dikirim</string>
+    <string name="image">gambar</string>
+    <string name="pic_help">Tutup</string>
+    <string name="send_media_to">"Kirim media ke "</string>
+    <string name="picure_view">Tampilan Gambar</string>
+    <string name="media_message">pesan media</string>
+    <string name="caption">Tambahkan caption ini</string>
+    <string name="still_background">Masih berjalan di latar belakang</string>
+    <string name="click_to_hide">Sembunyikan notifikasi</string>
+    <string name="unpin">Lepas pin</string>
+    <string name="profile_contact">Lihat Profil</string>
+    <string name="save_picture">Simpan Gambar</string>
+    <string name="confirm_add_contact">"Apakah Anda benar-benar ingin menambahkan "</string>
+    <string name="contact_exists">Kontak sudah ada!</string>
+    <string name="cant_add_contact">tidak bisa menambahkan kontak!</string>
+    <string name="save_to_storage">Simpan ke penyimpanan bersama?</string>
+    <string name="save_to_storage_explain">Aplikasi lain akan memiliki akses ke gambar ini jika disimpan di penyimpanan bersama.</string>
+    <string name="action_my_profile">Profil Saya</string>
+    <string name="action_help">Bantuan</string>
+    <string name="action_about">Tentang</string>
+    <string name="change_nickname">Ubah nama panggilan</string>
+    <string name="new_nickname">Nama panggilan baru</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="action_license">Lisensi</string>
+    <string name="license">Anonymous Messenger, solusi komunikasi privat lengkap yang berjalan melalui Tor.\n
+    Copyright © 2021  Sofian M. Benissa\n\n
+    Program ini adalah perangkat lunak bebas: Anda dapat mengulangnya dan/atau mengubahnya
+    sesuai dengan kondisi GNU General Public License yang diterbitkan oleh
+    Free Software Foundation, baik versi 3 Lisensi, atau
+    (pada pilihan Anda) setiap versi setelahnya.\n
+    Program ini didistribusikan dengan harapan akan bermanfaat,\n
+    tetapi TANPA JAMINAN; bahkan tanpa jaminan komersialisasi atau
+    kecocokan untuk TUNTUTAN TENTU. Lihat GNU General Public License untuk detail lebih lanjut.\n
+    Anda seharusnya menerima salinan GNU General Public License
+        bersama program ini. Jika tidak, lihat https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Alamat disalin</string>
+    <string name="empty_nickname_help">Tidak bisa memiliki nama panggilan kosong</string>
+    <string name="theiraddress">Alamat Mereka</string>
+    <string name="turn_off_battery">Matikan optimisasi baterai?</string>
+    <string name="allow_in_background">izinkan Anonymous Messenger tetap bekerja di latar belakang?</string>
+    <string name="shut_app">Matikan aplikasi?</string>
+    <string name="shut_app_explain">Anda tidak bisa menerima pesan sampai Anda mendekripsi ulang dengan kata sandi Anda lagi</string>
+    <string name="restart_tor">Restart Tor?</string>
+    <string name="restart_tor_explain">Hal ini seharusnya tidak diperlukan dalam operasi normal kecuali jika Anda pikir Tor tidak berfungsi dengan baik saat ini</string>
+    <string name="restarting_service">Memulai ulang layanan</string>
+    <string name="connection_restored">Koneksi Dipulihkan</string>
+    <string name="lost_connection">Koneksi Terputus</string>
+    <string name="connection_is_coming">koneksi seharusnya segera kembali</string>
+    <string name="will_receive_messages_soon">seharusnya bisa menerima pesan dalam 2 menit</string>
+    <string name="waiting_for_connectivity">menunggu konektivitas</string>
+    <string name="almost_ready">Hampir Siap!</string>
+    <string name="starting_tor_first_time">Memulai Tor dan menghangatkan untuk mendapatkan semua yang kita butuh untuk terhubung!</string>
+    <string name="ready_to_chat">Siap untuk chatting secara aman!</string>
+    <string name="you_got_all_you_need">Anda mendapatkan semua yang Anda butuh untuk chatting aman dengan teman-teman Anda!</string>
+    <string name="new_message">Pesan Baru!</string>
+    <string name="you_have_message">Anda memiliki pesan rahasia baru</string>
+    <string name="wrong_password">Kata sandi salah</string>
+    <string name="no_key">kunci enkripsi tidak ditemukan</string>
+    <string name="error">kesalahan</string>
+    <string name="failed_to_decrypt">GAGAL MENDekripsi PESAN</string>
+    <string name="failed_to_read_after_decrypt">GAGAL MEMBACA PESAN SETELAH MENDEkripsi</string>
+    <string name="failed_to_get_AEM">GAGAL MENDAPATKAN AddressedEncryptedMessage DARI PESAN</string>
+    <string name="cant_add_self">Anda tidak bisa menambahkan diri sendiri!</string>
+    <string name="waiting_for_response">Mengirim kunci, Menunggu tanggapan</string>
+    <string name="decrypting">Mendekripsi…</string>
+    <string name="stale_key">Menerima kunci kedaluwarsa (mengabaikan)</string>
+    <string name="invalid_key">Menerima kunci tidak valid</string>
+    <string name="untrusted_identity">Menerima kunci dari Identitas Tidak Dapat Dikepercaya</string>
+    <string name="bad_message">Pesan rusak</string>
+    <string name="decrypt_reminder_title">Dekripsi untuk menerima pesan</string>
+    <string name="decrypt_reminder_message">Anda harus memasukkan kata sandi Anda untuk berjalan di
+        latar belakang</string>
+    <string name="denied_microphone">Izin Mikrofon Ditolak</string>
+    <string name="denied_microphone_help">dengan cara ini Anda tidak bisa melakukan atau menerima panggilan</string>
+    <string name="delete_messages">Hapus semua pesan?</string>
+    <string name="delete_messages_help">ini akan menghapus bahkan pesan yang disematkan!</string>
+    <string name="yes">Ya</string>
+    <string name="pinned_message">Pesan Disematkan</string>
+    <string name="unpinned_message">Pesan Disematan Dilepas</string>
+    <string name="copied">Disalin</string>
+    <string name="saved_to_storage">Disimpan ke penyimpanan</string>
+    <string name="about">Proyek yang didanai oleh Alton James Steele dan dikembangkan oleh Sofian Mahmoud
+        Benissa
+        untuk membawa kepada Anda komunikasi anonim, aman dan nyaman,
+        karena kami tidak puas dengan apa yang tersedia kami memutuskan untuk
+        membuat ide sendiri untuk aplikasi komunikasi dan membagikannya dengan dunia, kode sumber
+        tersedia dan proyek dilisensikan di bawah GNU General Public License sehingga Anda dapat
+        memanfaatkannya penuh dan memiliki kebebasan untuk mengubahnya dengan yang
+        kebebasan lainnya</string>
+    <string name="copyright">Copyright © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Tips Keamanan</string>
+    <string name="hide_notification">menonaktifkan notifikasi service_running</string>
+    <string name="record_audio">merekam audio</string>
+    <string name="send_file">kirim file</string>
+    <string name="scroll_down">gulir ke bawah</string>
+    <string name="file">File</string>
+    <string name="unknown_file_name">Nama file tidak diketahui</string>
+    <string name="unknown_file_size">Ukuran file tidak diketahui</string>
+    <string name="recording_failed">Tidak bisa merekam sekarang, mungkin ada panggilan yang sedang berlangsung?</string>
+    <string name="feature_unready">fitur ini akan siap dalam pembaruan berikutnya</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Gunakan keyboard yang menghargai kebebasan Anda dan tidak
+        terhubung ke internet, kami menyarankan menggunakan OpenBoard</string>
+    <string name="security_tips02">Keamanan Anda sangat bergantung pada aplikasi yang
+        diinstal di perangkat, kami menyarankan mengubah aplikasi default Anda ke aplikasi dari
+        repository f-droid</string>
+    <string name="security_tips03">Cobalah tidak sengaja menempelkan alamat teman Anda di
+        browser Anda karena itu dapat membahayakan Anda/keanonimannya</string>
+    <string name="security_tips04">Uninstall Anonymous Messenger untuk menghapus akun Anda dan menghapus
+        semua hal.</string>
+    <string name="security_tips05">Mengunduh dari layanan onion kami lebih aman daripada server clear net kami.</string>
+    <string name="security_tips06">Penyimpanan data Anda hanya aman seperti
+        kata sandi Anda, kami menyarankan kata sandi panjang yang terdiri dari kata-kata yang tidak bermakna bagi Anda.</string>
+    <string name="security_tips07">Teks lebih aman dan anonim daripada apa pun yang lain.</string>
+    <string name="security_tips08">Bagikan alamat Anda dengan cara paling aman yang mungkin.</string>
+    <string name="security_tips09">Enkripsi penyimpanan telepon jika memungkinkan.</string>
+    <string name="security_tips10">Ketika Anda ingin menggunakan VPN pastikan klien yang Anda gunakan adalah open
+        sumber perangkat lunak gratis seperti OpenVPN.</string>
+    <string name="security_tips11">Keluar dari Anonymous Messenger menjaga data Anda dienkripsi di
+        telefon Anda.</string>
+    <string name="security_tips12">Bangun Anonymous Messenger dari sumber jika memungkinkan.</string>
+    <string name="security_tips13">Verifikasi identitas.</string>
+    <string name="security_tips14">Pastikan Anda tidak menggunakan aplikasi proprietar apa pun di
+        telefon Anda dan bahwa Anda menggunakan program open source gratis untuk mengakses situs media sosial Anda, layanan keuangan,
+        dan pada umumnya tidak memiliki aplikasi mana pun yang Anda tidak bisa kepercayaan atau satu yang membutuhkan
+        lebih banyak hak daripada yang dibutuhkan, atau memiliki iklan pihak ketiga yang disajikan oleh
+        aplikasi sendiri.</string>
+    <string name="security_tips15">Pertimbangkan berdonasi untuk membantu membuat proyek ini lebih
+        baik dan membantu kami memberikan solusi terbaik untuk komunikasi anonim untuk semua orang.</string>
+    <string name="opening_socks_listener">Membuka Socks Listener</string>
+    <string name="socks_listener_listening">Socks Listener Mendengar</string>
+    <string name="opened_socks_listener">Socks Listener Dibuka</string>
+    <string name="opening_control_listener">Membuka Control Listener</string>
+    <string name="control_listener_listening">Control Listener Mendengar</string>
+    <string name="opened_control_listener">Control Listener Dibuka</string>
+    <string name="action_notepad">Buku Catatan</string>
+    <string name="save">Simpan</string>
+    <string name="enter_note">Simpan catatan dienkripsi</string>
+    <string name="delete_contact_question">Hapus kontak ini?</string>
+    <string name="delete_contact_details">ini tidak bisa dibatalkan dan juga akan menghapus sesi dan percakapan kontak ini</string>
+    <string name="delete_note_question">Hapus catatan ini?</string>
+    <string name="delete_note_details">ini tidak bisa dibatalkan</string>
+    <string name="delete_note">Hapus</string>
+    <string name="open_link_question">Buka tautan ini?</string>
+    <string name="open_link_describe">Membuka tautan di luar aplikasi privat dapat membuat Anda menjadi anonim,
+        lakukan hanya ini jika Anda memiliki kepercayaan pada tautan atau menggunakan browser Tor jika memungkinkan</string>
+    <string name="scan">Pindai QR-kode</string>
+    <string name="contact_added">Kontak ditambahkan</string>
+    <string name="cam_perm_ask_title">Izin Kamera</string>
+    <string name="why_need_cam">Pindai QR tidak akan bekerja tanpa izin kamera</string>
+    <string name="ask_for_cam_btn">OK</string>
+    <string name="invalid_address">Alamat tidak valid</string>
+    <string name="action_log">Log Keamanan</string>
+    <string name="delete_log_question">Hapus?</string>
+    <string name="delete_log_details">Ini tidak bisa dibatalkan</string>
+    <string name="action_log_notice">Termasuk Notifikasi</string>
+    <string name="action_clear_log">Hapus Log</string>
+    <string name="include_notice_logs">Termasuk Log Notifikasi</string>
+    <string name="decrypting2">Dekripsi</string>
+    <string name="open_file_question">Buka file di aplikasi lain ?</string>
+    <string name="open_file_describe">Ini akan mendekripsi file dan memberikan akses ke aplikasi pihak ketiga
+        yang bisa mengancam file</string>
+    <string name="deleted_logs">Log telah dibersihkan</string>
+    <string name="saving">"Menyimpan "</string>
+    <string name="cancel">Batal</string>
+    <string name="slide_to_cancel">Geser untuk membatalkan</string>
+    <string name="sending_file">Mengirim file</string>
+    <string name="sending_part_one">Mengirim bagian 1</string>
+    <string name="screen_filter_body">Aplikasi lain menggambar di atas AnonymousMessenger,
+        layar diblokir untuk melindungi privasi Anda</string>
+    <string name="screen_filter_title">Deteksi overlay layar</string>
+    <string name="try_now">Coba sekarang</string>
+    <string name="mic_in_use">Mikrofon mungkin sedang digunakan oleh aplikasi lain</string>
+    <string name="back_image">kembali</string>
+    <string name="subtitle">Subjudul</string>
+    <string name="qr_code_image">Gambar yang berisi kode QR</string>
+    <string name="go_to_app">buka aplikasi</string>
+    <string name="use_bridges">Gunakan Jembatan</string>
+    <string name="request_bridge">Minta Jembatan</string>
+    <string name="done_button">Selesai</string>
+    <string name="allow_unknown">Terima Kontak Tidak Dikenal</string>
+    <string name="allow_files">Izinkan Menerima File</string>
+    <string name="file_limit">Batas Ukuran File</string>
+    <string name="allow_calls">Izinkan Panggilan</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="delete_bridge_question">Hapus jembatan ini ?</string>
+    <string name="delete_bridge_details">ini tidak bisa dibatalkan</string>
+    <string name="online_check_address">Cek Alamat Online</string>
+    <string name="reset_settings">Reset Pengaturan</string>
+    <string name="bridges">Jembatan (restart Tor untuk berlaku)</string>
+    <string name="other">Lainnya</string>
+    <string name="reset">Reset</string>
+    <string name="security">Keamanan</string>
+    <string name="connectivity">Konektivitas</string>
+    <string name="add_bridge">Tambah Jembatan</string>
+    <string name="request_bridge_help">Anda bisa meminta jembatan dari proyek Tor dengan mengikuti tautan ini: https://bridges.torproject.org/bridges?transport=obfs4   atau Anda bisa menulis email ke bridges@torproject.org atau Anda bisa menjalankan jembatan sendiri dan menggunakannya.</string>
+    <string name="button_undo">Membatalkan</string>
+    <string name="insert_bridge_line">Sisipkan baris jembatan</string>
+    <string name="nickname_explain_title">Penggunaan nama panggilan</string>
+    <string name="nickname_explain">Nama panggilan Anda disimpan di perangkat Anda dan hanya dikirim dienkripsi dengan pesan Anda langsung ke kontak Anda, Anda tidak pernah terhubung ke server saat menggunakan aplikasi ini.</string>
+    <string name="password_explain_title">Penggunaan kata sandi</string>
+    <string name="online_check_address_explain">Alamat ini digunakan untuk memastikan Anda online dan semuanya disiapkan dengan benar, ini bisa menjadi apa saja alamat server web karena kita hanya memeriksa keterjangkauan, itu juga bisa menjadi layanan tersembunyi atau alamat biasa.</string>
+    <string name="running_on">Menjalankan pada: </string>
+    <string name="processors">prosesor</string>
+    <string name="and">dan </string>
+    <string name="free_memory">memori bebas</string>
+    <string name="ok">OK</string>
+    <string name="with">dengan</string>
+    <string name="welcome_to_anonymous_messenger">Ini adalah messengermu selanjutnya yang aman</string>
+    <string name="change_profile_image">Ubah gambar</string>
+    <string name="remove_profile_image">Hapus gambar</string>
+    <string name="remove_profile_image_details">Apakah Anda yakin ingin menghapus gambar profil Anda?</string>
+    <string name="profile_image_changed">Gambar profil berubah</string>
+    <string name="profile_image_removed">Gambar profil dihapus</string>
+    <string name="restart_app">Restart Aplikasi</string>
+    <string name="unknown_exception">Kesalahan Tidak Dikenal</string>
+    <string name="error_occurred">Sesuatu salah terjadi</string>
+    <string name="error_details">Detail Kesalahan</string>
+    <string name="retry">Coba lagi</string>
+    <string name="use_proxy">Gunakan Proksi Socks5</string>
+    <string name="proxy_address">Alamat proksi Socks5</string>
+    <string name="proxy_username">Nama pengguna</string>
+    <string name="proxy_password">Kata sandi</string>
+    <string name="tor_error">Tor tidak bisa terhubung dalam 300s, Anda bisa mencoba menggunakan jembatan atau terhubung melalui proksi socks5 apa pun dalam pengaturan</string>
+    <string name="tor_error_title">Kesalahan saat memulai Tor</string>
+    <string name="stay_offline">Tetap offline</string>
+    <string name="proxy">Proksi Socks5 (restart Tor untuk berlaku)</string>
+    <string name="exclude_tor_nodes">Kecualikan Nodal Tor (restart Tor untuk berlaku)</string>
+    <string name="exclude_unknown">Kecualikan Nodal Tidak Dikenal</string>
+    <string name="strict_exclude">Kecualikan Ketat</string>
+    <string name="action_scroll_up">Gulir ke atas</string>
+    <string name="action_scroll_down">Gulir ke bawah</string>
+    <string name="action_clear_tor_cache">Hapus Cache Tor</string>
+    <string name="clear_tor_cache_explain">Ini bisa berguna jika deskriptor yang di-cache sudah usang, tetapi tidak disarankan untuk melakukannya terlalu sering karena kekhawatiran kinerja dan anonimitas.</string>
+    <string name="disappearing_messages_default">Hapus Pesan yang Disematkan Setelah 24 Jam</string>
+    <string name="tor_exited">Tor keluar</string>
+    <string name="action_change_app_name">Ubah Nama Aplikasi</string>
+    <string name="select_app_name">Pilih Nama Aplikasi</string>
+    <string name="action_change_theme">Ubah Tema</string>
+    <string name="dark_theme">Tema Gelap</string>
+    <string name="light_theme">Tema Terang</string>
+    <string name="invalid_bridge">Jembatan Tidak Valid</string>
+    <string name="bridge_added">Jembatan Ditambahkan</string>
+    <string name="nickname_help_explain">Klik untuk mendapatkan informasi tentang penggunaan nama panggilan</string>
+    <string name="no_recent_messages">Tidak Ada Pesan Terbaru!</string>
+    <string name="unpinned_messages_get_deleted">Apakah Anda tahu pesan yang tidak disematkan akan dihapus setiap 24 jam?</string>
+    <string name="continue_without_password">Jangan Gunakan Kata Sandi</string>
+    <string name="hangup">Putuskan</string>
+    <string name="outgoing_call">Panggilan Keluar</string>
+    <string name="return_to_call">Kembali ke panggilan</string>
+    <string name="action_donate">Donasi</string>
+    <string name="donate_text">Anda bisa berdonasi untuk membantu proyek</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Kirim Gambar</string>
+    <string name="error_accessing_storage">Kesalahan saat mengakses penyimpanan eksternal</string>
+    <string name="error_opening_image">Kesalahan membuka gambar dari penyimpanan eksternal</string>
+    <string name="step_1_choose_your_nickname">LANGKAH 1: PILIH NAMA PANGGILAN ANDA</string>
+    <string name="what_should_people_call_you">Apa yang sebaiknya orang menyebut Anda?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Nama ini akan terlihat oleh pengguna lain. Anda bisa mengubahnya nanti.</string>
+    <string name="type_your_nickname_here">KETIK NAMA PANGGILAN ANDA DI SINI: 👇</string>
+    <string name="enter_nickname">Masukkan nama panggilan</string>
+    <string name="get_help_with_choosing_a_nickname">Dapatkan bantuan untuk memilih nama panggilan</string>
+    <string name="tap_for_help">💡 Klik untuk mendapatkan bantuan</string>
+    <string name="continue_txt">LANJUTKAN →</string>
+    <string name="step_2_secure_your_account">LANGKAH 2: AMANKAN DATA ANDA</string>
+    <string name="choose_a_strong_password">Pilih kata sandi yang kuat</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Kata sandi melindungi data Anda dengan enkripsi</string>
+    <string name="create_your_password">Buat kata sandi Anda</string>
+    <string name="get_help_with_passwords">Dapatkan bantuan</string>
+    <string name="tap_for_password_tips">Klik untuk mendapatkan bantuan</string>
+    <string name="private_messaging_reimagined">Bicara Bebas, Tetap Anonim</string>
+    <string name="private_secure_anonymous"> Privasi • Enkripsi • Anonimitas</string>
+    <string name="start_private_messaging">GABUNG SEKARANG</string>
+    <string name="already_have_account">GUNAKAN BACKUP</string>
+    <string name="tor_network">⚡ Jaringan Tor</string>
+    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
+    <string name="anonymous">🕵️ Anonim</string>
+    <string name="encrypted">🔒 Dienkripsi</string>
+    <string name="welcome_back">Selamat Datang Kembali</string>
+    <string name="enter_your_password_to_continue">Masukkan kata sandi Anda untuk melanjutkan</string>
+    <string name="your_data_is_encrypted_and_secure">Data Anda dienkripsi dan aman</string>
+    <string name="enter_encryption_password">Masukkan kata sandi enkripsi</string>
+    <string name="enter_your_password">Masukkan kata sandi Anda</string>
+    <string name="incorrect_password_try_again">Kata sandi salah, coba lagi.</string>
+    <string name="get_help_with_password">Dapatkan bantuan</string>
+    <string name="tap_for_password_recovery_options">Klik untuk mendapatkan bantuan</string>
+    <string name="forgot_your_password">Jika Anda lupa kata sandi Anda, tidak ada cara untuk memulihkan akun Anda tanpa backup</string>
+    <string name="this_may_take_a_few_moments">Ini bisa memakan waktu beberapa saat</string>
+    <string name="initializing_tor_network">Inisialisasi Jaringan Tor</string>
+    <string name="securing_connection">Menganonimkan Koneksi Anda</string>
+    <string name="connecting_world">🌐 Menghubungkan</string>
+    <string name="secure">✅ Aman</string>
+    <string name="bootstrapping">🔒 Memulai</string>
+    <string name="appearance_other">TAMPILAN DAN LAINNYA</string>
+    <string name="get_help">Dapatkan bantuan</string>
+    <string name="reset_to_default">Reset ke default</string>
+    <!-- Security Section -->
+    <string name="high_security">KEAMANAN TINGGI</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">PENGATURAN JEMBATAN</string>
+    <string name="bridge_help">Dapatkan bantuan dengan konfigurasi jembatan</string>
+    <string name="bridge_description">Gunakan jembatan untuk melewati sensor jika Tor diblokir di jaringan Anda</string>
+    <string name="enable_tor_bridges">Aktifkan Jembatan Tor</string>
+    <string name="bridges_active">Jembatan aktif dan dikonfigurasi</string>
+    <string name="configured_bridges">Jembatan Dikonfigurasi</string>
+    <string name="add_new_bridge">Tambah Jembatan Baru</string>
+    <string name="add_manually">Tambah Jembatan</string>
+    <string name="request_automatically">Minta Jembatan Baru</string>
+    <string name="scan_qr_code">Pindai Kode QR</string>
+    <string name="paste_bridge_lines_here">Tempel garis jembatan di sini…</string>
+    <string name="bridge_input_help">Anda bisa menempelkan beberapa garis jembatan. Setiap garis harus dalam format:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nTidak perlu menyertakan kata "jembatan" di awal.</string>
+    <string name="action_backup">Backup</string>
+    <string name="back_up_alert_message">Apakah Anda yakin ingin membuat backup data Anda? ini akan membuat backup akun layanan onion Anda dan kunci enkripsi Anda dan semua pesan Anda</string>
+    <string name="backup_progress_title">Membuat backup</string>
+    <string name="backup_progress_message">Mohon tunggu…</string>
+    <string name="restore_progress_title">Memulihkan backup</string>
+    <string name="restore_progress_message">Mohon tunggu…</string>
+</resources>

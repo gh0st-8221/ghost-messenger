@@ -1,0 +1,443 @@
+<resources>
+    <string name="app_name">پیام‌رسان ناشناس</string>
+    <string name="create_account_button">شروع</string>
+    <string name="nickname">نام مستعار</string>
+    <string name="nickname_error">نام مستعار نامعتبر</string>
+    <string name="nickname_help">برای ادامه نام مستعار را وارد کنید</string>
+    <string name="nickname_okay">نام مستعار خوبی است!</string>
+    <string name="next_button">بعدی</string>
+    <string name="choose_password">رمز عبور انتخاب کنید</string>
+    <string name="confirm_password">تایید رمز عبور</string>
+    <string name="setup_password_explanation">رمزی که وارد می‌کنید برای رمزنگاری داده‌ها روی دستگاه شما استفاده خواهد شد، این رمز عبور ورود نیست و نمی‌تواند برای بازیابی استفاده شود، باید بعداً زمانی که برنامه را باز می‌کنید پس از خروج از آن رمز عبور را وارد کنید، این برنامه هرگز به هیچ سروری متصل نمی‌شود.</string>
+    <string name="password_too_weak">رمز عبور شما خیلی ضعیف است، ما نمی‌توانیم به شما اجازه دهیم این کار را انجام دهیم زیرا به امنیت شما اهمیت می‌دهیم</string>
+    <string name="passwords_do_not_match">رمز عبور‌ها مطابقت ندارند</string>
+    <string name="channel4">کانال ۴</string>
+    <string name="channel_description">این و آن</string>
+    <string name="hello_blank_fragment">سلام، فضای خالی</string>
+    <string name="enter_password">رمز عبور را وارد کنید</string>
+    <string name="decrypt_button">رمزگشایی</string>
+    <string name="myaddress">آدرس من</string>
+    <string name="hint_contact_address">آدرس تماس را وارد کنید (.onion)</string>
+    <string name="lbl_contact_address">آدرس تماس را وارد کنید</string>
+    <string name="enter_message">پیام امن…</string>
+    <string name="send_button">ارسال</string>
+    <string name="reply">پاسخ</string>
+    <string name="pin">سنجاق</string>
+    <string name="copy">کپی</string>
+    <string name="you">شما</string>
+    <string name="action_reset_session">بازنشانی نشست</string>
+    <string name="action_verify_identity">تایید هویت</string>
+    <string name="action_clear_conversation">پاک کردن مکالمه</string>
+    <string name="action_search">جستجو</string>
+    <string name="action_shutdown">خاموشی</string>
+    <string name="action_my_identity">هویت من</string>
+    <string name="action_restart_tor">بازراه‌اندازی</string>
+    <string name="my_identity_explanation">کلید عمومی استفاده شده برای تایید هویت</string>
+    <string name="verify_identity_explanation">همه کلیدهای عمومی برای تایید هر دو هویت</string>
+    <string name="verify_identity_how_to">این اعداد را در هر دو دستگاه مقایسه کنید، اگر یکسان بودند رمزنگاری از انتها به انتها به درستی کار می‌کند…</string>
+    <string name="action_call">تماس</string>
+    <string name="ask_me_again">دوباره بپرسید</string>
+    <string name="no_thanks">خیر، ممنون</string>
+    <string name="why_need_mic">برنامه این را برای اینکه بتواند تماس بگیرد یا پذیرد نیاز دارد</string>
+    <string name="mic_perm_ask_title">مجوز میکروفون</string>
+    <string name="ask_for_mic_btn">تأیید</string>
+    <string name="accept_call">پذیرش</string>
+    <string name="dx_call">تماس تور</string>
+    <string name="call_picture_description">تصویر صفحه تماس</string>
+    <string name="end_call">قطع تماس</string>
+    <string name="connecting">در حال اتصال…</string>
+    <string name="CallNotificationBuilder_connecting">در حال اتصال</string>
+    <string name="NotificationBarManager__incoming_call">تماس ورودی</string>
+    <string name="NotificationBarManager_call_in_progress">تماس در حال انجام</string>
+    <string name="NotificationBarManager__establishing_call">برپایی تماس</string>
+    <string name="trying">در حال تلاش</string>
+    <string name="ringing">در حال زنگ زدن</string>
+    <string name="connected">متصل شده</string>
+    <string name="answer">پاسخ</string>
+    <string name="incoming_call">تماس ورودی</string>
+    <string name="identity_verification_fail">نتوانست کلیدهای هویت را دریافت کند</string>
+    <string name="identity_key_fail">نمی‌تواند کلید هویت شما را پیدا کند</string>
+    <string name="delete_contact">حذف تماس</string>
+    <string name="no_contacts">هیچ مخاطبی یافت نشد!</string>
+    <string name="tor_output">خروجی تور</string>
+    <string name="anonymous_messenger">پیام‌رسان ناشناس</string>
+    <string name="by_drxtreme">توسط درکس‌تریم</string>
+    <string name="welcome_to">خوش آمدید به</string>
+    <string name="recording">ضبط</string>
+    <string name="send">ارسال</string>
+    <string name="_00_00" translatable="false">۰۰:۰۰</string>
+    <string name="to_show_when_it_is_unread">نشان داده شود هنگام خوانده نشدن</string>
+    <string name="text_msg_placeholder">دوست عزیز فراموش کرده بود به موضوع آنجا اشاره کند</string>
+    <string name="profile_image">تصویر پروفایل</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">۳۱م</string>
+    <string name="seen_image">تصویر دیده شده</string>
+    <string name="msg_place_holder">سلام دوست، حالت چطوره؟</string>
+    <string name="indicates_secure_messaging">پیام امن را نشان می‌دهد</string>
+    <string name="textview">نمایش متن</string>
+    <string name="john_doe">جان دو</string>
+    <string name="hi_man_how_are_you">سلام دوست، حالت چطوره؟</string>
+    <string name="time_placeholder" translatable="false">۱۱:۴۰</string>
+    <string name="offline">آفلاین</string>
+    <string name="picture_of_contact">تصویر مخاطب</string>
+    <string name="hold_on">منتظر بمانید!</string>
+    <string name="starting_up_tor">راه‌اندازی تور</string>
+    <string name="doing_stuff">محرمانه کردن شما…</string>
+    <string name="go_to_contacts">رها کردن</string>
+    <string name="checking">در حال بررسی</string>
+    <string name="online">آنلاین</string>
+    <string name="synced">همگام‌سازی شد</string>
+    <string name="add_contact">افزودن مخاطب</string>
+    <string name="waiting_for_tor">در انتظار تور</string>
+    <string name="oh_no">ای وای!</string>
+    <string name="did_you_forget_your_password">رمز عبور خود را فراموش کرده‌اید؟</string>
+    <string name="hello_hello" translatable="false">سلام، سلام!</string>
+    <string name="_11_40" translatable="false">۱۱:۴۰</string>
+    <string name="crash_message">پیام‌رسان ناشناس: شما از حافظه RAM استفاده کرده‌اید!</string>
+    <string name="no_encryption_yet">هنوز آماده رمزنگاری نیست</string>
+    <string name="no_session">نشست وجود ندارد، در حال ایجاد نشست</string>
+    <string name="audio_message">پیام صوتی</string>
+    <string name="user_is_online">کاربر آنلاین است</string>
+    <string name="user_is_offline">کاربر آفلاین است</string>
+    <string name="cant_encrypt_message">نتوانست پیام را رمزگذاری کند، باید منتظر تبادل کلید بمانید</string>
+    <string name="resp_key_exchange">پیام تبادل کلید پاسخ</string>
+    <string name="key_exchange_message">پیام تبادل کلید</string>
+    <string name="image_to_send">تصویر برای ارسال</string>
+    <string name="read_storage_perm_ask_title">مجوز خواندن حافظه</string>
+    <string name="why_need_read_storage">برنامه نیاز دارد تا بتواند تصاویر
+        ذخیره شده در گوشی شما را ارسال کند</string>
+    <string name="icon_for_image_to_send">آیکون تصویر برای ارسال</string>
+    <string name="image">تصویر</string>
+    <string name="pic_help">بستن</string>
+    <string name="send_media_to">"رسانه ارسال به "</string>
+    <string name="picure_view">نمای تصویر</string>
+    <string name="media_message">پیام رسانه‌ای</string>
+    <string name="caption">توضیح این</string>
+    <string name="still_background">در پس‌زمینه فعال</string>
+    <string name="click_to_hide">مخفی کردن نوتیفیکیشن</string>
+    <string name="unpin">لغو سنجاق</string>
+    <string name="profile_contact">مشاهده پروفایل</string>
+    <string name="save_picture">ذخیره تصویر</string>
+    <string name="confirm_add_contact">"آیا واقعاً می‌خواهید اضافه کنید "</string>
+    <string name="contact_exists">تماس قبلاً وجود دارد!</string>
+    <string name="cant_add_contact">نمی‌تواند مخاطب را اضافه کند!</string>
+    <string name="save_to_storage">ذخیره در حافظه مشترک؟</string>
+    <string name="save_to_storage_explain">برنامه‌های دیگر در صورت ذخیره در حافظه مشترک به این تصویر دسترسی خواهند داشت.</string>
+    <string name="action_my_profile">پروفایل من</string>
+    <string name="action_help">راهنما</string>
+    <string name="action_about">درباره</string>
+    <string name="change_nickname">تغییر نام مستعار</string>
+    <string name="new_nickname">نام مستعار جدید</string>
+    <string name="confirm">تأیید</string>
+    <string name="action_license">مجوز</string>
+    <string name="license">
+        پیام‌رسان ناشناس، راه‌حل کامل ارتباطات خصوصی که بر روی تور کار می‌کند.\n
+    حقوق ناشر © ۲۰۲۱  سوفیان م. بنیسا\n\n
+
+    این برنامه نرم‌افزار آزادی است: می‌توانید آن را بازتوزیع و/یا تغییر دهید
+    تحت شرایط مجوز عمومی گنو که توسط
+    بنیاد نرم‌افزار آزاد، نسخه ۳ مجوز، یا
+    (به صورت اختیاری) هر نسخه بعدی منتشر شده توسط.\n
+
+    این برنامه توزیع می‌شود با امید به اینکه مفید باشد،\n
+    اما بدون هیچ ضمانتی؛ حتی ضمانت ضمنی تجارت‌کاری یا مناسبت برای یک منظور خاص.  به ببین
+    مجوز عمومی گنو برای جزئیات بیشتر.\n
+
+    شما باید کپی از مجوز عمومی گنو
+        را با این برنامه دریافت کرده باشید.  اگر اینگونه نباشد، به https://www.gnu.org/licenses مراجعه کنید .</string>
+    <string name="copied_address">آدرس کپی شد</string>
+    <string name="empty_nickname_help">نمی‌تواند نام مستعار خالی داشته باشد</string>
+    <string name="theiraddress">آدرس آن‌ها</string>
+    <string name="turn_off_battery">خاموش کردن بهینه‌سازی باتری؟</string>
+    <string name="allow_in_background">اجازه دادن به پیام‌رسان ناشناس برای کار در پس‌زمینه؟</string>
+    <string name="shut_app">خاموشی برنامه؟</string>
+    <string name="shut_app_explain">شما نمی‌توانید پیام‌ها را دریافت کنید تا زمانی که با رمز عبور خود رمزگشایی کنید</string>
+    <string name="restart_tor">بازآوری تور؟</string>
+    <string name="restart_tor_explain">این در عملکرد عادی لازم نیست مگر اینکه فکر کنید تور به درستی در حال حاضر کار نمی‌کند</string>
+    <string name="restarting_service">در حال بازآوری سرویس</string>
+    <string name="connection_restored">اتصال بازیابی شد</string>
+    <string name="lost_connection">اتصال قطع شد</string>
+    <string name="connection_is_coming">اتصال باید به زودی برگردد</string>
+    <string name="will_receive_messages_soon">باید بتواند در عرض ۲ دقیقه پیام‌ها را دریافت کند</string>
+    <string name="waiting_for_connectivity">در انتظار دسترسی</string>
+    <string name="almost_ready">نزدیک به آمادگی!</string>
+    <string name="starting_tor_first_time">راه‌اندازی تور و گرم کردن برای دریافت همه آنچه برای اتصال به آن نیاز داریم!</string>
+    <string name="ready_to_chat">آماده برای چت امن!</string>
+    <string name="you_got_all_you_need">شما همه آنچه را که برای چت امن با دوستان خود نیاز دارید دریافت کرده‌اید!</string>
+    <string name="new_message">پیام جدید!</string>
+    <string name="you_have_message">یک پیام مخفی جدید دارید</string>
+    <string name="wrong_password">رمز عبور اشتباه</string>
+    <string name="no_key">کلید رمزنگاری یافت نشد</string>
+    <string name="error">خطا</string>
+    <string name="failed_to_decrypt">رمزگشایی پیام ناموفق بود</string>
+    <string name="failed_to_read_after_decrypt">خواندن پیام پس از رمزگشایی ناموفق بود</string>
+    <string name="failed_to_get_AEM">دریافت AddressedEncryptedMessage از پیام ناموفق بود</string>
+    <string name="cant_add_self">نمی‌تواند خودش را اضافه کند!</string>
+    <string name="waiting_for_response">کلید ارسال شده، در انتظار پاسخ</string>
+    <string name="decrypting">در حال رمزگشایی…</string>
+    <string name="stale_key">کلید قدیمی دریافت شد (نادیده گرفته می‌شود)</string>
+    <string name="invalid_key">کلید نامعتبر دریافت شد</string>
+    <string name="untrusted_identity">کلید از یک هویت ناعتماد دریافت شد</string>
+    <string name="bad_message">پیام خراب شده</string>
+    <string name="decrypt_reminder_title">رمزگشایی برای دریافت پیام‌ها</string>
+    <string name="decrypt_reminder_message">شما باید رمز عبور خود را برای اجرا در
+        پس‌زمینه وارد کنید</string>
+    <string name="denied_microphone">مجوز میکروفون رد شد</string>
+    <string name="denied_microphone_help">به این طریق نمی‌تواند تماس بگیرد یا پذیرد</string>
+    <string name="delete_messages">حذف همه پیام‌ها؟</string>
+    <string name="delete_messages_help">این همه پیام‌های سنجاق شده را حذف خواهد کرد!</string>
+    <string name="yes">بله</string>
+    <string name="pinned_message">پیام سنجاق شده</string>
+    <string name="unpinned_message">پیام لغو سنجاق شده</string>
+    <string name="copied">کپی شد</string>
+    <string name="saved_to_storage">ذخیره در حافظه</string>
+    <string name="about">یک پروژه تأمین شده توسط آلتن جیمز اسٹیل و توسعه داده شده توسط سوفیان محمود
+        بنیسا
+        برای ارائه پیام‌رسانی ناشناس، امن و محیطی
+        به شما، چون با آنچه موجود بود راضی نبودیم تصمیم گرفتیم
+        ایده خود را از یک برنامه پیام‌رسانی بسازیم و با جهان به اشتراک بگذاریم، کد منبع
+        در دسترس است و پروژه تحت مجوز عمومی گنو مجله است تا شما بتوانید
+        از آن بهfull استفاده کنید و آزادی در تغییر آن را در میان
+        آزادی‌ها</string>
+    <string name="copyright">حقوق ناشر © ۲۰۲۱ سوفیان م. بنیسا</string>
+    <string name="action_tips">نکات امنیتی</string>
+    <string name="hide_notification">غیرفعال کردن نوتیفیکیشن service_running</string>
+    <string name="record_audio">ضبط صدا</string>
+    <string name="send_file">ارسال فایل</string>
+    <string name="scroll_down">اسکرول به پایین</string>
+    <string name="file">فایل</string>
+    <string name="unknown_file_name">نام فایل ناشناخته</string>
+    <string name="unknown_file_size">اندازه فایل ناشناخته</string>
+    <string name="recording_failed">امکان ضبط الان وجود ندارد، شاید تماس در جریان باشد؟</string>
+    <string name="feature_unready">این ویژگی در آپدیت بعدی آماده خواهد شد</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">از یک صفحه کلیدی استفاده کنید که آزادی شما را احترام می‌گذارد و به
+        اینترنت متصل نمی‌شود، ما توصیه می‌کنیم OpenBoard را استفاده کنید</string>
+    <string name="security_tips02">امنیت شما به شدت به برنامه‌های نصب شده
+        روی دستگاه بستگی دارد، ما توصیه می‌کنیم پیش‌فرض برنامه‌ها را به برنامه‌های مخزن f-droid تغییر دهید</string>
+    <string name="security_tips03">سعی نکنید تصادفاً آدرس دوست خود را در مرورگر خود کپی کنید زیرا این می‌تواند هویت شما/آن‌ها را به خطر بیندازد</string>
+    <string name="security_tips04">پیام‌رسان ناشناس را حذف کنید تا حساب خود را حذف کرده و همه چیز را پاک کنید.</string>
+    <string name="security_tips05">دانلود از سرویس پیاز ما امن‌تر از سرورهای اینترنت واضح ماست.</string>
+    <string name="security_tips06">رمزنگاری ذخیره داده شما فقط به اندازه رمز عبور شما امن است، ما رمز عبوری طولانی را توصیه می‌کنیم که از کلماتی تشکیل شده است که برای شما هیچ معنایی ندارند.</string>
+    <string name="security_tips07">متن امن‌تر و ناشناس از هر چیزی دیگر است.</string>
+    <string name="security_tips08">آدرس خود را در امن‌ترین راه ممکن به اشتراک بگذارید.</string>
+    <string name="security_tips09">در صورت امکان حافظه گوشی را رمزگذاری کنید.</string>
+    <string name="security_tips10">هنگام استفاده از یک VPN مطمئن شوید که مشتری که استفاده می‌کنید متن باز است
+        نرم‌افزار آزاد مانند OpenVPN.</string>
+    <string name="security_tips11">خروج از پیام‌رسان ناشناس داده‌های شما را رمزگذاری شده روی
+        گوشی شما نگه می‌دارد.</string>
+    <string name="security_tips12">در صورت امکان پیام‌رسان ناشناس را از منبع بسازید.</string>
+    <string name="security_tips13">هویت‌ها را تایید کنید.</string>
+    <string name="security_tips14">مطمئن شوید که هیچ مالکیتی را در گوشی خود استفاده نمی‌کنید و
+        که از یک برنامه متن باز آزاد برای دسترسی به سایت‌های شبکه اجتماعی خود، خدمات مالی، و به طور کلی از هیچ برنامه‌ای که نمی‌توانید به آن اعتماد کنید یا یکی که نیاز به
+        بیش از آنچه نیاز دارد به داشته باشد، یا هرگونه تبلیغات شخص ثالث ارائه شده توسط
+        برنامه خود.</string>
+    <string name="security_tips15">در نظر گرفتن هدیه برای کمک به این پروژه برای اینکه حتی
+        بهتر و به ما کمک کند بهترین راه‌حل برای پیام‌رسانی ناشناس را برای همه ارائه دهد.</string>
+    <string name="opening_socks_listener">در حال باز کردن شنونده Socks</string>
+    <string name="socks_listener_listening">شنونده Socks در حال شنیدن</string>
+    <string name="opened_socks_listener">شنونده Socks باز شده</string>
+    <string name="opening_control_listener">در حال باز کردن شنونده کنترل</string>
+    <string name="control_listener_listening">شنونده کنترل در حال شنیدن</string>
+    <string name="opened_control_listener">شنونده کنترل باز شده</string>
+    <string name="action_notepad">دفترچه یادداشت</string>
+    <string name="save">ذخیره</string>
+    <string name="enter_note">ذخیره یادداشت رمزگذاری شده</string>
+    <string name="delete_contact_question">این مخاطب را حذف کنید؟</string>
+    <string name="delete_contact_details">این قابل برگشت نیست و همچنین مخاطب شما و مکالمه را حذف خواهد کرد</string>
+    <string name="delete_note_question">این یادداشت را حذف کنید؟</string>
+    <string name="delete_note_details">این قابل برگشت نیست</string>
+    <string name="delete_note">حذف</string>
+    <string name="open_link_question">این لینک را باز کنید؟</string>
+    <string name="open_link_describe">باز کردن لینک‌ها خارج از برنامه‌های خصوصی می‌تواند شما را از ناشناسی خارج کند،
+        فقط این کار را انجام دهید اگر لینک را به اعتماد دارید یا از مرورگر تور استفاده کنید اگر ممکن است</string>
+    <string name="scan">اسکن QR کد</string>
+    <string name="contact_added">مخاطب اضافه شد</string>
+    <string name="cam_perm_ask_title">مجوز دوربین</string>
+    <string name="why_need_cam">اسکن QR بدون مجوز دوربین کار نخواهد کرد</string>
+    <string name="ask_for_cam_btn">تأیید</string>
+    <string name="invalid_address">آدرس نامعتبر</string>
+    <string name="action_log">سجل امنیتی</string>
+    <string name="delete_log_question">حذف؟</string>
+    <string name="delete_log_details">این قابل برگشت نیست</string>
+    <string name="action_log_notice">شامل اطلاعیه</string>
+    <string name="action_clear_log">شامل اطلاعیه‌های سجل</string>
+    <string name="include_notice_logs">شامل اطلاعیه‌ها</string>
+    <string name="decrypting2">در حال رمزگشایی</string>
+    <string name="open_file_question">فایل را در برنامه دیگری باز کنید؟</string>
+    <string name="open_file_describe">این فایل را رمزگشایی کرده و به برنامه سوم
+        دسترسی خواهد داد که ممکن است فایل را به خطر بیندازد</string>
+    <string name="deleted_logs">لاگ پاک شد</string>
+    <string name="saving">"در حال ذخیره "</string>
+    <string name="cancel">لغو</string>
+    <string name="slide_to_cancel">برای لغو به عقب بکشید</string>
+    <string name="sending_file">در حال ارسال فایل</string>
+    <string name="sending_part_one">ارسال بخش ۱</string>
+    <string name="screen_filter_body">برنامه دیگری در حال ترسیم روی AnonymousMessenger است،
+        صفحه مسدود شده برای حفظ حریم خصوصی شما</string>
+    <string name="screen_filter_title">لایه صفحه شناسایی شد</string>
+    <string name="try_now">حالا امتحان کنید</string>
+    <string name="mic_in_use">میکروفون ممکن است توسط برنامه دیگری استفاده شود</string>
+    <string name="back_image">بازگشت</string>
+    <string name="subtitle">زیرتیتر</string>
+    <string name="qr_code_image">تصویر حاوی کد QR</string>
+    <string name="go_to_app">برنامه را باز کنید</string>
+    <string name="use_bridges">استفاده از پل‌ها</string>
+    <string name="request_bridge">درخواست پل</string>
+    <string name="done_button">انجام</string>
+    <string name="allow_unknown">پذیرش مخاطبان ناشناخته</string>
+    <string name="allow_files">اجازه دریافت فایل‌ها</string>
+    <string name="file_limit">حد اندازه فایل</string>
+    <string name="allow_calls">اجازه تماس‌ها</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="delete_bridge_question">این پل را حذف کنید؟</string>
+    <string name="delete_bridge_details">این قابل برگشت نیست</string>
+    <string name="online_check_address">بررسی آنلاین آدرس</string>
+    <string name="reset_settings">بازنشانی تنظیمات</string>
+    <string name="bridges">پل‌ها (بازآوری تور برای اعمال)</string>
+    <string name="other">سایر</string>
+    <string name="reset">بازنشانی</string>
+    <string name="security">امنیت</string>
+    <string name="connectivity">اتصال</string>
+    <string name="add_bridge">افزودن پل</string>
+    <string name="request_bridge_help">شما می‌توانید درخواست پلی از پروژه تور را با دنبال کردن این لینک انجام دهید: https://bridges.torproject.org/bridges?transport=obfs4   به جای آن می‌توانید ایمیل بنویسید به bridges@torproject.org یا می‌توانید پل خود را راه اندازی کنید و از آن استفاده کنید.</string>
+    <string name="button_undo">بازگردانی</string>
+    <string name="insert_bridge_line">خط پل را قرار دهید</string>
+    <string name="nickname_explain_title">استفاده از نام مستعار</string>
+    <string name="nickname_explain">نام مستعار شما روی دستگاه شما ذخیره شده و فقط با پیام خود رمزگذاری شده به مخاطب شما ارسال می‌شود، شما هرگز هنگام استفاده از این برنامه به سروری متصل نمی‌شوید.</string>
+    <string name="password_explain_title">استفاده از رمز عبور</string>
+    <string name="online_check_address_explain">این آدرس برای اطمینان از این استفاده می‌شود که شما آنلاین هستید و همه چیز صحیح تنظیم شده، این می‌تواند هر آدرس سرور وب باشد زیرا ما فقط برای دسترسی‌پذیری بررسی می‌کنیم همچنین می‌تواند سرویس پنهان یا آدرس عادی باشد.</string>
+    <string name="running_on">در حال اجرا: </string>
+    <string name="processors">پردازنده‌ها</string>
+    <string name="and">و </string>
+    <string name="free_memory">حافظه آزاد</string>
+    <string name="ok">تأیید</string>
+    <string name="with">با</string>
+    <string name="welcome_to_anonymous_messenger">این پیام‌رسان امن بعدی شماست</string>
+    <string name="change_profile_image">تغییر تصویر</string>
+    <string name="remove_profile_image">حذف تصویر</string>
+    <string name="remove_profile_image_details">آیا مطمئن هستید که می‌خواهید تصویر پروفایل خود را حذف کنید؟</string>
+    <string name="profile_image_changed">تصویر پروفایل تغییر کرد</string>
+    <string name="profile_image_removed">تصویر پروفایل حذف شد</string>
+    <string name="restart_app">بازآوری برنامه</string>
+    <string name="unknown_exception">خطای ناشناخته</string>
+    <string name="error_occurred">اتفاقی بدی افتاد</string>
+    <string name="error_details">جزئیات خطا</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="use_proxy">استفاده از پروکسی Socks5</string>
+    <string name="proxy_address">آدرس پروکسی Socks5</string>
+    <string name="proxy_username">نام کاربری</string>
+    <string name="proxy_password">رمز عبور</string>
+    <string name="tor_error">تور نتوانست در عرض ۳۰۰ ثانیه متصل شود، می‌توانید تلاش کنید استفاده از پل‌ها یا اتصال از طریق هر پروکسی Socks5 در تنظیمات</string>
+    <string name="tor_error_title">خطا هنگام راه‌اندازی تور</string>
+    <string name="stay_offline">بمانید آفلاین</string>
+    <string name="proxy">پروکسی Socks5 (بازآوری تور برای اعمال)</string>
+    <string name="exclude_tor_nodes">حذف گره‌های تور (بازآوری تور برای اعمال)</string>
+    <string name="exclude_unknown">حذف گره‌های ناشناخته</string>
+    <string name="strict_exclude">حذف سخت</string>
+    <string name="action_scroll_up">اسکرول به بالا</string>
+    <string name="action_scroll_down">اسکرول به پایین</string>
+    <string name="action_clear_tor_cache">پاک کردن کش تور</string>
+    <string name="clear_tor_cache_explain">این می‌تواند مفید باشد اگر کش‌های توصیف‌گرهای منسوخ باشد، اما توصیه نمی‌شود زیاد انجام دادن به دلیل مسائل عملکرد و ناشناسی.</string>
+    <string name="disappearing_messages_default">حذف پیام‌های بدون سنجاق بعد از ۲۴ ساعت</string>
+    <string name="tor_exited">تور خارج شد</string>
+    <string name="action_change_app_name">تغییر نام برنامه</string>
+    <string name="select_app_name">انتخاب نام برنامه</string>
+    <string name="action_change_theme">تغییر تم</string>
+    <string name="dark_theme">تم تیره</string>
+    <string name="light_theme">تم روشن</string>
+    <string name="invalid_bridge">پل نامعتبر</string>
+    <string name="bridge_added">پل اضافه شد</string>
+    <string name="nickname_help_explain">برای کسب اطلاعات در مورد استفاده از نام مستعار کلیک کنید</string>
+    <string name="no_recent_messages">پیام‌های اخیر یافت نشد!</string>
+    <string name="unpinned_messages_get_deleted">میدانستید که پیام‌های بدون سنجاق هر ۲۴ ساعت حذف می‌شوند؟</string>
+    <string name="continue_without_password">استفاده از رمز عبور نکنید</string>
+    <string name="hangup">قطع تماس</string>
+    <string name="outgoing_call">تماس خروجی</string>
+    <string name="return_to_call">بازگشت به تماس</string>
+    <string name="action_donate">نذر/اهداء</string>
+    <string name="donate_text">شما می‌توانید کمک مالی کنید برای کمک به پروژه</string>
+    <string name="bitcoin">بیت‌کوین</string>
+    <string name="monero">مونرو</string>
+    <string name="send_image">ارسال تصویر</string>
+    <string name="error_accessing_storage">خطا در دسترسی به حافظه خارجی</string>
+    <string name="error_opening_image">خطا در باز کردن تصویر از حافظه خارجی</string>
+    <string name="step_1_choose_your_nickname">مرحله ۱: نام مستعار خود را انتخاب کنید</string>
+    <string name="what_should_people_call_you">چگونه مردم باید شما را صدا بزنند؟</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">این نام به کاربران دیگر قابل مشاهده است. می‌توانید بعداً آن را تغییر دهید.</string>
+    <string name="type_your_nickname_here">نام مستعار خود را اینجا تایپ کنید: 👇</string>
+    <string name="enter_nickname">نام مستعار را وارد کنید</string>
+    <string name="get_help_with_choosing_a_nickname">کمک برای انتخاب یک نام مستعار</string>
+    <string name="tap_for_help">💡 برای کمک ضربه بزنید</string>
+    <string name="continue_txt">ادامه →</string>
+    <string name="step_2_secure_your_account">مرحله ۲: امنیت داده‌های خود</string>
+    <string name="choose_a_strong_password">رمز عبور قوی انتخاب کنید</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">رمز عبور داده‌های شما را با رمزنگاری محافظت می‌کند</string>
+    <string name="create_your_password">رمز عبور خود را ایجاد کنید</string>
+    <string name="get_help_with_passwords">کمک</string>
+    <string name="tap_for_password_tips">برای کمک ضربه بزنید</string>
+    <string name="private_messaging_reimagined">از آزادی صحبت کنید، ناشناس بمانید</string>
+    <string name="private_secure_anonymous"> خصوصی • رمزنگاری • ناشناسی</string>
+    <string name="start_private_messaging">ثبت نام کنید</string>
+    <string name="already_have_account">استفاده از بکاپ</string>
+    <string name="tor_network">⚡ شبکه تور</string>
+    <string name="peer_2_peer">🌐 دو به دو</string>
+    <string name="anonymous">🕵️ ناشناس</string>
+    <string name="encrypted">🔒 رمزگذاری شده</string>
+    <string name="welcome_back">خوش آمدید</string>
+    <string name="enter_your_password_to_continue">رمز عبور خود را برای ادامه وارد کنید</string>
+    <string name="your_data_is_encrypted_and_secure">داده‌های شما رمزگذاری شده و امن هستند</string>
+    <string name="enter_encryption_password">رمز عبور رمزنگاری را وارد کنید</string>
+    <string name="enter_your_password">رمز عبور خود را وارد کنید</string>
+    <string name="incorrect_password_try_again">رمز عبور اشتباه، دوباره تلاش کنید.</string>
+    <string name="get_help_with_password">کمک</string>
+    <string name="tap_for_password_recovery_options">برای کمک ضربه بزنید</string>
+    <string name="forgot_your_password">طریقه‌ای برای بازیابی حساب شما بدون بکاپ وجود ندارد اگر رمز عبور خود را فراموش کرده‌اید</string>
+    <string name="this_may_take_a_few_moments">این ممکن است چند لحظه طول بکشد</string>
+    <string name="initializing_tor_network">راه‌اندازی شبکه تور</string>
+    <string name="securing_connection">حریم خصوصی کردن اتصال شما</string>
+    <string name="connecting_world">🌐 در حال اتصال</string>
+    <string name="secure">✅ امن</string>
+    <string name="bootstrapping">🔒 در حال بوت‌استپ</string>
+    <string name="appearance_other">ظاهر و سایر</string>
+    <string name="get_help">کمک</string>
+    <string name="reset_to_default">بازنشانی به پیش‌فرض</string>
+    <!-- Security Section -->
+    <string name="high_security">امنیت بالا</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">تنظیمات پل</string>
+    <string name="bridge_help">کمک با تنظیمات پل</string>
+    <string name="bridge_description">استفاده از پل‌ها برای دور زدن سانسور زمانی که تور در شبکه شما بسته شده است</string>
+    <string name="enable_tor_bridges">فعال کردن پل‌های تور</string>
+    <string name="bridges_active">پل‌ها فعال هستند و تنظیم شده‌اند</string>
+    <string name="configured_bridges">پل‌های تنظیم شده</string>
+    <string name="add_new_bridge">افزودن پل جدید</string>
+    <string name="add_manually">افزودن پل‌ها</string>
+    <string name="request_automatically">درخواست پل‌های جدید</string>
+    <string name="scan_qr_code">اسکن کد QR</string>
+    <string name="paste_bridge_lines_here">خطوط پل را اینجا بچسبانید…</string>
+    <string name="bridge_input_help">می‌توانید چندین خط پل را بچسبانید. هر خط باید در قالب باشد:\n\nobfs4 ۱.۲.۳.۴:۱۲۳۴ cert=ABC...\n\nنیازی به درج کلمه \"bridge\" در ابتدا نیست.</string>
+    <string name="action_backup">بکاپ</string>
+    <string name="back_up_alert_message">آیا مطمئن هستید که می‌خواهید داده‌های خود را بکاپ بگیرید؟ این بکاپ حساب سرویس پیاز شما و کلیدهای رمزنگاری شما و همه پیام‌های شما را انجام می‌دهد</string>
+    <string name="backup_progress_title">در حال ایجاد بکاپ</string>
+    <string name="backup_progress_message">لطفاً صبر کنید…</string>
+    <string name="restore_progress_title">در حال بازیابی بکاپ</string>
+    <string name="restore_progress_message">لطفاً صبر کنید…</string>
+</resources>

@@ -1,0 +1,442 @@
+<resources>
+    <string name="app_name">Anonieme Messenger</string>
+    <string name="create_account_button">Start</string>
+    <string name="nickname">Bijnaam</string>
+    <string name="nickname_error">Ongeldige bijnaam</string>
+    <string name="nickname_help">Voer een bijnaam in om door te gaan</string>
+    <string name="nickname_okay">Leuke bijnaam!</string>
+    <string name="next_button">Volgende</string>
+    <string name="choose_password">Kies een wachtwoord</string>
+    <string name="confirm_password">Bevestig wachtwoord</string>
+    <string name="setup_password_explanation">Het wachtwoord dat u invoert wordt gebruikt om gegevens op uw apparaat te versleutelen, dit is geen inlogwachtwoord en kan niet worden gebruikt voor herstel, u moet uw wachtwoord later invoeren wanneer u de app opent na het verlaten ervan, deze app verbindt nooit met enige server.</string>
+    <string name="password_too_weak">Uw wachtwoord is te zwak, we kunnen u dit niet toestaan omdat we ons zorgen maken om uw veiligheid</string>
+    <string name="passwords_do_not_match">Wachtwoorden komen niet overeen</string>
+    <string name="channel4">kanaal4</string>
+    <string name="channel_description">dit en dat</string>
+    <string name="hello_blank_fragment">Hallo leeg fragment</string>
+    <string name="enter_password">Voer wachtwoord in</string>
+    <string name="decrypt_button">Ontcijferen</string>
+    <string name="myaddress">Mijn adres</string>
+    <string name="hint_contact_address">Voer contactadres in (.onion)</string>
+    <string name="lbl_contact_address">Voer contactadres in</string>
+    <string name="enter_message">Beveiligde bericht…</string>
+    <string name="send_button">VERZENDEN</string>
+    <string name="reply">Reactie</string>
+    <string name="pin">Pin</string>
+    <string name="copy">Kopieer</string>
+    <string name="you">je</string>
+    <string name="action_reset_session">Sessie resetten</string>
+    <string name="action_verify_identity">Identiteit verifiëren</string>
+    <string name="action_clear_conversation">Gesprek wissen</string>
+    <string name="action_search">Zoeken</string>
+    <string name="action_shutdown">Afsluiten</string>
+    <string name="action_my_identity">Mijn identiteit</string>
+    <string name="action_restart_tor">Tor herstarten</string>
+    <string name="my_identity_explanation">Gebruikt voor identificatie van openbare sleutel</string>
+    <string name="verify_identity_explanation">Beide openbare sleutels samen om beide identiteiten te verifiëren</string>
+    <string name="verify_identity_how_to">Vergelijk deze nummers op beide apparaten, als ze hetzelfde waren dan werkt E2E-codering correct…</string>
+    <string name="action_call">Oproep</string>
+    <string name="ask_me_again">Nogmaals vragen</string>
+    <string name="no_thanks">Nee bedankt</string>
+    <string name="why_need_mic">de app heeft dit nodig om te bellen of te ontvangen</string>
+    <string name="mic_perm_ask_title">Microfoon toegang</string>
+    <string name="ask_for_mic_btn">OK</string>
+    <string name="accept_call">Accepteren</string>
+    <string name="dx_call">TOR BEL</string>
+    <string name="call_picture_description">schermbeeld oproep</string>
+    <string name="end_call">Ophangen</string>
+    <string name="connecting">Verbinden…</string>
+    <string name="CallNotificationBuilder_connecting">Verbinden</string>
+    <string name="NotificationBarManager__incoming_call">Inkomende oproep</string>
+    <string name="NotificationBarManager_call_in_progress">Oproep in uitvoering</string>
+    <string name="NotificationBarManager__establishing_call">Oproep opzetten</string>
+    <string name="trying">poging</string>
+    <string name="ringing">Beltoon</string>
+    <string name="connected">Verbonden</string>
+    <string name="answer">antwoord</string>
+    <string name="incoming_call">Inkomende oproep</string>
+    <string name="identity_verification_fail">Kan identiteitsleutels niet krijgen</string>
+    <string name="identity_key_fail">Kan uw identiteitsleutel niet vinden</string>
+    <string name="delete_contact">Contact verwijderen</string>
+    <string name="no_contacts">Geen contacten gevonden!</string>
+    <string name="tor_output">Tor uitvoer</string>
+    <string name="anonymous_messenger">Anonieme Messenger</string>
+    <string name="by_drxtreme">door DrXtreme</string>
+    <string name="welcome_to">welkom tot</string>
+    <string name="recording">Opnemen</string>
+    <string name="send">VERZENDEN</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">om te tonen als het niet is gelezen</string>
+    <string name="text_msg_placeholder">vriend vergeten je te herinneren over die ding daar</string>
+    <string name="profile_image">profiel afbeelding</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31m</string>
+    <string name="seen_image">bekijkte afbeelding</string>
+    <string name="msg_place_holder">hallo man, hoe gaat het?</string>
+    <string name="indicates_secure_messaging">wijst naar beveiligde berichten</string>
+    <string name="textview">Tekstweergave</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">hallo man, hoe gaat het?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">offline</string>
+    <string name="picture_of_contact">contactafbeelding</string>
+    <string name="hold_on">Wacht even!</string>
+    <string name="starting_up_tor">starten van Tor</string>
+    <string name="doing_stuff">je maakt je anoniem…</string>
+    <string name="go_to_contacts">Overslaan</string>
+    <string name="checking">Controleer</string>
+    <string name="online">online</string>
+    <string name="synced">gesynchroniseerd</string>
+    <string name="add_contact">Contact toevoegen</string>
+    <string name="waiting_for_tor">wachten op Tor</string>
+    <string name="oh_no">O nee!</string>
+    <string name="did_you_forget_your_password">Heeft u uw wachtwoord vergeten?</string>
+    <string name="hello_hello" translatable="false">hallo, hallo!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Anonieme Messenger: je hebt geen RAM meer!</string>
+    <string name="no_encryption_yet">Nog niet klaar voor versleuteling</string>
+    <string name="no_session">Sessie bestaat niet, start sessie nu</string>
+    <string name="audio_message">audioboodschap</string>
+    <string name="user_is_online">Gebruiker is online</string>
+    <string name="user_is_offline">Gebruiker is offline</string>
+    <string name="cant_encrypt_message">Kon bericht niet versleutelen, je moet wachten op sleuteluitwisseling</string>
+    <string name="resp_key_exchange">Antwoord Sleuteluitwisseling Bericht</string>
+    <string name="key_exchange_message">Sleuteluitwisseling Bericht</string>
+    <string name="image_to_send">afbeelding om te verzenden</string>
+    <string name="read_storage_perm_ask_title">Opslagtoegang lezen</string>
+    <string name="why_need_read_storage">de app heeft dit nodig om
+        afbeeldingen opgeslagen op uw telefoon te kunnen verzenden</string>
+    <string name="icon_for_image_to_send">icoon voor afbeelding om te verzenden</string>
+    <string name="image">afbeelding</string>
+    <string name="pic_help">Sluiten</string>
+    <string name="send_media_to">"Media verzenden naar "</string>
+    <string name="picure_view">Afbeelding weergave</string>
+    <string name="media_message">mediaboodschap</string>
+    <string name="caption">Bijschrift</string>
+    <string name="still_background">Wordt nog steeds uitgevoerd in de achtergrond</string>
+    <string name="click_to_hide">Verberg notificatie</string>
+    <string name="unpin">Losmaken</string>
+    <string name="profile_contact">Profiel bekijken</string>
+    <string name="save_picture">Afbeelding opslaan</string>
+    <string name="confirm_add_contact">"Wil je echt toevoegen "</string>
+    <string name="contact_exists">Contact bestaat al!</string>
+    <string name="cant_add_contact">kan contact niet toevoegen!</string>
+    <string name="save_to_storage">Opslaan in gedeelde opslag?</string>
+    <string name="save_to_storage_explain">Andere apps zullen toegang hebben tot deze afbeelding als deze is opgeslagen in gedeelde opslag.</string>
+    <string name="action_my_profile">Mijn profiel</string>
+    <string name="action_help">Hulp</string>
+    <string name="action_about">Over</string>
+    <string name="change_nickname">Naam veranderen</string>
+    <string name="new_nickname">Nieuwe naam</string>
+    <string name="confirm">Bevestigen</string>
+    <string name="action_license">Licentie</string>
+    <string name="license">Anonieme Messenger, een volledig privaat communicatieoplossing die werkt via Tor.\n
+    Auteursrecht © 2021  Sofian M. Benissa\n\n
+    Dit programma is gratis software: u mag het herverdelen en/of wijzigen
+    onder de voorwaarden van de GNU Algemene Openbare Licentie zoals gepubliceerd door
+    de Free Software Foundation, ofwel versie 3 van de licentie, ofwel
+    (op uw keuze) elke latere versie.\n
+    Dit programma wordt verspreid met de hoop dat het nuttig zal zijn,\n
+    maar ZONDER ENIGE GARANTIE; zelfs zonder de impliciete garantie van
+    VERKOOPBAARHEID of GESCHIKTHEID VOOR EEN BEPAALD DOEL. Zie de\n
+    GNU Algemene Openbare Licentie voor meer details.\n
+    U zou een kopie van de GNU Algemene Openbare Licentie moeten hebben
+        gekregen samen met dit programma. Zo niet, zie https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Adres gekopieerd</string>
+    <string name="empty_nickname_help">Kan geen lege naam hebben</string>
+    <string name="theiraddress">Hun adres</string>
+    <string name="turn_off_battery">Batterij optimalisatie uitzetten?</string>
+    <string name="allow_in_background">toestaan dat Anonieme Messenger blijft werken in de achtergrond?</string>
+    <string name="shut_app">Applicatie afsluiten?</string>
+    <string name="shut_app_explain">U zult geen berichten kunnen ontvangen tot u het opnieuw ontcijfert met uw wachtwoord</string>
+    <string name="restart_tor">Tor herstarten?</string>
+    <string name="restart_tor_explain">Dit zou niet nodig moeten zijn in normale operatie tenzij u denkt dat Tor nu niet goed werkt</string>
+    <string name="restarting_service">Service herstarten</string>
+    <string name="connection_restored">Verbinding hersteld</string>
+    <string name="lost_connection">Verbinding verloren</string>
+    <string name="connection_is_coming">de verbinding zou snel terugkomen</string>
+    <string name="will_receive_messages_soon">zou moeten kunnen ontvangen berichten binnen 2 minuten</string>
+    <string name="waiting_for_connectivity">wachten op connectiviteit</string>
+    <string name="almost_ready">Bijna klaar!</string>
+    <string name="starting_tor_first_time">Tor starten en opwarmen om alles te krijgen wat we nodig hebben om te verbinden!</string>
+    <string name="ready_to_chat">Klaar om veilig te chatten!</string>
+    <string name="you_got_all_you_need">Je hebt alles wat je nodig hebt om veilig te chatten met je vrienden!</string>
+    <string name="new_message">Nieuw bericht!</string>
+    <string name="you_have_message">je hebt een nieuw geheim bericht</string>
+    <string name="wrong_password">Fout wachtwoord</string>
+    <string name="no_key">versleutelingssleutel niet gevonden</string>
+    <string name="error">fout</string>
+    <string name="failed_to_decrypt">ONTCIFEREN VAN BERICHT MISLUKT</string>
+    <string name="failed_to_read_after_decrypt">LEZEN NA ONTCIFERING VAN BERICHT MISLUKT</string>
+    <string name="failed_to_get_AEM">ONTCIFEREN VAN AddressedEncryptedMessage VAN BERICHT MISLUKT</string>
+    <string name="cant_add_self">Je kunt jezelf niet toevoegen!</string>
+    <string name="waiting_for_response">Sleutel verzonden, wachten op antwoord</string>
+    <string name="decrypting">Ontcijferen…</string>
+    <string name="stale_key">Opgelopende sleutel ontvangen (negeren)</string>
+    <string name="invalid_key">Ongeldige sleutel ontvangen</string>
+    <string name="untrusted_identity">Sleutel ontvangen van een Onbetrouwbare Identiteit</string>
+    <string name="bad_message">Beschadigd bericht</string>
+    <string name="decrypt_reminder_title">Ontcijferen om berichten te ontvangen</string>
+    <string name="decrypt_reminder_message">je moet uw wachtwoord invoeren om
+        in de achtergrond te draaien</string>
+    <string name="denied_microphone">Microfoontoegang geweigerd</string>
+    <string name="denied_microphone_help">zo zo kunt u geen bel of ontvangen oproepen</string>
+    <string name="delete_messages">Alle berichten verwijderen?</string>
+    <string name="delete_messages_help">dit verwijdert zelfs de vastgezette berichten!</string>
+    <string name="yes">Ja</string>
+    <string name="pinned_message">Bericht Vastgezette</string>
+    <string name="unpinned_message">Bericht Losgelegd</string>
+    <string name="copied">Gekopieerd</string>
+    <string name="saved_to_storage">Opgeslagen in opslag</string>
+    <string name="about">Een project gefinancierd door Alton James Steele en ontwikkeld door Sofian Mahmoud
+        Benissa
+        om anonimiteit, veiligheid en gemak te brengen aan jou, omdat we niet tevreden waren met wat beschikbaar was besloten we om
+        ons eigen idee voor een berichtapplicatie en de wereld te delen, broncode
+        is beschikbaar en het project is gelicenseerd onder de GNU Algemene Openbare Licentie zodat je kunt
+        volledig profiteren van het en de vrijheid om het te wijzigen met andere
+        vrijheden</string>
+    <string name="copyright">Auteursrecht © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Veiligheidstips</string>
+    <string name="hide_notification">service_running melding uitzetten</string>
+    <string name="record_audio">opname audio</string>
+    <string name="send_file">bestand verzenden</string>
+    <string name="scroll_down">scrollen omlaag</string>
+    <string name="file">Bestand</string>
+    <string name="unknown_file_name">Onbekende bestandsnaam</string>
+    <string name="unknown_file_size">Onbekende bestandsgrootte</string>
+    <string name="recording_failed">Kan nu niet opnemen, misschien is er een oproep lopen?</string>
+    <string name="feature_unready">deze functie zal klaar zijn in de volgende update</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Gebruik een toetsenbord dat je vrijheid respecteert en niet
+        verbindt met internet, we raden OpenBoard te gebruiken</string>
+    <string name="security_tips02">Je beveiliging hangt sterk af van de geïnstalleerde apps
+        op het apparaat, we raden uw standaard apps te veranderen naar apps van de
+        f-droid repository</string>
+    <string name="security_tips03">Probeer niet per ongeluk je vrienden adres in je browser te plakken, omdat dit je/ hun anonimiteit kan in gevaar brengen</string>
+    <string name="security_tips04">Verwijder Anonieme Messenger om je account te verwijderen en alles te wissen.</string>
+    <string name="security_tips05">Het downloaden van onze onion service is veiliger dan onze
+        clear net servers.</string>
+    <string name="security_tips06">Uw gegevens opslag versleuteling is alleen zo veilig als uw
+        wachtwoord, we raden een lang wachtwoord gemaakt van woorden die voor jou geen betekenis hebben.</string>
+    <string name="security_tips07">Tekst is veiliger en anoniemer dan iets anders.</string>
+    <string name="security_tips08">Deel je adres op de veiligste manier mogelijk.</string>
+    <string name="security_tips09">Versleutel telefoon opslag indien mogelijk.</string>
+    <string name="security_tips10">Wanneer u een VPN wilt gebruiken, zorg er dan voor dat de client die u gebruikt open
+        bron vrije software zoals OpenVPN is.</string>
+    <string name="security_tips11">Verlaten Anonieme Messenger houdt je gegevens versleuteld op je
+        telefoon.</string>
+    <string name="security_tips12">Bouw Anonieme Messenger vanuit de bron, indien mogelijk.</string>
+    <string name="security_tips13">Identiteiten verifiëren.</string>
+    <string name="security_tips14">Zorg ervoor dat je geen proprietaire apps op je telefoon gebruikt en
+        dat je een gratis open source programma gebruikt om je sociale media sites, financiële
+        diensten en om nog niet te hebben geen app die je niet kunt vertrouwen of een die meer
+        rechten nodig heeft dan nodig heeft, of heeft derde partij advertenties gepresenteerd door
+        de app zelf.</string>
+    <string name="security_tips15">Overweeg een donatie om dit project nog beter te maken en ons te helpen om het beste oplossing voor anonieme berichten te leveren voor iedereen.</string>
+    <string name="opening_socks_listener">Openen Socks Listener</string>
+    <string name="socks_listener_listening">Socks Listener Luisteren</string>
+    <string name="opened_socks_listener">Socks Listener Geopend</string>
+    <string name="opening_control_listener">Openen Control Listener</string>
+    <string name="control_listener_listening">Control Listener Luisteren</string>
+    <string name="opened_control_listener">Control Listener Geopend</string>
+    <string name="action_notepad">Notitie</string>
+    <string name="save">Opslaan</string>
+    <string name="enter_note">Opslaan versleutelde nota</string>
+    <string name="delete_contact_question">Deze contact verwijderen?</string>
+    <string name="delete_contact_details">dit kan niet ongedaan gemaakt en dit contact ook verwijderen van de sessie en gesprek</string>
+    <string name="delete_note_question">Deze nota verwijderen?</string>
+    <string name="delete_note_details">dit kan niet ongedaan gemaakt</string>
+    <string name="delete_note">Verwijderen</string>
+    <string name="open_link_question">Deze link openen?</string>
+    <string name="open_link_describe">Links buiten privaten apps openen kan je anonimiseren,
+        doe dit alleen als je het vertrouwt op de link of gebruik Tor browser indien mogelijk</string>
+    <string name="scan">Scan QR-code</string>
+    <string name="contact_added">Contact toegevoegd</string>
+    <string name="cam_perm_ask_title">Camera toegang</string>
+    <string name="why_need_cam">QR-scannen zal niet werken zonder camera toegang</string>
+    <string name="ask_for_cam_btn">OK</string>
+    <string name="invalid_address">Ongeldig adres</string>
+    <string name="action_log">Veiligheid Logboek</string>
+    <string name="delete_log_question">Verwijderen?</string>
+    <string name="delete_log_details">Dit kan niet ongedaan gemaakt</string>
+    <string name="action_log_notice">Inclusief kennisgeving</string>
+    <string name="action_clear_log">Logboek wissen</string>
+    <string name="include_notice_logs">Inclusief Logboeken kennisgeving</string>
+    <string name="decrypting2">Ontcijferen</string>
+    <string name="open_file_question">Bestand openen in een andere app?</string>
+    <string name="open_file_describe">Dit zal het bestand ontsleutelen en toegang geven aan een derde
+        app die het bestand kan compromitteren</string>
+    <string name="deleted_logs">Logboek verwijderd</string>
+    <string name="saving">"Opslaan "</string>
+    <string name="cancel">Annuleren</string>
+    <string name="slide_to_cancel">Sleep om te annuleren</string>
+    <string name="sending_file">Bestand verzenden</string>
+    <string name="sending_part_one">Verzenden deel 1</string>
+    <string name="screen_filter_body">Een andere app trekt boven Anonieme Messenger,
+        scherm geblokkeerd om je privacy te beschermen</string>
+    <string name="screen_filter_title">Schermoverlay gedetecteerd</string>
+    <string name="try_now">Probeer nu</string>
+    <string name="mic_in_use">Microfoon wordt mogelijk gebruikt door een andere app</string>
+    <string name="back_image">terug</string>
+    <string name="subtitle">Ondertitel</string>
+    <string name="qr_code_image">Afbeelding bevat QR-code</string>
+    <string name="go_to_app">app openen</string>
+    <string name="use_bridges">Bruggen Gebruiken</string>
+    <string name="request_bridge">Brug aanvragen</string>
+    <string name="done_button">Gereed</string>
+    <string name="allow_unknown">Onbekende contacten accepteren</string>
+    <string name="allow_files">Ontvangen bestanden toestaan</string>
+    <string name="file_limit">Bestandsgrootte limiet</string>
+    <string name="allow_calls">Oproepen toestaan</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="delete_bridge_question">Deze brug verwijderen?</string>
+    <string name="delete_bridge_details">dit kan niet ongedaan gemaakt</string>
+    <string name="online_check_address">Online Controleer Adres</string>
+    <string name="reset_settings">Instellingen Resetten</string>
+    <string name="bridges">Bruggen (Tor herstarten om van kracht te zijn)</string>
+    <string name="other">Anders</string>
+    <string name="reset">Reset</string>
+    <string name="security">Beveiliging</string>
+    <string name="connectivity">Connectiviteit</string>
+    <string name="add_bridge">Brug toevoegen</string>
+    <string name="request_bridge_help">Je kunt een brug aanvragen van het Tor project door deze link te volgen: https://bridges.torproject.org/bridges?transport=obfs4   of je kunt een e-mail schrijven naar bridges@torproject.org of je kunt je eigen brug draaien en het gebruiken.</string>
+    <string name="button_undo">Ongedaan maken</string>
+    <string name="insert_bridge_line">Brug regel invoegen</string>
+    <string name="nickname_explain_title">Gebruik naam</string>
+    <string name="nickname_explain">Je bijnaam wordt opgeslagen op je apparaat en wordt alleen versleuteld direct verzonden naar je contact, je verbindt nooit met een server bij het gebruik van deze app.</string>
+    <string name="password_explain_title">Gebruik wachtwoord</string>
+    <string name="online_check_address_explain">Dit adres wordt gebruikt om te zorgen dat je online bent en alles goed staat, dit kan elk webserver adres zijn, omdat we alleen reachable controleren, het kan ook een hidden service of gewone adres zijn.</string>
+    <string name="running_on">Wordt uitgevoerd op: </string>
+    <string name="processors">processors</string>
+    <string name="and">en </string>
+    <string name="free_memory">vrije geheugen</string>
+    <string name="ok">OK</string>
+    <string name="with">met</string>
+    <string name="welcome_to_anonymous_messenger">Dit is je volgende veilige messenger</string>
+    <string name="change_profile_image">Afbeelding veranderen</string>
+    <string name="remove_profile_image">Afbeelding verwijderen</string>
+    <string name="remove_profile_image_details">Weet je zeker dat je je profielafbeelding wilt verwijderen?</string>
+    <string name="profile_image_changed">Profielafbeelding gewijzigd</string>
+    <string name="profile_image_removed">Profielafbeelding verwijderd</string>
+    <string name="restart_app">Applicatie herstarten</string>
+    <string name="unknown_exception">Onbekende Fout</string>
+    <string name="error_occurred">Er is iets misgegaan</string>
+    <string name="error_details">Foutdetails</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="use_proxy">Gebruik een Socks5 Proxy</string>
+    <string name="proxy_address">Socks5 proxy adres</string>
+    <string name="proxy_username">Gebruikersnaam</string>
+    <string name="proxy_password">Wachtwoord</string>
+    <string name="tor_error">Kon Tor binnen 300s niet verbinden, je kunt proberen bruggen te gebruiken of verbinden via enige socks5 proxy in de instellingen</string>
+    <string name="tor_error_title">Fout bij het starten van Tor</string>
+    <string name="stay_offline">Blijf offline</string>
+    <string name="proxy">Socks5 proxy (Tor herstarten om van kracht te zijn)</string>
+    <string name="exclude_tor_nodes">Tor knooppunten uitsluiten (Tor herstarten om van kracht te zijn)</string>
+    <string name="exclude_unknown">Onbekende knooppunten uitsluiten</string>
+    <string name="strict_exclude">Strikt uitsluiten</string>
+    <string name="action_scroll_up">Omhoog scrollen</string>
+    <string name="action_scroll_down">Omlaag scrollen</string>
+    <string name="action_clear_tor_cache">Tor Cache Wissen</string>
+    <string name="clear_tor_cache_explain">Dit kan nuttig zijn als cached descriptors zijn verouderd, maar wordt niet aanbevolen het vaak te doen wegens prestaties en anonimiteit overwegingen.</string>
+    <string name="disappearing_messages_default">Verwijder Niet-Vastgezette Berichten Na 24uur</string>
+    <string name="tor_exited">Tor verliet</string>
+    <string name="action_change_app_name">App Naam Wijzigen</string>
+    <string name="select_app_name">App Naam Kiezen</string>
+    <string name="action_change_theme">Thema Wijzigen</string>
+    <string name="dark_theme">Donker Thema</string>
+    <string name="light_theme">Licht Thema</string>
+    <string name="invalid_bridge">Ongeldige Brug</string>
+    <string name="bridge_added">Brug Toegevoegd</string>
+    <string name="nickname_help_explain">Klik voor informatie over naam gebruik</string>
+    <string name="no_recent_messages">Geen recente berichten!</string>
+    <string name="unpinned_messages_get_deleted">Wist u, niet-vastgezette berichten worden elke 24 uur verwijderd?</string>
+    <string name="continue_without_password">Gebruik geen wachtwoord</string>
+    <string name="hangup">Ophangen</string>
+    <string name="outgoing_call">Uitgaande oproep</string>
+    <string name="return_to_call">Terug naar oproep</string>
+    <string name="action_donate">Doneer</string>
+    <string name="donate_text">Je kunt doneren om het project te helpen</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Afbeelding Verzenden</string>
+    <string name="error_accessing_storage">Fout bij toegang tot externe opslag</string>
+    <string name="error_opening_image">Fout openen afbeelding van externe opslag</string>
+    <string name="step_1_choose_your_nickname">STAP 1: KIES JE NAAM</string>
+    <string name="what_should_people_call_you">Hoe moeten mensen u noemen?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Deze naam zal zichtbaar zijn voor andere gebruikers. Je kunt het later veranderen.</string>
+    <string name="type_your_nickname_here">TYP JE NAAM HIER INVOEREN: 👇</string>
+    <string name="enter_nickname">Voer naam in</string>
+    <string name="get_help_with_choosing_a_nickname">Hulp krijgen bij het kiezen van een naam</string>
+    <string name="tap_for_help">💡 Klik voor hulp</string>
+    <string name="continue_txt">VERVOLG →</string>
+    <string name="step_2_secure_your_account">STAP 2: BEVEILIG JE ACCOUNT</string>
+    <string name="choose_a_strong_password">Kies een sterk wachtwoord</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Een wachtwoord beschermt je gegevens met versleuteling</string>
+    <string name="create_your_password">Maak je wachtwoord</string>
+    <string name="get_help_with_passwords">Hulp krijgen</string>
+    <string name="tap_for_password_tips">Klik voor hulp</string>
+    <string name="private_messaging_reimagined">Zeg Vrij, Blijf Anoniem</string>
+    <string name="private_secure_anonymous"> Privacy • Versleuteling • Anonimiteit</string>
+    <string name="start_private_messaging">VOEG JE NU TOE</string>
+    <string name="already_have_account">BACKUP GEBRUIKEN</string>
+    <string name="tor_network">⚡ Tor Netwerk</string>
+    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
+    <string name="anonymous">🕵️ Anoniem</string>
+    <string name="encrypted">🔒 Versleuteld</string>
+    <string name="welcome_back">Welkom terug</string>
+    <string name="enter_your_password_to_continue">Voer uw wachtwoord in om door te gaan</string>
+    <string name="your_data_is_encrypted_and_secure">Je gegevens zijn versleuteld en veilig</string>
+    <string name="enter_encryption_password">Voer versleuteling wachtwoord in</string>
+    <string name="enter_your_password">Voer uw wachtwoord in</string>
+    <string name="incorrect_password_try_again">Fout wachtwoord, probeer het nogmaals.</string>
+    <string name="get_help_with_password">Hulp krijgen</string>
+    <string name="tap_for_password_recovery_options">Klik voor hulp</string>
+    <string name="forgot_your_password">Als je je wachtwoord vergeet, geen manier om je account te herstellen (zonder backup)</string>
+    <string name="this_may_take_a_few_moments">Dit kan een paar momenten duren</string>
+    <string name="initializing_tor_network">Initialiseren van Tor Netwerk</string>
+    <string name="securing_connection">Je verbinding anonimiseren</string>
+    <string name="connecting_world">🌐 Verbinden</string>
+    <string name="secure">✅ Veilig</string>
+    <string name="bootstrapping">🔒 Start</string>
+    <string name="appearance_other">UITZICHT ANDERS</string>
+    <string name="get_help">Hulp krijgen</string>
+    <string name="reset_to_default">Resetten naar standaard</string>
+    <!-- Security Section -->
+    <string name="high_security">HOGE BEVEILIGING</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">BRUG INSTELLINGEN</string>
+    <string name="bridge_help">Hulp krijgen voor brug configuratie</string>
+    <string name="bridge_description">Gebruik bruggen om censuur te omzeilen als Tor is geblokkeerd in uw netwerk</string>
+    <string name="enable_tor_bridges">Tor Bruggen Inschakelen</string>
+    <string name="bridges_active">Bruggen zijn actief en geconfigureerd</string>
+    <string name="configured_bridges">Geconfigureerde Bruggen</string>
+    <string name="add_new_bridge">Nieuwe Brug Toevoegen</string>
+    <string name="add_manually">Bruggen Toevoegen</string>
+    <string name="request_automatically">Nieuwe Bruggen Vraag</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="paste_bridge_lines_here">Brug regels hier plakken…</string>
+    <string name="bridge_input_help">Je kunt meerdere brug regels plakken. Elke regel moet in het formaat zijn:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nGeen behoefte aan het woord "bridge" aan het begin in voegen.</string>
+    <string name="action_backup">Back-up</string>
+    <string name="back_up_alert_message">Weet je zeker dat je je gegevens wilt backup maken? dit zal je onion service account, je versleutelingssleutels en al je berichten backup maken</string>
+    <string name="backup_progress_title">Back-up maken</string>
+    <string name="backup_progress_message">Even geduld…</string>
+    <string name="restore_progress_title">Back-up herstellen</string>
+    <string name="restore_progress_message">Even geduld…</string>
+</resources>

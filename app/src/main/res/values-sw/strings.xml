@@ -1,0 +1,431 @@
+<resources>
+    <string name="app_name">Jumbe Isiyojulikana</string>
+    <string name="create_account_button">Anza</string>
+    <string name="nickname">Jina la Njama</string>
+    <string name="nickname_error">Jina la Njama batilifu</string>
+    <string name="nickname_help">Weka jina la njama ili kuendelea</string>
+    <string name="nickname_okay">Jina la njama nzuri!</string>
+    <string name="next_button">Hatua Ya Kuendelea</string>
+    <string name="choose_password">Chagua Nenosiri</string>
+    <string name="confirm_password">Thibitisha Nenosiri</string>
+    <string name="setup_password_explanation">Nenosiri utachotumia utatumika kwa ajili ya kujenga data kwenye kifaa chako, hii si nenosiri ya kuingia na pia haitatumika kwa ajili ya upya, utahitaji kuingiza nenosiri chako baadaye unapofungua programu baada ya kuzima, hii programu hakionggi kwenye server yoyote.</string>
+    <string name="password_too_weak">Nenosiri chako ni dhaifu sana, hatuwezi kuwezesha hii kwa sababu tunazingatia usalama wako</string>
+    <string name="passwords_do_not_match">Nenosiri hazilingani</string>
+    <string name="channel4">kanali4</string>
+    <string name="channel_description">hii na hio</string>
+    <string name="hello_blank_fragment">Habari fragment tupu</string>
+    <string name="enter_password">Weka nenosiri</string>
+    <string name="decrypt_button">Fungua</string>
+    <string name="myaddress">Anwani Yangu</string>
+    <string name="hint_contact_address">Weka Anwani ya Mteja (.onion)</string>
+    <string name="lbl_contact_address">Weka Anwani ya Mteja</string>
+    <string name="enter_message">Ujumbe wa uhakika…</string>
+    <string name="send_button">TUMIA</string>
+    <string name="reply">Jibu</string>
+    <string name="pin">Panga</string>
+    <string name="copy">Nakili</string>
+    <string name="you">wewe</string>
+    <string name="action_reset_session">Rejesha Sesioni</string>
+    <string name="action_verify_identity">Thibitisha Utu</string>
+    <string name="action_clear_conversation">Futa Mazungumzo</string>
+    <string name="action_search">Tafuta</string>
+    <string name="action_shutdown">Zima</string>
+    <string name="action_my_identity">Utu Wangu</string>
+    <string name="action_restart_tor">Anza Tor Tenani</string>
+    <string name="my_identity_explanation">Key ya umatumia kwa ajili ya thibitisha utu</string>
+    <string name="verify_identity_explanation">Zote key za umma pamoja na thibitisha utu wote</string>
+    <string name="verify_identity_how_to">Lengo hili hushiriki kwenye ya ndani ya kifaa chako na kufungua</string>
+    <string name="action_call">Simu</string>
+    <string name="ask_me_again">Uliza tena</string>
+    <string name="no_thanks">Hapana asante</string>
+    <string name="why_need_mic">programu inahitaji hii kwa ajili ya kuunda au kupokea simu</string>
+    <string name="mic_perm_ask_title">Idhini ya Simu</string>
+    <string name="ask_for_mic_btn">Sawa</string>
+    <string name="accept_call">Kubali</string>
+    <string name="dx_call">SIMU YA TOR</string>
+    <string name="call_picture_description">picha ya skrini ya simu</string>
+    <string name="end_call">Kufunga Simu</string>
+    <string name="connecting">Inaunganisha…</string>
+    <string name="CallNotificationBuilder_connecting">Inakusanyika</string>
+    <string name="NotificationBarManager__incoming_call">Simu Inayokuja</string>
+    <string name="NotificationBarManager_call_in_progress">Simu inayoendelea</string>
+    <string name="NotificationBarManager__establishing_call">Kuanzisha Simu</string>
+    <string name="trying">inajaribu</string>
+    <string name="ringing">Inazunguka</string>
+    <string name="connected">Imeunganishwa</string>
+    <string name="answer">jibu</string>
+    <string name="incoming_call">Simu Inayokuja</string>
+    <string name="identity_verification_fail">Hatukuweza kupata key za utu</string>
+    <string name="identity_key_fail">Hatukuweza kupata key yako ya utu</string>
+    <string name="delete_contact">Futa Mteja</string>
+    <string name="no_contacts">Hakuna Mteja Wapatao!</string>
+    <string name="tor_output">Tor Output</string>
+    <string name="anonymous_messenger">Jumbe Isiyojulikana</string>
+    <string name="by_drxtreme">na DrXtreme</string>
+    <string name="welcome_to">karibu kwenye</string>
+    <string name="recording">Inarekodi</string>
+    <string name="send">TUMIA</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">kuri kuonyesha wakati hii isiomasomwa</string>
+    <string name="text_msg_placeholder">rafiki alisahau ku kukumbusha kuhusu kitu ile</string>
+    <string name="profile_image">picha ya profaili</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31m</string>
+    <string name="seen_image">picha iliyosomwa</string>
+    <string name="msg_place_holder">hujambo rafiki, mko vipi?</string>
+    <string name="indicates_secure_messaging">inatoa ujumbe wa uhakika</string>
+    <string name="textview">Onyesho la maandishi</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">hujambo rafiki, mko vipi?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">offline</string>
+    <string name="picture_of_contact">picha ya mteja</string>
+    <string name="hold_on">Subiri!</string>
+    <string name="starting_up_tor">Kuanzisha Tor</string>
+    <string name="doing_stuff">kuufanya wewe isiyojulikana…</string>
+    <string name="go_to_contacts">Ruka</string>
+    <string name="checking">Inakagua</string>
+    <string name="online">online</string>
+    <string name="synced">imesinchronishwa</string>
+    <string name="add_contact">Ongeza Mteja</string>
+    <string name="waiting_for_tor">inasubiri Tor</string>
+    <string name="oh_no">Ee Hapana!</string>
+    <string name="did_you_forget_your_password">Umekusahau nenosiri chako?</string>
+    <string name="hello_hello">Jambo, jambo!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Jumbe Isiyojulikana: RAM yako imeisha!</string>
+    <string name="no_encryption_yet">Bado haitujiandaa kwa ajili ya enkripseni</string>
+    <string name="no_session">Sesi haipo, inaanzisha sesi sasa</string>
+    <string name="audio_message">ujumbe wa sauti</string>
+    <string name="user_is_online">Mtumiaji yuko online</string>
+    <string name="user_is_offline">Mtumiaji yuko offline</string>
+    <string name="cant_encrypt_message">Hatukuweza kuenga ujumbe, unahitaji kusubiri kwa ajili ya kubadilisha key</string>
+    <string name="resp_key_exchange">Jibu la Ujumbe wa Kubadilisha Key</string>
+    <string name="key_exchange_message">Ujumbe wa Kubadilisha Key</string>
+    <string name="image_to_send">picha ya kutuma</string>
+    <string name="read_storage_perm_ask_title">Idhini ya Kusoma Hifadhi</string>
+    <string name="why_need_read_storage">programu inahitaji hii ili kuwezesha kutuma picha zilizohifadhiwa kwenye simu yako</string>
+    <string name="icon_for_image_to_send">chapa ya picha ya kutuma</string>
+    <string name="image">picha</string>
+    <string name="pic_help">Funga</string>
+    <string name="send_media_to">"Tuma Media kwa "</string>
+    <string name="picure_view">Mtazamo wa Picha</string>
+    <string name="media_message">ujumbe wa media</string>
+    <string name="caption">Chapisha hii</string>
+    <string name="still_background">Inaendelea kufanya kazi nyuma ya nyaraka</string>
+    <string name="click_to_hide">Ficha notisi</string>
+    <string name="unpin">Ondoa Panga</string>
+    <string name="profile_contact">Angalia Profaili</string>
+    <string name="save_picture">Hifadhi Picha</string>
+    <string name="confirm_add_contact">"Je, unataka kweli kuongeza "</string>
+    <string name="contact_exists">Mteja tayari anopo!</string>
+    <string name="cant_add_contact">hauwezi kuongeza mteja!</string>
+    <string name="save_to_storage">Hifadhi kwenye hifadhi ya pamoja?</string>
+    <string name="save_to_storage_explain">Programu nyingine zitakuwa na upatikanaji wa hii picha ikiwa imehifadhiwa kwenye hifadhi ya pamoja.</string>
+    <string name="action_my_profile">Profaili Yangu</string>
+    <string name="action_help">Msaada</string>
+    <string name="action_about">Kuhusu</string>
+    <string name="change_nickname">Badilisha Jina la Njama</string>
+    <string name="new_nickname">Jina La Njama Jipya</string>
+    <string name="confirm">Thibitisha</string>
+    <string name="action_license">Leseni</string>
+    <string name="license">
+        Jumbe Isiyojulikana, suluhisho la kamili la mawasiliano ambayo inatumika kwenye Tor.\n
+    Copyright © 2021  Sofian M. Benissa\n\n
+
+    Programu hii ni programu ya bure: unaweza kuirejesha na/au kubadilisha
+    chini ya masharti ya GNU General Public License kama ilivyochapishwa na
+    Free Software Foundation, toleo 3 la Leseni, au
+    (kwa chaguo lako) toleo lolote la baadaye.\n
+
+    Programu hii imegawanywa kwa matumaini kwatakuwa faida,\n
+    lakini KISYO WAI LA MANUNU; hata isipo kuwa na manunuzi ya implied ya
+    MAUZO AU FAAKU YA LINGO MALENGO. Tazama ya
+    GNU General Public License kwa maelezo zaidi.\n
+
+    Unapaswa kuwa na nakala ya GNU General Public License
+        pamoja na programu hii.  Ikiwa hapana, angalia https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Anwani iliyonakiliwa</string>
+    <string name="empty_nickname_help">Hauwezi kuwa na jina la njama lisilo na yote</string>
+    <string name="theiraddress">Anwani Yao</string>
+    <string name="turn_off_battery">Kufunga uwekezaji wa batari?</string>
+    <string name="allow_in_background">ruhusu Jumbe Isiyojulikana kuendelea kufanya kazi katika background?</string>
+    <string name="shut_app">Kuzima programu?</string>
+    <string name="shut_app_explain">Utaweka kuwa na uwezo wa kupokea ujumbe hadi utafungua nenosiri tena</string>
+    <string name="restart_tor">Anza Tor Tenani?</string>
+    <string name="restart_tor_explain">Hii haipaswi kuwa na matumaini kwenye kazi za kawala isipo unafikiri Tor si inafanya kazi vizuri sasa</string>
+    <string name="restarting_service">Kuanza huduma</string>
+    <string name="connection_restored">Uhusiano Umerejesha</string>
+    <string name="lost_connection">Uhusiano Umepotea</string>
+    <string name="connection_is_coming">uhusiano unaweza kurudi hivi karibuni</string>
+    <string name="will_receive_messages_soon">unaweza kupokea ujumbe ndani ya dakika 2</string>
+    <string name="waiting_for_connectivity">inatusubiri kwa ajili ya connectivity</string>
+    <string name="almost_ready">Karibu Kwenye Tayari!</string>
+    <string name="starting_tor_first_time">Kuanzisha Tor na kuwasha ili kupata yote tunayohitaji kuunganisha!</string>
+    <string name="ready_to_chat">Tayari kwa mazungumzo ya uhakika!</string>
+    <string name="you_got_all_you_need">Una yote unayohitaji kwa mazungumzo ya uhakika na marafiki zako!</string>
+    <string name="new_message">Ujumbe Mpya!</string>
+    <string name="you_have_message">una ujumbe mpya wa siri</string>
+    <string name="wrong_password">Nenosiri batili</string>
+    <string name="no_key">key ya enkripseni ilipotea</string>
+    <string name="error">kosa</string>
+    <string name="failed_to_decrypt">IMESHINDA USHAJIBU UJUMBE</string>
+    <string name="failed_to_read_after_decrypt">IMESHINDA KUSOMA USHAJIBU UJUMBE BAADA YA KUFUNGUA</string>
+    <string name="failed_to_get_AEM">IMESHINDA KUPATA AddressedEncryptedMessage KUTOKA UJUMBE</string>
+    <string name="cant_add_self">Hauwezi kuongeza wewe mwenyewe!</string>
+    <string name="waiting_for_response">Key iliyotumwa, Inasubiri kwa ajili ya jibu</string>
+    <string name="decrypting">Inafungua…</string>
+    <string name="stale_key">Key zamani iliyopokelewa (kuzidisha)</string>
+    <string name="invalid_key">Key batili iliyopokelewa</string>
+    <string name="untrusted_identity">Key iliyopokelewa kutoka Utu Usioaminiwa</string>
+    <string name="bad_message">Ujumbe ulioharibika</string>
+    <string name="decrypt_reminder_title">Fungua ili kupokea ujumbe</string>
+    <string name="decrypt_reminder_message">unahitaji kuingiza nenosiri chako ili kuendelea katika background</string>
+    <string name="denied_microphone">Idhini ya Simu Imekataliwa</string>
+    <string name="denied_microphone_help">njia hii huwezi kuunda au kupokea simu</string>
+    <string name="delete_messages">Futa ujumbe yote?</string>
+    <string name="delete_messages_help">hii itafuta hata ujumbe uliopangwa!</string>
+    <string name="yes">Ndiyo</string>
+    <string name="pinned_message">Ujumbe Umepangwa</string>
+    <string name="unpinned_message">Ujumbe Umaondolea Panga</string>
+    <string name="copied">Imenakiliwa</string>
+    <string name="saved_to_storage">Imehifadhiwa kwenye hifadhi</string>
+    <string name="about">Mradi uliufundwa na Alton James Steele na uliendelezwa na Sofian Mahmoud
+        Benissa
+        kuleta ujumbe isiyojulikana, salama na rahisi
+        kwako, kwa kuwa hatukuweza kwa ajili ya yaliyo patokea tuliamua kuunda
+        maoni yetu ya programu ya ujumbe na kuigawanya na ulimwengu, source code
+        ipo pato na mradi umeruhusiwa chini ya GNU General Public License kwako unaweza
+        kunyonyotea yote na kuwa na uhuru wa kubadilisha yote pamoja na
+        uhuru wengine</string>
+    <string name="copyright">Hakimiliki © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Maelekezo ya Usalama</string>
+    <string name="hide_notification">zima arifa ya service_running</string>
+    <string name="record_audio">rekodi sauti</string>
+    <string name="send_file">tuma faili</string>
+    <string name="scroll_down">sogeza chini</string>
+    <string name="file">Faili</string>
+    <string name="unknown_file_name">Jina la faili lisilojulikana</string>
+    <string name="unknown_file_size">Ukubwa wa faili lisilojulikana</string>
+    <string name="recording_failed">Haurekodi sasa, labda kuna simu inafanyika?</string>
+    <string name="feature_unready">vipengele hiki vitakuwa tayari katika sasisho linalofuata</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Tumia kibodi inayostahili uhuru wako na ambayo haiungani na intaneti, tunapendekeza OpenBoard</string>
+    <string name="security_tips02">Usalama wako unategemea sana programu zinazoingizwa kwenye kifaa, tunapendekeza kubadilisha programu za default kwa programu kutoka f-droid</string>
+    <string name="security_tips03">Jaribu kusahau kuweka anwani ya rafiki yako kwenye browser kwa sababu inaweza kuhatarisha uziyojulikana wako/wao</string>
+    <string name="security_tips04">Ondoa Jumbe Isiyojulikana ili kufuta akaunti yako na kufuta yote.</string>
+    <string name="security_tips05">Kupakua kutoka huduma ya onion (onion) ni salama zaidi kuliko server za clear net.</string>
+    <string name="security_tips06">Enkripseni ya hifadhi ya data ni salama kama nenosiri yako, tunapendekeza nenosiri refu linalojumuisha maneno ambayo haimaanishi chochote kwako.</string>
+    <string name="security_tips07">Ujumbe wa maandishi ni salama zaidi na isiyojulikana kuliko yoyote mwingine.</string>
+    <string name="security_tips08">Shiriki anwani yako kwa njia salama zaidi inavyowezekana.</string>
+    <string name="security_tips09">Jenga hifadhi ya simu ikiwa inawezekana.</string>
+    <string name="security_tips10">Unapotaka kutumia VPN, hakikisha mteja unayotumia ni open source software kama OpenVPN.</string>
+    <string name="security_tips11">Kutoka Jumbe Isiyojulikana kunahifadhi data yako imejengwa kwenye simu yako.</string>
+    <string name="security_tips12">Jenga Jumbe Isiyojulikana kutoka source ikiwa inawezekana.</string>
+    <string name="security_tips13">Thibitisha utu.</string>
+    <string name="security_tips14">Hakikisha umekuwepo na proprietary apps kwenye simu yako na kwamba unatumia programu ya free open source ili kuingiza social media, huduma za kifedha, na kwa ujumla kuwa na programu ambayo huamini au ambayo inahitaji idhini nyingi kuliko zinazohitajika, au zina advertisements za third party zilizotolewa na programu yenyewe.</string>
+    <string name="security_tips15">Fikiria kutoa mchango ili kusaidia mradi huu kuwa bora zaidi na kusaidia tunapeleka suluhisho bora kwa ajili ya ujumbe isiyojulikana kwa wote.</string>
+    <string name="opening_socks_listener">Kufungua Socks Listener</string>
+    <string name="socks_listener_listening">Socks listener Inasikiliza</string>
+    <string name="opened_socks_listener">Socks Listener Imefunguliwa</string>
+    <string name="opening_control_listener">Kufungua Control Listener</string>
+    <string name="control_listener_listening">Control Listener Inasikiliza</string>
+    <string name="opened_control_listener">Control Listener Imefunguliwa</string>
+    <string name="action_notepad">Kumbukumbu</string>
+    <string name="save">Hifadhi</string>
+    <string name="enter_note">Hifadhi note iliyojengwa</string>
+    <string name="delete_contact_question">Futa mteja huu?</string>
+    <string name="delete_contact_details">hii huwezi kurejea na pia itafuta sesi na mazungumzo ya mteja huu</string>
+    <string name="delete_note_question">Futa note hii?</string>
+    <string name="delete_note_details">hii huwezi kurejea</string>
+    <string name="delete_note">Futa</string>
+    <string name="open_link_question">Futa hii link?</string>
+    <string name="open_link_describe">Kufungua links nje ya private apps kunaweza kufanya wewe kuwa na jina, fanya hii tu ukiamini link au tumia Tor browser ikiwa inawezekana</string>
+    <string name="scan">Skeni QR-code</string>
+    <string name="contact_added">Mteja aliongezwa</string>
+    <string name="cam_perm_ask_title">Idhini ya Kamera</string>
+    <string name="why_need_cam">QR scanning haitafanya kazi bila idhini ya kamera</string>
+    <string name="ask_for_cam_btn">Sawa</string>
+    <string name="invalid_address">Anwani batili</string>
+    <string name="action_log">Rekodi ya Usalama</string>
+    <string name="delete_log_question">Futa?</string>
+    <string name="delete_log_details">Hii huwezi kurejea</string>
+    <string name="action_log_notice">Arifa</string>
+    <string name="action_clear_log">Futa Log</string>
+    <string name="include_notice_logs">Logi za Arifa</string>
+    <string name="decrypting2">Inafungua</string>
+    <string name="open_file_question">Fungua faili katika programu nyingine?</string>
+    <string name="open_file_describe">Hii itafungua faili na kutoa upatikanaji kwa programu ya third party ambayo inaweza kuhatarisha faili</string>
+    <string name="deleted_logs">Log imefutwa</string>
+    <string name="saving">"Inahifadhi "</string>
+    <string name="cancel">Ghairi</string>
+    <string name="slide_to_cancel">Slide ili kughairi</string>
+    <string name="sending_file">Inatuma faili</string>
+    <string name="sending_part_one">Inatuma sehemu 1</string>
+    <string name="screen_filter_body">Programu nyingine inachora juu ya Jumbe Isiyojulikana, skrini imezuiwa ili kulinda faragha yako</string>
+    <string name="screen_filter_title">Ujumbe wa skrini umeonekana</string>
+    <string name="try_now">Jaribu sasa</string>
+    <string name="mic_in_use">Mic inaweza kutumika na programu nyingine</string>
+    <string name="back_image">rudi nyuma</string>
+    <string name="subtitle">Chini ya kichwa</string>
+    <string name="qr_code_image">Picha iliyo na QR code</string>
+    <string name="go_to_app">fungua app</string>
+    <string name="use_bridges">Tumia Bridges</string>
+    <string name="request_bridge">Omba Bridge</string>
+    <string name="done_button">Imekamilika</string>
+    <string name="allow_unknown">Kubali Mteja Isiyojulikana</string>
+    <string name="allow_files">Ruhusa ya Kupokea Faili</string>
+    <string name="file_limit"> kikomo cha Ukubwa wa Faili</string>
+    <string name="allow_calls">Ruhusa ya Simu</string>
+    <string name="action_settings">Mipangilio</string>
+    <string name="delete_bridge_question">Futa bridge hii?</string>
+    <string name="delete_bridge_details">hii huwezi kurejea</string>
+    <string name="online_check_address">Anwani ya Online Check</string>
+    <string name="reset_settings">Rejesha Mipangilio</string>
+    <string name="bridges">Bridges (anzisha Tor ili kufanya kazi)</string>
+    <string name="other">Nyingine</string>
+    <string name="reset">Rejesha</string>
+    <string name="security">Usalama</string>
+    <string name="connectivity">Connectivity</string>
+    <string name="add_bridge">Ongeza Bridge</string>
+    <string name="request_bridge_help">Unaweza kuomba bridge kutoka Tor project kwa kutumia link hii: https://bridges.torproject.org/bridges?transport=obfs4   au unaweza kuandika barua kwa bridges@torproject.org au unaweza kuendelea bridge yako na kutumia.</string>
+    <string name="button_undo">Rudisha</string>
+    <string name="insert_bridge_line">Weka bridge line</string>
+    <string name="nickname_explain_title">Matumizi ya jina la njama</string>
+    <string name="nickname_explain">Jina la njama yako linauhifadhiwa kwenye kifaa chako na kutumwa tu iliyojengwa na ujumbe wako kwa mteja wako moja kwa moja, hukoungana na server wakati unatumia hii app.</string>
+    <string name="password_explain_title">Matumizi ya nenosiri</string>
+    <string name="online_check_address_explain">Hii anwani inatumika kuhakikisha wewe online na yote zimepangwa vizuri, hii anwani ya web server yoyote kwa sababu tunakagua tu reachability na pia inaweza kuwa hidden service au anwani ya kawala.</string>
+    <string name="running_on">Inafanya kazi kwenye: </string>
+    <string name="processors">processors</string>
+    <string name="and">na </string>
+    <string name="free_memory">memory huru</string>
+    <string name="ok">Sawa</string>
+    <string name="with">na</string>
+    <string name="welcome_to_anonymous_messenger">Hii ni app yako ya ujumbe salama</string>
+    <string name="change_profile_image">Badilisha picha</string>
+    <string name="remove_profile_image">Ondoa picha</string>
+    <string name="remove_profile_image_details">Je, unahakika unataka kuondoa picha ya profaili?</string>
+    <string name="profile_image_changed">Picha ya profaili imebadilishwa</string>
+    <string name="profile_image_removed">Picha ya profaili imeondolewa</string>
+    <string name="restart_app">Anza App Tenani</string>
+    <string name="unknown_exception">Kosa lisilojulikana</string>
+    <string name="error_occurred">Kitu kilifanyika vibaya</string>
+    <string name="error_details">Maelezo ya Kosa</string>
+    <string name="retry">Jaribu Tenani</string>
+    <string name="use_proxy">Tumia Socks5 Proxy</string>
+    <string name="proxy_address">Anwani ya Socks5 proxy</string>
+    <string name="proxy_username">Jina la Mtumiaji</string>
+    <string name="proxy_password">Nenosiri</string>
+    <string name="tor_error">Tor haikuweza kuunganishwa ndani ya sekunde 300, unaweza jaribu kutumia bridges au kuunganisha kupitia proxy yoyote socks5 kwenye mipangilio</string>
+    <string name="tor_error_title">Kosa wakati wa kuanzisha Tor</string>
+    <string name="stay_offline">Endelea offline</string>
+    <string name="proxy">Socks5 proxy (anzisha Tor ili kufanya kazi)</string>
+    <string name="exclude_tor_nodes">Isibu Tor nodes (anzisha Tor ili kufanya kazi)</string>
+    <string name="exclude_unknown">Isibu Nodes Isiyojulikana</string>
+    <string name="strict_exclude">Isibu Kamili</string>
+    <string name="action_scroll_up">Sogeza juu</string>
+    <string name="action_scroll_down">Sogeza chini</string>
+    <string name="action_clear_tor_cache">Futa Tor Cache</string>
+    <string name="clear_tor_cache_explain">Hii inaweza kuwa muhimu ikiwa cached descriptors ni zamani, lakini haina kupendekeza kufanya hii mara nyingi kwa sababu ya performance na masuala ya uziyojulikana.</string>
+    <string name="disappearing_messages_default">Futa Ujumbe Usiopangwa Baada ya Masaa 24</string>
+    <string name="tor_exited">Tor imeondoka</string>
+    <string name="action_change_app_name">Badilisha Jina la App</string>
+    <string name="select_app_name">Chagua Jina la App</string>
+    <string name="action_change_theme">Badilisha Mandhari</string>
+    <string name="dark_theme">Mandhari ya Giza</string>
+    <string name="light_theme">Mandhari ya Mwanga</string>
+    <string name="invalid_bridge">Bridge Batili</string>
+    <string name="bridge_added">Bridge Imeongezwa</string>
+    <string name="nickname_help_explain">Bonyeza kupata info kuhusu matumizi ya jina la njama</string>
+    <string name="no_recent_messages">Hakuna Ujumbe Hivi Karibuni!</string>
+    <string name="unpinned_messages_get_deleted">Je, unajua ujumbe usiopangwa hufutwa kila baada ya masaa 24?</string>
+    <string name="continue_without_password">Usitumia Nenosiri</string>
+    <string name="hangup">Kifunga</string>
+    <string name="outgoing_call">Simu Inaondoka</string>
+    <string name="return_to_call">Rudi kwenye simu</string>
+    <string name="action_donate">Mchango</string>
+    <string name="donate_text">Unaweza kutoa mchango ili kusaidia mradi</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Tuma Picha</string>
+    <string name="error_accessing_storage">Kosa wakati wa kufikia hifadhi ya nje</string>
+    <string name="error_opening_image">Kosa wakati wa kufungua picha kutoka hifadhi ya nje</string>
+    <string name="step_1_choose_your_nickname">HATUA 1: CHAGUA JINA LA NJAMA</string>
+    <string name="what_should_people_call_you">Watu wanapaswa kukuuita nini?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Jina hili litakuwa naonekana kwa watumiaji wengine. Unaweza kilibadilisha baadaye.</string>
+    <string name="type_your_nickname_here">ANDIKA JINA LA NJAMA HAPA: 👇</string>
+    <string name="enter_nickname">Ingiza jina la njama</string>
+    <string name="get_help_with_choosing_a_nickname">Pata msaada kwa kuchagua jina la njama</string>
+    <string name="tap_for_help">💡 Bonyeza kwa ajili ya msaada</string>
+    <string name="continue_txt">ENDLEA →</string>
+    <string name="step_2_secure_your_account">HATUA 2: SALISHA AKAUNI YAKO</string>
+    <string name="choose_a_strong_password">Chagua nenosiri dhibitifu</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Nenosiri linilinda data yako na enkripseni</string>
+    <string name="create_your_password">Unda nenosiri lako</string>
+    <string name="get_help_with_passwords">Pata msaada</string>
+    <string name="tap_for_password_tips">Bonyeza kwa ajili ya msaada</string>
+    <string name="private_messaging_reimagined">Semaa Huru, Endelea Isiyojulikana</string>
+    <string name="private_secure_anonymous"> Faragha • Enkripseni • Uziyojulikana</string>
+    <string name="start_private_messaging">JIANGIA SASA</string>
+    <string name="already_have_account">Tumia BACKUP</string>
+    <string name="tor_network">⚡ Mtandao wa Tor</string>
+    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
+    <string name="anonymous">🕵️ Isiyojulikana</string>
+    <string name="encrypted">🔒 Imejengwa</string>
+    <string name="welcome_back">Karibu Tenani</string>
+    <string name="enter_your_password_to_continue">Ingiza nenosiri lako ili kuendelea</string>
+    <string name="your_data_is_encrypted_and_secure">Data yako imejengwa na salama</string>
+    <string name="enter_encryption_password">Ingiza nenosiri la enkripseni</string>
+    <string name="enter_your_password">Ingiza nenosiri lako</string>
+    <string name="incorrect_password_try_again">Nenosiri batili, jaribu tenani.</string>
+    <string name="get_help_with_password">Pata msaada</string>
+    <string name="tap_for_password_recovery_options">Bonyeza kwa ajili ya msaada</string>
+    <string name="forgot_your_password">Hakuna njia ya kurejesha akaunti yako bila backup ikiwa umesahau nenosiri</string>
+    <string name="this_may_take_a_few_moments">Hii inaweza kuchukua muda mfupi</string>
+    <string name="initializing_tor_network">Kuanzisha Mtandao wa Tor</string>
+    <string name="securing_connection">Kuifanya Connection Yako Isiyojulikana</string>
+    <string name="connecting_world">🌐 Kuunganisha</string>
+    <string name="secure">✅ Salama</string>
+    <string name="bootstrapping">🔒 Bootstrapping</string>
+    <string name="appearance_other">MUONEKANO NA NYINGINE</string>
+    <string name="get_help">Pata msaada</string>
+    <string name="reset_to_default">Rejesha default</string>
+    <!-- Security Section -->
+    <string name="high_security">USALAMA WA HAKI</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">MIPANGILIO YA BRIDGE</string>
+    <string name="bridge_help">Pata msaada kwa ajili ya mipangilio ya bridge</string>
+    <string name="bridge_description">Tumia bridges kupita censorship wakati Tor imezuiwa kwenye network yako</string>
+    <string name="enable_tor_bridges">Washa Tor Bridges</string>
+    <string name="bridges_active">Bridges zinaamiliana na zimepangwa</string>
+    <string name="configured_bridges">Bridges Zilizopangwa</string>
+    <string name="add_new_bridge">Ongeza Bridge Mpya</string>
+    <string name="add_manually">Ongeza Bridges</string>
+    <string name="request_automatically">Omba Bridges Mpya</string>
+    <string name="scan_qr_code">Skeni QR Code</string>
+    <string name="paste_bridge_lines_here">Paste bridge lines hapa…</string>
+    <string name="bridge_input_help">Unaweza paste bridge lines nyingi. Line yoyote inapaswa kuwa na format:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nHakuna haja ya kujumuisha neno "bridge" mwanzo.</string>
+    <string name="action_backup">Backup</string>
+    <string name="back_up_alert_message">Je, unahakika unataka backup data yako? hii itafanya backup ya akaunti ya huduma ya Chakula (onion), key za enkripseni na ujumbe wote</string>
+    <string name="backup_progress_title">Inaunda backup</string>
+    <string name="backup_progress_message">Tafadhali subiri…</string>
+    <string name="restore_progress_title">Inarejesha backup</string>
+    <string name="restore_progress_message">Tafadhali subiri…</string>
+</resources>

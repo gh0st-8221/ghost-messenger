@@ -1,0 +1,428 @@
+<resources>
+    <string name="app_name">익명 메신저</string>
+    <string name="create_account_button">시작</string>
+    <string name="nickname">닉네임</string>
+    <string name="nickname_error">유효하지 않은 닉네임</string>
+    <string name="nickname_help">닉네임을 입력하여 계속</string>
+    <string name="nickname_okay">좋은 닉네임!</string>
+    <string name="next_button">다음</string>
+    <string name="choose_password">암호 선택</string>
+    <string name="confirm_password">암호 확인</string>
+    <string name="setup_password_explanation">입력한 암호는 기기의 데이터를 암호화하는 데 사용되며, 이것은 로그인 암호가 아니며 복구에 사용할 수 없습니다. 종료 후 다시 열 때 암호를 입력해야 합니다. 이 앱은 어떤 서버에도 연결되지 않습니다.</string>
+    <string name="password_too_weak">암호가 너무 약해요. 보안을 위해 허용해 드릴 수 없습니다</string>
+    <string name="passwords_do_not_match">암호가 일치하지 않습니다</string>
+    <string name="channel4">채널4</string>
+    <string name="channel_description">이것과 저것</string>
+    <string name="hello_blank_fragment">안녕, 빈 프래그먼트</string>
+    <string name="enter_password">암호 입력</string>
+    <string name="decrypt_button">복호화</string>
+    <string name="myaddress">내 주소</string>
+    <string name="hint_contact_address">연락처 주소 입력 (.onion)</string>
+    <string name="lbl_contact_address">연락처 주소 입력</string>
+    <string name="enter_message">보안 메시지…</string>
+    <string name="send_button">전송</string>
+    <string name="reply">답장</string>
+    <string name="pin">고정</string>
+    <string name="copy">복사</string>
+    <string name="you">나</string>
+    <string name="action_reset_session">세션 재설정</string>
+    <string name="action_verify_identity">신원 확인</string>
+    <string name="action_clear_conversation">대화 삭제</string>
+    <string name="action_search">검색</string>
+    <string name="action_shutdown">종료</string>
+    <string name="action_my_identity">내 신원</string>
+    <string name="action_restart_tor">Tor 재시작</string>
+    <string name="my_identity_explanation">신원 확인을 위한 공개 키</string>
+    <string name="verify_identity_explanation">두 공개 키를 함께 사용하여 두 신원을 확인</string>
+    <string name="verify_identity_how_to">두 기기에서 이 숫자를 비교하세요. 같다면 E2E 암호화가 제대로 작동하고 있습니다…</string>
+    <string name="action_call">통화</string>
+    <string name="ask_me_again">다시 묻기</string>
+    <string name="no_thanks">아니요, 감사합니다</string>
+    <string name="why_need_mic">통화를 걸거나 받으려면 이 권한이 필요합니다</string>
+    <string name="mic_perm_ask_title">마이크 권한</string>
+    <string name="ask_for_mic_btn">확인</string>
+    <string name="accept_call">수락</string>
+    <string name="dx_call">TOR 통화</string>
+    <string name="call_picture_description">통화 화면 이미지</string>
+    <string name="end_call">전화 끊기</string>
+    <string name="connecting">연결 중…</string>
+    <string name="CallNotificationBuilder_connecting">연결 중</string>
+    <string name="NotificationBarManager__incoming_call">전화 오는 중</string>
+    <string name="NotificationBarManager_call_in_progress">통화 중</string>
+    <string name="NotificationBarManager__establishing_call">통화 설정 중</string>
+    <string name="trying">시도 중</string>
+    <string name="ringing">벨 소리</string>
+    <string name="connected">연결됨</string>
+    <string name="answer">답장</string>
+    <string name="incoming_call">전화 오는 중</string>
+    <string name="identity_verification_fail">신원 키를 가져올 수 없습니다</string>
+    <string name="identity_key_fail">신원 키를 찾을 수 없습니다</string>
+    <string name="delete_contact">연락처 삭제</string>
+    <string name="no_contacts">연락처를 찾을 수 없습니다!</string>
+    <string name="tor_output">Tor 출력</string>
+    <string name="anonymous_messenger">익명 메신저</string>
+    <string name="by_drxtreme">DrXtreme 제작</string>
+    <string name="welcome_to">에 오신 것을 환영합니다</string>
+    <string name="recording">녹음 중</string>
+    <string name="send">전송</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">읽지 않았을 때 표시</string>
+    <string name="text_msg_placeholder">친구가 저쪽 저쪽에 대해 잊고 알려주세요</string>
+    <string name="profile_image">프로필 사진</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31분</string>
+    <string name="seen_image">확인된 사진</string>
+    <string name="msg_place_holder">안녕하세요, 잘 지내세요?</string>
+    <string name="indicates_secure_messaging">보안 메시지를 나타냅니다</string>
+    <string name="textview">텍스트 뷰</string>
+    <string name="john_doe">존 도</string>
+    <string name="hi_man_how_are_you">안녕하세요, 잘 지내세요?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">오프라인</string>
+    <string name="picture_of_contact">연락처 사진</string>
+    <string name="hold_on">잠시 기다려주세요!</string>
+    <string name="starting_up_tor">Tor 시작 중</string>
+    <string name="doing_stuff">당신을 익명으로 만들고 있습니다…</string>
+    <string name="go_to_contacts">건너뜀</string>
+    <string name="checking">확인 중</string>
+    <string name="online">온라인</string>
+    <string name="synced">동기화됨</string>
+    <string name="add_contact">연락처 추가</string>
+    <string name="waiting_for_tor">Tor 대기 중</string>
+    <string name="oh_no">아니요!</string>
+    <string name="did_you_forget_your_password">비밀번호를 잊으셨나요?</string>
+    <string name="hello_hello" translatable="false">안녕하세요, 안녕하세요!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">익명 메신저: 램을 다 사용했습니다!</string>
+    <string name="no_encryption_yet">아직 암호화 준비가 안 됨</string>
+    <string name="no_session">세션이 없습니다. 세션을 시작합니다</string>
+    <string name="audio_message">오디오 메시지</string>
+    <string name="user_is_online">사용자가 온라인임</string>
+    <string name="user_is_offline">사용자가 오프라인임</string>
+    <string name="cant_encrypt_message">암호화를 할 수 없습니다. 키 교환을 기다려야 합니다</string>
+    <string name="resp_key_exchange">응답 키 교환 메시지</string>
+    <string name="key_exchange_message">키 교환 메시지</string>
+    <string name="image_to_send">전송할 이미지</string>
+    <string name="read_storage_perm_ask_title">스토리지 권한 읽기</string>
+    <string name="why_need_read_storage">스토리지에 저장된
+        이미지를 전송할 수 있도록 앱에서 필요로 합니다</string>
+    <string name="icon_for_image_to_send">전송할 이미지 아이콘</string>
+    <string name="image">이미지</string>
+    <string name="pic_help">닫기</string>
+    <string name="send_media_to">"미디어 전송 "</string>
+    <string name="picure_view">이미지 뷰</string>
+    <string name="media_message">미디어 메시지</string>
+    <string name="caption">설명 추가</string>
+    <string name="still_background">백그라운드에서 계속 실행 중</string>
+    <string name="click_to_hide">알림 숨기기</string>
+    <string name="unpin">고정 해제</string>
+    <string name="profile_contact">프로필 보기</string>
+    <string name="save_picture">사진 저장</string>
+    <string name="confirm_add_contact">\"정말 추가하시겠습니까 \"</string>
+    <string name="contact_exists">연락처가 이미 있습니다!</string>
+    <string name="cant_add_contact">연락처를 추가할 수 없습니다!</string>
+    <string name="save_to_storage">공유 저장소에 저장?</string>
+    <string name="save_to_storage_explain">공유 저장소에 저장하면 다른 앱에서도 이 이미지에 접근할 수 있습니다.</string>
+    <string name="action_my_profile">내 프로필</string>
+    <string name="action_help">도움말</string>
+    <string name="action_about">정보</string>
+    <string name="change_nickname">닉네임 변경</string>
+    <string name="new_nickname">새 닉네임</string>
+    <string name="confirm">확인</string>
+    <string name="action_license">라이선스</string>
+    <string name="license">익명 메신저, Tor를 통해 작동하는 완전한 프라이빗 통신 솔루션입니다.\n
+    저작권 © 2021 Sofian M. Benissa\n\n
+    이 프로그램은 자유 소프트웨어입니다: 자유 소프트웨어 재단에서 게시한 GNU 일반 공개 라이선스의
+    조건에 따라 재배포하고/또는 수정할 수 있습니다.\n
+    이 프로그램은 유용하다고 기대하며 배포됩니다,\n
+    하지만 어떤 보증도 없습니다; 심지어 상업성 적합성이나 특정 목적에 대한 적합성에 대한 보증도 없습니다. 자세한 내용은\n
+    GNU 일반 공개 라이선스를 참조하세요.\n
+    이 프로그램과 함께 GNU 일반 공개 라이선스 사본을 받아야 합니다.\n
+    그렇지 않으면 https://www.gnu.org/licenses를 참조하세요.</string>
+    <string name="copied_address">복사된 주소</string>
+    <string name="empty_nickname_help">공백 닉네임은 허용하지 않습니다</string>
+    <string name="theiraddress">그들의 주소</string>
+    <string name="turn_off_battery">배터리 최적화 끄기?</string>
+    <string name="allow_in_background">익명 메신저가 백그라운드에서 계속 작동하도록 허용?</string>
+    <string name="shut_app">앱 종료?</string>
+    <string name="shut_app_explain">비밀번호로 다시 복호화하기 전까지는 메시지를 받을 수 없습니다</string>
+    <string name="restart_tor">Tor 재시작?</string>
+    <string name="restart_tor_explain">일반적으로 이것은 필요하지 않습니다. 현재 Tor가 제대로 작동하지 않는 것으로 생각되는 경우에만</string>
+    <string name="restarting_service">서비스 재시작 중</string>
+    <string name="connection_restored">연결 복원</string>
+    <string name="lost_connection">연결 손실</string>
+    <string name="connection_is_coming">연결이 곧 복원될 것입니다</string>
+    <string name="will_receive_messages_soon">2분 이내에 메시지를 받을 수 있습니다</string>
+    <string name="waiting_for_connectivity">연결 대기 중</string>
+    <string name="almost_ready">곧 준비됩니다!</string>
+    <string name="starting_tor_first_time">Tor를 시작하고 연결하는 데 필요한 모든 것을 준비합니다!</string>
+    <string name="ready_to_chat">보안 채팅 준비됨!</string>
+    <string name="you_got_all_you_need">친구와 보안 채팅을 하는 데 필요한 모든 것을 얻었습니다!</string>
+    <string name="new_message">새 메시지!</string>
+    <string name="you_have_message">새 비밀 메시지가 있습니다</string>
+    <string name="wrong_password">잘못된 암호</string>
+    <string name="no_key">암호화 키를 찾을 수 없습니다</string>
+    <string name="error">오류</string>
+    <string name="failed_to_decrypt">메시지 복호화 실패</string>
+    <string name="failed_to_read_after_decrypt">복호화 후 메시지 읽기 실패</string>
+    <string name="failed_to_get_AEM">AddressedEncryptedMessage 가져오기 실패</string>
+    <string name="cant_add_self">자신을 추가할 수 없습니다!</string>
+    <string name="waiting_for_response">키 전송, 응답 대기</string>
+    <string name="decrypting">복호화 중…</string>
+    <string name="stale_key">만료된 키 수신 (무시)</string>
+    <string name="invalid_key">유효하지 않은 키 수신</string>
+    <string name="untrusted_identity">신뢰할 수 없는 신원에서 수신된 키</string>
+    <string name="bad_message">손상된 메시지</string>
+    <string name="decrypt_reminder_title">메시지를 받으려면 복호화</string>
+    <string name="decrypt_reminder_message">백그라운드에서
+        실행하려면 비밀번호를 입력해야 합니다</string>
+    <string name="denied_microphone">마이크 권한이 거부됨</string>
+    <string name="denied_microphone_help">이렇게 하면 통화를 걸거나 받을 수 없습니다</string>
+    <string name="delete_messages">모든 메시지 삭제?</string>
+    <string name="delete_messages_help">고정된 메시지까지 삭제됩니다!</string>
+    <string name="yes">예</string>
+    <string name="pinned_message">메시지 고정됨</string>
+    <string name="unpinned_message">메시지 고정 해제됨</string>
+    <string name="copied">복사됨</string>
+    <string name="saved_to_storage">저장소에 저장됨</string>
+    <string name="about">Alton James Steele이 후원하고 Sofian Mahmoud
+        Benissa가 개발한 프로젝트로,
+        당신에게 익명, 보안, 편리한
+        메시지를 제공합니다. 만족스럽지 않은 것들이 있어서 우리는 메시지 앱의 새로운 개념을 만들어
+        세상과 공유하기로 결정했고, 소스 코드를 사용할 수 있으며
+        GNU 일반 공개 라이선스로 라이선스가 부여되어 있어
+        이를 전혀 활용하고 변화할 수 있는 자유를 가질 수 있습니다</string>
+    <string name="copyright">저작권 © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">보안 팁</string>
+    <string name="hide_notification">service_running 알림 비활성화</string>
+    <string name="record_audio">오디오 녹음</string>
+    <string name="send_file">파일 전송</string>
+    <string name="scroll_down">스크롤</string>
+    <string name="file">파일</string>
+    <string name="unknown_file_name">알 수 없는 파일 이름</string>
+    <string name="unknown_file_size">알 수 없는 파일 크기</string>
+    <string name="recording_failed">지금 녹음할 수 없습니다. 통화가 진행 중인가요?</string>
+    <string name="feature_unready">다음 업데이트에서 기능이 준비될 것입니다</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">자유를 존중하고 인터넷에 연결하지 않는 키보드를 사용하세요. OpenBoard 사용을 권장합니다</string>
+    <string name="security_tips02">보안은 장치에 설치된 앱에 크게 의존합니다. f-droid 저장소의 앱으로 기본 앱을 변경하는 것을 권장합니다</string>
+    <string name="security_tips03">친구의 주소를 브라우저에 실수로 붙여넣지 않도록 하세요. 이것은 당신/그들의 익명성을 위협할 수 있습니다</string>
+    <string name="security_tips04">익명 메신저를 삭제하여 계정을 삭제하고 모든 것을 지우세요.</string>
+    <string name="security_tips05">onion 서비스에서 다운로드하는 것이 clear net 서버보다 더 안전합니다.</string>
+    <string name="security_tips06">데이터 저장 암호화는 비밀번호만큼 안전합니다. 당신에게 의미가 없는 단어로 구성된 긴 비밀번호를 사용하는 것을 권장합니다.</string>
+    <string name="security_tips07">텍스트는 다른 어떤 것보다 더 안전하고 익명합니다.</string>
+    <string name="security_tips08">가장 안전한 방법으로 주소를 공유하세요.</string>
+    <string name="security_tips09">필요한 경우 휴대폰 저장소를 암호화하세요.</string>
+    <string name="security_tips10">VPN을 사용할 때는 OpenVPN과 같은 오픈 소스 무료 소프트웨어인 클라이언트가 사용되고 있는지 확인하세요.</string>
+    <string name="security_tips11">익명 메신저를 종료하면 기기에서 데이터가 암호화 상태로 유지됩니다.</string>
+    <string name="security_tips12">필요한 경우 소스 코드에서 익명 메신저를 빌드하세요.</string>
+    <string name="security_tips13">신원 확인하세요.</string>
+    <string name="security_tips14">휴대폰에서 어떤 독점 앱도 사용하지 않고 소셜 미디어 사이트, 금융 서비스에 접근하는 무료 오픈 소스 프로그램을 사용하는지 확인하세요. 일반적으로 신뢰할 수 없거나 필요한 것보다 많은 권한이 필요한 앱이 있지 않은지 확인하세요. 앱 자체가 제공하는 제3자 광고가 있는지도 확인하세요.</string>
+    <string name="security_tips15">프로젝트를 더 잘 만들고 모든 사람에게 익명 메시지의 최고 솔루션을 제공하는 데 도움이 되도록 기부를 고려하세요.</string>
+    <string name="opening_socks_listener">Socks Listener 열기</string>
+    <string name="socks_listener_listening">Socks Listener 청취 중</string>
+    <string name="opened_socks_listener">Socks Listener 열림</string>
+    <string name="opening_control_listener">Control Listener 열기</string>
+    <string name="control_listener_listening">Control Listener 청취 중</string>
+    <string name="opened_control_listener">Control Listener 열림</string>
+    <string name="action_notepad">메모장</string>
+    <string name="save">저장</string>
+    <string name="enter_note">암호화된 메모 저장</string>
+    <string name="delete_contact_question">이 연락처를 삭제하시겠습니까?</string>
+    <string name="delete_contact_details">이 작업은 취소할 수 없으며 연락처의 세션과 대화도 삭제됩니다</string>
+    <string name="delete_note_question">이 메모를 삭제하시겠습니까?</string>
+    <string name="delete_note_details">이 작업은 취소할 수 없습니다</string>
+    <string name="delete_note">삭제</string>
+    <string name="open_link_question">이 링크를 여시겠습니까?</string>
+    <string name="open_link_describe">사설 앱 외에서 링크를 열면 익명성을 손실할 수 있습니다.
+        신뢰할 수 있는 링크를 사용하거나 가능하다면 Tor 브라우저를 사용하세요</string>
+    <string name="scan">QR 코드 스캔</string>
+    <string name="contact_added">연락처 추가됨</string>
+    <string name="cam_perm_ask_title">카메라 권한</string>
+    <string name="why_need_cam">QR 스캔은 카메라 권한 없이는 작동하지 않습니다</string>
+    <string name="ask_for_cam_btn">확인</string>
+    <string name="invalid_address">잘못된 주소</string>
+    <string name="action_log">보안 로그</string>
+    <string name="delete_log_question">삭제?</string>
+    <string name="delete_log_details">이 작업은 취소할 수 없습니다</string>
+    <string name="action_log_notice">알림 포함</string>
+    <string name="action_clear_log">로그 삭제</string>
+    <string name="include_notice_logs">알림 로그 포함</string>
+    <string name="decrypting2">복호화</string>
+    <string name="open_file_question">다른 앱에서 파일을 여시겠습니까?</string>
+    <string name="open_file_describe">이렇게 하면 파일이 복호화되고 제3자 앱의 액세스 권한을 부여하여
+        파일에 영향을 줄 수 있습니다</string>
+    <string name="deleted_logs">로그가 삭제되었습니다</string>
+    <string name="saving">"저장 "</string>
+    <string name="cancel">취소</string>
+    <string name="slide_to_cancel">슬라이드로 취소</string>
+    <string name="sending_file">파일 전송</string>
+    <string name="sending_part_one">파트 1 전송</string>
+    <string name="screen_filter_body">익명 메신저 위에서 다른 앱이 그려지고 있습니다,
+        화면이 개인 정보 보호를 위해 차단되어 있습니다</string>
+    <string name="screen_filter_title">화면 오버레이 감지됨</string>
+    <string name="try_now">지금 시도</string>
+    <string name="mic_in_use">다른 앱에서 마이크가 사용 중일 수 있습니다</string>
+    <string name="back_image">뒤로</string>
+    <string name="subtitle">부제목</string>
+    <string name="qr_code_image">QR 코드가 포함된 이미지</string>
+    <string name="go_to_app">앱 열기</string>
+    <string name="use_bridges">브리지 사용</string>
+    <string name="request_bridge">브리지 요청</string>
+    <string name="done_button">완료</string>
+    <string name="allow_unknown">알 수 없는 연락처 수락</string>
+    <string name="allow_files">파일 수신 허용</string>
+    <string name="file_limit">파일 크기 제한</string>
+    <string name="allow_calls">통화 허용</string>
+    <string name="action_settings">설정</string>
+    <string name="delete_bridge_question">이 브리지를 삭제하시겠습니까?</string>
+    <string name="delete_bridge_details">이 작업은 취소할 수 없습니다</string>
+    <string name="online_check_address">온라인 주소 확인</string>
+    <string name="reset_settings">설정 초기화</string>
+    <string name="bridges">브리지 (Tor 재시작 필요)</string>
+    <string name="other">기타</string>
+    <string name="reset">초기화</string>
+    <string name="security">보안</string>
+    <string name="connectivity">연결성</string>
+    <string name="add_bridge">브리지 추가</string>
+    <string name="request_bridge_help">다음 링크를 통해 Tor 프로젝트에서 브리지를 요청할 수 있습니다: https://bridges.torproject.org/bridges?transport=obfs4   또는 bridges@torproject.org에 이메일을 보거나 직접 사용할 수 있습니다.</string>
+    <string name="button_undo">실행 취소</string>
+    <string name="insert_bridge_line">브리지 줄 삽입</string>
+    <string name="nickname_explain_title">닉네임 사용</string>
+    <string name="nickname_explain">닉네임은 기기에 저장되고 연락처에게 직접 메시지와 함께 암호화하여 전송됩니다. 이 앱을 사용할 때 서버에 연결하지 않습니다.</string>
+    <string name="password_explain_title">암호 사용</string>
+    <string name="online_check_address_explain">이 주소는 온라인 상태 확인과 모든 설정이 올바른지 확인하는 데 사용됩니다. 연결 가능성만 확인하므로 웹 서버 주소가 될 수 있으며, 숨겨진 서비스나 일반 주소가 될 수도 있습니다.</string>
+    <string name="running_on">실행 중: </string>
+    <string name="processors">프로세서</string>
+    <string name="and">및 </string>
+    <string name="free_memory">사용 가능한 메모리</string>
+    <string name="ok">확인</string>
+    <string name="with">및 </string>
+    <string name="welcome_to_anonymous_messenger">다음 보안 메신저입니다</string>
+    <string name="change_profile_image">이미지 변경</string>
+    <string name="remove_profile_image">이미지 제거</string>
+    <string name="remove_profile_image_details">프로필 사진을 삭제하시겠습니까?</string>
+    <string name="profile_image_changed">프로필 사진이 변경됨</string>
+    <string name="profile_image_removed">프로필 사진이 제거됨</string>
+    <string name="restart_app">앱 재시작</string>
+    <string name="unknown_exception">알 수 없는 오류</string>
+    <string name="error_occurred">문제가 발생했습니다</string>
+    <string name="error_details">오류 세부 사항</string>
+    <string name="retry">재시도</string>
+    <string name="use_proxy">Socks5 프록시 사용</string>
+    <string name="proxy_address">Socks5 프록시 주소</string>
+    <string name="proxy_username">사용자 이름</string>
+    <string name="proxy_password">비밀번호</string>
+    <string name="tor_error">Tor는 300초 이내에 연결할 수 없습니다. 브리지를 사용하거나 설정에서 Socks5 프록시를 통해 연결할 수 있습니다</string>
+    <string name="tor_error_title">Tor 시작 오류</string>
+    <string name="stay_offline">오프라인 상태 유지</string>
+    <string name="proxy">Socks5 프록시 (Tor 재시작 필요)</string>
+    <string name="exclude_tor_nodes">Tor 노드 제외 (Tor 재시작 필요)</string>
+    <string name="exclude_unknown">알 수 없는 노드 제외</string>
+    <string name="strict_exclude">엄격한 제외</string>
+    <string name="action_scroll_up">위로 스크롤</string>
+    <string name="action_scroll_down">아래로 스크롤</string>
+    <string name="action_clear_tor_cache">Tor 캐시 삭제</string>
+    <string name="clear_tor_cache_explain">캐시된 설명자가 오래된 경우 유용할 수 있지만, 성능과 익명성 고려로 자주 수행하는 것을 권장하지 않습니다.</string>
+    <string name="disappearing_messages_default">고정되지 않은 메시지는 24시간 후 삭제</string>
+    <string name="tor_exited">Tor 종료</string>
+    <string name="action_change_app_name">앱 이름 변경</string>
+    <string name="select_app_name">앱 이름 선택</string>
+    <string name="action_change_theme">테마 변경</string>
+    <string name="dark_theme">어두운 테마</string>
+    <string name="light_theme">밝은 테마</string>
+    <string name="invalid_bridge">유효하지 않은 브리지</string>
+    <string name="bridge_added">브리지 추가됨</string>
+    <string name="nickname_help_explain">닉네임 사용에 대한 정보를 보려면 클릭하세요</string>
+    <string name="no_recent_messages">최근 메시지 없음!</string>
+    <string name="unpinned_messages_get_deleted">고정되지 않은 메시지가 매일 24시간마다 삭제되는지 알고 계셨습니까?</string>
+    <string name="continue_without_password">비밀번호 사용 안 함</string>
+    <string name="hangup">전화 끊기</string>
+    <string name="outgoing_call">발신 통화</string>
+    <string name="return_to_call">통화로 돌아가기</string>
+    <string name="action_donate">기부</string>
+    <string name="donate_text">프로젝트를 돕는 데 기부할 수 있습니다</string>
+    <string name="bitcoin">비트코인</string>
+    <string name="monero">머니로</string>
+    <string name="send_image">이미지 전송</string>
+    <string name="error_accessing_storage">외부 저장소 접근 오류</string>
+    <string name="error_opening_image">외부 저장소에서 이미지 열기 오류</string>
+    <string name="step_1_choose_your_nickname">STEP 1: 닉네임 선택</string>
+    <string name="what_should_people_call_you">사람들이 당신을 어떻게 불러야 합니까?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">이 이름은 다른 사용자에게 표시됩니다. 나중에 변경할 수 있습니다.</string>
+    <string name="type_your_nickname_here">닉네임 여기에 입력하세요: 👇</string>
+    <string name="enter_nickname">닉네임 입력</string>
+    <string name="get_help_with_choosing_a_nickname">닉네임 선택을 위한 도움</string>
+    <string name="tap_for_help">💡 도움이 필요하면 탭</string>
+    <string name="continue_txt">계속 →</string>
+    <string name="step_2_secure_your_account">STEP 2: 데이터 보안</string>
+    <string name="choose_a_strong_password">강력한 비밀번호 선택</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">비밀번호는 암호화를 통해 데이터를 보호합니다</string>
+    <string name="create_your_password">비밀번호 생성</string>
+    <string name="get_help_with_passwords">도움이 필요합니다</string>
+    <string name="tap_for_password_tips">도움이 필요하면 탭</string>
+    <string name="private_messaging_reimagined">자유롭게 말하세요. 익명을 유지하세요</string>
+    <string name="private_secure_anonymous"> 개인정보 • 암호화 • 익명</string>
+    <string name="start_private_messaging">지금 참여</string>
+    <string name="already_have_account">백업 사용</string>
+    <string name="tor_network">⚡ Tor 네트워크</string>
+    <string name="peer_2_peer">🌐 피어 2 피어</string>
+    <string name="anonymous">🕵️ 익명</string>
+    <string name="encrypted">🔒 암호화됨</string>
+    <string name="welcome_back">환영합니다</string>
+    <string name="enter_your_password_to_continue">계속하려면 비밀번호를 입력하세요</string>
+    <string name="your_data_is_encrypted_and_secure">데이터는 암호화되고 보안됩니다</string>
+    <string name="enter_encryption_password">암호화 비밀번호 입력</string>
+    <string name="enter_your_password">비밀번호 입력</string>
+    <string name="incorrect_password_try_again">잘못된 비밀번호, 다시 시도하세요.</string>
+    <string name="get_help_with_password">도움이 필요합니다</string>
+    <string name="tap_for_password_recovery_options">도움이 필요하면 탭</string>
+    <string name="forgot_your_password">비밀번호를 잊으셨고 백업이 없다면 계정을 복구할 방법이 없습니다</string>
+    <string name="this_may_take_a_few_moments">몇 분 정도 걸릴 수 있습니다</string>
+    <string name="initializing_tor_network">Tor 네트워크 초기화</string>
+    <string name="securing_connection">연결 익명화</string>
+    <string name="connecting_world">🌐 연결</string>
+    <string name="secure">✅ 보안</string>
+    <string name="bootstrapping">🔒 부트스트래핑</string>
+    <string name="appearance_other">모양 및 기타</string>
+    <string name="get_help">도움이 필요합니다</string>
+    <string name="reset_to_default">기본값으로 초기화</string>
+    <!-- Security Section -->
+    <string name="high_security">높은 보안</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">브리지 설정</string>
+    <string name="bridge_help">브리지 설정에 대한 도움</string>
+    <string name="bridge_description">Tor가 네트워크에서 차단될 때 브리지를 사용하여 차단을 우회하세요</string>
+    <string name="enable_tor_bridges">Tor 브리지 활성화</string>
+    <string name="bridges_active">브리지가 활성화되어 있고 구성됨</string>
+    <string name="configured_bridges">구성된 브리지</string>
+    <string name="add_new_bridge">새 브리지 추가</string>
+    <string name="add_manually">브리지 추가</string>
+    <string name="request_automatically">새 브리지 요청</string>
+    <string name="scan_qr_code">QR 코드 스캔</string>
+    <string name="paste_bridge_lines_here">브리지 줄을 여기에 붙여넣으세요…</string>
+    <string name="bridge_input_help">여러 브리지 줄을 붙여넣을 수 있습니다. 각 줄은 다음 형식이어야 합니다:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\n앞부분에 \"bridge\"라는 단어가 필요하지 않습니다.</string>
+    <string name="action_backup">백업</string>
+    <string name="back_up_alert_message">데이터를 백업하시겠습니까? 이것은 onion 서비스 계정과 암호화 키, 모든 메시지를 백업합니다</string>
+    <string name="backup_progress_title">백업 생성 중</string>
+    <string name="backup_progress_message">잠시 기다려주세요…</string>
+    <string name="restore_progress_title">백업 복원 중</string>
+    <string name="restore_progress_message">잠시 기다려주세요…</string>
+</resources>

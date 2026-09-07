@@ -1,0 +1,442 @@
+<resources>
+    <string name="app_name">Messenger Ẩn danh</string>
+    <string name="create_account_button">Bắt đầu</string>
+    <string name="nickname">Biệt danh</string>
+    <string name="nickname_error">Biệt danh không hợp lệ</string>
+    <string name="nickname_help">Nhập biệt danh để tiếp tục</string>
+    <string name="nickname_okay">Biệt danh hay!</string>
+    <string name="next_button">Tiếp theo</string>
+    <string name="choose_password">Chọn mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="setup_password_explanation">Mật khẩu bạn nhập sẽ được sử dụng để mã hóa dữ liệu trên thiết bị của bạn, đây không phải là mật khẩu đăng nhập và không thể sử dụng để khôi phục, bạn sẽ phải nhập mật khẩu của mình sau này khi mở ứng dụng sau khi thoát ra, ứng dụng này không bao giờ kết nối với bất kỳ máy chủ nào.</string>
+    <string name="password_too_weak">Mật khẩu của bạn quá yếu, chúng tôi không thể cho phép bạn làm điều này vì chúng tôi quan tâm đến bảo mật của bạn</string>
+    <string name="passwords_do_not_match">Mật khẩu không khớp</string>
+    <string name="channel4">kênh4</string>
+    <string name="channel_description">và và</string>
+    <string name="hello_blank_fragment">Xin chào fragment trống</string>
+    <string name="enter_password">Nhập mật khẩu</string>
+    <string name="decrypt_button">Giải mã</string>
+    <string name="myaddress">Địa chỉ của tôi</string>
+    <string name="hint_contact_address">Nhập địa chỉ liên hệ (.onion)</string>
+    <string name="lbl_contact_address">Nhập địa chỉ liên hệ</string>
+    <string name="enter_message">Tin nhắn bảo mật…</string>
+    <string name="send_button">GỬI</string>
+    <string name="reply">Trả lời</string>
+    <string name="pin">Ghim</string>
+    <string name="copy">Sao chép</string>
+    <string name="you">bạn</string>
+    <string name="action_reset_session">Đặt lại phiên</string>
+    <string name="action_verify_identity">Xác minh danh tính</string>
+    <string name="action_clear_conversation">Xóa cuộc trò chuyện</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_shutdown">Tắt nguồn</string>
+    <string name="action_my_identity">Danh tính của tôi</string>
+    <string name="action_restart_tor">Khởi động lại Tor</string>
+    <string name="my_identity_explanation">Khóa công khai được sử dụng để xác minh danh tính</string>
+    <string name="verify_identity_explanation">Cả hai khóa công khai cùng nhau để xác minh cả hai danh tính</string>
+    <string name="verify_identity_how_to">So sánh các số này trên cả hai thiết bị, nếu chúng giống nhau thì mã hóa E2E đang hoạt động chính xác…</string>
+    <string name="action_call">Gọi</string>
+    <string name="ask_me_again">Hỏi lại</string>
+    <string name="no_thanks">Không, cảm ơn</string>
+    <string name="why_need_mic">ứng dụng cần điều này để thực hiện hoặc nhận cuộc gọi</string>
+    <string name="mic_perm_ask_title">Quyền Microphone</string>
+    <string name="ask_for_mic_btn">OK</string>
+    <string name="accept_call">Chấp nhận</string>
+    <string name="dx_call">CUỘC GỌI TOR</string>
+    <string name="call_picture_description">hình ảnh màn hình gọi</string>
+    <string name="end_call">Ngắt cuộc gọi</string>
+    <string name="connecting">Đang kết nối…</string>
+    <string name="CallNotificationBuilder_connecting">Đang kết nối</string>
+    <string name="NotificationBarManager__incoming_call">Cuộc gọi đến</string>
+    <string name="NotificationBarManager_call_in_progress">Cuộc gọi đang diễn ra</string>
+    <string name="NotificationBarManager__establishing_call">Thiết lập cuộc gọi</string>
+    <string name="trying">thử</string>
+    <string name="ringing">Reo</string>
+    <string name="connected">Đã kết nối</string>
+    <string name="answer">trả lời</string>
+    <string name="incoming_call">Cuộc gọi đến</string>
+    <string name="identity_verification_fail">Không thể lấy các khóa danh tính</string>
+    <string name="identity_key_fail">Không thể tìm thấy khóa danh tính của bạn</string>
+    <string name="delete_contact">Xóa liên hệ</string>
+    <string name="no_contacts">Không tìm thấy liên hệ!</string>
+    <string name="tor_output">Đầu ra Tor</string>
+    <string name="anonymous_messenger">Messenger Ẩn danh</string>
+    <string name="by_drxtreme">bởi DrXtreme</string>
+    <string name="welcome_to">chào mừng đến</string>
+    <string name="recording">Đang ghi âm</string>
+    <string name="send">GỬI</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">để hiển thị khi chưa đọc</string>
+    <string name="text_msg_placeholder">bạn bè quên nhắc bạn về việc đó</string>
+    <string name="profile_image">hình ảnh hồ sơ</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31p</string>
+    <string name="seen_image">ảnh đã xem</string>
+    <string name="msg_place_holder">chào bạn, bạn khỏe không?</string>
+    <string name="indicates_secure_messaging">chỉ báo tin nhắn bảo mật</string>
+    <string name="textview">Trình xem văn bản</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">chào bạn, bạn khỏe không?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">offline</string>
+    <string name="picture_of_contact">ảnh liên hệ</string>
+    <string name="hold_on">Đợi đợi!</string>
+    <string name="starting_up_tor">Đang khởi động Tor</string>
+    <string name="doing_stuff">làm cho bạn ẩn danh…</string>
+    <string name="go_to_contacts">Bỏ qua</string>
+    <string name="checking">Đang kiểm tra</string>
+    <string name="online">online</string>
+    <string name="synced">đã đồng bộ hóa</string>
+    <string name="add_contact">Thêm liên hệ</string>
+    <string name="waiting_for_tor">đang chờ Tor</string>
+    <string name="oh_no">Ồ Không!</string>
+    <string name="did_you_forget_your_password">Bạn đã quên mật khẩu của mình?</string>
+    <string name="hello_hello" translatable="false">chào, chào!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Messenger Ẩn danh: bạn đã hết RAM!</string>
+    <string name="no_encryption_yet">Chưa sẵn sàng cho mã hóa</string>
+    <string name="no_session">Phiên không tồn tại, đang bắt đầu phiên ngay</string>
+    <string name="audio_message">tin nhắn âm thanh</string>
+    <string name="user_is_online">Người dùng đang online</string>
+    <string name="user_is_offline">Người dùng đang offline</string>
+    <string name="cant_encrypt_message">Không thể mã hóa tin nhắn, bạn phải đợi trao đổi khóa</string>
+    <string name="resp_key_exchange">Tin nhắn Phản hồi Trao đổi Khóa</string>
+    <string name="key_exchange_message">Tin nhắn Trao đổi Khóa</string>
+    <string name="image_to_send">ảnh để gửi</string>
+    <string name="read_storage_perm_ask_title">Quyền Đọc Lưu trữ</string>
+    <string name="why_need_read_storage">ứng dụng cần điều này để có thể gửi
+        hình ảnh được lưu trên điện thoại của bạn</string>
+    <string name="icon_for_image_to_send">icon để gửi ảnh</string>
+    <string name="image">ảnh</string>
+    <string name="pic_help">Đóng</string>
+    <string name="send_media_to">"Gửi phương tiện đến "</string>
+    <string name="picure_view">Xem ảnh</string>
+    <string name="media_message">tin nhắn phương tiện</string>
+    <string name="caption">Viết chú thích</string>
+    <string name="still_background">Vẫn đang chạy ở chế độ nền</string>
+    <string name="click_to_hide">Ẩn thông báo</string>
+    <string name="unpin">Bỏ ghim</string>
+    <string name="profile_contact">Xem hồ sơ</string>
+    <string name="save_picture">Lưu hình ảnh</string>
+    <string name="confirm_add_contact">"Bạn thực sự muốn thêm "</string>
+    <string name="contact_exists">Liên hệ đã tồn tại!</string>
+    <string name="cant_add_contact">không thể thêm liên hệ!</string>
+    <string name="save_to_storage">Lưu vào bộ nhớ chia sẻ?</string>
+    <string name="save_to_storage_explain">Các ứng dụng khác sẽ có quyền truy cập hình ảnh này nếu được lưu ở bộ nhớ chia sẻ.</string>
+    <string name="action_my_profile">Hồ sơ của tôi</string>
+    <string name="action_help">Giúp đỡ</string>
+    <string name="action_about">Về</string>
+    <string name="change_nickname">Đổi biệt danh</string>
+    <string name="new_nickname">Biệt danh mới</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="action_license">Giấy phép</string>
+    <string name="license">Anonymous Messenger, một giải pháp truyền thông riêng tư hoàn chỉnh hoạt động trên Tor.\n
+    Copyright © 2021  Sofian M. Benissa\n\n
+    Đây là phần mềm tự do: bạn có thể tái phân phối và/hoặc sửa đổi
+    theo các điều khoản của Giấy phép Công cộng GNU được công bố bởi
+    Quỹ Phần mềm Tự do, phiên bản 3 của Giấy phép, hoặc
+    (tùy chọn) bất kỳ phiên bản nào sau đó.\n
+    Đây được phân phối với hy vọng sẽ hữu ích,\n
+    nhưng KHÔNG CÓ BẤT KỲ BẢO ĐẢM; thậm chí không có bảo đảm về khả năng thương mại
+    hay khả năng phù hợp cho MỘT MỤC ĐÍCH CỤ THỂ. Xem Giấy phép Công cộng GNU để biết thêm chi tiết.\n
+    Bạn nên nhận được một bản sao của Giấy phép Công cộng GNU
+        cùng với phần mềm này. Nếu không, hãy xem https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Địa chỉ đã sao chép</string>
+    <string name="empty_nickname_help">Không thể có biệt danh trống</string>
+    <string name="theiraddress">Địa chỉ của họ</string>
+    <string name="turn_off_battery">Tắt tối ưu hóa pin?</string>
+    <string name="allow_in_background">cho phép Anonymous Messenger tiếp tục hoạt động ở chế độ nền?</string>
+    <string name="shut_app">Tắt ứng dụng?</string>
+    <string name="shut_app_explain">Bạn sẽ không thể nhận tin nhắn cho đến khi bạn giải mã lại với mật khẩu của mình</string>
+    <string name="restart_tor">Khởi động lại Tor?</string>
+    <string name="restart_tor_explain">Điều này không cần thiết trong hoạt động bình thường trừ khi bạn nghĩ Tor không hoạt động chính xác ngay bây giờ</string>
+    <string name="restarting_service">Khởi động lại dịch vụ</string>
+    <string name="connection_restored">Kết nối được khôi phục</string>
+    <string name="lost_connection">Mất kết nối</string>
+    <string name="connection_is_coming">kết nối nên sớm quay lại</string>
+    <string name="will_receive_messages_soon">nên có thể nhận tin nhắn trong vòng 2 phút</string>
+    <string name="waiting_for_connectivity">đang chờ kết nối</string>
+    <string name="almost_ready">Sắp xong!</string>
+    <string name="starting_tor_first_time">Đang khởi động Tor và làm nóng để lấy tất cả những gì chúng tôi cần để kết nối!</string>
+    <string name="ready_to_chat">Sẵn sàng để trò chuyện an toàn!</string>
+    <string name="you_got_all_you_need">Bạn đã có tất cả những gì bạn cần để trò chuyện an toàn với bạn bè của mình!</string>
+    <string name="new_message">Tin nhắn mới!</string>
+    <string name="you_have_message">bạn có một tin nhắn bí mật mới</string>
+    <string name="wrong_password">Mật khẩu sai</string>
+    <string name="no_key">không tìm thấy khóa mã hóa</string>
+    <string name="error">lỗi</string>
+    <string name="failed_to_decrypt">GIẢI MÃ BÁO ĐỘNG THẤT BẠI</string>
+    <string name="failed_to_read_after_decrypt">ĐỌC BÁO ĐỘNG SAU KHI GIẢI MÃ THẤT BẠI</string>
+    <string name="failed_to_get_AEM">LẤY AddressedEncryptedMessage TỪ BÁO ĐỘNG THẤT BẠI</string>
+    <string name="cant_add_self">Bạn không thể thêm chính mình!</string>
+    <string name="waiting_for_response">Đã gửi khóa, Đang chờ phản hồi</string>
+    <string name="decrypting">Đang giải mã…</string>
+    <string name="stale_key">Nhận khóa hết hạn (bỏ qua)</string>
+    <string name="invalid_key">Nhận khóa không hợp lệ</string>
+    <string name="untrusted_identity">Nhận khóa từ Danh tính Không tin cậy</string>
+    <string name="bad_message">Tin nhắn bị hỏng</string>
+    <string name="decrypt_reminder_title">Giải mã để nhận tin nhắn</string>
+    <string name="decrypt_reminder_message">bạn cần nhập mật khẩu của mình để chạy trong
+        chế độ nền</string>
+    <string name="denied_microphone">Từ chối quyền Microphone</string>
+    <string name="denied_microphone_help">bằng cách này bạn không thể thực hiện hoặc nhận cuộc gọi</string>
+    <string name="delete_messages">Xóa tất cả tin nhắn?</string>
+    <string name="delete_messages_help">việc này sẽ xóa thậm chí cả các tin nhắn đã ghim!</string>
+    <string name="yes">Có</string>
+    <string name="pinned_message">Tin nhắn Đã ghim</string>
+    <string name="unpinned_message">Tin nhắn Đã bỏ ghim</string>
+    <string name="copied">Đã sao chép</string>
+    <string name="saved_to_storage">Đã lưu vào bộ nhớ</string>
+    <string name="about">Dự án được tài trợ bởi Alton James Steele và phát triển bởi Sofian Mahmoud
+        Benissa
+        để mang cho bạn truyền thông ẩn danh, an toàn và tiện lợi,
+        như chúng tôi không hài lòng với những gì có sẵn chúng tôi quyết định để
+        tạo ý tưởng của riêng mình cho một ứng dụng truyền thông và chia sẻ nó với thế giới, mã nguồn
+        có sẵn và dự án được cấp phép theo Giấy phép Công cộng GNU nên bạn có thể
+        tận dụng đầy đủ và có tự do để thay đổi nó với các
+        tự do khác</string>
+    <string name="copyright">Copyright © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Mẹo bảo mật</string>
+    <string name="hide_notification">tắt thông báo service_running</string>
+    <string name="record_audio">ghi âm audio</string>
+    <string name="send_file">gửi tệp</string>
+    <string name="scroll_down">cuộn xuống</string>
+    <string name="file">Tệp</string>
+    <string name="unknown_file_name">Tên tệp không xác định</string>
+    <string name="unknown_file_size">Kích thước tệp không xác định</string>
+    <string name="recording_failed">Không thể ghi âm ngay bây giờ, có thể có cuộc gọi đang diễn ra?</string>
+    <string name="feature_unready">tính năng này sẽ sẵn sàng trong bản cập nhật tiếp theo</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Sử dụng một bàn phím tôn trọng sự tự do của bạn và không
+        kết nối với internet, chúng tôi khuyến nghị sử dụng OpenBoard</string>
+    <string name="security_tips02">Bảo mật của bạn phụ thuộc nặng nề vào các ứng dụng
+        được cài đặt trên thiết bị, chúng tôi khuyến nghị thay đổi ứng dụng mặc định của bạn thành các ứng dụng từ
+        kho f-droid</string>
+    <string name="security_tips03">Cố gắng không vô tình dán địa chỉ bạn bè của bạn vào trình duyệt của bạn vì điều đó có thể gây nguy hiểm cho bạn/đến sự ẩn danh của họ</string>
+    <string name="security_tips04">Gỡ bỏ Anonymous Messenger để xóa tài khoản và xóa
+        mọi thứ.</string>
+    <string name="security_tips05">Tải xuống từ dịch vụ onion của chúng tôi an toàn hơn các
+        máy chủ clear net của chúng tôi.</string>
+    <string name="security_tips06">Bảo mật lưu trữ dữ liệu của bạn chỉ an toàn khi
+        mật khẩu của bạn, chúng tôi khuyến nghị một mật khẩu dài được tạo từ các từ mà không có ý nghĩa nào đối với bạn.</string>
+    <string name="security_tips07">Văn bản an toàn và ẩn danh hơn bất cứ điều gì khác.</string>
+    <string name="security_tips08">Chia sẻ địa chỉ của bạn theo cách an toàn nhất có thể.</string>
+    <string name="security_tips09">Nếu có thể, hãy mã hóa bộ nhớ điện thoại.</string>
+    <string name="security_tips10">Khi bạn muốn sử dụng VPN hãy đảm bảo rằng khách hàng bạn sử dụng là mã nguồn mở phần mềm tự do như OpenVPN.</string>
+    <string name="security_tips11">Thoát khỏi Anonymous Messenger giữ dữ liệu của bạn được mã hóa trên
+        thiết bị của bạn.</string>
+    <string name="security_tips12">Nếu có thể hãy xây dựng Anonymous Messenger từ nguồn.</string>
+    <string name="security_tips13">Xác minh danh tính.</string>
+    <string name="security_tips14">Đảm bảo rằng bạn không sử dụng bất kỳ ứng dụng sở hữu nào trên điện thoại của bạn và
+        rằng bạn sử dụng một chương trình tự do mã nguồn mở để truy cập các trang web mạng xã hội của bạn, dịch vụ tài chính,
+        và nói chung không có bất kỳ ứng dụng nào mà bạn không thể tin cậy hoặc một cái yêu cầu
+        nhiều hơn quyền hạn so với nó cần, hoặc có bất kỳ quảng cáo của bên thứ ba được trình bày bởi
+        ứng dụng chính nó.</string>
+    <string name="security_tips15">Coi trọng việc đóng góp để giúp làm cho dự án này tốt hơn nữa và giúp chúng tôi cung cấp giải pháp tốt nhất cho truyền thông ẩn danh cho mọi người.</string>
+    <string name="opening_socks_listener">Mở Socks Listener</string>
+    <string name="socks_listener_listening">Socks Listener Lắng nghe</string>
+    <string name="opened_socks_listener">Socks Listener Đã mở</string>
+    <string name="opening_control_listener">Mở Control Listener</string>
+    <string name="control_listener_listening">Control Listener Lắng nghe</string>
+    <string name="opened_control_listener">Control Listener Đã mở</string>
+    <string name="action_notepad">Sổ tay</string>
+    <string name="save">Lưu</string>
+    <string name="enter_note">Lưu ghi chú được mã hóa</string>
+    <string name="delete_contact_question">Xóa liên hệ này?</string>
+    <string name="delete_contact_details">việc này không thể được hoàn tác và cũng sẽ xóa phiên và cuộc trò chuyện của liên hệ này</string>
+    <string name="delete_note_question">Xóa ghi chú này?</string>
+    <string name="delete_note_details">việc này không thể được hoàn tác</string>
+    <string name="delete_note">Xóa</string>
+    <string name="open_link_question">Mở liên kết này?</string>
+    <string name="open_link_describe">Mở liên kết ngoài các ứng dụng riêng tư có thể làm cho bạn mất ẩn danh,
+        hãy chỉ làm điều này nếu bạn tin vào liên kết hoặc sử dụng trình duyệt Tor nếu có thể</string>
+    <string name="scan">Quét mã QR</string>
+    <string name="contact_added">Đã thêm liên hệ</string>
+    <string name="cam_perm_ask_title">Quyền Camera</string>
+    <string name="why_need_cam">Quét QR sẽ không hoạt động mà không có quyền camera</string>
+    <string name="ask_for_cam_btn">OK</string>
+    <string name="invalid_address">Địa chỉ không hợp lệ</string>
+    <string name="action_log">Nhật ký bảo mật</string>
+    <string name="delete_log_question">Xóa?</string>
+    <string name="delete_log_details">Điều này không thể được hoàn tác</string>
+    <string name="action_log_notice">Bao gồm Thông báo</string>
+    <string name="action_clear_log">Xóa Nhật ký</string>
+    <string name="include_notice_logs">Bao gồm Nhật ký Thông báo</string>
+    <string name="decrypting2">Giải mã</string>
+    <string name="open_file_question">Mở tệp trong ứng dụng khác?</string>
+    <string name="open_file_describe">Việc này sẽ giải mã tệp và đưa ra quyền truy cập đến ứng dụng của bên thứ ba
+        có thể làm hại tệp</string>
+    <string name="deleted_logs">Nhật ký đã được xóa</string>
+    <string name="saving">"Lưu "</string>
+    <string name="cancel">Hủy bỏ</string>
+    <string name="slide_to_cancel">Kéo để hủy bỏ</string>
+    <string name="sending_file">Đang gửi tệp</string>
+    <string name="sending_part_one">Gửi phần 1</string>
+    <string name="screen_filter_body">Một ứng dụng khác đang vẽ lên AnonymousMessenger,
+        màn hình bị chặn để bảo vệ quyền riêng tư của bạn</string>
+    <string name="screen_filter_title">Phát hiện lớp phủ màn hình</string>
+    <string name="try_now">Thử ngay</string>
+    <string name="mic_in_use">Microphone có thể đang được sử dụng bởi một ứng dụng khác</string>
+    <string name="back_image">quay lại</string>
+    <string name="subtitle">Phụ đề</string>
+    <string name="qr_code_image">Hình ảnh chứa mã QR</string>
+    <string name="go_to_app">mở ứng dụng</string>
+    <string name="use_bridges">Sử dụng Cầu</string>
+    <string name="request_bridge">Yêu cầu Cầu</string>
+    <string name="done_button">Xong</string>
+    <string name="allow_unknown">Chấp nhận Liên hệ Không rõ</string>
+    <string name="allow_files">Cho phép Nhận Tệp</string>
+    <string name="file_limit">Giới hạn Kích thước Tệp</string>
+    <string name="allow_calls">Cho phép Cuộc gọi</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="delete_bridge_question">Xóa cầu này?</string>
+    <string name="delete_bridge_details">việc này không thể được hoàn tác</string>
+    <string name="online_check_address">Kiểm tra Địa chỉ Online</string>
+    <string name="reset_settings">Đặt lại Cài đặt</string>
+    <string name="bridges">Cầu (khởi động lại Tor để có hiệu lực)</string>
+    <string name="other">Khác</string>
+    <string name="reset">Đặt lại</string>
+    <string name="security">Bảo mật</string>
+    <string name="connectivity">Khả năng kết nối</string>
+    <string name="add_bridge">Thêm Cầu</string>
+    <string name="request_bridge_help">Bạn có thể yêu cầu một cầu từ dự án Tor bằng cách làm theo liên kết này: https://bridges.torproject.org/bridges?transport=obfs4   hoặc bạn có thể gửi email đến bridges@torproject.org hoặc bạn có thể tự tạo cầu và sử dụng nó.</string>
+    <string name="button_undo">Hoàn tác</string>
+    <string name="insert_bridge_line">Chèn dòng cầu</string>
+    <string name="nickname_explain_title">Sử dụng biệt danh</string>
+    <string name="nickname_explain">Biệt danh của bạn được lưu trên thiết bị của bạn và chỉ được gửi mã hóa với tin nhắn của bạn đến liên hệ trực tiếp, bạn không bao giờ kết nối với bất kỳ máy chủ nào khi sử dụng ứng dụng này.</string>
+    <string name="password_explain_title">Sử dụng mật khẩu</string>
+    <string name="online_check_address_explain">Địa chỉ này được sử dụng để đảm bảo bạn đang online và mọi thứ được thiết lập chính xác, đây có thể là bất kỳ địa chỉ máy chủ web nào vì chúng tôi chỉ kiểm tra khả năng tiếp cận, nó cũng có thể là một dịch vụ ẩn hoặc địa chỉ thông thường.</string>
+    <string name="running_on">Chạy trên: </string>
+    <string name="processors">bộ xử lý</string>
+    <string name="and">và </string>
+    <string name="free_memory">bộ nhớ trống</string>
+    <string name="ok">OK</string>
+    <string name="with">với</string>
+    <string name="welcome_to_anonymous_messenger">Đây là ứng dụng tin nhắn bảo mật tiếp theo của bạn</string>
+    <string name="change_profile_image">Đổi ảnh</string>
+    <string name="remove_profile_image">Xóa ảnh</string>
+    <string name="remove_profile_image_details">Bạn có chắc chắn bạn muốn xóa ảnh hồ sơ của mình?</string>
+    <string name="profile_image_changed">Ảnh hồ sơ đã thay đổi</string>
+    <string name="profile_image_removed">Ảnh hồ sơ đã bị xóa</string>
+    <string name="restart_app">Khởi động lại Ứng dụng</string>
+    <string name="unknown_exception">Lỗi Không xác định</string>
+    <string name="error_occurred">Có gì đó đã sai</string>
+    <string name="error_details">Chi tiết Lỗi</string>
+    <string name="retry">Thử lại</string>
+    <string name="use_proxy">Sử dụng một Proxy Socks5</string>
+    <string name="proxy_address">Địa chỉ Proxy Socks5</string>
+    <string name="proxy_username">Tên người dùng</string>
+    <string name="proxy_password">Mật khẩu</string>
+    <string name="tor_error">Tor không thể kết nối trong 300s, bạn có thể thử sử dụng cầu hoặc kết nối qua bất kỳ socks5 proxy trong cài đặt</string>
+    <string name="tor_error_title">Lỗi khi khởi động Tor</string>
+    <string name="stay_offline">Giữ không có kết nối</string>
+    <string name="proxy">Proxy Socks5 (khởi động lại Tor để có hiệu lực)</string>
+    <string name="exclude_tor_nodes">Loại trừ Nút Tor (khởi động lại Tor để có hiệu lực)</string>
+    <string name="exclude_unknown">Loại trừ Nút Không rõ</string>
+    <string name="strict_exclude">Loại trừ Chặt chẽ</string>
+    <string name="action_scroll_up">Cuộn lên</string>
+    <string name="action_scroll_down">Cuộn xuống</string>
+    <string name="action_clear_tor_cache">Xóa Tor Cache</string>
+    <string name="clear_tor_cache_explain">Điều này có thể hữu ích nếu các mô tả được lưu vào bộ nhớ đệm đã lỗi thời, nhưng không được khuyến nghị để làm điều này quá nhiều do lo ngại về hiệu suất và ẩn danh.</string>
+    <string name="disappearing_messages_default">Xóa Tin nhắn Không Ghim Sau 24h</string>
+    <string name="tor_exited">Tor đã thoát</string>
+    <string name="action_change_app_name">Đổi Tên Ứng dụng</string>
+    <string name="select_app_name">Chọn Tên Ứng dụng</string>
+    <string name="action_change_theme">Đổi Chủ đề</string>
+    <string name="dark_theme">Chủ đề Tối</string>
+    <string name="light_theme">Chủ đề Sáng</string>
+    <string name="invalid_bridge">Cầu Không hợp lệ</string>
+    <string name="bridge_added">Đã thêm Cầu</string>
+    <string name="nickname_help_explain">Nhấp để có thông tin về việc sử dụng biệt danh</string>
+    <string name="no_recent_messages">Không Có Tin nhắn Mới!</string>
+    <string name="unpinned_messages_get_deleted">Bạn biết tin nhắn không ghim sẽ bị xóa mỗi 24 giờ?</string>
+    <string name="continue_without_password">Không sử dụng mật khẩu</string>
+    <string name="hangup">Ngắt cuộc gọi</string>
+    <string name="outgoing_call">Cuộc gọi Đi</string>
+    <string name="return_to_call">Trở lại cuộc gọi</string>
+    <string name="action_donate">Đóng góp</string>
+    <string name="donate_text">Bạn có thể đóng góp để giúp đỡ dự án</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Gửi Hình ảnh</string>
+    <string name="error_accessing_storage">Lỗi khi truy cập bộ nhớ ngoài</string>
+    <string name="error_opening_image">Lỗi mở hình ảnh từ bộ nhớ ngoài</string>
+    <string name="step_1_choose_your_nickname">BƯỚC 1: CHỌN BIỆT DANH CỦA BẠN</string>
+    <string name="what_should_people_call_you">Người ta nên gọi bạn là gì?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Tên này sẽ hiển thị cho người dùng khác. Bạn có thể thay đổi nó sau.</string>
+    <string name="type_your_nickname_here">NHẬP BIỆT DANH CỦA BẠN TẠI ĐÂY: 👇</string>
+    <string name="enter_nickname">Nhập biệt danh</string>
+    <string name="get_help_with_choosing_a_nickname">Nhận trợ giúp trong việc chọn biệt danh</string>
+    <string name="tap_for_help">💡 Nhấp để nhận trợ giúp</string>
+    <string name="continue_txt">TIẾP TỤC →</string>
+    <string name="step_2_secure_your_account">BƯỚC 2: BẢO VỆ DỮ LIỆU CỦA BẠN</string>
+    <string name="choose_a_strong_password">Chọn mật khẩu mạnh</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Mật khẩu bảo vệ dữ liệu của bạn bằng mã hóa</string>
+    <string name="create_your_password">Tạo mật khẩu của bạn</string>
+    <string name="get_help_with_passwords">Nhận trợ giúp</string>
+    <string name="tap_for_password_tips">Nhấp để nhận trợ giúp</string>
+    <string name="private_messaging_reimagined">Nói tự do, Giữ Ẩn danh</string>
+    <string name="private_secure_anonymous"> Riêng tư • Mã hóa • Ẩn danh</string>
+    <string name="start_private_messaging">THAM GIA NGAY</string>
+    <string name="already_have_account">SỬ DỤNG BACKUP</string>
+    <string name="tor_network">⚡ Mạng Tor</string>
+    <string name="peer_2_peer">🌐 Peer 2 Peer</string>
+    <string name="anonymous">🕵️ Ẩn danh</string>
+    <string name="encrypted">🔒 Mã hóa</string>
+    <string name="welcome_back">Chào mừng trở lại</string>
+    <string name="enter_your_password_to_continue">Nhập mật khẩu của bạn để tiếp tục</string>
+    <string name="your_data_is_encrypted_and_secure">Dữ liệu của bạn được mã hóa và an toàn</string>
+    <string name="enter_encryption_password">Nhập mật khẩu mã hóa</string>
+    <string name="enter_your_password">Nhập mật khẩu của bạn</string>
+    <string name="incorrect_password_try_again">Mật khẩu sai, hãy thử lại.</string>
+    <string name="get_help_with_password">Nhận trợ giúp</string>
+    <string name="tap_for_password_recovery_options">Nhấp để nhận trợ giúp</string>
+    <string name="forgot_your_password">Nếu bạn quên mật khẩu của mình, không có cách nào để khôi phục tài khoản của bạn mà không có bản sao lưu</string>
+    <string name="this_may_take_a_few_moments">Điều này có thể mất vài giây</string>
+    <string name="initializing_tor_network">Khởi tạo Mạng Tor</string>
+    <string name="securing_connection">Đang Ẩn danh hóa Kết nối Của Bạn</string>
+    <string name="connecting_world">🌐 Đang kết nối</string>
+    <string name="secure">✅ An toàn</string>
+    <string name="bootstrapping">🔒 Khởi động</string>
+    <string name="appearance_other">TÙY CHỌN VÀ KHÁC</string>
+    <string name="get_help">Nhận trợ giúp</string>
+    <string name="reset_to_default">Đặt lại về mặc định</string>
+    <!-- Security Section -->
+    <string name="high_security">BẢO VỆ CAO</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">CẤU HÌNH CẦU</string>
+    <string name="bridge_help">Nhận trợ giúp với cấu hình cầu</string>
+    <string name="bridge_description">Sử dụng cầu để vượt qua sự cấm đoán khi Tor bị chặn trong mạng của bạn</string>
+    <string name="enable_tor_bridges">Bật Tor Cầu</string>
+    <string name="bridges_active">Cầu đang hoạt động và được cấu hình</string>
+    <string name="configured_bridges">Cầu Đã cấu hình</string>
+    <string name="add_new_bridge">Thêm Cầu Mới</string>
+    <string name="add_manually">Thêm Cầu</string>
+    <string name="request_automatically">Yêu cầu Cầu Mới</string>
+    <string name="scan_qr_code">Quét Mã QR</string>
+    <string name="paste_bridge_lines_here">Dán các dòng cầu vào đây…</string>
+    <string name="bridge_input_help">Bạn có thể dán nhiều dòng cầu. Mỗi dòng nên ở định dạng:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nKhông cần bao gồm từ "bridge" ở đầu.</string>
+    <string name="action_backup">Bản sao lưu</string>
+    <string name="back_up_alert_message">Bạn có chắc chắn bạn muốn sao lưu dữ liệu của mình? điều này sẽ sao lưu tài khoản dịch vụ onion của bạn và các khóa mã hóa của bạn và tất cả tin nhắn của bạn</string>
+    <string name="backup_progress_title">Đang tạo bản sao lưu</string>
+    <string name="backup_progress_message">Vui lòng đợi…</string>
+    <string name="restore_progress_title">Đang khôi phục bản sao lưu</string>
+    <string name="restore_progress_message">Vui lòng đợi…</string>
+</resources>

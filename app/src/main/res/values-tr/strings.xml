@@ -1,0 +1,436 @@
+<resources>
+    <string name="app_name">Gizli Mesajlaşma</string>
+    <string name="create_account_button">Başla</string>
+    <string name="nickname">Kullanıcı Adı</string>
+    <string name="nickname_error">Geçersiz Kullanıcı Adı</string>
+    <string name="nickname_help">Devam etmek için Kullanıcı Adı girin</string>
+    <string name="nickname_okay">Güzel Kullanıcı Adı!</string>
+    <string name="next_button">İleri</string>
+    <string name="choose_password">Şifre Belirle</string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="setup_password_explanation">Gireceğiniz şifre, cihazınızdaki verileri şifrelemek için kullanılır; bu bir giriş şifresi değildir ve geri yükleme için kullanılır, uygulamayı kapattıktan sonra tekrar açarken şifrenizi girmeniz gerekir, bu uygulama hiçbir sunucuya bağlanmaz.</string>
+    <string name="password_too_weak">Şifreniz çok zayıf, güvenliğinizi düşündüğümüz için buna izin veriyoruz</string>
+    <string name="passwords_do_not_match">Şifreler eşleşmiyor</string>
+    <string name="channel4">kanal4</string>
+    <string name="channel_description">bu ve diğerleri</string>
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="enter_password">Şifre girin</string>
+    <string name="decrypt_button">Şifre Çöz</string>
+    <string name="myaddress">Adresim</string>
+    <string name="hint_contact_address">İletişim Adresi girin (.onion)</string>
+    <string name="lbl_contact_address">İletişim Adresi Girin</string>
+    <string name="enter_message">Güvenli mesaj…</string>
+    <string name="send_button">GÖNDER</string>
+    <string name="reply">Yanıtla</string>
+    <string name="pin">Sabitle</string>
+    <string name="copy">Kopyala</string>
+    <string name="you">sen</string>
+    <string name="action_reset_session">Oturumu Sıfırla</string>
+    <string name="action_verify_identity">Kimliği Doğrula</string>
+    <string name="action_clear_conversation">Sohbeti Temizle</string>
+    <string name="action_search">Ara</string>
+    <string name="action_shutdown">Kapat</string>
+    <string name="action_my_identity">Kimliğim</string>
+    <string name="action_restart_tor">Tor\'u Yeniden Başlat</string>
+    <string name="my_identity_explanation">Kimliği doğrulamak için kullanılan ortak anahtar</string>
+    <string name="verify_identity_explanation">Her iki kimliği doğrulamak için her iki ortak anahtar birlikte</string>
+    <string name="verify_identity_how_to">Bu numaraları her iki cihazda karşılaştırın, aynıysa uçtan uca şifreleme doğru çalışıyor demektir…</string>
+    <string name="action_call">Arama</string>
+    <string name="ask_me_again">Tekrar sor</string>
+    <string name="no_thanks">Teşekkürler</string>
+    <string name="why_need_mic">uygulamanın sesli arama yapması veya alması için buna ihtiyacı var</string>
+    <string name="mic_perm_ask_title">Mikrofon İzin</string>
+    <string name="ask_for_mic_btn">Tamam</string>
+    <string name="accept_call">Kabul Et</string>
+    <string name="dx_call">TOR ARAMASI</string>
+    <string name="call_picture_description">arama ekranı görseli</string>
+    <string name="end_call">Aramayı Kes</string>
+    <string name="connecting">Bağlanıyor…</string>
+    <string name="CallNotificationBuilder_connecting">Bağlanıyor</string>
+    <string name="NotificationBarManager__incoming_call">Gelen Arama</string>
+    <string name="NotificationBarManager_call_in_progress">Devam Eden Arama</string>
+    <string name="NotificationBarManager__establishing_call">Arama Kuruluyor</string>
+    <string name="trying">deneniyor</string>
+    <string name="ringing">Çalıyor</string>
+    <string name="connected">Bağlandı</string>
+    <string name="answer">cevapla</string>
+    <string name="incoming_call">Gelen Arama</string>
+    <string name="identity_verification_fail">Kimlik anahtarları alınamadı</string>
+    <string name="identity_key_fail">Kimlik anahtarınız bulunamadı</string>
+    <string name="delete_contact">İletişeni Sil</string>
+    <string name="no_contacts">İletişen Bulunamadı!</string>
+    <string name="tor_output">Tor Çıktısı</string>
+    <string name="anonymous_messenger">Gizli Mesajlaşma</string>
+    <string name="by_drxtreme">DrXtreme tarafından</string>
+    <string name="welcome_to">hoş geldiniz</string>
+    <string name="recording">Kaydediliyor</string>
+    <string name="send">GÖNDER</string>
+    <string name="_00_00" translatable="false">00:00</string>
+    <string name="to_show_when_it_is_unread">okunmamışken göster</string>
+    <string name="text_msg_placeholder">bir şeyi hatırlatmayı unutmuştu</string>
+    <string name="profile_image">profil görseli</string>
+    <string name="really_long_word">sfsdfdgsdhfdghfdghfghfghghsdfgdfghdfghdsfgdfgdfgsdfgfds</string>
+    <string name="time_passed_placeholder">31dk</string>
+    <string name="seen_image">görüldü görseli</string>
+    <string name="msg_place_holder">merhaba, nasılsın?</string>
+    <string name="indicates_secure_messaging">güvenli mesajlamayı belirtir</string>
+    <string name="textview">Metin Görünümü</string>
+    <string name="john_doe">John Doe</string>
+    <string name="hi_man_how_are_you">merhaba, nasılsın?</string>
+    <string name="time_placeholder" translatable="false">11:40</string>
+    <string name="offline">Çevrimdışı</string>
+    <string name="picture_of_contact">iletişen görseli</string>
+    <string name="hold_on">Bekle!</string>
+    <string name="starting_up_tor">Tor\'u Başlat</string>
+    <string name="doing_stuff">seni anonime çevriyorum…</string>
+    <string name="go_to_contacts">Atla</string>
+    <string name="checking">Kontrol ediliyor</string>
+    <string name="online">Çevrimiçi</string>
+    <string name="synced">senkronize</string>
+    <string name="add_contact">İletişen Ekle</string>
+    <string name="waiting_for_tor">Tor\'a bekleniyor</string>
+    <string name="oh_no">Ah Hayır!</string>
+    <string name="did_you_forget_your_password">Şifreni unuttun mu?</string>
+    <string name="hello_hello" translatable="false">merhaba, merhaba!</string>
+    <string name="_11_40" translatable="false">11:40</string>
+    <string name="crash_message">Anonymous Messenger: RAM\'den çıkmışsın!</string>
+    <string name="no_encryption_yet">Şifreleme için hazır değil</string>
+    <string name="no_session">Oturum mevcut değil, oturum şimdi başlatılıyor</string>
+    <string name="audio_message">sesli mesaj</string>
+    <string name="user_is_online">Kullanıcı çevrimiçi</string>
+    <string name="user_is_offline">Kullanıcı çevrimdışı</string>
+    <string name="cant_encrypt_message">Mesaj şifrelenemedi, anahtar değişimi için beklemen gerekiyor</string>
+    <string name="resp_key_exchange">Yanıt Anahtar Değişimi Mesajı</string>
+    <string name="key_exchange_message">Anahtar Değişimi Mesajı</string>
+    <string name="image_to_send">gönderilecek görsel</string>
+    <string name="read_storage_perm_ask_title">Depolama Okuma İzin</string>
+    <string name="why_need_read_storage">uygulamanın telefonundaki görselleri gönderebilmesi için buna ihtiyacı var</string>
+    <string name="icon_for_image_to_send">gönderilecek görsel için simge</string>
+    <string name="image">görsel</string>
+    <string name="pic_help">Kapat</string>
+    <string name="send_media_to">"Multimedya Gönder "</string>
+    <string name="picure_view">Görsel Görünümü</string>
+    <string name="media_message">multimedya mesaj</string>
+    <string name="caption">Etiket yaz</string>
+    <string name="still_background">Arka planda çalışıyor</string>
+    <string name="click_to_hide">Bildirim gizle</string>
+    <string name="unpin">Sabitlemeyi Kaldır</string>
+    <string name="profile_contact">Profili Gör</string>
+    <string name="save_picture">Görseli Kaydet</string>
+    <string name="confirm_add_contact">"\"i gerçekten eklemek istiyor musun \""</string>
+    <string name="contact_exists">İletişen zaten mevcut!</string>
+    <string name="cant_add_contact">iletişen eklenemedi!</string>
+    <string name="save_to_storage">Paylaşılan depolamaya kaydedilsin mi?</string>
+    <string name="save_to_storage_explain">Paylaşılan depolamaya kaydedilirse diğer uygulamalar bu görseli görüntüleyebilir.</string>
+    <string name="action_my_profile">Profilim</string>
+    <string name="action_help">Yardım</string>
+    <string name="action_about">Hakkında</string>
+    <string name="change_nickname">Kullanıcı Adını Değiştir</string>
+    <string name="new_nickname">Yeni Kullanıcı Adı</string>
+    <string name="confirm">Onayla</string>
+    <string name="action_license">Lisans</string>
+    <string name="license">
+        Anonymous Messenger, Tor üzerinden çalışan tam özel iletişim çözümü.\n
+    Telif Hakkı © 2021  Sofian M. Benissa\n\n
+
+    Bu ücretsiz bir yazılımdır: Free Software Foundation
+    tarafından yayınlanan GNU Genel Kamu Lisansı koşulları altında,
+    lisansın versiyon 3 veya (isteren) daha sonraki versiyonunda
+    yeniden dağıtabilir ve/veya değiştirebilirsin.\n
+
+    Bu program faydalı olması umuduyla dağıtılır,\n
+    ancak HERHANGİ BİR GARANTİ olmadan; hatta zımnen garantisi bile
+    SATILABILIRLİK veya BELİRLİ BİR AMACA UYGUNLUK garantisi bile olmadan.
+    Daha detaylı bilgi için GNU Genel Kamu Lisansına bakın.\n
+
+    GNU Genel Kamu Lisansı kopyasını bu programla birlikte
+        aldın. Değilse, şu adresten bakın: https://www.gnu.org/licenses .</string>
+    <string name="copied_address">Adres kopyalandı</string>
+    <string name="empty_nickname_help">Boş kullanıcı adı olamaz</string>
+    <string name="theiraddress">Onların Adresi</string>
+    <string name="turn_off_battery">Pil optimizasyonu kapatılsın mı?</string>
+    <string name="allow_in_background">Anonymous Messenger\'ın arka planda çalışmasına izin verilsin mi?</string>
+    <string name="shut_app">Uygulamayı kapat?</string>
+    <string name="shut_app_explain">Şifreni tekrar girinceye kadar mesaj almada çalışamazsın</string>
+    <string name="restart_tor">Tor\'u yeniden başlat?</string>
+    <string name="restart_tor_explain">Normal çalışmada pek gerek olmaz, ancak Tor şu anda düzgün çalışmıyorsa</string>
+    <string name="restarting_service">Servis yeniden başlatılıyor</string>
+    <string name="connection_restored">Bağlantı Geri Geldi</string>
+    <string name="lost_connection">Bağlantı Kesildi</string>
+    <string name="connection_is_coming">bağlantı kısa süre içinde geri gelecek</string>
+    <string name="will_receive_messages_soon">2 dakika içinde mesaj almaya başlayabilirsin</string>
+    <string name="waiting_for_connectivity">bağlantı bekleniyor</string>
+    <string name="almost_ready">Neredeyse Hazır!</string>
+    <string name="starting_tor_first_time">Tor\'u başlatıp bağlanmak için her şeyi topluyorum!</string>
+    <string name="ready_to_chat">Güvenli sohbete hazır!</string>
+    <string name="you_got_all_you_need">Arkadaşlarınla güvenli sohbete ihtiyacın olan her şey elinde!</string>
+    <string name="new_message">Yeni Mesaj!</string>
+    <string name="you_have_message">yeni gizli bir mesajın var</string>
+    <string name="wrong_password">Yanlış şifre</string>
+    <string name="no_key">şifreleme anahtarı bulunamadı</string>
+    <string name="error">hata</string>
+    <string name="failed_to_decrypt">MESAJ ŞİFRESİ ÇÖZÜLEMEDİ</string>
+    <string name="failed_to_read_after_decrypt">ŞİFRE ÇÖZÜLDÜKTEN SONRA MESAJ OKUNAMADI</string>
+    <string name="failed_to_get_AEM">MESAJDAN AddressedEncryptedMessage ALINAMADI</string>
+    <string name="cant_add_self">Kendini ekleyemezsin!</string>
+    <string name="waiting_for_response">Anahtar gönderildi, Yanıt bekleniyor</string>
+    <string name="decrypting">Şifre çözülüyor…</string>
+    <string name="stale_key">Eski anahtar alındı (yok sayılıyor)</string>
+    <string name="invalid_key">Geçersiz anahtar alındı</string>
+    <string name="untrusted_identity">Güvenilmeyen Kimlikten Anahtar Alındı</string>
+    <string name="bad_message">Bozuk mesaj</string>
+    <string name="decrypt_reminder_title">Mesaj almak için şifre çöz</string>
+    <string name="decrypt_reminder_message">arka planda çalışmak için şifreni girmen gerekiyor</string>
+    <string name="denied_microphone">Mikrofon İzni Reddedildi</string>
+    <string name="denied_microphone_help">böylece sesli arama da yapabilir, da alabilir</string>
+    <string name="delete_messages">Tüm mesajlar silinsin?</string>
+    <string name="delete_messages_help">sabitleli mesajlar dahil hepsi silinecek!</string>
+    <string name="yes">Evet</string>
+    <string name="pinned_message">Mesaj Sabitlendi</string>
+    <string name="unpinned_message">Mesaj Sabitlemesi Kaldırıldı</string>
+    <string name="copied">Kopyalandı</string>
+    <string name="saved_to_storage">Depolamaya kaydedildi</string>
+    <string name="about">Alton James Steele tarafından finanse edilen ve Sofian Mahmoud
+        Benissa tarafından geliştirilen
+        sana anonim, güvenli ve kullanışlı
+        mesajlaşma sunmak için bir proje, mevcut olanlardan memnun olmadığımız için
+        kendi mesajlaşma uygulamasımızı tasarlamaya ve dünyayla paylaşmaya karar verdik, kaynak kodu
+        mevcuttur ve proje GNU Genel Kamu Lisansı altında lisanslanmıştır böylece
+        ondan tam olarak faydalanabilir ve özgürce değiştirebilirsin</string>
+    <string name="copyright">Telif Hakkı © 2021 Sofian M. Benissa</string>
+    <string name="action_tips">Güvenlik İpuçları</string>
+    <string name="hide_notification">service_running bildirimini devre dışı bırak</string>
+    <string name="record_audio">ses kaydet</string>
+    <string name="send_file">dosya gönder</string>
+    <string name="scroll_down">aşağı kaydır</string>
+    <string name="file">Dosya</string>
+    <string name="unknown_file_name">Bilinmeyen dosya adı</string>
+    <string name="unknown_file_size">Bilinmeyen dosya boyutu</string>
+    <string name="recording_failed">Şu an kaydedilemiyor, belki devam eden bir arama var?</string>
+    <string name="feature_unready">bu özellik bir sonraki güncellemede hazır olacak</string>
+    <string-array name="security_tips">
+        <item>@string/security_tips01</item>
+        <item>@string/security_tips02</item>
+        <item>@string/security_tips03</item>
+        <item>@string/security_tips04</item>
+        <item>@string/security_tips05</item>
+        <item>@string/security_tips06</item>
+        <item>@string/security_tips07</item>
+        <item>@string/security_tips08</item>
+        <item>@string/security_tips09</item>
+        <item>@string/security_tips10</item>
+        <item>@string/security_tips11</item>
+        <item>@string/security_tips12</item>
+        <item>@string/security_tips13</item>
+        <item>@string/security_tips14</item>
+        <item>@string/security_tips15</item>
+    </string-array>
+    <string name="security_tips01">Özgürlüğünüze saygı duyan ve internete bağlanmayan bir klavye kullanın, OpenBoard kullanımını öneririz</string>
+    <string name="security_tips02">Güvenliğiniz, cihazda yüklü uygulamalardan büyük ölçüde bağımlıdır, varsayılan uygulamaları
+        f-droid deposundaki uygulamalara değiştirmenizi öneririz</string>
+    <string name="security_tips03">Arkadaşının adresini tarayıcınıza yanlışlıkla yapıştırmamaya çalışın, bu onun/anonimliğinizi tehlikeye atabilir</string>
+    <string name="security_tips04">Hesabınızı silmek ve her şeyi silmek için Anonymous Messenger\'ı kaldırın.</string>
+    <string name="security_tips05">Onion hizmetimizden indirmek, açık net sunucularımızdan daha güvenlidir.</string>
+    <string name="security_tips06">Veri depolama şifrelemeniz şifreniz kadar güvenlidir, uzun ve size bir anlam ifade etmeyen kelimelerden oluşan bir şifreyi öneririz.</string>
+    <string name="security_tips07">Metin, diğerlerinden daha güvenli ve anonimidir.</string>
+    <string name="security_tips08">Adresini en güvenli şekilde paylaşın.</string>
+    <string name="security_tips09">Mümkünse telefon depolamasını şifreleyin.</string>
+    <string name="security_tips10">VPN kullanmak istediğinde kullanacağın istemcinin açık
+        kaynaklı ücretsiz yazılım olmasına emin ol, örneğin OpenVPN.</string>
+    <string name="security_tips11">Anonymous Messenger\'dan çıkmak, verilerini telefonunda şifreli tutar.</string>
+    <string name="security_tips12">Mümkünse Anonymous Messenger\'ı kaynaktan oluştur.</string>
+    <string name="security_tips13">Kimlikleri doğrula.</string>
+    <string name="security_tips14">Telefonunda herhangi kapalı kaynak uygulamalar kullanmadığından emin ol ve
+        sosyal medya sitelerine, finansal
+        hizmetlere erişmek için ücretsiz açık kaynaklı bir program kullan, genel olarak da herhangi birine güvenmediğin veya ihtiyacından fazla izin isteyen veya kendisi tarafından gösterilen üçüncü taraf reklamları olan bir uygulamaya sahip olduğundan emin ol.</string>
+    <string name="security_tips15">Bu projeyi daha da iyileştirmeye yardımcı olmak ve anonim mesajlaşma için en iyi çözümü herkese sunmamıza yardımcı olmak için bağış yapmayı düşün.</string>
+    <string name="opening_socks_listener">Socks Dinleyicisi Açılıyor</string>
+    <string name="socks_listener_listening">Socks Dinleyicisi Dinliyor</string>
+    <string name="opened_socks_listener">Socks Dinleyicisi Açıldı</string>
+    <string name="opening_control_listener">Control Dinleyicisi Açılıyor</string>
+    <string name="control_listener_listening">Control Dinleyicisi Dinliyor</string>
+    <string name="opened_control_listener">Control Dinleyicisi Açıldı</string>
+    <string name="action_notepad">Not Defteri</string>
+    <string name="save">Kaydet</string>
+    <string name="enter_note">Şifreli notu kaydet</string>
+    <string name="delete_contact_question">Bu iletişeni sil?</string>
+    <string name="delete_contact_details">bu geri alınamaz ve ayrıca bu iletişenin oturumu ve sohbeti de silinecek</string>
+    <string name="delete_note_question">Bu notu sil?</string>
+    <string name="delete_note_details">bu geri alınamaz</string>
+    <string name="delete_note">Sil</string>
+    <string name="open_link_question">Bu bağlantı açılsın?</string>
+    <string name="open_link_describe">Özel uygulamaların dışındaki bağlantıları açmak senin anonimliğini açığa çıkarabilir,
+        sadece bağlantıya güvendiysen veya mümkünse Tor tarayıcısını kullan</string>
+    <string name="scan">QR kodu tara</string>
+    <string name="contact_added">İletişen eklendi</string>
+    <string name="cam_perm_ask_title">Kamera izni</string>
+    <string name="why_need_cam">QR tarama kamera izni olmadan çalışmaz</string>
+    <string name="ask_for_cam_btn">Tamam</string>
+    <string name="invalid_address">Geçersiz adres</string>
+    <string name="action_log">Güvenlik Günlüğü</string>
+    <string name="delete_log_question">Silinsin?</string>
+    <string name="delete_log_details">Bu geri alınamaz</string>
+    <string name="action_log_notice">Bildirim Dahil Et</string>
+    <string name="action_clear_log">Günlüğü Temizle</string>
+    <string name="include_notice_logs">Bildirim Günlüklerini Dahil Et</string>
+    <string name="decrypting2">Şifre Çözülüyor</string>
+    <string name="open_file_question">Dosya başka uygulamada açılsın mı?</string>
+    <string name="open_file_describe">Bu dosyayı şifre çözer ve üçüncü parti
+        uygulamaya erişim sağlar ki bu dosyayı tehlikeye atabilir</string>
+    <string name="deleted_logs">Günlük temizlendi</string>
+    <string name="saving">"Kaydediliyor "</string>
+    <string name="cancel">İptal</string>
+    <string name="slide_to_cancel">Sürükle ve iptal et</string>
+    <string name="sending_file">Dosya gönderiliyor</string>
+    <string name="sending_part_one">1. parça gönderiliyor</string>
+    <string name="screen_filter_body">Başka bir uygulama AnonymousMessenger\'ın üzerinde çiziyor,        gizliliğini korumak için ekran engellendi</string>
+    <string name="screen_filter_title">Ekran örtüsü algılandı</string>
+    <string name="try_now">Şimdi dene</string>
+    <string name="mic_in_use">Mikrofon başka bir uygulama tarafından kullanılıyor olabilir</string>
+    <string name="back_image">geri git</string>
+    <string name="subtitle">Alt başlık</string>
+    <string name="qr_code_image">QR kod içeren görsel</string>
+    <string name="go_to_app">uygulamayı aç</string>
+    <string name="use_bridges">Köprüleri Kullan</string>
+    <string name="request_bridge">Köprü Talep Et</string>
+    <string name="done_button">Bitti</string>
+    <string name="allow_unknown">Bilinmeyen İletişenleri Kabul Et</string>
+    <string name="allow_files">Dosya Almaya İzin Ver</string>
+    <string name="file_limit">Dosya Boyutu Sınırı</string>
+    <string name="allow_calls">Aramalara İzin Ver</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="delete_bridge_question">Bu köprü silinsin?</string>
+    <string name="delete_bridge_details">bu geri alınamaz</string>
+    <string name="online_check_address">Çevrimiçi Kontrol Adresi</string>
+    <string name="reset_settings">Ayarları Sıfırla</string>
+    <string name="bridges">Köprüler (etki etmesi için Tor\'u yeniden başlat)</string>
+    <string name="other">Diğer</string>
+    <string name="reset">Sıfırla</string>
+    <string name="security">Güvenlik</string>
+    <string name="connectivity">Bağlantı</string>
+    <string name="add_bridge">Köprü Ekle</string>
+    <string name="request_bridge_help">Tor projesinden şu bağlantıyı takip ederek bir köprü talep edebilirsin: https://bridges.torproject.org/bridges?transport=obfs4   alternatif olarak bridges@torproject.org adresine e-posta yazabilir veya kendi köprünü çalıştırıp kullanabilirsin.</string>
+    <string name="button_undo">Geri Al</string>
+    <string name="insert_bridge_line">Köprü satırını ekle</string>
+    <string name="nickname_explain_title">Kullanıcı Adı kullanımı</string>
+    <string name="nickname_explain">Kullanıcı adın cihazında saklanır ve sadece mesajınla birlikte şifreli olarak doğrudan iletişene gönderilir, bu uygulamayı kullanırken hiçbir sunucuya bağlanmazsın.</string>
+    <string name="password_explain_title">Şifre kullanımı</string>
+    <string name="online_check_address_explain">Bu adres, çevrimiçi olduğundan emin olmak ve her şeyin doğru kurulduğundan emin olmak için kullanılır, bu herhangi bir web sunucu adresi olabilir çünkü sadece erişilebilirliği kontrol ediyoruz; ayrıca gizli bir servis veya normal bir adres olabilir.</string>
+    <string name="running_on">Çalıştığı cihaz: </string>
+    <string name="processors">işlemci</string>
+    <string name="and">ve </string>
+    <string name="free_memory">boş bellek</string>
+    <string name="ok">Tamam</string>
+    <string name="with">ile</string>
+    <string name="welcome_to_anonymous_messenger">Bu bir sonraki güvenli mesajlaşma uygulaman</string>
+    <string name="change_profile_image">Görseli değiştir</string>
+    <string name="remove_profile_image">Görseli kaldır</string>
+    <string name="remove_profile_image_details">Profil görselini kaldırmak istediğinden emin misin?</string>
+    <string name="profile_image_changed">Profil görseli değiştirildi</string>
+    <string name="profile_image_removed">Profil görseli kaldırıldı</string>
+    <string name="restart_app">Uygulamayı Yeniden Başlat</string>
+    <string name="unknown_exception">Bilinmeyen Hata</string>
+    <string name="error_occurred">Bir şeyler ters gitti</string>
+    <string name="error_details">Hata Detayları</string>
+    <string name="retry">Tekrar Dene</string>
+    <string name="use_proxy">Socks5 Proxy Kullan</string>
+    <string name="proxy_address">Socks5 proxy adresi</string>
+    <string name="proxy_username">Kullanıcı Adı</string>
+    <string name="proxy_password">Şifre</string>
+    <string name="tor_error">Tor 300 saniye içinde bağlanamadı, ayarlardan köprüleri kullanmayı veya herhangi socks5 proxy ile bağlanmayı deneyebilirsin</string>
+    <string name="tor_error_title">Tor başlatılırken hata</string>
+    <string name="stay_offline">Çevrimdışı kal</string>
+    <string name="proxy">Socks5 proxy (etki etmesi için Tor\'u yeniden başlat)</string>
+    <string name="exclude_tor_nodes">Tor düğümlerini hariç tut (etki etmesi için Tor\'u yeniden başlat)</string>
+    <string name="exclude_unknown">Bilinmeyen Düğümleri Hariç Tut</string>
+    <string name="strict_exclude">Sıkı Hariç Tutma</string>
+    <string name="action_scroll_up">Yukarı kaydır</string>
+    <string name="action_scroll_down">Aşağı kaydır</string>
+    <string name="action_clear_tor_cache">Tor Önbelleğini Temizle</string>
+    <string name="clear_tor_cache_explain">Önbelleğe alınmış tanımlayıcılar eskiyse bu faydalı olabilir, ancak performans ve anonimlik açısından çok sık yapılması önerilmez.</string>
+    <string name="disappearing_messages_default">Sabitsiz Mesajlar 24 Saat Sonra Silinsin</string>
+    <string name="tor_exited">Tor çıktı</string>
+    <string name="action_change_app_name">Uygulama Adını Değiştir</string>
+    <string name="select_app_name">Uygulama Adı Seç</string>
+    <string name="action_change_theme">Temayı Değiştir</string>
+    <string name="dark_theme">Koyu Tema</string>
+    <string name="light_theme">Açık Tema</string>
+    <string name="invalid_bridge">Geçersiz Köprü</string>
+    <string name="bridge_added">Köprü Eklendi</string>
+    <string name="nickname_help_explain">Kullanıcı adı kullanımı hakkında bilgi almak için tıkla</string>
+    <string name="no_recent_messages">Son Mesajlar Yok!</string>
+    <string name="unpinned_messages_get_deleted">Sabitlememiş mesajların her 24 saatte bir silindiğini biliyor muydun?</string>
+    <string name="continue_without_password">Şifre Kullanma</string>
+    <string name="hangup">Aramayı Kes</string>
+    <string name="outgoing_call">Giden Arama</string>
+    <string name="return_to_call">Aramaya geri dön</string>
+    <string name="action_donate">Bağış Yap</string>
+    <string name="donate_text">Projeye bağış yaparak yardımcı olabilirsin</string>
+    <string name="bitcoin">Bitcoin</string>
+    <string name="monero">Monero</string>
+    <string name="send_image">Görsel Gönder</string>
+    <string name="error_accessing_storage">Harici depolamaya erişirken hata</string>
+    <string name="error_opening_image">Harici depolamadan görsel açılırken hata</string>
+    <string name="step_1_choose_your_nickname">ADIM 1: KULLANICI ADINI SEÇ</string>
+    <string name="what_should_people_call_you">Sana nasıl hitap etsinler?</string>
+    <string name="this_name_will_be_visible_to_other_users_you_can_change_it_later">Bu isim diğer kullanıcılara görünecek. Sonra değiştirebilirsin.</string>
+    <string name="type_your_nickname_here">KULLANICI ADINI BURAYA YAZ: 👇</string>
+    <string name="enter_nickname">Kullanıcı adı gir</string>
+    <string name="get_help_with_choosing_a_nickname">Kullanıcı adı seçimi hakkında yardım al</string>
+    <string name="tap_for_help">💡 Yardıma tıkla</string>
+    <string name="continue_txt">DEVAM ET →</string>
+    <string name="step_2_secure_your_account">ADIM 2: VERİLERİNİ GÜVENLİ HALE GETİR</string>
+    <string name="choose_a_strong_password">Güçlü bir şifre seç</string>
+    <string name="password_protects_your_messages_you_can_skip_for_now">Şifre, verilerini şifreleme ile korur</string>
+    <string name="create_your_password">Şifreni oluştur</string>
+    <string name="get_help_with_passwords">Yardım al</string>
+    <string name="tap_for_password_tips">Yardıma tıkla</string>
+    <string name="private_messaging_reimagined">Serbest Konuş, Anonim Kal</string>
+    <string name="private_secure_anonymous"> Gizlilik • Şifreleme • Anonimlik</string>
+    <string name="start_private_messaging">HEMEN KATIL</string>
+    <string name="already_have_account">YEDEK KULLAN</string>
+    <string name="tor_network">⚡ Tor Ağı</string>
+    <string name="peer_2_peer">🌐 Eşler Arası</string>
+    <string name="anonymous">🕵️ Anonim</string>
+    <string name="encrypted">🔒 Şifreli</string>
+    <string name="welcome_back">Tekrar Hoş geldin</string>
+    <string name="enter_your_password_to_continue">Devam etmek için şifreni gir</string>
+    <string name="your_data_is_encrypted_and_secure">Verilerin şifreli ve güvenli</string>
+    <string name="enter_encryption_password">Şifreleme şifresini gir</string>
+    <string name="enter_your_password">Şifreni gir</string>
+    <string name="incorrect_password_try_again">Yanlış şifre, tekrar dene.</string>
+    <string name="get_help_with_password">Yardım al</string>
+    <string name="tap_for_password_recovery_options">Yardıma tıkla</string>
+    <string name="forgot_your_password">Şifreni unutursan yedek olmadan hesabı kurtarmanın bir yolu yok</string>
+    <string name="this_may_take_a_few_moments">Bu birkaç saniye sürebilir</string>
+    <string name="initializing_tor_network">Tor Ağı Başlatılıyor</string>
+    <string name="securing_connection">Bağlantını Anonimleştiriyor</string>
+    <string name="connecting_world">🌐 Bağlanıyor</string>
+    <string name="secure">✅ Güvenli</string>
+    <string name="bootstrapping">🔒 Başlatılıyor</string>
+    <string name="appearance_other">GÖRÜNÜM ve DİĞER</string>
+    <string name="get_help">Yardım al</string>
+    <string name="reset_to_default">Varsayılana sıfırla</string>
+    <!-- Security Section -->
+    <string name="high_security">YÜKSEK GÜVENLİK</string>
+
+    <!-- Bridge Section -->
+    <string name="bridge_settings">KÖPRÜ AYARLARI</string>
+    <string name="bridge_help">Köprü yapılandırması hakkında yardım al</string>
+    <string name="bridge_description">Tor ağında engellenmişse köprü kullanarak sansürü aş</string>
+    <string name="enable_tor_bridges">Tor Köprülerini Etkinleştir</string>
+    <string name="bridges_active">Köprüler aktif ve yapılandırılmış</string>
+    <string name="configured_bridges">Yapılandırılmış Köprüler</string>
+    <string name="add_new_bridge">Yeni Köprü Ekle</string>
+    <string name="add_manually">Köprü Ekle</string>
+    <string name="request_automatically">Yeni Köprü Talep Et</string>
+    <string name="scan_qr_code">QR Kodu Tara</string>
+    <string name="paste_bridge_lines_here">Köprü satırlarını buraya yapıştır…</string>
+    <string name="bridge_input_help">Birden fazla köprü satırını yapıştırabilirsin. Her satır şu formatta olmalıdır:\n\nobfs4 1.2.3.4:1234 cert=ABC...\n\nBaşında \"bridge\" kelimesi yazmaya gerek yok.</string>
+    <string name="action_backup">Yedekle</string>
+    <string name="back_up_alert_message">Verilerini yedeklemek istediğinden emin misin? bu Onion servis hesabını, şifreleme anahtarlarını ve tüm mesajlarını yedekleyecek</string>
+    <string name="backup_progress_title">Yedek oluşturuluyor</string>
+    <string name="backup_progress_message">Lütfen bekleyin…</string>
+    <string name="restore_progress_title">Yedek geri yükleniyor</string>
+    <string name="restore_progress_message">Lütfen bekleyin…</string>
+</resources>
