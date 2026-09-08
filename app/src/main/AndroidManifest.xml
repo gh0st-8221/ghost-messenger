@@ -3,15 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.dx.ghostmessenger">
 
-<!--    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <uses-feature
         android:name="android.hardware.touchscreen"
-        android:required="false" /> <!-- <uses-feature -->
-    <!-- android:name="android.software.leanback" -->
-    <!-- android:required="true" /> -->
+        android:required="false" />
     <uses-permission-sdk-23 android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
@@ -48,7 +45,6 @@
         android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
         android:required="false" />
 
-
     <application
         android:name=".DxApplication"
         android:allowBackup="false"
@@ -61,8 +57,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:replace="android:allowBackup"
-        >
+        tools:replace="android:allowBackup">
+
         <activity
             android:name=".ui.view.single_activity.DonateActivity"
             android:exported="false" />
@@ -76,7 +72,8 @@
         <activity android:name=".ui.view.single_activity.SimpleScannerActivity" />
         <activity
             android:name=".ui.view.notepad.NotepadActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
+            android:configChanges="orientation|keyboardHidden|screenSize|navigation"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".ui.view.single_activity.FileViewerActivity" />
         <activity android:name=".ui.view.tips.TipsActivity" />
         <activity android:name=".ui.view.single_activity.AboutActivity" />
@@ -92,27 +89,29 @@
         <activity android:name=".ui.view.call.CallActivity" />
         <activity
             android:name=".ui.view.single_activity.AddContactActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
+            android:configChanges="orientation|keyboardHidden|screenSize|navigation"
+            android:windowSoftInputMode="adjustResize" />
         <activity android:name=".ui.view.single_activity.VerifyIdentityActivity" />
         <activity android:name=".ui.view.single_activity.MyIdentityActivity" />
         <activity android:name=".ui.view.setup.SetupInProcess" />
         <activity
             android:name=".ui.view.message_list.MessageListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|navigation"
-            android:duration="@android:integer/config_longAnimTime" />
+            android:duration="@android:integer/config_longAnimTime"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ui.view.app.AppActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
         <activity
             android:name=".ui.view.setup.CreateUserActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
+            android:configChanges="orientation|keyboardHidden|screenSize|navigation"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ui.view.MainActivity"
             android:exported="true"
             android:label="@string/ghost_messenger">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -125,7 +124,6 @@
             android:targetActivity=".ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
@@ -137,7 +135,6 @@
             android:targetActivity=".ui.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity-alias>
@@ -162,14 +159,14 @@
             android:exported="false" />
         <service
             android:name=".service.DxService"
-            android:foregroundServiceType="remoteMessaging"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="false"
+            android:foregroundServiceType="remoteMessaging" />
         <service
             android:name=".call.DxCallService"
-            android:foregroundServiceType="phoneCall"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="false"
+            android:foregroundServiceType="phoneCall" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
