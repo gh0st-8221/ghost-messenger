@@ -9,7 +9,10 @@
     import android.content.IntentFilter;
     import android.content.pm.PackageManager;
     import android.os.Build;
-    import android.os.Bundle;
+    import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.Toast;
     import android.view.View;
     import android.view.WindowManager;
     import android.widget.TextView;
@@ -20,6 +23,7 @@
 
     import com.dx.ghostmessenger.DxApplication;
     import com.dx.ghostmessenger.R;
+import com.dx.ghostmessenger.call.CallController;
     import com.dx.ghostmessenger.call.DxCallService;
     import com.dx.ghostmessenger.db.DbHelper;
     import com.dx.ghostmessenger.ui.view.DxActivity;
@@ -31,6 +35,7 @@
     public class CallActivity extends DxActivity {
 
         private static final int REQUEST_CODE = 1;
+        private static final int REQUEST_CODE_CAMERA = 2;
         TextView name;
         TextView phone;
         TextView state;
@@ -42,6 +47,9 @@
         FloatingActionButton speaker;
         FloatingActionButton mute;
         FloatingActionButton upload;
+        FloatingActionButton videoFab;
+        ImageView remoteVideo;
+        ImageView localVideo;
     //    FloatingActionButton download;
 
         String address;
@@ -138,6 +146,10 @@
                     e.printStackTrace();
                 }
             });
+            remoteVideo = findViewById(R.id.remote_video);
+            localVideo = findViewById(R.id.local_video);
+            videoFab = findViewById(R.id.video_fab);
+            videoFab.setOnClickListener(v -> toggleVideo());
             upload = findViewById(R.id.fab_upload);
     //        download = findViewById(R.id.fab_download);
             uploader = findViewById(R.id.txt_upload);
@@ -150,6 +162,7 @@
         @Override
         protected void onStart() {
             super.onStart();
+            attachVideoListener();
             new Thread(()->{
     //            try{
     //                Thread.sleep(200);
@@ -175,9 +188,114 @@
             }
         }
 
+        private final CallController.VideoListener videoListener = new CallController.VideoListener() {
+            @Override
+            public void onRemoteFrame(Bitmap frame) {
+                runOnUiThread(() -> {
+                    remoteVideo.setImageBitmap(frame);
+                    remoteVideo.setVisibility(View.VISIBLE);
+                });
+            }
+
+            @Override
+            public void onRemoteVideoStopped() {
+                runOnUiThread(() -> {
+                    remoteVideo.setImageDrawable(null);
+                    if (!isLocalVideoOn()) {
+                        remoteVideo.setVisibility(View.GONE);
+                    }
+                });
+            }
+
+            @Override
+            public void onLocalFrame(Bitmap frame) {
+                runOnUiThread(() -> {
+                    localVideo.setImageBitmap(frame);
+                    localVideo.setVisibility(View.VISIBLE);
+                    if (remoteVideo.getVisibility() != View.VISIBLE) {
+                        remoteVideo.setVisibility(View.VISIBLE); // gives the self view a frame to sit in
+                    }
+                });
+            }
+
+            @Override
+            public void onCameraError() {
+                runOnUiThread(() -> {
+                    showVideoOff();
+                    Toast.makeText(CallActivity.this, R.string.camera_error, Toast.LENGTH_SHORT).show();
+                });
+            }
+        };
+
+        private boolean isLocalVideoOn() {
+            CallController cc = ((DxApplication) getApplication()).getCc();
+            return cc != null && cc.isVideoOn();
+        }
+
+        private void attachVideoListener() {
+            try {
+                CallController cc = ((DxApplication) getApplication()).getCc();
+                if (cc != null) {
+                    cc.setVideoListener(videoListener);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        private void showVideoOff() {
+            videoFab.setAlpha((float) 0.26);
+            localVideo.setImageDrawable(null);
+            localVideo.setVisibility(View.GONE);
+            remoteVideo.setVisibility(remoteVideo.getDrawable() == null ? View.GONE : View.VISIBLE);
+        }
+
+        @SuppressWarnings("deprecation")
+        private void toggleVideo() {
+            try {
+                DxApplication app = (DxApplication) getApplication();
+                CallController cc = app.getCc();
+                if (cc == null || !app.isInCall()) {
+                    return;
+                }
+                attachVideoListener();
+                if (cc.isVideoOn()) {
+                    cc.setVideoEnabled(false, true, 0);
+                    showVideoOff();
+                    return;
+                }
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        requestPermissions(new String[]{Manifest.permission.CAMERA}, REQUEST_CODE_CAMERA);
+                    }
+                    return;
+                }
+                int rotation = getWindowManager().getDefaultDisplay().getRotation() * 90;
+                if (cc.setVideoEnabled(true, true, rotation)) {
+                    videoFab.setAlpha((float) 1.0);
+                    Toast.makeText(this, R.string.video_enable_hint, Toast.LENGTH_SHORT).show();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
         @Override
         protected void onStop() {
             super.onStop();
+            // the camera must not keep running while the screen is not visible
+            try {
+                CallController cc = ((DxApplication) getApplication()).getCc();
+                if (cc != null) {
+                    if (cc.isVideoOn()) {
+                        cc.setVideoEnabled(false, true, 0);
+                    }
+                    cc.setVideoListener(null);
+                }
+                showVideoOff();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
             try {
                 LocalBroadcastManager.getInstance(this).unregisterReceiver(br);
             } catch (Exception e)
@@ -230,6 +348,7 @@
                         break;
                     case "answer":
                     case "running":
+                        attachVideoListener();
                         runOnUiThread(()-> state.setText(R.string.connected));
                         break;
                     case "trying":
@@ -281,6 +400,14 @@
         @Override
         public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+            if (requestCode == REQUEST_CODE_CAMERA) {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    toggleVideo();
+                } else {
+                    Toast.makeText(this, R.string.camera_permission_needed, Toast.LENGTH_SHORT).show();
+                }
+                return;
+            }
             if (requestCode == REQUEST_CODE) {// If request is cancelled, the result arrays are empty.
                 if (grantResults.length <= 0 ||
                         grantResults[0] != PackageManager.PERMISSION_GRANTED) {

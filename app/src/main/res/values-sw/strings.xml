@@ -224,7 +224,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Tumia kibodi inayostahili uhuru wako na ambayo haiungani na intaneti, tunapendekeza OpenBoard</string>
     <string name="security_tips02">Usalama wako unategemea sana programu zinazoingizwa kwenye kifaa, tunapendekeza kubadilisha programu za default kwa programu kutoka f-droid</string>
@@ -240,7 +239,6 @@
     <string name="security_tips12">Jenga Jumbe Isiyojulikana kutoka source ikiwa inawezekana.</string>
     <string name="security_tips13">Thibitisha utu.</string>
     <string name="security_tips14">Hakikisha umekuwepo na proprietary apps kwenye simu yako na kwamba unatumia programu ya free open source ili kuingiza social media, huduma za kifedha, na kwa ujumla kuwa na programu ambayo huamini au ambayo inahitaji idhini nyingi kuliko zinazohitajika, au zina advertisements za third party zilizotolewa na programu yenyewe.</string>
-    <string name="security_tips15">Fikiria kutoa mchango ili kusaidia mradi huu kuwa bora zaidi na kusaidia tunapeleka suluhisho bora kwa ajili ya ujumbe isiyojulikana kwa wote.</string>
     <string name="opening_socks_listener">Kufungua Socks Listener</string>
     <string name="socks_listener_listening">Socks listener Inasikiliza</string>
     <string name="opened_socks_listener">Socks Listener Imefunguliwa</string>
@@ -359,10 +357,6 @@
     <string name="hangup">Kifunga</string>
     <string name="outgoing_call">Simu Inaondoka</string>
     <string name="return_to_call">Rudi kwenye simu</string>
-    <string name="action_donate">Mchango</string>
-    <string name="donate_text">Unaweza kutoa mchango ili kusaidia mradi</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Tuma Picha</string>
     <string name="error_accessing_storage">Kosa wakati wa kufikia hifadhi ya nje</string>
     <string name="error_opening_image">Kosa wakati wa kufungua picha kutoka hifadhi ya nje</string>

@@ -200,7 +200,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">إستعمل كيبورد يحترم حريتك وﻻ يتصل بالإنترنت, نحن ننصح بإستعمال OpenBoard</string>
     <string name="security_tips02">أمنك يعتمد بشكل كبير على التطبيقات المثبتة على جهازك, نحن ننصح
@@ -217,7 +216,6 @@
     <string name="security_tips12">قم ببناء المسنجر المجهول من الشيفرة المصدرية إن أمكن</string>
     <string name="security_tips13">تحقق من الهوية التشفيرية لجهات إتصالك</string>
     <string name="security_tips14">تأكد من أنك لا تستعمل أية برامج إحتكارية على جهازك و انك تستعمل برنامجاً مفتوح المصدر لتتصل بخدمات الانترنت مثل وسائل التواصل الإجتماعي و الخدمات المالية و بشكل عام لا تقوم بتثبيت برنامج ﻻ يمكنك الوثوق به أو برنامجاً يتطلب الحصول على أذونات أكثر مما يحتاج ليعمل أو يقوم بوضع دعايات من أطراف ثالثة مقدمة من البرنامج نفسه</string>
-    <string name="security_tips15">فكر في التبرع لتساعدنا في إيصال أفضل حل ممكن للتواصل المجهول للجميع</string>
     <string name="opening_socks_listener">يتم فتح  منفذ سوكس</string>
     <string name="socks_listener_listening">منفذ سوكس يعمل</string>
     <string name="opened_socks_listener">تم فتح منفذ سوكس</string>
@@ -398,10 +396,6 @@
     <string name="backup_progress_message">يرجى الانتظار…</string>
     <string name="restore_progress_title">استعادة النسخة الاحتياطية</string>
     <string name="restore_progress_message">يرجى الانتظار…</string>
-    <string name="action_donate">تبرع</string>
-    <string name="bitcoin">بتكوين</string>
-    <string name="donate_text">يمكنك التبرع لمساعدة المشروع</string>
     <string name="error_accessing_storage">خطأ عند الوصول للتخزين الخارجي</string>
     <string name="error_opening_image">خطأ عند فتح الصورة من التخزين الخارجي</string>
-    <string name="monero">مونرو</string>
 </resources>

@@ -222,7 +222,6 @@ aplicația să funcționeze în ascuns</string>
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Folosește o tastatură care îți respectă libertatea și nu
         se conectează la internet. Vă recomandăm OpenBoard</string>
@@ -250,8 +249,6 @@ navigatorul internet, căci ai pune în pericol anonimatul lui/tău</string>
         conturile și, în general, să nu ai nicio aplicație în care să nu ai încredere sau una care
         necesită mai multe permisiuni decît trebuie să aibă sau care are reclame de la terți
         prezentate de aplicația însăși.</string>
-    <string name="security_tips15">Pentru a ne ajuta să îmbunătățim acest proiect și a oferi cea mai bună soluție de
-mesagerie anonimă pentru toată lumea, luați în considerare posibilitatea de a face o donație.</string>
     <string name="opening_socks_listener">Se deschide Socks Listener</string>
     <string name="socks_listener_listening">Se ascultă Socks Listener</string>
     <string name="opened_socks_listener">Socks Listener e deschis</string>
@@ -428,12 +425,8 @@ mesagerie anonimă pentru toată lumea, luați în considerare posibilitatea de 
     <string name="backup_progress_message">Vă rugăm așteptați…</string>
     <string name="restore_progress_title">Se restaurează backup</string>
     <string name="restore_progress_message">Vă rugăm așteptați…</string>
-   <string name="action_donate">Donează</string>
-   <string name="bitcoin">Bitcoin</string>
-   <string name="donate_text">Poți dona pentru a ajuta proiectul</string>
    <string name="error_accessing_storage">Eroare la accesarea stocării externe</string>
    <string name="error_opening_image">Eroare la deschiderea imaginii din stocarea externă</string>
-   <string name="monero">Monero</string>
    <string name="hangup">Închide</string>
    <string name="outgoing_call">Apel ieșire</string>
    <string name="return_to_call">Întoarce la apel</string>

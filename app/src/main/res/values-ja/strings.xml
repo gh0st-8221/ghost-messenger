@@ -216,7 +216,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">自由を尊重しインターネットに接続しないキーボードを使用してください。OpenBoardを使用することを推奨します</string>
     <string name="security_tips02">セキュリティはデバイスにインストールされたアプリに大きく依存しています。f-droidリポジトリからのアプリにデフォルトアプリを変更することを推奨します</string>
@@ -232,7 +231,6 @@
     <string name="security_tips12">可能な場合はソースから匿名メッセージャーをビルドしてください。</string>
     <string name="security_tips13">アイデンティティを確認してください。</string>
     <string name="security_tips14">専用アプリを使用しないでください。ソーシャルメディアサイト、金融サービスにアクセスするためのフリーオープンソースプログラムを使用していることを確認してください。一般に、信頼できないアプリや必要以上の権限を持つアプリを持たないことを確認してください。アプリ自体による第3者の広告がある場合は確認してください。</string>
-    <string name="security_tips15">このプロジェクトをさらに良くするために寄付を検討してください。すべての人に匿名メッセージングの最高のソリューションを提供するのに役立ちます。</string>
     <string name="opening_socks_listener">ソックスリスナーを開いています</string>
     <string name="socks_listener_listening">ソックスリスナーがリッスン中</string>
     <string name="opened_socks_listener">ソックスリスナーが開かれました</string>
@@ -354,10 +352,6 @@
     <string name="hangup">切る</string>
     <string name="outgoing_call">発信通話</string>
     <string name="return_to_call">通話に戻る</string>
-    <string name="action_donate">寄付</string>
-    <string name="donate_text">プロジェクトを助けるために寄付できます</string>
-    <string name="bitcoin">ビットコイン</string>
-    <string name="monero">モネロ</string>
     <string name="send_image">画像を送信</string>
     <string name="error_accessing_storage">外部ストレージへのアクセスエラー</string>
     <string name="error_opening_image">外部ストレージから画像を開くエラー</string>

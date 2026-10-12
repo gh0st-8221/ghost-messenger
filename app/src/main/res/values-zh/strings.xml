@@ -212,7 +212,6 @@ GNU通用公共许可证。\n
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">使用尊重你自由且不连接互联网的键盘，我们推荐使用OpenBoard</string>
     <string name="security_tips02">你的安全很大程度上取决于设备上安装的应用，我们建议将默认应用更改为来自f-droid仓库的应用</string>
@@ -228,7 +227,6 @@ GNU通用公共许可证。\n
     <string name="security_tips12">如果可能，从源代码构建匿名信使。</string>
     <string name="security_tips13">验证身份。</string>
     <string name="security_tips14">确保你没有在手机上使用任何专有应用，并且你使用免费的开放源代码程序来访问你的社交媒体站点、金融服务，通常来说不有任何你可以不信任的应用或需要比需要的更多权限的应用，或者由应用本身呈现的第三方广告。</string>
-    <string name="security_tips15">考虑捐款以帮助使这个项目变得更好，帮助我们为每个人提供最好的匿名消息解决方案。</string>
     <string name="opening_socks_listener">打开Socks监听器</string>
     <string name="socks_listener_listening">Socks监听器监听中</string>
     <string name="opened_socks_listener">打开Socks监听器</string>
@@ -409,10 +407,6 @@ GNU通用公共许可证。\n
     <string name="backup_progress_message">请稍候…</string>
     <string name="restore_progress_title">正在恢复备份</string>
     <string name="restore_progress_message">请稍候…</string>
-    <string name="action_donate">捐赠</string>
-    <string name="bitcoin">比特币</string>
-    <string name="donate_text">你可以捐赠以帮助项目</string>
     <string name="error_accessing_storage">访问外部存储时出错</string>
     <string name="error_opening_image">从外部存储打开图片时出错</string>
-   <string name="monero">门罗币</string>
 </resources>

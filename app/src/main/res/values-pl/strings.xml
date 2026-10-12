@@ -221,7 +221,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Użyj klawiatury która respektuje Twoją wolność i nie
         łączy się z internetem, polecamy użycie OpenBoard</string>
@@ -250,8 +249,6 @@
         usług i ogólnie nie mieć żadnej aplikacji której nie możesz zaufać lub jednej która wymaga
         więcej uprawnień niż potrzebuje mieć lub ma jakieś trzecie strony reklamy prezentowane przez
         aplikację sama.</string>
-    <string name="security_tips15">Rozważ dokonanie darowizny aby pomóc uczynić ten projekt jeszcze
-        lepszym i pomóc nam dostarczyć najlepsze rozwiązanie dla anonimowej komunikacji dla wszystkich.</string>
     <string name="opening_socks_listener">Otwarcie Socks Listener</string>
     <string name="socks_listener_listening">Socks Listener nasłuchuje</string>
     <string name="opened_socks_listener">Otwarty Socks Listener</string>
@@ -373,10 +370,6 @@
     <string name="hangup">Zakończ</string>
     <string name="outgoing_call">Wyjście rozmowy</string>
     <string name="return_to_call">Wróć do rozmowy</string>
-    <string name="action_donate">Przekaż</string>
-    <string name="donate_text">Możesz dać darowiznę aby pomóc projektowi</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Wyślij Obrazek</string>
     <string name="error_accessing_storage">Błąd podczas dostępu do pamięci zewnętrznej</string>
     <string name="error_opening_image">Błąd otwierania obrazka z pamięci zewnętrznej</string>

@@ -221,7 +221,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Gunakan keyboard yang menghargai kebebasan Anda dan tidak
         terhubung ke internet, kami menyarankan menggunakan OpenBoard</string>
@@ -249,8 +248,6 @@
         dan pada umumnya tidak memiliki aplikasi mana pun yang Anda tidak bisa kepercayaan atau satu yang membutuhkan
         lebih banyak hak daripada yang dibutuhkan, atau memiliki iklan pihak ketiga yang disajikan oleh
         aplikasi sendiri.</string>
-    <string name="security_tips15">Pertimbangkan berdonasi untuk membantu membuat proyek ini lebih
-        baik dan membantu kami memberikan solusi terbaik untuk komunikasi anonim untuk semua orang.</string>
     <string name="opening_socks_listener">Membuka Socks Listener</string>
     <string name="socks_listener_listening">Socks Listener Mendengar</string>
     <string name="opened_socks_listener">Socks Listener Dibuka</string>
@@ -372,10 +369,6 @@
     <string name="hangup">Putuskan</string>
     <string name="outgoing_call">Panggilan Keluar</string>
     <string name="return_to_call">Kembali ke panggilan</string>
-    <string name="action_donate">Donasi</string>
-    <string name="donate_text">Anda bisa berdonasi untuk membantu proyek</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Kirim Gambar</string>
     <string name="error_accessing_storage">Kesalahan saat mengakses penyimpanan eksternal</string>
     <string name="error_opening_image">Kesalahan membuka gambar dari penyimpanan eksternal</string>

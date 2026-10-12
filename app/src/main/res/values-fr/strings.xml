@@ -204,7 +204,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Utilisez un clavier qui respecte votre liberté et ne se connecte pas à l\'internet, nous recommandons d\'utiliser OpenBoard</string>
     <string name="security_tips02">Votre sécurité dépend fortement des applications
@@ -232,8 +231,6 @@
         financiers, et généralement de ne pas avoir d\'application dont vous ne pouvez pas faire confiance ou une qui nécessite
         plus de permissions que nécessaire, ou présente des publicités de tiers présentées par
         l\'application elle-même.</string>
-    <string name="security_tips15">Considérez faire une donation pour aider à rendre ce projet encore
-        meilleur et nous aider à livrer la meilleure solution pour la messagerie anonyme à tous.</string>
     <string name="opening_socks_listener">Ouverture de l\'Écouteur Socks</string>
     <string name="socks_listener_listening">Écouteur Socks</string>
     <string name="opened_socks_listener">Écouteur Socks ouvert</string>
@@ -355,10 +352,6 @@
     <string name="hangup">Raccrocher</string>
     <string name="outgoing_call">Appel sortant</string>
     <string name="return_to_call">Retourner à l\'appel</string>
-    <string name="action_donate">Faire un don</string>
-    <string name="donate_text">Vous pouvez faire un don pour aider le projet</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Envoyer une image</string>
     <string name="error_accessing_storage">Erreur lors de l\'accès au stockage externe</string>
     <string name="error_opening_image">Erreur d\'ouverture de l\'image depuis le stockage externe</string>

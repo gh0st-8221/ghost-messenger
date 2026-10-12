@@ -404,7 +404,6 @@
             
     <item>@string/security_tips14</item>
             
-    <item>@string/security_tips15</item>
         
   </string-array>
       
@@ -435,8 +434,6 @@
   <string name="security_tips13">Überprüfen Sie Identitäten.</string>
       
   <string name="security_tips14">Stellen Sie sicher, dass Sie keine proprietären Apps auf Ihrem Telefon verwenden und dass Sie ein freies Open-Source-Programm verwenden, um auf Ihre Social-Media-Sites und Finanzdienstleistungen zuzugreifen, und im Allgemeinen keine App zu haben, der Sie nicht vertrauen können oder die mehr Berechtigungen erfordert, als sie  wirklich benötigt, oder wenn die App selbst Werbung von Drittanbietern präsentiert.</string>
-      
-  <string name="security_tips15">Erwägen Sie eine Spende, um dieses Projekt noch besser zu machen und uns dabei zu helfen, die beste Lösung für anonyme Nachrichten für Alle bereitzustellen.</string>
       
   <string name="opening_socks_listener">Öffnen des SOCKS Listener</string>
       
@@ -710,12 +707,8 @@
     <string name="backup_progress_message">Bitte warten…</string>
     <string name="restore_progress_title">Backup wird wiederhergestellt</string>
     <string name="restore_progress_message">Bitte warten…</string>
-   <string name="action_donate">Spenden</string>
-   <string name="bitcoin">Bitcoin</string>
-   <string name="donate_text">Sie können spenden, um das Projekt zu helfen</string>
    <string name="error_accessing_storage">Fehler beim Zugriff auf externen Speicher</string>
    <string name="error_opening_image">Fehler beim Öffnen des Bildes vom externen Speicher</string>
-   <string name="monero">Monero</string>
    <string name="action_scroll_up">Hochscrollen</string>
    <string name="action_scroll_down">Runterscrollen</string>
    <string name="invalid_bridge">Ungültige Brücke</string>

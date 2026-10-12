@@ -198,7 +198,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Usa una tastiera che rispetti la tua libertà e non si connetta a internet, ti consigliamo di usare OpenBoard</string>
     <string name="security_tips02">La tua sicurezza dipende molto dalle applicazioni installate sul dispositivo: ti consigliamo di cambiare le tue applicazioni di default con quelle presenti nel repository di f-droid</string>
@@ -214,7 +213,6 @@
     <string name="security_tips12">Crea Messenger anonimo dalla fonte, se possibile.</string>
     <string name="security_tips13">Verifica le identità.</string>
     <string name="security_tips14">Assicurati di non usare nessuna app proprietaria sul tuo telefono e di usare un programma open source gratuito per accedere ai tuoi siti di social media, ai servizi finanziari, e in generale di non avere nessuna app di cui non ti puoi fidare o che richiede più permessi di quanti ne debba avere, o che abbia pubblicità di terze parti presenti nell\'app stessa.</string>
-    <string name="security_tips15">Considera di fare una donazione per contribuire a rendere questo progetto ancora migliore e aiutarci a fornire la migliore soluzione a tutti per la messaggistica anonima.</string>
     <string name="opening_socks_listener">Apertura del server Socks listener</string>
     <string name="socks_listener_listening">Ascolto del server Socks listener</string>
     <string name="opened_socks_listener">Server Socks listener aperto</string>
@@ -390,12 +388,8 @@
     <string name="backup_progress_message">Attendere prego…</string>
     <string name="restore_progress_title">Ripristino backup</string>
     <string name="restore_progress_message">Attendere prego…</string>
-   <string name="action_donate">Dona</string>
-   <string name="bitcoin">Bitcoin</string>
-   <string name="donate_text">Puoi donare per aiutare il progetto</string>
    <string name="error_accessing_storage">Errore nell\'accesso all\'archiviazione esterna</string>
    <string name="error_opening_image">Errore nell\'apertura dell\'immagine dall\'archiviazione esterna</string>
-   <string name="monero">Monero</string>
    <string name="hangup">Agganciare</string>
    <string name="outgoing_call">Chiamata in uscita</string>
    <string name="return_to_call">Torna alla chiamata</string>

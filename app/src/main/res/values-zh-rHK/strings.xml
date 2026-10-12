@@ -215,7 +215,6 @@ GNU通用公共許可證。\n
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">使用尊重你自由且不連接互聯網的鍵盤，我們推薦使用OpenBoard</string>
     <string name="security_tips02">你的安全很大程度上取決於設備上安裝的應用，我們建議將默認應用更改為來自f-droid倉庫的應用</string>
@@ -231,7 +230,6 @@ GNU通用公共許可證。\n
     <string name="security_tips12">如果可能，從源代碼構建匿名信使。</string>
     <string name="security_tips13">驗證身份。</string>
     <string name="security_tips14">確保你沒有在手機上使用任何專有應用，並且你使用免費的開源程序來訪問你的社交媒體站点、金融服務，通常來說不有任何你可以不信任的应用或需要比需要的更多權限的应用，或者由應用本身呈現的第三方廣告。</string>
-    <string name="security_tips15">考慮捐款以幫助使這個項目變得更好，幫助我們為每個人提供最好的匿名消息解決方案。</string>
     <string name="opening_socks_listener">打開Socks監聽器</string>
     <string name="socks_listener_listening">Socks監聽器監聽中</string>
     <string name="opened_socks_listener">打開Socks監聽器</string>
@@ -412,10 +410,6 @@ GNU通用公共許可證。\n
     <string name="backup_progress_message">請稍候…</string>
     <string name="restore_progress_title">正在還原備份</string>
     <string name="restore_progress_message">請稍候…</string>
-    <string name="action_donate">捐贈</string>
-    <string name="bitcoin">比特幣</string>
-    <string name="donate_text">你可以捐贈以幫助項目</string>
     <string name="error_accessing_storage">訪問外部存儲時出錯</string>
     <string name="error_opening_image">從外部存儲打開照片時出錯</string>
-    <string name="monero">門羅幣</string>
 </resources>

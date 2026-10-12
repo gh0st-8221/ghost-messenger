@@ -197,7 +197,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Используйте клавиатуру, которая не компрометирует вашу свободу и не подключается к Интернету. Мы рекомендуем использовать OpenBoard</string>
     <string name="security_tips02">Ваша безопасность очень зависит от приложений, установленных на вашем устройстве. Мы рекомендуем изменить приложения по умолчанию на приложения из репозитория f-droid.</string>
@@ -213,7 +212,6 @@
     <string name="security_tips12">Если возможно, соберите Анонимный мессенджер из исходников.</string>
     <string name="security_tips13">Подтвердите личность.</string>
     <string name="security_tips14">Убедитесь, что вы не используете в телефоне какие-либо проприетарные приложения, и что вы применяете бесплатную программу с открытым исходным кодом для доступа к сайтам социальных сетей и финансовым услугам и вообще не имеете ни одного приложения, которому вы не можете доверять или которое требует большего количества разрешений, чем оно должно иметь, или показывает какие-либо сторонние рекламные объявления.</string>
-    <string name="security_tips15">Подумайте о том, чтобы сделать пожертвование: это позволит сделать этот проект еще лучше и поможет нам предоставить всем лучшее решение для анонимного обмена сообщениями.</string>
     <string name="opening_socks_listener">Открытие Socks Listener</string>
     <string name="socks_listener_listening">Прослушивание через Socks Listener</string>
     <string name="opened_socks_listener">Socks Listener открыт</string>
@@ -385,12 +383,8 @@
     <string name="backup_progress_message">Пожалуйста подождите…</string>
     <string name="restore_progress_title">Восстановление резервной копии</string>
     <string name="restore_progress_message">Пожалуйста подождите…</string>
-   <string name="action_donate">Пожертвовать</string>
-   <string name="bitcoin">Bitcoin</string>
-   <string name="donate_text">Вы можете пожертвовать, чтобы помочь проекту</string>
    <string name="error_accessing_storage">Ошибка при доступе к внешнему хранилищу</string>
    <string name="error_opening_image">Ошибка при открытии изображения из внешнего хранилища</string>
-   <string name="monero">Monero</string>
    <string name="nickname_help_explain">Нажмите, чтобы получить информацию об использовании никнейма</string>
    <string name="no_recent_messages">Нет недавних сообщений!</string>
    <string name="unpinned_messages_get_deleted">Знали, что не закрепленные сообщения удаляются каждые 24 часа?</string>

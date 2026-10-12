@@ -226,7 +226,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Use um teclado que respeite sua liberdade e não
         conecta à internet, recomendamos usar o OpenBoard</string>
@@ -255,8 +254,6 @@
         e geralmente para não ter qualquer app que não possa confiar ou um que exija
         mais permissões do que precisa ter, ou tenha qualquer terceiro anúncios apresentados pelo
         aplicativo em si.</string>
-    <string name="security_tips15">Considere fazer uma doação para ajudar a tornar este projeto ainda
-        melhor e nos ajudar a entregar a melhor solução para mensagens anônimas para todos.</string>
     <string name="opening_socks_listener">Abrindo Ouvinte Socks</string>
     <string name="socks_listener_listening">Ouvinte Socks Ouvindo</string>
     <string name="opened_socks_listener">Ouvinte Socks Aberto</string>
@@ -376,10 +373,6 @@
     <string name="hangup">Desligar</string>
     <string name="outgoing_call">Chamada Saindo</string>
     <string name="return_to_call">Voltar para a chamada</string>
-    <string name="action_donate">Doar</string>
-    <string name="donate_text">Você pode doar para ajudar o projeto</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Enviar Imagem</string>
     <string name="error_accessing_storage">Erro ao acessar armazenamento externo</string>
     <string name="error_opening_image">Erro ao abrir imagem do armazenamento externo</string>

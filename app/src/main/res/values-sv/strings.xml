@@ -220,7 +220,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Använd en tangentbord som respekterar din frihet och inte
         ansluter till internet, vi rekommenderar OpenBoard</string>
@@ -244,7 +243,6 @@
         app som du inte kan lita på eller en som kräver mer
         behörighet än vad det behöver, eller som har någon tredje part reklam presenterade av
         appen själv.</string>
-    <string name="security_tips15">Överväg att donera för att hjälpa göra detta projekt ännu bättre och hjälpa oss leverera den bästa lösningen för anonymt meddelande till alla.</string>
     <string name="opening_socks_listener">Öppna Socks Lyssnare</string>
     <string name="socks_listener_listening">Socks Lyssnare Lyssnar</string>
     <string name="opened_socks_listener">Öppna Socks Lyssnare</string>
@@ -366,10 +364,6 @@
     <string name="hangup">Lägg på</string>
     <string name="outgoing_call">Utgående samtal</string>
     <string name="return_to_call">Återgå till samtal</string>
-    <string name="action_donate">Donera</string>
-    <string name="donate_text">Du kan donera för att hjälpa projektet</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Skicka Bild</string>
     <string name="error_accessing_storage">Fel vid åtkomst till extern lagring</string>
     <string name="error_opening_image">Fel vid öppnande av bild från extern lagring</string>

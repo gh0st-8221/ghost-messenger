@@ -40,7 +40,6 @@ import com.dx.ghostmessenger.service.DxService;
 import com.dx.ghostmessenger.ui.view.DxActivity;
 import com.dx.ghostmessenger.ui.view.MainActivity;
 import com.dx.ghostmessenger.ui.view.single_activity.AboutActivity;
-import com.dx.ghostmessenger.ui.view.single_activity.DonateActivity;
 import com.dx.ghostmessenger.ui.view.single_activity.LicenseActivity;
 import com.dx.ghostmessenger.ui.view.single_activity.SimpleScannerActivity;
 import com.dx.ghostmessenger.util.Utils;
@@ -432,18 +431,6 @@ rootView.findViewById(R.id.btn_backup).setOnClickListener(v -> showBackupRestore
                 }
             });
             builder.show();
-        });
-        TextView donate = rootView.findViewById(R.id.btn_donate);
-        donate.setVisibility(View.VISIBLE);
-        donate.setOnClickListener((v)->{
-            try{
-                Intent intent = new Intent(getContext(), DonateActivity.class);
-                if(getContext()!=null){
-                    getContext().startActivity(intent);
-                }
-            }catch (Exception e) {
-                e.printStackTrace();
-            }
         });
         TextView license = rootView.findViewById(R.id.btn_license);
         license.setVisibility(View.VISIBLE);

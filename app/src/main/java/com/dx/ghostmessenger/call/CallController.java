@@ -5,6 +5,9 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.media.AudioAttributes;
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -33,11 +36,13 @@ import org.whispersystems.libsignal.SignalProtocolAddress;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
+import java.util.concurrent.ArrayBlockingQueue;
 
 import codec2.Jcodec2;
 //import com.ustadmobile.codec2.Codec2;
@@ -69,6 +74,143 @@ public class CallController {
     private MediaPlayer player;
 
     private final DxApplication app;
+
+    // ---- packet framing (audio + video share the same Tor socket) ----
+    // [type:1][length:2 big endian][payload]
+    private static final int PKT_AUDIO = 0;       // one Codec2 frame
+    private static final int PKT_VIDEO = 1;       // [rotation quarter turns:1][JPEG]
+    private static final int PKT_VIDEO_OFF = 2;   // sender stopped its camera
+    private static final int MAX_VIDEO_PIXELS = 1280 * 720;
+
+    public interface VideoListener {
+        void onRemoteFrame(Bitmap frame);
+        void onRemoteVideoStopped();
+        void onLocalFrame(Bitmap frame);
+        void onCameraError();
+    }
+
+    private final Object writeLock = new Object();
+    private final ArrayBlockingQueue<byte[]> videoQueue = new ArrayBlockingQueue<>(1);
+    private volatile VideoListener videoListener;
+    private volatile boolean callActive;
+    private VideoCapture videoCapture;
+    private boolean videoOn;
+
+    public void setVideoListener(VideoListener listener) {
+        this.videoListener = listener;
+    }
+
+    public boolean isVideoOn() {
+        return videoOn;
+    }
+
+    /**
+     * Starts or stops sending our camera. Needs the CAMERA permission to be granted already.
+     * @return false when the call is not connected yet
+     */
+    public synchronized boolean setVideoEnabled(boolean on, boolean useFront, int displayRotation) {
+        if (on) {
+            if (!callActive) {
+                return false;
+            }
+            if (videoOn) {
+                return true;
+            }
+            videoOn = true;
+            videoQueue.clear();
+            videoCapture = new VideoCapture(new VideoCapture.FrameSink() {
+                @Override
+                public void onFrame(byte[] jpeg, int rotationQuarter, boolean front) {
+                    byte[] payload = new byte[jpeg.length + 1];
+                    payload[0] = (byte) rotationQuarter;
+                    System.arraycopy(jpeg, 0, payload, 1, jpeg.length);
+                    if (payload.length <= 0xFFFF) {
+                        videoQueue.clear(); // keep only the newest frame
+                        videoQueue.offer(payload);
+                    }
+                    VideoListener l = videoListener;
+                    if (l != null) {
+                        Bitmap local = BitmapFactory.decodeByteArray(jpeg, 0, jpeg.length);
+                        if (local != null) {
+                            Matrix m = new Matrix();
+                            m.postRotate(rotationQuarter * 90);
+                            if (front) {
+                                m.postScale(-1, 1); // mirror the self view like a mirror
+                            }
+                            l.onLocalFrame(Bitmap.createBitmap(local, 0, 0, local.getWidth(), local.getHeight(), m, true));
+                        }
+                    }
+                }
+
+                @Override
+                public void onError(Exception e) {
+                    videoOn = false;
+                    videoQueue.clear();
+                    videoQueue.offer(new byte[0]);
+                    VideoListener l = videoListener;
+                    if (l != null) {
+                        l.onCameraError();
+                    }
+                    sendControlQuietly(PKT_VIDEO_OFF);
+                }
+            });
+            new Thread(this::videoSendLoop, "ghost-video-send").start();
+            videoCapture.start(useFront, displayRotation);
+        } else if (videoOn) {
+            stopVideo();
+            sendControlQuietly(PKT_VIDEO_OFF);
+        }
+        return true;
+    }
+
+    public synchronized void stopVideo() {
+        videoOn = false;
+        if (videoCapture != null) {
+            videoCapture.stop();
+            videoCapture = null;
+        }
+        videoQueue.clear();
+        videoQueue.offer(new byte[0]); // wakes the sender so it can exit
+    }
+
+    private void videoSendLoop() {
+        try {
+            while (callActive && status) {
+                byte[] frame = videoQueue.take();
+                if (!videoOn) {
+                    return;
+                }
+                if (frame.length > 0) {
+                    sendPacket(PKT_VIDEO, frame, frame.length);
+                }
+            }
+        } catch (Exception e) {
+            Log.e("GHOSTMESSENGER", "video send ended", e);
+        }
+    }
+
+    private void sendPacket(int type, byte[] data, int len) throws IOException {
+        if (len > 0xFFFF) {
+            return;
+        }
+        byte[] pkt = new byte[3 + len];
+        pkt[0] = (byte) type;
+        pkt[1] = (byte) (len >> 8);
+        pkt[2] = (byte) len;
+        System.arraycopy(data, 0, pkt, 3, len);
+        synchronized (writeLock) {
+            OutputStream os = outgoing.getOutputStream();
+            os.write(pkt);
+            os.flush();
+        }
+    }
+
+    private void sendControlQuietly(int type) {
+        try {
+            sendPacket(type, new byte[0], 0);
+        } catch (Exception ignored) {
+        }
+    }
 
     public int getCallTimer() {
         return callTimer;
@@ -229,6 +371,7 @@ public class CallController {
                     outgoing.setSoTimeout(0);
                 }
                 setAudioDefaults();
+                callActive = true;
                 //start timer
 
                 //start streaming
@@ -256,6 +399,8 @@ public class CallController {
         }
         timerOn = false;
         status = false;
+        callActive = false;
+        stopVideo();
         try {
             incoming.close();
         } catch (Exception e) {
@@ -326,7 +471,7 @@ public class CallController {
                     if (foundPeak>-1){ //found signal
                         //send signal
                         codec2.codec2_encode(bits,buf);
-                        outgoing.getOutputStream().write(bits);
+                        sendPacket(PKT_AUDIO, bits, bits.length);
                         Log.d("GHOSTMESSENGER","sent size: " + bits.length);
                         //send length to ui
                         totalUpload+=bits.length;
@@ -339,7 +484,7 @@ public class CallController {
                     }else if (quietVoice>0){//we've just detected signal recently so let's try to smooth out the ending by adding segments of low volume speech
                         //send signal
                         codec2.codec2_encode(bits,buf);
-                        outgoing.getOutputStream().write(bits);
+                        sendPacket(PKT_AUDIO, bits, bits.length);
                         Log.d("GHOSTMESSENGER","sent size: " + bits.length);
                         //send length to ui
                         totalUpload+=bits.length;
@@ -386,18 +531,62 @@ public class CallController {
         }
     }
 
+    private DataInputStream inData;
+
     private void listen(Jcodec2 codec2, byte[] bits, short[] buf) throws IOException {
-//        byte[] buf = new byte[minBufSize];
-        incoming.getInputStream().read(bits, 0, bits.length);
-        codec2.codec2_decode( buf, bits );
-        toSpeaker(buf);
-//        toSpeaker(buf);
-        Log.d("GHOSTMESSENGER","received size: " +bits.length);
-//        //send length to ui
-//        Intent gcm_rec = new Intent("call_action");
-//        gcm_rec.putExtra("action","download");
-//        gcm_rec.putExtra("download",bits.length);
-//        LocalBroadcastManager.getInstance(app).sendBroadcast(gcm_rec);
+        if (inData == null) {
+            inData = new DataInputStream(incoming.getInputStream());
+        }
+        int type = inData.readUnsignedByte();
+        int len = inData.readUnsignedShort();
+        byte[] payload = new byte[len];
+        inData.readFully(payload);
+        switch (type) {
+            case PKT_AUDIO:
+                if (len == bits.length) {
+                    System.arraycopy(payload, 0, bits, 0, len);
+                    codec2.codec2_decode(buf, bits);
+                    toSpeaker(buf);
+                }
+                break;
+            case PKT_VIDEO:
+                handleRemoteVideo(payload);
+                break;
+            case PKT_VIDEO_OFF:
+                VideoListener l = videoListener;
+                if (l != null) {
+                    l.onRemoteVideoStopped();
+                }
+                break;
+            default:
+                break; // unknown packet types are ignored
+        }
+    }
+
+    private void handleRemoteVideo(byte[] payload) {
+        VideoListener l = videoListener;
+        if (l == null || payload.length < 2) {
+            return;
+        }
+        // never trust the peer: refuse JPEGs that would inflate into huge bitmaps
+        BitmapFactory.Options bounds = new BitmapFactory.Options();
+        bounds.inJustDecodeBounds = true;
+        BitmapFactory.decodeByteArray(payload, 1, payload.length - 1, bounds);
+        if (bounds.outWidth <= 0 || bounds.outHeight <= 0
+                || (long) bounds.outWidth * bounds.outHeight > MAX_VIDEO_PIXELS) {
+            return;
+        }
+        Bitmap bmp = BitmapFactory.decodeByteArray(payload, 1, payload.length - 1);
+        if (bmp == null) {
+            return;
+        }
+        int quarter = payload[0] & 3;
+        if (quarter != 0) {
+            Matrix m = new Matrix();
+            m.postRotate(quarter * 90);
+            bmp = Bitmap.createBitmap(bmp, 0, 0, bmp.getWidth(), bmp.getHeight(), m, true);
+        }
+        l.onRemoteFrame(bmp);
     }
 
     public void startTiming(){

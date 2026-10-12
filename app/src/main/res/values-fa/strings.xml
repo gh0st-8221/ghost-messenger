@@ -225,7 +225,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">از یک صفحه کلیدی استفاده کنید که آزادی شما را احترام می‌گذارد و به
         اینترنت متصل نمی‌شود، ما توصیه می‌کنیم OpenBoard را استفاده کنید</string>
@@ -248,8 +247,6 @@
         که از یک برنامه متن باز آزاد برای دسترسی به سایت‌های شبکه اجتماعی خود، خدمات مالی، و به طور کلی از هیچ برنامه‌ای که نمی‌توانید به آن اعتماد کنید یا یکی که نیاز به
         بیش از آنچه نیاز دارد به داشته باشد، یا هرگونه تبلیغات شخص ثالث ارائه شده توسط
         برنامه خود.</string>
-    <string name="security_tips15">در نظر گرفتن هدیه برای کمک به این پروژه برای اینکه حتی
-        بهتر و به ما کمک کند بهترین راه‌حل برای پیام‌رسانی ناشناس را برای همه ارائه دهد.</string>
     <string name="opening_socks_listener">در حال باز کردن شنونده Socks</string>
     <string name="socks_listener_listening">شنونده Socks در حال شنیدن</string>
     <string name="opened_socks_listener">شنونده Socks باز شده</string>
@@ -371,10 +368,6 @@
     <string name="hangup">قطع تماس</string>
     <string name="outgoing_call">تماس خروجی</string>
     <string name="return_to_call">بازگشت به تماس</string>
-    <string name="action_donate">نذر/اهداء</string>
-    <string name="donate_text">شما می‌توانید کمک مالی کنید برای کمک به پروژه</string>
-    <string name="bitcoin">بیت‌کوین</string>
-    <string name="monero">مونرو</string>
     <string name="send_image">ارسال تصویر</string>
     <string name="error_accessing_storage">خطا در دسترسی به حافظه خارجی</string>
     <string name="error_opening_image">خطا در باز کردن تصویر از حافظه خارجی</string>

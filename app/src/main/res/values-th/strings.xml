@@ -226,7 +226,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">Use a keyboard that respects your freedom and doesn\'t
         connect to the internet, we recommend using OpenBoard</string>
@@ -255,8 +254,6 @@
         services, and generally to not have any app that you can\'t trust or one that requires
         more permissions than it needs to have, or has any third party advertisements presented by
         the app itself.</string>
-    <string name="security_tips15">Consider making a donation to help make this project even
-        better and help us deliver the best solution for ghost messaging to everyone.</string>
     <string name="opening_socks_listener">Opening Socks Listener</string>
     <string name="socks_listener_listening">Socks listener Listening</string>
     <string name="opened_socks_listener">Opened Socks Listener</string>
@@ -376,10 +373,6 @@
     <string name="hangup">Hangup</string>
     <string name="outgoing_call">Outgoing Call</string>
     <string name="return_to_call">Return to call</string>
-    <string name="action_donate">Donate</string>
-    <string name="donate_text">You can donate to help the project</string>
-    <string name="bitcoin">Bitcoin</string>
-    <string name="monero">Monero</string>
     <string name="send_image">Send Image</string>
     <string name="error_accessing_storage">Error when accessing external storage</string>
     <string name="error_opening_image">Error openning image from external storage</string>

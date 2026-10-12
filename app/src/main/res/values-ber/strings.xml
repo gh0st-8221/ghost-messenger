@@ -208,7 +208,6 @@
         <item>@string/security_tips12</item>
         <item>@string/security_tips13</item>
         <item>@string/security_tips14</item>
-        <item>@string/security_tips15</item>
     </string-array>
     <string name="security_tips01">ⵙⵔⵎ ⵜⵉⵢⵢⵓⵔⵜ ⵜⴰⵔⴰⵣⵜ ⵉⵙⵙⵏ ⴰⴷ ⵙⵙⵓⵖⵍ ⵜⵓⵕⵔ</string>
     <string name="security_tips02">ⴰⵙⴳⴳⵯⴰⵙ ⵏⵏⵓⵏ ⵉⵙⵙⵏ ⴰⴷ ⵜⵢⵢⵓⵔⵜⵉⵏ ⵏ ⵜⵉⵢⵢⵓⵔⵜⵉⵏ ⵏⵏⵏⴰ</string>
@@ -224,7 +223,6 @@
     <string name="security_tips12">ⴰⵙⴳⴳⵯⴰⵙ ⵓⵙⵙⴰⵏ ⵏ ⵜⵓⵕⵔⵉⵜ ⴰⴷ ⵏⵢⵉⵖⵣⵎ</string>
     <string name="security_tips13">ⵓⵙⵙⵏⵖⵏ ⵜⵉⵖⵣⵢⵜⵉⵏ</string>
     <string name="security_tips14">ⵓⵔⵉⵢⵏ ⴰⴷ ⵙⵔⵎ ⵜⵉⵢⵢⵓⵔⵜⵉⵏ ⵏⵏ⏃ ⵙⴳ ⵜⵓⵖⵍⵜ ⴰⴷ ⵙⵔⵎ ⵜⵉⵢⵢⵓⵔⵜ ⵜⴰⵔⴰⵣⵜ ⴰⴷ ⵙⵙⵖⴰⵔ ⵜⵉⵢⵢⵓⵔⵜⵉⵏ ⵏⵏⵓⵏ</string>
-    <string name="security_tips15">ⵙⵔⵎ ⵜⵉⵢⵢⵓⵔⵜ ⴰⴷ ⵏⵙⵙⵏ ⵜⵉⵢⵢⵓⵔⵜ ⵜⴰⵎⵓⵔⵜⵜⵉⵏ</string>
     <string name="opening_socks_listener">ⴰⴳⴷⵓⴷ ⵜⴰⵎⵓⵔⵜ ⵏ ⵙⵓⵙ</string>
     <string name="socks_listener_listening">ⵜⴰⵎⵓⵔⵜ ⵜⵉⵎⵣⵔⵓⵢⵜ</string>
     <string name="opened_socks_listener">ⵜⴰⵎⵓⵔⵜ ⵜⵉⵎⵣⵔⵓⵢⵜ</string>
@@ -343,10 +341,6 @@
     <string name="hangup">ⴰⵙⵙⵔⵎ</string>
     <string name="outgoing_call">ⴰⵣⵔ ⴰⵣⵔⵏ</string>
     <string name="return_to_call">ⴰⵔⵣⴰ ⵜⵓⵕⵔ</string>
-    <string name="action_donate">ⴰⵎⵏⵏⴰⵄ ⵜⴰⵣⴷⴷⴰⵔⵜ</string>
-    <string name="donate_text">ⵉⵙⵙⵏ ⴰⴷ ⵜⵡⴰⵙⵎ ⵜⵉⵢⵢⵓⵔⵜ ⴰⴷ ⵏⵙⵙⵏ ⵜⵉⵢⵢⵓⵔⵜ</string>
-    <string name="bitcoin">ⵓⵢⵉⵜⵓⵏ</string>
-    <string name="monero">ⵓⵎⵉⵔⵓ</string>
     <string name="send_image">ⵙⵙⵏⵎⵎⵓⵔ ⵜⵉⵎⵎⵓⵔⵜ</string>
     <string name="error_accessing_storage">ⴰⵙⵙⵏⵖⵏ ⵙⴳ ⵜⵉⵎⵎⵓⵔⵜ</string>
     <string name="error_opening_image">ⴰⵙⵙⵏⵖⵏ ⵙⴳ ⵜⵉⵢⵢⵓⵔⵜ</string>

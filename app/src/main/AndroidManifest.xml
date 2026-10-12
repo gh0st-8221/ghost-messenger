@@ -58,10 +58,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
-
-        <activity
-            android:name=".ui.view.single_activity.DonateActivity"
-            android:exported="false" />
         <activity
             android:name=".ui.view.single_activity.SettingsActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
